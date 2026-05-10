@@ -1,0 +1,543 @@
+[
+  {
+    "id": "computer-science",
+    "name": "컴퓨터공학과",
+    "category": "공학계열",
+    "summary": "소프트웨어, 알고리즘, 시스템을 설계하고 만드는 학문",
+    "description": "프로그래밍, 자료구조, 알고리즘부터 운영체제, 네트워크, 인공지능까지 컴퓨터 과학 전반을 다룹니다. 수학적 사고와 문제 해결 능력이 중요하며, 다양한 산업의 핵심 기술 분야로 자리잡고 있습니다.",
+    "keywords": ["프로그래밍", "알고리즘", "AI", "소프트웨어", "데이터"],
+    "hollandTags": ["I", "R"],
+    "curriculum": [
+      { "year": 1, "courses": ["프로그래밍 기초", "이산수학", "미적분학", "컴퓨터 개론"] },
+      { "year": 2, "courses": ["자료구조", "객체지향 프로그래밍", "확률과 통계", "디지털 논리회로"] },
+      { "year": 3, "courses": ["알고리즘", "운영체제", "데이터베이스", "컴퓨터 네트워크"] },
+      { "year": 4, "courses": ["인공지능", "소프트웨어공학", "캡스톤 디자인", "보안"] }
+    ],
+    "averageGrade": 1.8,
+    "jeongsiRatio": 0.4,
+    "susiRatio": 0.6
+  },
+  {
+    "id": "electrical-engineering",
+    "name": "전기전자공학과",
+    "category": "공학계열",
+    "summary": "전기·전자 시스템과 반도체, 통신을 다루는 학문",
+    "description": "회로 설계, 반도체, 통신, 제어 시스템 등 전기와 전자 기술을 종합적으로 다룹니다. 한국의 핵심 산업과 직접 연결되어 있는 대표 공학 분야입니다.",
+    "keywords": ["반도체", "회로", "통신", "제어", "임베디드"],
+    "hollandTags": ["I", "R"],
+    "curriculum": [
+      { "year": 1, "courses": ["일반물리학", "공학수학", "프로그래밍 기초", "회로이론"] },
+      { "year": 2, "courses": ["전자기학", "신호와 시스템", "디지털 회로", "반도체 소자"] },
+      { "year": 3, "courses": ["통신공학", "제어공학", "마이크로프로세서", "전력공학"] },
+      { "year": 4, "courses": ["VLSI 설계", "임베디드 시스템", "캡스톤 디자인"] }
+    ],
+    "averageGrade": 2.0,
+    "jeongsiRatio": 0.45,
+    "susiRatio": 0.55
+  },
+  {
+    "id": "mechanical-engineering",
+    "name": "기계공학과",
+    "category": "공학계열",
+    "summary": "기계의 설계, 제작, 운용을 연구하는 학문",
+    "description": "역학, 열역학, 유체역학을 기반으로 자동차, 항공, 로봇, 발전 등 모든 산업의 기계 시스템을 설계합니다. 제조업의 근간이 되는 학문입니다.",
+    "keywords": ["역학", "CAD", "로봇", "자동차", "에너지"],
+    "hollandTags": ["R", "I"],
+    "curriculum": [
+      { "year": 1, "courses": ["일반물리학", "공학수학", "정역학", "기계제도"] },
+      { "year": 2, "courses": ["동역학", "열역학", "재료역학", "유체역학"] },
+      { "year": 3, "courses": ["기계설계", "기계공작법", "자동제어", "CAD/CAM"] },
+      { "year": 4, "courses": ["로보틱스", "캡스톤 디자인", "내연기관"] }
+    ],
+    "averageGrade": 2.3,
+    "jeongsiRatio": 0.45,
+    "susiRatio": 0.55
+  },
+  {
+    "id": "chemical-engineering",
+    "name": "화학공학과",
+    "category": "공학계열",
+    "summary": "화학 반응을 산업적 공정으로 구현하는 학문",
+    "description": "석유화학, 정밀화학, 신소재, 바이오, 에너지 등 다양한 산업에서 물질의 변환과 공정을 설계합니다. 이론과 실험이 균형을 이루는 학문입니다.",
+    "keywords": ["반응공학", "공정", "신소재", "바이오", "에너지"],
+    "hollandTags": ["I", "R"],
+    "curriculum": [
+      { "year": 1, "courses": ["일반화학", "공학수학", "물리화학"] },
+      { "year": 2, "courses": ["유기화학", "화공열역학", "분리공정"] },
+      { "year": 3, "courses": ["반응공학", "공정설계", "유체역학"] },
+      { "year": 4, "courses": ["고분자공학", "신소재공학", "캡스톤 디자인"] }
+    ],
+    "averageGrade": 2.2,
+    "jeongsiRatio": 0.45,
+    "susiRatio": 0.55
+  },
+  {
+    "id": "civil-engineering",
+    "name": "건축학과",
+    "category": "공학계열",
+    "summary": "공간을 디자인하고 건축물을 설계하는 학문",
+    "description": "건축 설계, 도시 계획, 구조, 환경, 역사 등 공간을 다루는 종합 학문입니다. 5년제로 운영되며 예술적 감각과 공학적 사고를 모두 요구합니다.",
+    "keywords": ["설계", "공간", "도시", "디자인", "구조"],
+    "hollandTags": ["A", "I"],
+    "curriculum": [
+      { "year": 1, "courses": ["건축개론", "건축 드로잉", "건축 설계1"] },
+      { "year": 2, "courses": ["건축 설계2", "건축사", "건축 구조"] },
+      { "year": 3, "courses": ["도시 설계", "건축 환경", "건축 재료"] },
+      { "year": 4, "courses": ["고급 설계", "건축 법규", "프로젝트"] },
+      { "year": 5, "courses": ["졸업 설계", "실무 인턴십"] }
+    ],
+    "averageGrade": 2.2,
+    "jeongsiRatio": 0.4,
+    "susiRatio": 0.6
+  },
+  {
+    "id": "industrial-engineering",
+    "name": "산업공학과",
+    "category": "공학계열",
+    "summary": "시스템과 프로세스를 최적화하는 학문",
+    "description": "데이터 분석, 운영 관리, 품질, 물류, 인간공학 등 시스템 전반을 다룹니다. 공학과 경영의 교차점에 있어 다양한 산업 진출이 가능합니다.",
+    "keywords": ["최적화", "데이터", "물류", "품질", "경영과학"],
+    "hollandTags": ["I", "E"],
+    "curriculum": [
+      { "year": 1, "courses": ["산업공학개론", "확률통계", "프로그래밍"] },
+      { "year": 2, "courses": ["경영과학", "생산시스템", "데이터 분석"] },
+      { "year": 3, "courses": ["품질공학", "물류 시스템", "인간공학"] },
+      { "year": 4, "courses": ["빅데이터 분석", "프로젝트 관리", "캡스톤"] }
+    ],
+    "averageGrade": 2.2,
+    "jeongsiRatio": 0.45,
+    "susiRatio": 0.55
+  },
+  {
+    "id": "biomedical-engineering",
+    "name": "의공학과",
+    "category": "공학계열",
+    "summary": "공학 기술을 의료에 적용하는 융합 학문",
+    "description": "의료 영상, 의료기기, 바이오 신호, 인공장기 등을 다룹니다. 공학과 생명과학의 교차점에 있어 헬스케어 산업의 핵심 분야입니다.",
+    "keywords": ["의료기기", "바이오", "헬스케어", "영상", "재활"],
+    "hollandTags": ["I", "S"],
+    "curriculum": [
+      { "year": 1, "courses": ["일반생물학", "공학수학", "프로그래밍"] },
+      { "year": 2, "courses": ["해부생리학", "의공학개론", "신호처리"] },
+      { "year": 3, "courses": ["의료영상", "의료기기", "바이오센서"] },
+      { "year": 4, "courses": ["인공장기", "재활공학", "캡스톤"] }
+    ],
+    "averageGrade": 2.0,
+    "jeongsiRatio": 0.4,
+    "susiRatio": 0.6
+  },
+  {
+    "id": "medicine",
+    "name": "의예과",
+    "category": "의약계열",
+    "summary": "사람의 질병을 진단하고 치료하는 의사를 양성",
+    "description": "예과 2년 + 본과 4년의 6년제 과정으로, 기초의학과 임상의학을 단계적으로 학습합니다. 졸업 후 의사 국가시험을 거쳐 의사가 됩니다.",
+    "keywords": ["의사", "임상", "기초의학", "환자", "병원"],
+    "hollandTags": ["I", "S"],
+    "curriculum": [
+      { "year": 1, "courses": ["일반생물학", "일반화학", "의학용어"] },
+      { "year": 2, "courses": ["생화학", "해부학 기초", "의료윤리"] },
+      { "year": 3, "courses": ["해부학", "생리학", "조직학"] },
+      { "year": 4, "courses": ["병리학", "약리학", "임상의학 입문"] }
+    ],
+    "averageGrade": 1.1,
+    "jeongsiRatio": 0.3,
+    "susiRatio": 0.7
+  },
+  {
+    "id": "nursing",
+    "name": "간호학과",
+    "category": "의약계열",
+    "summary": "환자의 건강을 돌보는 전문 간호사를 양성",
+    "description": "기초의학, 간호학, 임상실습을 통해 통합적인 간호 역량을 기릅니다. 졸업 후 간호사 국가시험에 응시할 수 있습니다.",
+    "keywords": ["간호사", "환자", "병원", "공중보건", "돌봄"],
+    "hollandTags": ["S", "I"],
+    "curriculum": [
+      { "year": 1, "courses": ["인체구조와 기능", "심리학", "간호학개론"] },
+      { "year": 2, "courses": ["기본간호학", "약리학", "병태생리학"] },
+      { "year": 3, "courses": ["성인간호학", "아동간호학", "임상실습"] },
+      { "year": 4, "courses": ["지역사회간호학", "정신간호학", "통합실습"] }
+    ],
+    "averageGrade": 1.8,
+    "jeongsiRatio": 0.3,
+    "susiRatio": 0.7
+  },
+  {
+    "id": "pharmacy",
+    "name": "약학과",
+    "category": "의약계열",
+    "summary": "의약품을 연구·개발하고 약사를 양성하는 학과",
+    "description": "통합 6년제 약학대학에서 약물학, 의약화학, 임상약학을 학습합니다. 약사 국가시험을 거쳐 약사가 되거나 제약 연구개발로 진출합니다.",
+    "keywords": ["약사", "신약", "제약", "임상", "화학"],
+    "hollandTags": ["I", "S"],
+    "curriculum": [
+      { "year": 1, "courses": ["일반화학", "일반생물학"] },
+      { "year": 2, "courses": ["유기화학", "생화학"] },
+      { "year": 3, "courses": ["약리학", "약물학", "약제학"] },
+      { "year": 4, "courses": ["임상약학", "약물치료학", "독성학"] }
+    ],
+    "averageGrade": 1.3,
+    "jeongsiRatio": 0.3,
+    "susiRatio": 0.7
+  },
+  {
+    "id": "business",
+    "name": "경영학과",
+    "category": "상경계열",
+    "summary": "조직을 운영하고 가치를 창출하는 방법을 배우는 학문",
+    "description": "마케팅, 재무, 인사, 전략, 운영 등 기업 경영의 모든 영역을 다룹니다. 가장 폭넓은 진로 선택이 가능한 학과 중 하나입니다.",
+    "keywords": ["마케팅", "재무", "전략", "조직", "창업"],
+    "hollandTags": ["E", "C"],
+    "curriculum": [
+      { "year": 1, "courses": ["경영학원론", "경제원론", "회계원리"] },
+      { "year": 2, "courses": ["마케팅", "재무관리", "조직행동"] },
+      { "year": 3, "courses": ["인사관리", "생산관리", "전략경영"] },
+      { "year": 4, "courses": ["국제경영", "창업론", "경영 사례 연구"] }
+    ],
+    "averageGrade": 2.0,
+    "jeongsiRatio": 0.4,
+    "susiRatio": 0.6
+  },
+  {
+    "id": "economics",
+    "name": "경제학과",
+    "category": "상경계열",
+    "summary": "자원의 배분과 시장의 작동 원리를 탐구하는 학문",
+    "description": "미시·거시 경제학, 계량경제학, 금융, 국제경제 등을 통해 경제 현상을 분석하는 능력을 기릅니다. 분석적 사고가 중요합니다.",
+    "keywords": ["거시경제", "금융", "통계", "정책", "분석"],
+    "hollandTags": ["I", "E"],
+    "curriculum": [
+      { "year": 1, "courses": ["경제원론", "미시경제학 기초", "수학"] },
+      { "year": 2, "courses": ["미시경제학", "거시경제학", "통계학"] },
+      { "year": 3, "courses": ["계량경제학", "화폐금융론", "국제경제학"] },
+      { "year": 4, "courses": ["산업조직론", "경제정책", "졸업 논문"] }
+    ],
+    "averageGrade": 2.0,
+    "jeongsiRatio": 0.45,
+    "susiRatio": 0.55
+  },
+  {
+    "id": "accounting",
+    "name": "회계학과",
+    "category": "상경계열",
+    "summary": "기업의 재무 정보를 측정·분석·보고하는 학문",
+    "description": "재무회계, 관리회계, 세무, 회계감사를 다룹니다. 공인회계사(CPA), 세무사 등 전문직 진로가 분명한 학과입니다.",
+    "keywords": ["회계사", "세무", "감사", "재무", "CPA"],
+    "hollandTags": ["C", "E"],
+    "curriculum": [
+      { "year": 1, "courses": ["회계원리", "경영학원론", "경제학"] },
+      { "year": 2, "courses": ["중급회계", "원가회계", "세법개론"] },
+      { "year": 3, "courses": ["고급회계", "관리회계", "회계감사"] },
+      { "year": 4, "courses": ["세무회계", "재무제표 분석", "회계 정보 시스템"] }
+    ],
+    "averageGrade": 2.3,
+    "jeongsiRatio": 0.4,
+    "susiRatio": 0.6
+  },
+  {
+    "id": "law",
+    "name": "법학과",
+    "category": "사회계열",
+    "summary": "법의 원리와 사회 규범을 연구하는 학문",
+    "description": "헌법, 민법, 형법, 상법 등 법 전반을 다룹니다. 학부 졸업 후 법학전문대학원(로스쿨)에 진학해 변호사가 되는 경로가 일반적입니다.",
+    "keywords": ["법", "변호사", "로스쿨", "정의", "논리"],
+    "hollandTags": ["S", "E"],
+    "curriculum": [
+      { "year": 1, "courses": ["법학개론", "헌법총론", "민법총칙"] },
+      { "year": 2, "courses": ["민법 각칙", "형법총론", "상법"] },
+      { "year": 3, "courses": ["형사소송법", "민사소송법", "행정법"] },
+      { "year": 4, "courses": ["국제법", "노동법", "법철학"] }
+    ],
+    "averageGrade": 2.2,
+    "jeongsiRatio": 0.45,
+    "susiRatio": 0.55
+  },
+  {
+    "id": "political-science",
+    "name": "정치외교학과",
+    "category": "사회계열",
+    "summary": "정치 현상과 국제 관계를 분석하는 학문",
+    "description": "정치 이론, 비교 정치, 국제 정치, 외교사를 다룹니다. 외교관, 공무원, 언론, 국제기구 등 다양한 진로로 이어집니다.",
+    "keywords": ["정치", "외교", "국제관계", "정책", "공직"],
+    "hollandTags": ["E", "S"],
+    "curriculum": [
+      { "year": 1, "courses": ["정치학개론", "국제관계입문", "한국정치"] },
+      { "year": 2, "courses": ["비교정치", "정치사상", "외교사"] },
+      { "year": 3, "courses": ["국제정치이론", "국제기구", "지역연구"] },
+      { "year": 4, "courses": ["국제정치경제", "외교정책 분석"] }
+    ],
+    "averageGrade": 2.0,
+    "jeongsiRatio": 0.45,
+    "susiRatio": 0.55
+  },
+  {
+    "id": "psychology",
+    "name": "심리학과",
+    "category": "사회계열",
+    "summary": "인간의 마음과 행동을 과학적으로 연구하는 학문",
+    "description": "임상심리, 상담심리, 인지심리, 산업·조직심리 등 폭넓은 영역을 다룹니다. 통계와 실험 방법론이 중요합니다.",
+    "keywords": ["상담", "임상", "인지", "통계", "행동"],
+    "hollandTags": ["S", "I"],
+    "curriculum": [
+      { "year": 1, "courses": ["심리학개론", "통계학"] },
+      { "year": 2, "courses": ["인지심리", "발달심리", "사회심리", "성격심리"] },
+      { "year": 3, "courses": ["임상심리", "상담심리", "산업조직심리"] },
+      { "year": 4, "courses": ["심리검사", "심리치료", "연구방법론"] }
+    ],
+    "averageGrade": 2.0,
+    "jeongsiRatio": 0.4,
+    "susiRatio": 0.6
+  },
+  {
+    "id": "sociology",
+    "name": "사회학과",
+    "category": "사회계열",
+    "summary": "사회 구조와 변동을 분석하는 학문",
+    "description": "사회 이론, 사회 조사 방법, 가족, 노동, 미디어 등 다양한 주제를 다룹니다. 비판적 사고와 분석 능력을 기릅니다.",
+    "keywords": ["사회구조", "통계", "조사", "문화", "정책"],
+    "hollandTags": ["S", "I"],
+    "curriculum": [
+      { "year": 1, "courses": ["사회학개론", "사회학사"] },
+      { "year": 2, "courses": ["사회조사방법", "통계", "사회이론"] },
+      { "year": 3, "courses": ["문화사회학", "노동사회학", "가족사회학"] },
+      { "year": 4, "courses": ["사회정책", "졸업 논문"] }
+    ],
+    "averageGrade": 2.3,
+    "jeongsiRatio": 0.45,
+    "susiRatio": 0.55
+  },
+  {
+    "id": "education",
+    "name": "교육학과",
+    "category": "사범계열",
+    "summary": "교육 현상과 학습을 연구하는 학문",
+    "description": "교육 철학, 교육 심리, 교육 행정, 평생 교육 등을 다룹니다. 사범대 안에서 교직 이수가 가능하며 교육 정책 연구로도 진출합니다.",
+    "keywords": ["교육", "학습", "정책", "평생교육", "심리"],
+    "hollandTags": ["S", "I"],
+    "curriculum": [
+      { "year": 1, "courses": ["교육학개론", "교육사상사"] },
+      { "year": 2, "courses": ["교육심리", "교육사회학", "교육과정"] },
+      { "year": 3, "courses": ["교육행정", "교육방법", "평가"] },
+      { "year": 4, "courses": ["평생교육론", "교육 연구 방법"] }
+    ],
+    "averageGrade": 2.0,
+    "jeongsiRatio": 0.4,
+    "susiRatio": 0.6
+  },
+  {
+    "id": "korean-language-edu",
+    "name": "국어교육과",
+    "category": "사범계열",
+    "summary": "중·고등학교 국어 교사를 양성하는 학과",
+    "description": "국어학, 국문학, 국어교육론을 학습하고 교생실습을 통해 교사 역량을 기릅니다. 졸업 시 중등 2급 정교사 자격증을 취득합니다.",
+    "keywords": ["국어", "교사", "문학", "문법", "교육"],
+    "hollandTags": ["S", "A"],
+    "curriculum": [
+      { "year": 1, "courses": ["국어학개론", "국문학개론"] },
+      { "year": 2, "courses": ["현대문학", "고전문학", "국어문법"] },
+      { "year": 3, "courses": ["국어교육론", "문학교육론", "독서교육"] },
+      { "year": 4, "courses": ["교생실습", "국어과 교재 연구"] }
+    ],
+    "averageGrade": 1.7,
+    "jeongsiRatio": 0.35,
+    "susiRatio": 0.65
+  },
+  {
+    "id": "english-language-lit",
+    "name": "영어영문학과",
+    "category": "인문계열",
+    "summary": "영어와 영미 문학·문화를 연구하는 학문",
+    "description": "영어학, 영미 문학, 영미 문화, 통번역 영역을 다룹니다. 글로벌 진출과 언어 전문성이 강점인 학과입니다.",
+    "keywords": ["영어", "문학", "통번역", "영미문화", "언어학"],
+    "hollandTags": ["A", "S"],
+    "curriculum": [
+      { "year": 1, "courses": ["영문학 입문", "영어회화", "영작문"] },
+      { "year": 2, "courses": ["영시", "영소설", "영어학 개론"] },
+      { "year": 3, "courses": ["영미 희곡", "통번역 입문", "영미 문화"] },
+      { "year": 4, "courses": ["고급 작문", "졸업 논문"] }
+    ],
+    "averageGrade": 2.2,
+    "jeongsiRatio": 0.45,
+    "susiRatio": 0.55
+  },
+  {
+    "id": "korean-language-lit",
+    "name": "국어국문학과",
+    "category": "인문계열",
+    "summary": "한국어와 한국 문학을 연구하는 학문",
+    "description": "현대 문학, 고전 문학, 국어학을 종합적으로 다룹니다. 출판, 언론, 콘텐츠, 교육 등 다양한 분야로 진출합니다.",
+    "keywords": ["문학", "국어학", "출판", "콘텐츠", "글쓰기"],
+    "hollandTags": ["A", "S"],
+    "curriculum": [
+      { "year": 1, "courses": ["국문학개론", "국어학개론"] },
+      { "year": 2, "courses": ["현대시", "현대소설", "고전문학사"] },
+      { "year": 3, "courses": ["국어 음운론", "국어 통사론", "비평이론"] },
+      { "year": 4, "courses": ["창작 실습", "졸업 논문"] }
+    ],
+    "averageGrade": 2.4,
+    "jeongsiRatio": 0.45,
+    "susiRatio": 0.55
+  },
+  {
+    "id": "history",
+    "name": "사학과",
+    "category": "인문계열",
+    "summary": "과거의 사실을 사료를 통해 해석하는 학문",
+    "description": "한국사, 동양사, 서양사를 통해 인류 문명의 흐름을 탐구합니다. 사료 비판과 글쓰기 역량이 중요합니다.",
+    "keywords": ["역사", "사료", "문명", "고고학", "박물관"],
+    "hollandTags": ["I", "A"],
+    "curriculum": [
+      { "year": 1, "courses": ["한국사 개설", "동양사 개설", "서양사 개설"] },
+      { "year": 2, "courses": ["한국 고대사", "동양 중세사", "서양 근대사"] },
+      { "year": 3, "courses": ["사학사", "사료 강독", "지역사 연구"] },
+      { "year": 4, "courses": ["역사학 방법론", "졸업 논문"] }
+    ],
+    "averageGrade": 2.4,
+    "jeongsiRatio": 0.45,
+    "susiRatio": 0.55
+  },
+  {
+    "id": "philosophy",
+    "name": "철학과",
+    "category": "인문계열",
+    "summary": "근본적인 질문을 논리적으로 탐구하는 학문",
+    "description": "동서양 철학사, 윤리학, 논리학, 형이상학을 다룹니다. 비판적 사고와 글쓰기 훈련이 강점이 됩니다.",
+    "keywords": ["철학", "윤리", "논리", "사상", "비판적사고"],
+    "hollandTags": ["I", "A"],
+    "curriculum": [
+      { "year": 1, "courses": ["철학개론", "논리학"] },
+      { "year": 2, "courses": ["서양 고대 철학", "동양 철학", "윤리학"] },
+      { "year": 3, "courses": ["근대 철학", "현대 철학", "인식론"] },
+      { "year": 4, "courses": ["철학 세미나", "졸업 논문"] }
+    ],
+    "averageGrade": 2.5,
+    "jeongsiRatio": 0.45,
+    "susiRatio": 0.55
+  },
+  {
+    "id": "biology",
+    "name": "생명과학과",
+    "category": "자연계열",
+    "summary": "생명 현상을 분자 수준에서 생태까지 연구하는 학문",
+    "description": "분자생물학, 유전학, 생태학, 면역학 등을 다룹니다. 의학, 제약, 바이오 산업으로의 진출 기반이 됩니다.",
+    "keywords": ["분자생물학", "유전", "생태", "바이오", "의학"],
+    "hollandTags": ["I", "R"],
+    "curriculum": [
+      { "year": 1, "courses": ["일반생물학", "일반화학", "수학"] },
+      { "year": 2, "courses": ["세포생물학", "유전학", "생화학"] },
+      { "year": 3, "courses": ["분자생물학", "면역학", "생리학"] },
+      { "year": 4, "courses": ["생태학", "바이오 정보학", "졸업 연구"] }
+    ],
+    "averageGrade": 2.0,
+    "jeongsiRatio": 0.45,
+    "susiRatio": 0.55
+  },
+  {
+    "id": "chemistry",
+    "name": "화학과",
+    "category": "자연계열",
+    "summary": "물질의 성질과 반응을 연구하는 학문",
+    "description": "유기·무기·물리·분석화학을 통해 물질 세계를 탐구합니다. 제약, 신소재, 에너지 산업의 기반 학문입니다.",
+    "keywords": ["유기화학", "분석화학", "신소재", "제약", "실험"],
+    "hollandTags": ["I", "R"],
+    "curriculum": [
+      { "year": 1, "courses": ["일반화학", "물리학", "수학"] },
+      { "year": 2, "courses": ["유기화학", "물리화학", "분석화학"] },
+      { "year": 3, "courses": ["무기화학", "기기 분석", "양자화학"] },
+      { "year": 4, "courses": ["고분자화학", "고급 실험", "졸업 연구"] }
+    ],
+    "averageGrade": 2.3,
+    "jeongsiRatio": 0.45,
+    "susiRatio": 0.55
+  },
+  {
+    "id": "mathematics",
+    "name": "수학과",
+    "category": "자연계열",
+    "summary": "수와 구조의 원리를 탐구하는 학문",
+    "description": "해석학, 대수학, 기하학, 확률 통계를 다룹니다. 데이터 사이언스, 금융, 보험, 교육으로 진출 가능합니다.",
+    "keywords": ["수학", "데이터", "통계", "보험", "교육"],
+    "hollandTags": ["I", "C"],
+    "curriculum": [
+      { "year": 1, "courses": ["미적분학", "선형대수", "집합론"] },
+      { "year": 2, "courses": ["해석학", "현대대수", "미분방정식"] },
+      { "year": 3, "courses": ["복소해석", "위상수학", "확률론"] },
+      { "year": 4, "courses": ["수치해석", "수리통계", "졸업 세미나"] }
+    ],
+    "averageGrade": 2.2,
+    "jeongsiRatio": 0.5,
+    "susiRatio": 0.5
+  },
+  {
+    "id": "physics",
+    "name": "물리학과",
+    "category": "자연계열",
+    "summary": "자연 현상의 근본 원리를 수학적으로 탐구하는 학문",
+    "description": "역학, 전자기학, 양자역학, 통계역학을 다룹니다. 반도체, 국방, 연구소 등 다양한 분야로 진출합니다.",
+    "keywords": ["양자역학", "전자기학", "이론물리", "반도체", "연구"],
+    "hollandTags": ["I", "R"],
+    "curriculum": [
+      { "year": 1, "courses": ["일반물리학", "수학", "프로그래밍"] },
+      { "year": 2, "courses": ["역학", "전자기학", "현대물리"] },
+      { "year": 3, "courses": ["양자역학", "통계역학", "광학"] },
+      { "year": 4, "courses": ["고체물리", "입자물리", "졸업 연구"] }
+    ],
+    "averageGrade": 2.3,
+    "jeongsiRatio": 0.5,
+    "susiRatio": 0.5
+  },
+  {
+    "id": "design",
+    "name": "디자인학과",
+    "category": "예체능계열",
+    "summary": "사용자 경험과 시각 언어를 디자인하는 학문",
+    "description": "시각 디자인, 산업 디자인, UX/UI, 브랜드 디자인을 다룹니다. 포트폴리오 중심으로 평가받는 분야입니다.",
+    "keywords": ["UX", "그래픽", "브랜드", "산업디자인", "포트폴리오"],
+    "hollandTags": ["A", "E"],
+    "curriculum": [
+      { "year": 1, "courses": ["디자인 기초", "드로잉", "타이포그래피"] },
+      { "year": 2, "courses": ["UX 디자인", "그래픽 디자인", "색채학"] },
+      { "year": 3, "courses": ["브랜드 디자인", "인터랙션 디자인", "프로젝트"] },
+      { "year": 4, "courses": ["졸업 작품", "포트폴리오"] }
+    ],
+    "averageGrade": 2.5,
+    "jeongsiRatio": 0.3,
+    "susiRatio": 0.7
+  },
+  {
+    "id": "media-communication",
+    "name": "미디어커뮤니케이션학과",
+    "category": "사회계열",
+    "summary": "미디어, 저널리즘, 커뮤니케이션을 다루는 학문",
+    "description": "방송, 광고, 저널리즘, 디지털 미디어, PR을 학습합니다. 콘텐츠 산업 전반과 IT 플랫폼으로 진출합니다.",
+    "keywords": ["미디어", "저널리즘", "광고", "콘텐츠", "PR"],
+    "hollandTags": ["A", "E"],
+    "curriculum": [
+      { "year": 1, "courses": ["미디어개론", "커뮤니케이션 이론"] },
+      { "year": 2, "courses": ["저널리즘", "광고", "방송 제작"] },
+      { "year": 3, "courses": ["미디어 산업", "디지털 마케팅", "PR"] },
+      { "year": 4, "courses": ["졸업 작품", "미디어 연구"] }
+    ],
+    "averageGrade": 2.0,
+    "jeongsiRatio": 0.4,
+    "susiRatio": 0.6
+  },
+  {
+    "id": "physical-education",
+    "name": "체육교육과",
+    "category": "사범계열",
+    "summary": "체육 교사 양성과 운동 과학을 연구하는 학과",
+    "description": "운동 생리, 체육 교육, 스포츠 심리, 코칭을 다룹니다. 졸업 시 중등 2급 정교사 자격증을 취득합니다.",
+    "keywords": ["체육", "스포츠", "교사", "운동과학", "코칭"],
+    "hollandTags": ["R", "S"],
+    "curriculum": [
+      { "year": 1, "courses": ["체육학개론", "운동생리학"] },
+      { "year": 2, "courses": ["체육 교육론", "운동 역학", "스포츠 심리"] },
+      { "year": 3, "courses": ["스포츠 사회학", "코칭론", "체육 측정평가"] },
+      { "year": 4, "courses": ["교생실습", "체육과 교재 연구"] }
+    ],
+    "averageGrade": 2.0,
+    "jeongsiRatio": 0.35,
+    "susiRatio": 0.65
+  }
+]

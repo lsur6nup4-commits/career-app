@@ -1,0 +1,1196 @@
+{
+  "_note": "데이터 출처: 커리어넷·워크넷 직업/학과 정보 기반의 학습용 시드 (2026년 5월 시점). 평균 연봉·취업률은 실제 통계와 다를 수 있는 placeholder 값이며 추후 공공 API로 대체 예정.",
+
+  "computer-science": {
+    "careers": [
+      { "name": "백엔드 개발자", "averageSalary": 6000, "summary": "서버·데이터베이스·API를 설계하고 운영합니다." },
+      { "name": "프론트엔드 개발자", "averageSalary": 5500, "summary": "사용자 인터페이스를 구현하고 사용성을 다듬습니다." },
+      { "name": "머신러닝 엔지니어", "averageSalary": 7000, "summary": "모델을 학습·배포해 데이터로부터 가치를 만듭니다." },
+      { "name": "데이터 엔지니어", "averageSalary": 6500, "summary": "대규모 데이터 수집·가공 파이프라인을 구축합니다." },
+      { "name": "보안 엔지니어", "averageSalary": 6200, "summary": "시스템 취약점을 점검하고 사이버 위협에 대응합니다." },
+      { "name": "게임 개발자", "averageSalary": 5500, "summary": "게임 엔진과 그래픽으로 인터랙티브 경험을 만듭니다." },
+      { "name": "테크 PM/PO", "averageSalary": 7500, "summary": "제품 방향을 정하고 개발팀과 비즈니스를 잇습니다." }
+    ],
+    "employmentDistribution": [
+      { "category": "IT/소프트웨어", "ratio": 0.6 },
+      { "category": "금융 IT", "ratio": 0.12 },
+      { "category": "게임/콘텐츠", "ratio": 0.1 },
+      { "category": "공공/연구소", "ratio": 0.08 },
+      { "category": "기타 산업 IT", "ratio": 0.1 }
+    ],
+    "certifications": ["정보처리기사", "SQLD/SQLP", "ADsP/ADP", "AWS Certified Solutions Architect"],
+    "gradSchoolOptions": ["국내 컴퓨터공학 석·박사", "AI 대학원(KAIST·서울대·고려대 등)", "해외 CS 석사"],
+    "industryTrends": [
+      "생성형 AI 기반 제품·툴의 폭발적 확산",
+      "클라우드 네이티브와 데브옵스의 표준화",
+      "데이터·ML 인프라 인력 수요 급증",
+      "보안·프라이버시 규제 강화로 보안 인력 확대"
+    ],
+    "outlook": { "direction": "GROWING", "summary": "AI·클라우드·데이터 인프라 수요가 동시에 커지며 향후 10년간 인력 수요가 가장 빠르게 늘어날 분야 중 하나입니다." },
+    "industryKeywords": ["생성형 AI", "LLM", "클라우드", "MLOps", "사이버 보안", "엣지 컴퓨팅"],
+    "activities": [
+      { "type": "CLUB", "title": "코딩/알고리즘 동아리", "description": "주 1회 알고리즘 풀이·미니 프로젝트로 코드 감각을 기릅니다." },
+      { "type": "CONTEST", "title": "정보올림피아드·해커톤", "description": "전국대회·기업 해커톤은 진학·취업에서 강력한 어필 포인트가 됩니다." },
+      { "type": "PROJECT", "title": "GitHub에 미니 서비스 공개", "description": "관심 주제를 작은 웹/앱으로 만들고 깃허브에 정리합니다." },
+      { "type": "READING", "title": "AI·기술 트렌드 뉴스레터 구독", "description": "주간 뉴스레터로 산업 동향에 익숙해집니다." },
+      { "type": "VOLUNTEER", "title": "디지털 격차 해소 봉사", "description": "어르신·아동 대상 코딩·디지털 활용 멘토링에 참여합니다." }
+    ],
+    "books": [
+      { "title": "코드 — 하드웨어와 소프트웨어에 숨어 있는 언어", "author": "찰스 펫졸드", "summary": "비트부터 컴퓨터까지의 원리를 따라가는 입문 명저." },
+      { "title": "쉽게 배우는 알고리즘", "author": "문병로", "summary": "고등학생도 도전할 만한 알고리즘 입문서." },
+      { "title": "AI 슈퍼파워", "author": "리카이푸", "summary": "AI 시대의 산업·진로 변화를 거시적으로 조망합니다." },
+      { "title": "데미안", "author": "헤르만 헤세", "summary": "엔지니어의 길을 걷기 전 자기 정체성을 점검하는 책." }
+    ]
+  },
+
+  "electrical-engineering": {
+    "careers": [
+      { "name": "반도체 공정 엔지니어", "averageSalary": 6500, "summary": "팹에서 칩 생산 공정을 설계·관리합니다." },
+      { "name": "회로 설계 엔지니어", "averageSalary": 6800, "summary": "아날로그·디지털 IC 회로를 설계합니다." },
+      { "name": "통신 시스템 엔지니어", "averageSalary": 6000, "summary": "5G·위성통신 등 통신 시스템을 개발합니다." },
+      { "name": "전력 시스템 엔지니어", "averageSalary": 5800, "summary": "발전·송배전 인프라를 설계·운영합니다." },
+      { "name": "임베디드 SW 엔지니어", "averageSalary": 6000, "summary": "자동차·로봇·가전의 펌웨어를 개발합니다." },
+      { "name": "디스플레이 엔지니어", "averageSalary": 6300, "summary": "OLED·마이크로LED 등 차세대 디스플레이를 다룹니다." }
+    ],
+    "employmentDistribution": [
+      { "category": "반도체", "ratio": 0.4 },
+      { "category": "디스플레이/전자", "ratio": 0.2 },
+      { "category": "자동차/모빌리티", "ratio": 0.12 },
+      { "category": "통신/네트워크", "ratio": 0.13 },
+      { "category": "에너지/공기업", "ratio": 0.15 }
+    ],
+    "certifications": ["전기기사", "전자기사", "통신기사", "정보처리기사"],
+    "gradSchoolOptions": ["국내 전기·전자공학 석박사", "반도체 특성화 대학원", "해외 EE/ECE 석사"],
+    "industryTrends": [
+      "반도체 미세 공정 경쟁 심화 (3nm 이하)",
+      "전기차·배터리 산업 확장",
+      "AI 가속기·GPU 등 특수 칩 수요 증가",
+      "5G/6G·위성 통신 인프라 투자 확대"
+    ],
+    "outlook": { "direction": "GROWING", "summary": "AI·전기차·반도체가 한국 핵심 산업이라 양질의 일자리가 꾸준히 늘어날 것으로 보입니다." },
+    "industryKeywords": ["반도체", "AI 칩", "전기차", "배터리", "5G", "전력반도체"],
+    "activities": [
+      { "type": "CLUB", "title": "아두이노/라즈베리파이 동아리", "description": "센서·LED로 작은 전자 작품을 만들며 회로 감각을 기릅니다." },
+      { "type": "CONTEST", "title": "전국 학생 발명/창의공학 대회", "description": "팀 프로젝트로 시제품을 만들어 대회에 출품합니다." },
+      { "type": "PROJECT", "title": "마이크로컨트롤러 사이드 프로젝트", "description": "스마트 화분·홈 IoT 같은 소형 시스템을 직접 만들어 봅니다." },
+      { "type": "READING", "title": "반도체 산업 리포트 읽기", "description": "삼성·SK하이닉스 IR자료로 산업 흐름을 이해합니다." }
+    ],
+    "books": [
+      { "title": "반도체 제국의 미래", "author": "정인성", "summary": "한국 반도체 산업의 과거·현재·미래를 한눈에." },
+      { "title": "처음 만나는 회로이론", "author": "최윤식", "summary": "고등학생이 회로 입문에 활용하기 좋은 책." },
+      { "title": "엔지니어의 인문학 수업", "author": "새뮤얼 플러먼", "summary": "공학자가 가져야 할 시야와 자세에 대한 에세이." }
+    ]
+  },
+
+  "mechanical-engineering": {
+    "careers": [
+      { "name": "자동차 설계 엔지니어", "averageSalary": 5800, "summary": "차체·파워트레인 등 자동차 부품을 설계합니다." },
+      { "name": "로봇 엔지니어", "averageSalary": 6200, "summary": "산업용·서비스용 로봇 시스템을 개발합니다." },
+      { "name": "항공·우주 엔지니어", "averageSalary": 6000, "summary": "항공기·인공위성·발사체를 설계·개발합니다." },
+      { "name": "플랜트 엔지니어", "averageSalary": 6300, "summary": "정유·화학 플랜트의 기계 시스템을 설계합니다." },
+      { "name": "에너지 시스템 엔지니어", "averageSalary": 5800, "summary": "원자력·신재생 에너지 설비를 다룹니다." },
+      { "name": "기계 R&D 연구원", "averageSalary": 6500, "summary": "대기업·연구소에서 차세대 기계 기술을 연구합니다." }
+    ],
+    "employmentDistribution": [
+      { "category": "자동차/모빌리티", "ratio": 0.3 },
+      { "category": "중공업/조선", "ratio": 0.18 },
+      { "category": "반도체 장비", "ratio": 0.14 },
+      { "category": "로봇/스마트팩토리", "ratio": 0.12 },
+      { "category": "에너지/플랜트", "ratio": 0.16 },
+      { "category": "기타", "ratio": 0.1 }
+    ],
+    "certifications": ["일반기계기사", "건설기계기사", "메카트로닉스기사", "용접기사"],
+    "gradSchoolOptions": ["국내 기계공학 석박사", "로봇/모빌리티 특성화 대학원", "해외 ME 석사"],
+    "industryTrends": [
+      "전기차 전환으로 파워트레인 구조 변화",
+      "스마트팩토리·산업 자동화 확대",
+      "휴머노이드·서비스 로봇 시장 성장",
+      "탄소중립에 따른 친환경 기계 수요 증가"
+    ],
+    "outlook": { "direction": "TRANSFORMING", "summary": "전통 제조업이 전동화·자동화로 재편되면서 기계 + SW 융합 인재의 가치가 빠르게 올라가는 중입니다." },
+    "industryKeywords": ["전기차", "휴머노이드 로봇", "스마트팩토리", "탄소중립", "도심항공모빌리티(UAM)"],
+    "activities": [
+      { "type": "CLUB", "title": "RC카·드론 제작 동아리", "description": "기계와 제어를 합쳐 움직이는 작품을 만들어 봅니다." },
+      { "type": "CONTEST", "title": "전국 학생 로봇 경진대회", "description": "팀 단위로 미션을 수행하는 로봇을 만들어 출전합니다." },
+      { "type": "PROJECT", "title": "3D 프린팅 메이커 프로젝트", "description": "직접 모델링·출력해 작은 기계 부품을 만듭니다." },
+      { "type": "READING", "title": "모빌리티 산업 리포트 읽기", "description": "현대차·현대로보틱스 등 산업 자료로 흐름을 익힙니다." }
+    ],
+    "books": [
+      { "title": "기계공학 콘서트", "author": "조선미", "summary": "기계공학 전체를 친절하게 안내하는 입문서." },
+      { "title": "로봇 시대, 인간의 일", "author": "구본권", "summary": "로봇·AI 시대의 일과 진로에 대한 통찰." },
+      { "title": "테슬라 모터스", "author": "찰스 모리스", "summary": "기계와 SW가 만나는 모빌리티 혁신을 다룹니다." }
+    ]
+  },
+
+  "chemical-engineering": {
+    "careers": [
+      { "name": "공정 엔지니어", "averageSalary": 6200, "summary": "정유·석유화학·배터리 공정을 설계·운영합니다." },
+      { "name": "배터리 소재 연구원", "averageSalary": 6500, "summary": "양극재·음극재·전해질 등 차세대 배터리 소재를 개발합니다." },
+      { "name": "반도체 소재 엔지니어", "averageSalary": 6500, "summary": "포토레지스트·CMP 슬러리 등 반도체 화학 소재를 다룹니다." },
+      { "name": "신약 개발 연구원", "averageSalary": 6000, "summary": "제약·바이오 회사에서 신약 후보 물질을 연구합니다." },
+      { "name": "환경·안전 엔지니어", "averageSalary": 5500, "summary": "공정 안전과 환경 규제 대응을 담당합니다." },
+      { "name": "화장품/식품 R&D", "averageSalary": 5200, "summary": "기능성 화장품·식품 원료를 개발합니다." }
+    ],
+    "employmentDistribution": [
+      { "category": "정유/석유화학", "ratio": 0.25 },
+      { "category": "배터리/이차전지", "ratio": 0.22 },
+      { "category": "반도체 소재", "ratio": 0.18 },
+      { "category": "제약/바이오", "ratio": 0.15 },
+      { "category": "화장품/식품", "ratio": 0.1 },
+      { "category": "공공/연구소", "ratio": 0.1 }
+    ],
+    "certifications": ["화공기사", "위험물산업기사", "대기·수질환경기사"],
+    "gradSchoolOptions": ["국내 화학공학 석박사", "에너지·소재 특성화 대학원", "해외 CHE 석사"],
+    "industryTrends": [
+      "전기차용 배터리 소재 수요 폭증",
+      "수소·암모니아 등 친환경 에너지 캐리어 부상",
+      "반도체 핵심 소재 국산화 정책",
+      "바이오 제약 공정의 자동화·연속 생산"
+    ],
+    "outlook": { "direction": "GROWING", "summary": "배터리·수소·반도체 소재 등 한국 핵심 전략 산업과 직결되어 인력 수요가 견조하게 늘고 있습니다." },
+    "industryKeywords": ["이차전지", "수소경제", "반도체 소재", "탄소중립", "그린수소"],
+    "activities": [
+      { "type": "CLUB", "title": "화학 실험 동아리", "description": "교내 실험실에서 안전하게 화학 반응을 탐구합니다." },
+      { "type": "CONTEST", "title": "한국화학경시대회", "description": "전국 학생 대상 경시로 화학 실력을 점검합니다." },
+      { "type": "PROJECT", "title": "환경·에너지 자유 탐구", "description": "지속가능성 주제로 자유 탐구 보고서를 작성합니다." },
+      { "type": "READING", "title": "화학 산업 동향 리포트 읽기", "description": "LG화학·SK이노베이션 IR 자료로 산업을 이해합니다." }
+    ],
+    "books": [
+      { "title": "역사를 바꾼 17가지 화학 이야기", "author": "페니 르 쿠퍼", "summary": "화학이 세상을 바꾼 사례로 학문에 흥미를 붙입니다." },
+      { "title": "배터리의 시대", "author": "박철완", "summary": "이차전지 산업의 현재와 미래를 정리한 책." },
+      { "title": "화학공학자의 길", "author": "한국화학공학회", "summary": "화학공학자의 다양한 진로 사례를 모았습니다." }
+    ]
+  },
+
+  "civil-engineering": {
+    "careers": [
+      { "name": "건축 설계자", "averageSalary": 4800, "summary": "건축사 사무소에서 주거·상업·공공 건축을 설계합니다." },
+      { "name": "도시 설계가", "averageSalary": 5200, "summary": "지구단위·도시재생 등 도시 공간을 설계합니다." },
+      { "name": "건설 PM", "averageSalary": 6000, "summary": "대형 건설사에서 프로젝트 일정·예산을 관리합니다." },
+      { "name": "인테리어 디자이너", "averageSalary": 4500, "summary": "주거·상업 공간의 인테리어를 기획·시공합니다." },
+      { "name": "건축 BIM 엔지니어", "averageSalary": 5500, "summary": "3D 모델 기반의 건축 설계·시공 데이터를 다룹니다." },
+      { "name": "공공/지자체 건축직", "averageSalary": 5000, "summary": "도시계획·심의 등 공공 건축 행정을 담당합니다." }
+    ],
+    "employmentDistribution": [
+      { "category": "건축사 사무소", "ratio": 0.38 },
+      { "category": "건설사", "ratio": 0.22 },
+      { "category": "공공/지자체", "ratio": 0.13 },
+      { "category": "인테리어/공간 기획", "ratio": 0.15 },
+      { "category": "프롭테크/BIM", "ratio": 0.12 }
+    ],
+    "certifications": ["건축사 자격(졸업 후)", "건축기사", "도시계획기사", "BIM 운용 자격증"],
+    "gradSchoolOptions": ["국내 건축 석사", "도시설계·도시재생 대학원", "해외 M.Arch"],
+    "industryTrends": [
+      "도시 재생·노후 주거지 정비 사업 확대",
+      "친환경·제로에너지 건축 의무화 흐름",
+      "BIM·디지털 트윈 등 디지털 설계 도입",
+      "1인 가구·고령화 기반 주거 다양화"
+    ],
+    "outlook": { "direction": "STABLE", "summary": "신축 시장은 둔화되지만 도시재생·리모델링·친환경 건축 수요가 새로운 기회로 떠오르고 있습니다." },
+    "industryKeywords": ["도시재생", "제로에너지 건축", "BIM", "스마트시티", "프롭테크"],
+    "activities": [
+      { "type": "CLUB", "title": "건축 답사 동아리", "description": "주말마다 명작 건축물을 탐방하고 스케치합니다." },
+      { "type": "CONTEST", "title": "전국 청소년 건축·디자인 공모전", "description": "주제에 맞는 작은 공간을 직접 제안해봅니다." },
+      { "type": "PROJECT", "title": "동네 공간 관찰 일지", "description": "동네 공간의 문제·매력을 사진·드로잉으로 기록합니다." },
+      { "type": "READING", "title": "건축 잡지·뉴스레터 구독", "description": "월간 건축·SPACE 같은 매체로 트렌드를 익힙니다." }
+    ],
+    "books": [
+      { "title": "건축, 음악처럼 듣고 미술처럼 보다", "author": "서현", "summary": "건축을 감상하는 안목을 길러주는 입문서." },
+      { "title": "도시는 무엇으로 사는가", "author": "유현준", "summary": "도시 공간을 읽는 방법을 알려주는 베스트셀러." },
+      { "title": "건축의 일곱 등불", "author": "존 러스킨", "summary": "건축 미학의 고전. 안목과 윤리를 함께 다룹니다." }
+    ]
+  },
+
+  "industrial-engineering": {
+    "careers": [
+      { "name": "데이터 분석가", "averageSalary": 6000, "summary": "데이터로 의사결정을 지원하는 분석 업무를 수행합니다." },
+      { "name": "공급망/물류 엔지니어", "averageSalary": 5800, "summary": "재고·운송·창고 운영을 최적화합니다." },
+      { "name": "운영 컨설턴트", "averageSalary": 7000, "summary": "기업의 프로세스를 진단·개선하는 컨설팅을 합니다." },
+      { "name": "프로세스 엔지니어", "averageSalary": 5800, "summary": "제조·서비스 공정을 분석해 효율을 끌어올립니다." },
+      { "name": "프로젝트 매니저", "averageSalary": 6500, "summary": "예산·일정·인력을 통합 관리합니다." },
+      { "name": "프로덕트 매니저", "averageSalary": 7500, "summary": "디지털 제품의 방향과 우선순위를 결정합니다." }
+    ],
+    "employmentDistribution": [
+      { "category": "IT/소프트웨어", "ratio": 0.25 },
+      { "category": "제조/공급망", "ratio": 0.22 },
+      { "category": "컨설팅", "ratio": 0.13 },
+      { "category": "금융", "ratio": 0.13 },
+      { "category": "유통/물류", "ratio": 0.15 },
+      { "category": "공공/연구소", "ratio": 0.12 }
+    ],
+    "certifications": ["품질경영기사", "물류관리사", "ADsP/ADP", "PMP"],
+    "gradSchoolOptions": ["국내 산업공학 석박사", "MS in Analytics(해외)", "MBA"],
+    "industryTrends": [
+      "AI/데이터 기반 의사결정의 일상화",
+      "공급망 리스크 관리의 전략화",
+      "디지털 트랜스포메이션 컨설팅 수요 증가",
+      "ESG 지표 측정·보고 수요 부상"
+    ],
+    "outlook": { "direction": "GROWING", "summary": "공학 + 비즈니스 + 데이터의 융합 인재로서 진출 산업이 가장 넓은 학과 중 하나입니다." },
+    "industryKeywords": ["데이터 분석", "공급망", "ESG", "DX", "최적화"],
+    "activities": [
+      { "type": "CLUB", "title": "통계·데이터 분석 동아리", "description": "엑셀·파이썬으로 학교 데이터를 분석해봅니다." },
+      { "type": "CONTEST", "title": "공공데이터 활용 경진대회", "description": "공공데이터로 사회문제 해결 아이디어를 제안합니다." },
+      { "type": "PROJECT", "title": "교내 행사 PM", "description": "축제·체육대회를 기획·운영하며 PM 감각을 익힙니다." },
+      { "type": "READING", "title": "비즈니스 잡지 구독", "description": "DBR·하버드비즈니스리뷰 한국판을 읽습니다." }
+    ],
+    "books": [
+      { "title": "팩트풀니스", "author": "한스 로슬링", "summary": "데이터로 세상을 바라보는 시야를 길러줍니다." },
+      { "title": "리스타트", "author": "에릭 리스", "summary": "효율적인 가설-검증 프로세스를 다룹니다." },
+      { "title": "사일로 이펙트", "author": "질리언 테트", "summary": "조직의 사일로 문제를 시스템 관점으로 풀어냅니다." }
+    ]
+  },
+
+  "biomedical-engineering": {
+    "careers": [
+      { "name": "의료기기 R&D", "averageSalary": 6000, "summary": "진단·치료 의료기기를 설계·개발합니다." },
+      { "name": "의료영상 엔지니어", "averageSalary": 6300, "summary": "MRI·CT·초음파 영상의 알고리즘을 개발합니다." },
+      { "name": "디지털 헬스 개발자", "averageSalary": 6200, "summary": "헬스케어 앱·웨어러블 서비스를 만듭니다." },
+      { "name": "바이오 신호 분석가", "averageSalary": 5800, "summary": "ECG·EEG 등 생체 신호 데이터를 분석합니다." },
+      { "name": "재활 보조기기 엔지니어", "averageSalary": 5500, "summary": "외골격 로봇·보조기 등 재활 기기를 개발합니다." },
+      { "name": "임상시험·인허가 전문가", "averageSalary": 5800, "summary": "의료기기 인허가·임상시험 전반을 담당합니다." }
+    ],
+    "employmentDistribution": [
+      { "category": "의료기기/장비", "ratio": 0.32 },
+      { "category": "디지털 헬스", "ratio": 0.2 },
+      { "category": "병원·의료원", "ratio": 0.13 },
+      { "category": "제약/바이오", "ratio": 0.15 },
+      { "category": "연구소/공공", "ratio": 0.2 }
+    ],
+    "certifications": ["의공기사", "정보처리기사", "ISO 13485 내부심사원"],
+    "gradSchoolOptions": ["국내 의공학 석박사", "융합 의생명공학 대학원", "해외 BME 석사"],
+    "industryTrends": [
+      "AI 의료영상 진단 솔루션 확산",
+      "원격 진료·디지털 치료제(DTx) 시장 성장",
+      "웨어러블·연속혈당측정기 등 일상 헬스케어 부상",
+      "고령화에 따른 재활·케어 로봇 수요 증가"
+    ],
+    "outlook": { "direction": "GROWING", "summary": "한국형 디지털 헬스 산업이 부상하며 공학 + 의료 융합 인재의 수요가 가파르게 증가하고 있습니다." },
+    "industryKeywords": ["디지털 헬스", "AI 진단", "웨어러블", "원격의료", "디지털 치료제"],
+    "activities": [
+      { "type": "CLUB", "title": "메디컬 사이언스 동아리", "description": "의학·바이오 논문 리딩과 토론으로 관심을 키웁니다." },
+      { "type": "CONTEST", "title": "디지털 헬스 아이디어 경진대회", "description": "건강·복지 아이디어를 팀 단위로 제안합니다." },
+      { "type": "VOLUNTEER", "title": "병원·요양원 봉사", "description": "환자·어르신과 직접 만나며 의료 현장을 경험합니다." },
+      { "type": "READING", "title": "디지털 헬스 뉴스레터 구독", "description": "글로벌 디지털 헬스 트렌드를 꾸준히 따라갑니다." }
+    ],
+    "books": [
+      { "title": "딥 메디슨", "author": "에릭 토폴", "summary": "AI가 바꾸는 의료의 미래를 그린 책." },
+      { "title": "의공학자의 일", "author": "여러 저자", "summary": "한국 의공학자의 진로 사례를 모은 책." },
+      { "title": "이기적 유전자", "author": "리처드 도킨스", "summary": "생명과 진화에 대한 시야를 넓혀주는 고전." }
+    ]
+  },
+
+  "medicine": {
+    "careers": [
+      { "name": "임상의사", "averageSalary": 12000, "summary": "병원에서 환자 진료를 담당합니다." },
+      { "name": "전공의/전문의", "averageSalary": 10000, "summary": "특정 진료과의 전문 진료를 수행합니다." },
+      { "name": "공중보건의/군의관", "averageSalary": 6000, "summary": "병역을 의무 복무로 대체하며 공공의료를 담당합니다." },
+      { "name": "기초의학 연구자", "averageSalary": 7000, "summary": "대학·연구소에서 의학 연구를 수행합니다." },
+      { "name": "제약·바이오 의학자(MSL)", "averageSalary": 9000, "summary": "제약 회사에서 의학 자문·임상시험을 담당합니다." },
+      { "name": "디지털 헬스 의사", "averageSalary": 9000, "summary": "헬스케어 스타트업·플랫폼에서 임상 자문을 합니다." }
+    ],
+    "employmentDistribution": [
+      { "category": "병원/의원", "ratio": 0.7 },
+      { "category": "공공의료/보건소", "ratio": 0.1 },
+      { "category": "대학/연구소", "ratio": 0.08 },
+      { "category": "제약/바이오", "ratio": 0.07 },
+      { "category": "디지털 헬스/스타트업", "ratio": 0.05 }
+    ],
+    "certifications": ["의사 국가시험", "각 진료과 전문의 자격"],
+    "gradSchoolOptions": ["전공의 수련(인턴 1년 + 레지던트 4년)", "기초의학 박사 과정", "공중보건학(MPH)"],
+    "industryTrends": [
+      "의대 정원 확대와 수도권/지방 의료 격차 이슈",
+      "필수 의료(소아·산부인과·외과) 인력 부족 문제",
+      "디지털 치료제·원격의료 제도화 진행",
+      "AI 진단·로봇 수술 도입 가속"
+    ],
+    "outlook": { "direction": "STABLE", "summary": "수요는 지속적이지만 의료 정책·전공 선택 환경이 빠르게 변화하고 있어 공익 의료에 대한 사회적 논의가 활발합니다." },
+    "industryKeywords": ["필수 의료", "디지털 치료제", "AI 진단", "원격의료", "고령화"],
+    "activities": [
+      { "type": "VOLUNTEER", "title": "지역 의료봉사 활동", "description": "보건소·의료봉사 단체와 함께 환자 보조 봉사에 참여합니다." },
+      { "type": "READING", "title": "의학 에세이/현장 책 읽기", "description": "의사들의 에세이로 직업 현실을 이해합니다." },
+      { "type": "CLUB", "title": "생명과학 탐구 동아리", "description": "관심 질환·신약 등을 탐구하는 학생 활동에 참여합니다." },
+      { "type": "PROJECT", "title": "보건·생명 자유 탐구", "description": "관심 질환을 정해 1학기에 걸쳐 자유 탐구 보고서를 씁니다." }
+    ],
+    "books": [
+      { "title": "의사의 한 마디", "author": "오연호 외", "summary": "다양한 분야 의사들의 진로 이야기." },
+      { "title": "어떻게 죽을 것인가", "author": "아툴 가완디", "summary": "현대 의료와 죽음에 대한 깊은 통찰." },
+      { "title": "당신이 모르는 민주주의", "author": "마이클 샌델", "summary": "의료를 바라보는 윤리적 시야를 길러줍니다." }
+    ]
+  },
+
+  "nursing": {
+    "careers": [
+      { "name": "병원 간호사", "averageSalary": 4800, "summary": "종합병원·전문병원에서 환자 간호를 담당합니다." },
+      { "name": "전문간호사(중환자·응급 등)", "averageSalary": 5800, "summary": "특정 분야 전문 간호 자격을 취득해 활동합니다." },
+      { "name": "보건교사", "averageSalary": 5000, "summary": "초·중·고에서 학생 건강·보건을 담당합니다." },
+      { "name": "보건소·산업간호사", "averageSalary": 5000, "summary": "지역사회·기업의 건강 관리를 담당합니다." },
+      { "name": "간호장교/공중보건간호사", "averageSalary": 4500, "summary": "군·공공의료기관에서 복무합니다." },
+      { "name": "디지털 헬스/제약 간호사", "averageSalary": 5500, "summary": "헬스케어 기업·CRO에서 의학 정보·임상 업무를 합니다." }
+    ],
+    "employmentDistribution": [
+      { "category": "종합병원", "ratio": 0.55 },
+      { "category": "지역병원/의원", "ratio": 0.15 },
+      { "category": "공공/보건소", "ratio": 0.12 },
+      { "category": "학교/산업체", "ratio": 0.1 },
+      { "category": "제약/디지털 헬스", "ratio": 0.08 }
+    ],
+    "certifications": ["간호사 국가시험", "전문간호사 자격(13개 분야)", "보건교사 2급"],
+    "gradSchoolOptions": ["간호학 석박사", "전문간호사 과정", "보건학 석사"],
+    "industryTrends": [
+      "고령화로 만성질환·요양 수요 급증",
+      "PA 간호사·전문간호사 제도 확대",
+      "병원 환경·처우 개선 정책 추진",
+      "디지털 헬스·재택 간호 시장 성장"
+    ],
+    "outlook": { "direction": "GROWING", "summary": "고령화와 의료 수요 증가로 간호 인력 수요는 장기적으로 견조하게 늘어날 전망입니다." },
+    "industryKeywords": ["고령화", "전문간호사", "PA 제도", "재택 간호", "디지털 헬스"],
+    "activities": [
+      { "type": "VOLUNTEER", "title": "노인복지관·요양원 봉사", "description": "어르신과 직접 만나며 케어 현장을 경험합니다." },
+      { "type": "CLUB", "title": "보건 동아리", "description": "교내 보건 캠페인·심폐소생술 교육에 참여합니다." },
+      { "type": "PROJECT", "title": "보건 자유 탐구", "description": "관심 질환·예방 주제로 자유 탐구 보고서를 씁니다." },
+      { "type": "READING", "title": "간호사 에세이 읽기", "description": "간호 현장의 이야기를 통해 직업관을 다집니다." }
+    ],
+    "books": [
+      { "title": "나는 간호사, 사람입니다", "author": "김현아", "summary": "현직 간호사가 쓴 따뜻한 에세이." },
+      { "title": "어떻게 죽을 것인가", "author": "아툴 가완디", "summary": "간호와 돌봄에 대한 깊은 사유를 담은 책." },
+      { "title": "병원장 산타 할아버지", "author": "오기노 노부코", "summary": "환자 중심 의료에 대한 영감을 줍니다." }
+    ]
+  },
+
+  "pharmacy": {
+    "careers": [
+      { "name": "약국 약사", "averageSalary": 6500, "summary": "지역 약국에서 조제·복약지도를 담당합니다." },
+      { "name": "병원 약사", "averageSalary": 5800, "summary": "병원 약제부에서 임상 약학 업무를 수행합니다." },
+      { "name": "제약회사 R&D", "averageSalary": 6500, "summary": "신약·제네릭 개발과 임상시험을 담당합니다." },
+      { "name": "임상 시험 전문가(CRA)", "averageSalary": 5800, "summary": "임상시험 모니터링·관리 업무를 수행합니다." },
+      { "name": "식약처/공공기관 약사", "averageSalary": 5500, "summary": "의약품 인허가·정책 업무를 담당합니다." },
+      { "name": "MSL/제약 마케팅", "averageSalary": 7000, "summary": "의학 정보·제품 전략을 의료진과 소통합니다." }
+    ],
+    "employmentDistribution": [
+      { "category": "지역 약국", "ratio": 0.45 },
+      { "category": "병원 약사", "ratio": 0.15 },
+      { "category": "제약/바이오 R&D", "ratio": 0.2 },
+      { "category": "공공/식약처", "ratio": 0.08 },
+      { "category": "기타(컨설팅·창업)", "ratio": 0.12 }
+    ],
+    "certifications": ["약사 국가시험", "임상시험 관련 자격", "한약사(별도)"],
+    "gradSchoolOptions": ["약학 석박사", "임상약학 대학원", "해외 PharmD"],
+    "industryTrends": [
+      "신약 R&D의 글로벌 협력 확대",
+      "비대면 진료·전자처방 제도화",
+      "복약지도·만성질환 관리 약사 역할 강화",
+      "바이오시밀러·세포유전자치료제 시장 성장"
+    ],
+    "outlook": { "direction": "GROWING", "summary": "고령화·만성질환 증가로 약사의 사회적 역할이 확장되고 있으며 R&D 인력 수요도 견조합니다." },
+    "industryKeywords": ["바이오시밀러", "세포·유전자치료제", "비대면 진료", "복약지도", "임상시험"],
+    "activities": [
+      { "type": "VOLUNTEER", "title": "지역 약국·보건소 봉사", "description": "약사 직업의 현장을 가까이서 경험합니다." },
+      { "type": "PROJECT", "title": "약물·건강 자유 탐구", "description": "관심 질환의 약물 치료를 주제로 탐구합니다." },
+      { "type": "CLUB", "title": "생명과학 탐구 동아리", "description": "약학 진학에 도움이 되는 생명·화학 활동에 참여합니다." },
+      { "type": "READING", "title": "약학·과학 잡지 구독", "description": "Nature·Cell 한국판 또는 약학 매체를 정기 구독합니다." }
+    ],
+    "books": [
+      { "title": "신약의 탄생", "author": "윤태진", "summary": "신약 개발 과정을 흥미롭게 풀어낸 책." },
+      { "title": "약 알고 먹어요", "author": "이재호", "summary": "약사가 알려주는 일상 속 약 이야기." },
+      { "title": "이중나선", "author": "제임스 왓슨", "summary": "DNA 발견 이야기로 생명과학에 흥미를 키웁니다." }
+    ]
+  },
+
+  "business": {
+    "careers": [
+      { "name": "마케팅 매니저", "averageSalary": 6000, "summary": "브랜드·캠페인·디지털 마케팅을 기획·실행합니다." },
+      { "name": "전략 컨설턴트", "averageSalary": 8500, "summary": "기업의 전략·운영 문제를 분석하고 제안합니다." },
+      { "name": "재무·기획 매니저", "averageSalary": 6500, "summary": "재무 분석·예산 수립·M&A 등을 담당합니다." },
+      { "name": "프로덕트 매니저", "averageSalary": 7500, "summary": "디지털 제품의 방향·우선순위를 결정합니다." },
+      { "name": "HR 매니저", "averageSalary": 5800, "summary": "채용·교육·평가·조직문화를 담당합니다." },
+      { "name": "스타트업 창업자/초기 멤버", "averageSalary": 5500, "summary": "스스로 사업을 만들거나 초기 핵심 멤버로 합류합니다." }
+    ],
+    "employmentDistribution": [
+      { "category": "대기업 사무직", "ratio": 0.32 },
+      { "category": "금융/투자", "ratio": 0.18 },
+      { "category": "컨설팅", "ratio": 0.1 },
+      { "category": "스타트업/IT", "ratio": 0.18 },
+      { "category": "공공/공기업", "ratio": 0.12 },
+      { "category": "기타", "ratio": 0.1 }
+    ],
+    "certifications": ["CPA", "CFA", "ADsP", "FRM"],
+    "gradSchoolOptions": ["MBA(국내·해외)", "MS in Management", "데이터분석/마케팅 석사"],
+    "industryTrends": [
+      "AI·데이터 활용 능력의 표준화",
+      "ESG·지속가능성 경영의 의무화",
+      "스타트업 생태계의 도전·통합",
+      "콘텐츠·플랫폼 비즈니스의 글로벌 확장"
+    ],
+    "outlook": { "direction": "STABLE", "summary": "진로 폭이 가장 넓은 학과이지만, 단순 \"문과\" 취업의 시대는 저물고 데이터·디지털 역량이 필수가 되고 있습니다." },
+    "industryKeywords": ["디지털 전환", "ESG", "AI 마케팅", "플랫폼 비즈니스", "스타트업"],
+    "activities": [
+      { "type": "CLUB", "title": "교내 마케팅·창업 동아리", "description": "실제 캠페인이나 작은 사업을 기획·실행해봅니다." },
+      { "type": "CONTEST", "title": "대학생 마케팅·창업 공모전 참관", "description": "공모전 결과를 분석하며 비즈니스 감각을 익힙니다." },
+      { "type": "PROJECT", "title": "용돈으로 작은 비즈니스 실험", "description": "소액으로 중고 거래·블로그 등 작은 사업을 시도합니다." },
+      { "type": "READING", "title": "비즈니스 매체 정기 구독", "description": "한국경제·DBR·블룸버그 등 매체로 산업 흐름을 익힙니다." }
+    ],
+    "books": [
+      { "title": "원씽", "author": "게리 켈러", "summary": "본질에 집중하는 사고법을 다룬 베스트셀러." },
+      { "title": "초격차", "author": "권오현", "summary": "삼성전자 전 회장이 말하는 경영의 본질." },
+      { "title": "린 스타트업", "author": "에릭 리스", "summary": "현대 비즈니스의 핵심 방법론." }
+    ]
+  },
+
+  "economics": {
+    "careers": [
+      { "name": "은행/증권사 애널리스트", "averageSalary": 7500, "summary": "산업·기업·거시 분석으로 투자 판단을 지원합니다." },
+      { "name": "한국은행/금융감독원", "averageSalary": 6500, "summary": "통화·금융 정책 운영과 감독 업무를 담당합니다." },
+      { "name": "경제 연구원", "averageSalary": 6000, "summary": "민간·국책 연구원에서 경제 연구를 수행합니다." },
+      { "name": "행정고시(경제직)", "averageSalary": 5800, "summary": "기획재정부 등 정부의 경제 정책을 수립합니다." },
+      { "name": "데이터 분석가", "averageSalary": 6200, "summary": "기업에서 데이터로 의사결정을 지원합니다." },
+      { "name": "경제 저널리스트", "averageSalary": 5000, "summary": "경제 매체에서 산업·시장 기사를 씁니다." }
+    ],
+    "employmentDistribution": [
+      { "category": "금융/투자", "ratio": 0.32 },
+      { "category": "공공/연구원", "ratio": 0.2 },
+      { "category": "대기업 기획", "ratio": 0.18 },
+      { "category": "컨설팅", "ratio": 0.1 },
+      { "category": "언론/기타", "ratio": 0.12 },
+      { "category": "스타트업/IT", "ratio": 0.08 }
+    ],
+    "certifications": ["CFA", "FRM", "ADsP", "투자자산운용사"],
+    "gradSchoolOptions": ["국내 경제학 석박사", "MA Economics(해외)", "응용경제·금융 석사"],
+    "industryTrends": [
+      "고금리·저성장의 거시 환경 지속",
+      "AI·데이터 기반 경제 분석 부상",
+      "기후·인구·산업 정책의 통합",
+      "행동경제학·실험경제학 활용 확대"
+    ],
+    "outlook": { "direction": "STABLE", "summary": "전통적 진로(금융·공공)는 안정적이며, 데이터 분석 역량을 더하면 IT·컨설팅 진출도 활발해집니다." },
+    "industryKeywords": ["거시경제", "데이터 분석", "AI 금융", "ESG", "행동경제학"],
+    "activities": [
+      { "type": "CLUB", "title": "경제·시사 토론 동아리", "description": "주간 경제 이슈로 토론·발표를 진행합니다." },
+      { "type": "CONTEST", "title": "전국 청소년 경제·금융 경시", "description": "경제 지식과 분석력을 시험으로 점검합니다." },
+      { "type": "PROJECT", "title": "용돈 가계부·모의 투자", "description": "소액 모의 투자로 시장의 작동을 체험합니다." },
+      { "type": "READING", "title": "경제지·뉴스레터 정기 구독", "description": "한국경제·이코노미스트로 거시 흐름을 익힙니다." }
+    ],
+    "books": [
+      { "title": "경제학 콘서트", "author": "팀 하포드", "summary": "일상 속 경제 원리를 풀어주는 입문서." },
+      { "title": "넛지", "author": "리처드 탈러", "summary": "행동경제학의 출발점이 된 베스트셀러." },
+      { "title": "팩트풀니스", "author": "한스 로슬링", "summary": "데이터로 세상을 보는 시야를 길러줍니다." }
+    ]
+  },
+
+  "accounting": {
+    "careers": [
+      { "name": "공인회계사(CPA)", "averageSalary": 8500, "summary": "회계법인·기업에서 회계감사·자문을 수행합니다." },
+      { "name": "세무사", "averageSalary": 7500, "summary": "세무 신고·자문 업무를 담당합니다." },
+      { "name": "기업 재무·회계 직원", "averageSalary": 5800, "summary": "기업 내부 회계·세무·내부통제를 담당합니다." },
+      { "name": "내부감사 전문가", "averageSalary": 6500, "summary": "내부 통제와 부정 위험을 점검합니다." },
+      { "name": "M&A·재무자문", "averageSalary": 8000, "summary": "기업 인수·매각의 재무 분석을 담당합니다." },
+      { "name": "공공/공기업 회계직", "averageSalary": 5500, "summary": "정부·공공기관의 회계·재정 업무를 담당합니다." }
+    ],
+    "employmentDistribution": [
+      { "category": "회계법인", "ratio": 0.35 },
+      { "category": "기업 재무·회계", "ratio": 0.25 },
+      { "category": "세무사 사무소", "ratio": 0.12 },
+      { "category": "공공/공기업", "ratio": 0.13 },
+      { "category": "금융권", "ratio": 0.1 },
+      { "category": "기타", "ratio": 0.05 }
+    ],
+    "certifications": ["CPA(공인회계사)", "세무사", "AICPA", "ADsP"],
+    "gradSchoolOptions": ["회계학 석사", "Tax LLM", "MBA(재무)"],
+    "industryTrends": [
+      "회계·세무 RPA 자동화로 단순 업무 축소",
+      "데이터 분석 결합한 재무 인텔리전스 부상",
+      "ESG·지속가능성 보고 의무화",
+      "글로벌 회계 기준(IFRS)의 정착"
+    ],
+    "outlook": { "direction": "STABLE", "summary": "전문 자격(CPA·세무사) 진출 경로는 안정적이며, 데이터·자동화 역량을 더하면 가치가 더 커집니다." },
+    "industryKeywords": ["IFRS", "ESG 회계", "회계 RPA", "내부통제", "디지털 감사"],
+    "activities": [
+      { "type": "CLUB", "title": "교내 회계·금융 동아리", "description": "재무제표 읽기·모의 결산 활동에 참여합니다." },
+      { "type": "CONTEST", "title": "전국 청소년 경제·금융 경시", "description": "회계·금융 지식 경시로 기초를 다집니다." },
+      { "type": "PROJECT", "title": "관심 기업 재무제표 분석", "description": "실제 상장사 IR 자료로 재무를 분석합니다." },
+      { "type": "READING", "title": "재무제표 입문서 읽기", "description": "한 권을 끝까지 읽으며 회계 기본기를 다집니다." }
+    ],
+    "books": [
+      { "title": "회계 천재가 된 홍대리", "author": "손봉석", "summary": "스토리로 익히는 회계 입문서." },
+      { "title": "재무제표 모르면 주식투자 절대로 하지 마라", "author": "사경인", "summary": "재무제표 핵심을 쉽게 풀어낸 책." },
+      { "title": "넘버스", "author": "토마스 A. 스튜어트", "summary": "숫자로 비즈니스를 보는 안목을 기릅니다." }
+    ]
+  },
+
+  "law": {
+    "careers": [
+      { "name": "변호사(법무법인)", "averageSalary": 9000, "summary": "기업·개인 의뢰인을 대리해 분쟁·자문을 담당합니다." },
+      { "name": "사내 변호사", "averageSalary": 9500, "summary": "기업 내부에서 계약·규제 자문을 합니다." },
+      { "name": "검사·판사", "averageSalary": 8000, "summary": "공익을 대표하거나 분쟁을 판단합니다." },
+      { "name": "공무원(법무직)", "averageSalary": 5500, "summary": "정부 부처·지자체에서 법률 행정을 담당합니다." },
+      { "name": "법무팀·컴플라이언스", "averageSalary": 7500, "summary": "기업 규제 준수와 위험 관리를 담당합니다." },
+      { "name": "법률 스타트업·리걸테크", "averageSalary": 7000, "summary": "법률 IT 서비스 기획·운영에 참여합니다." }
+    ],
+    "employmentDistribution": [
+      { "category": "법무법인", "ratio": 0.42 },
+      { "category": "사내 변호사", "ratio": 0.2 },
+      { "category": "공공/사법기관", "ratio": 0.15 },
+      { "category": "공기업/공무원", "ratio": 0.13 },
+      { "category": "기타", "ratio": 0.1 }
+    ],
+    "certifications": ["변호사 시험(로스쿨 졸업 후)", "공인노무사", "변리사", "행정고시(법무직)"],
+    "gradSchoolOptions": ["법학전문대학원(LEET 응시)", "LLM(해외)"],
+    "industryTrends": [
+      "리걸테크·AI 법률 서비스 도입",
+      "데이터·프라이버시·플랫폼 규제 확대",
+      "ESG·기업 지배구조 자문 수요 증가",
+      "해외 진출·국제 분쟁 사건 증가"
+    ],
+    "outlook": { "direction": "STABLE", "summary": "전통적 법조 시장은 포화 우려가 있으나, IT·금융·해외 분쟁 등 새로운 수요가 꾸준히 늘어납니다." },
+    "industryKeywords": ["리걸테크", "데이터 규제", "ESG", "M&A 자문", "국제분쟁"],
+    "activities": [
+      { "type": "CLUB", "title": "교내 모의재판·토론 동아리", "description": "쟁점을 분석하고 논리를 다듬는 훈련을 합니다." },
+      { "type": "CONTEST", "title": "전국 청소년 모의재판 대회", "description": "팀 단위로 사건을 분석해 모의재판에 참여합니다." },
+      { "type": "VOLUNTEER", "title": "법무부·법률봉사 행사 참여", "description": "법률 봉사 행사를 통해 사회적 약자의 현실을 이해합니다." },
+      { "type": "READING", "title": "헌법·사건 판례 읽기", "description": "주요 헌법 판례를 정리해 법적 사고를 키웁니다." }
+    ],
+    "books": [
+      { "title": "헌법의 풍경", "author": "김두식", "summary": "한국 헌법을 친절하게 풀어낸 입문서." },
+      { "title": "정의란 무엇인가", "author": "마이클 샌델", "summary": "법과 정의에 대한 사유를 길러주는 베스트셀러." },
+      { "title": "송곳", "author": "최규석", "summary": "노동법·인권 이슈를 다룬 그래픽 노블." }
+    ]
+  },
+
+  "political-science": {
+    "careers": [
+      { "name": "외교관(외교부)", "averageSalary": 6500, "summary": "외교부·재외공관에서 외교 업무를 수행합니다." },
+      { "name": "국회의원 보좌진", "averageSalary": 5500, "summary": "국회의원의 정책·정무를 보좌합니다." },
+      { "name": "정책 연구원", "averageSalary": 6000, "summary": "국책·민간 연구소에서 정책을 분석·제안합니다." },
+      { "name": "기자·언론인", "averageSalary": 5800, "summary": "정치·국제 분야 보도를 담당합니다." },
+      { "name": "국제기구 직원", "averageSalary": 7500, "summary": "UN·OECD 등 국제기구에서 정책 업무를 수행합니다." },
+      { "name": "공무원(외무·일반행정)", "averageSalary": 5500, "summary": "중앙·지방 정부의 행정 업무를 담당합니다." }
+    ],
+    "employmentDistribution": [
+      { "category": "공공/공무원", "ratio": 0.32 },
+      { "category": "언론/미디어", "ratio": 0.15 },
+      { "category": "연구소/싱크탱크", "ratio": 0.18 },
+      { "category": "기업 대외협력", "ratio": 0.15 },
+      { "category": "국제기구/NGO", "ratio": 0.1 },
+      { "category": "기타", "ratio": 0.1 }
+    ],
+    "certifications": ["외무고시(외교관 후보자 선발시험)", "행정고시", "공인 외국어 자격(IELTS·DELF 등)"],
+    "gradSchoolOptions": ["국제대학원(GSIS)", "정책대학원(KDI)", "해외 정치·국제관계 석사"],
+    "industryTrends": [
+      "미·중 패권 경쟁의 장기화",
+      "기후·인구·이주 등 글로벌 이슈 부상",
+      "디지털 외교·공공외교의 중요성 증가",
+      "AI·기술 외교의 새로운 영역화"
+    ],
+    "outlook": { "direction": "STABLE", "summary": "전통 외교·공공 분야는 안정적이며, 글로벌 이슈가 복잡해지면서 정책 인재 수요가 다양화됩니다." },
+    "industryKeywords": ["미중 경쟁", "기술 외교", "공공외교", "국제기구", "지정학"],
+    "activities": [
+      { "type": "CLUB", "title": "교내 모의 UN/시사토론 동아리", "description": "국제 의제로 토론하며 글로벌 시야를 기릅니다." },
+      { "type": "CONTEST", "title": "전국 청소년 모의 UN", "description": "팀 단위로 국가 대표 역할을 맡아 토의에 참여합니다." },
+      { "type": "PROJECT", "title": "국제 시사 큐레이션", "description": "관심 지역·이슈를 정리해 친구들에게 공유합니다." },
+      { "type": "READING", "title": "Foreign Affairs·국제 매체 구독", "description": "국제 정치 매체를 통해 깊이 있는 분석을 접합니다." }
+    ],
+    "books": [
+      { "title": "지리의 힘", "author": "팀 마샬", "summary": "지정학으로 세계를 읽는 베스트셀러." },
+      { "title": "문명의 충돌", "author": "새뮤얼 헌팅턴", "summary": "탈냉전 국제정치를 분석한 고전." },
+      { "title": "한반도의 운명", "author": "장노순 외", "summary": "한반도 정치·외교 이해의 입문서." }
+    ]
+  },
+
+  "psychology": {
+    "careers": [
+      { "name": "임상심리사", "averageSalary": 5500, "summary": "병원·심리상담센터에서 심리 평가·치료를 담당합니다." },
+      { "name": "상담심리사", "averageSalary": 4800, "summary": "학교·기업·청소년상담센터에서 상담을 진행합니다." },
+      { "name": "산업/조직 심리 전문가", "averageSalary": 6500, "summary": "기업의 채용·평가·리더십을 심리적으로 진단합니다." },
+      { "name": "UX 리서처", "averageSalary": 6500, "summary": "사용자 행동을 조사·분석해 제품을 개선합니다." },
+      { "name": "HR/조직개발 전문가", "averageSalary": 6000, "summary": "조직문화·교육·리더십 프로그램을 설계합니다." },
+      { "name": "데이터 분석가/시장조사", "averageSalary": 5800, "summary": "정량·정성 데이터로 마케팅·정책을 지원합니다." }
+    ],
+    "employmentDistribution": [
+      { "category": "교육/상담기관", "ratio": 0.25 },
+      { "category": "병원/임상", "ratio": 0.18 },
+      { "category": "기업 HR/리서치", "ratio": 0.22 },
+      { "category": "IT/UX", "ratio": 0.15 },
+      { "category": "공공/연구소", "ratio": 0.1 },
+      { "category": "기타", "ratio": 0.1 }
+    ],
+    "certifications": ["임상심리사 1·2급", "상담심리사 1·2급", "청소년상담사", "직업상담사"],
+    "gradSchoolOptions": ["임상·상담심리 석박사", "산업조직 심리 석사", "HCI/UX 대학원"],
+    "industryTrends": [
+      "정신건강·웰빙에 대한 사회적 관심 증가",
+      "기업 내 멘탈헬스 프로그램 확대",
+      "디지털 치료제(DTx) 등 헬스케어 결합",
+      "AI 시대 인간 행동 이해의 가치 부상"
+    ],
+    "outlook": { "direction": "GROWING", "summary": "정신건강 수요와 사용자 경험의 가치가 높아지면서 심리학자의 활동 영역이 빠르게 확장되는 중입니다." },
+    "industryKeywords": ["멘탈 헬스", "디지털 치료제", "UX 리서치", "조직심리", "EAP"],
+    "activities": [
+      { "type": "CLUB", "title": "또래 상담·심리 동아리", "description": "또래 상담 훈련을 받고 교내에서 활동합니다." },
+      { "type": "VOLUNTEER", "title": "청소년상담복지센터 봉사", "description": "전화·온라인 상담 보조 봉사로 현장을 경험합니다." },
+      { "type": "PROJECT", "title": "관심 주제 설문 조사", "description": "친구 관계·스트레스 등 주제로 작은 설문을 실시·분석합니다." },
+      { "type": "READING", "title": "심리학 입문서 읽기", "description": "심리학 베스트셀러로 학문에 흥미를 붙입니다." }
+    ],
+    "books": [
+      { "title": "심리학을 만나 행복해졌다", "author": "장원호", "summary": "심리학 전 분야를 친절하게 안내하는 입문서." },
+      { "title": "마음의 작동법", "author": "에드워드 데시", "summary": "동기와 자기결정 이론의 고전." },
+      { "title": "생각에 관한 생각", "author": "대니얼 카너먼", "summary": "행동경제학과 인지심리의 명저." }
+    ]
+  },
+
+  "sociology": {
+    "careers": [
+      { "name": "정책 연구원", "averageSalary": 5800, "summary": "복지·노동·교육 등 사회 정책을 연구합니다." },
+      { "name": "공공/지자체 공무원", "averageSalary": 5300, "summary": "사회조사·복지·여성가족 등 행정 업무를 담당합니다." },
+      { "name": "시장조사·리서치 전문가", "averageSalary": 5800, "summary": "기업·정책의 의사결정을 위한 조사를 수행합니다." },
+      { "name": "기자·언론인", "averageSalary": 5500, "summary": "사회·문화·노동 분야 기사를 씁니다." },
+      { "name": "NGO·시민사회 활동가", "averageSalary": 4500, "summary": "인권·환경·복지 단체에서 활동합니다." },
+      { "name": "데이터 분석가(사회 영역)", "averageSalary": 5800, "summary": "공공·민간의 사회 데이터를 분석합니다." }
+    ],
+    "employmentDistribution": [
+      { "category": "공공/연구소", "ratio": 0.3 },
+      { "category": "언론/미디어", "ratio": 0.18 },
+      { "category": "시장조사/컨설팅", "ratio": 0.2 },
+      { "category": "기업 사무직", "ratio": 0.15 },
+      { "category": "NGO/시민사회", "ratio": 0.07 },
+      { "category": "기타", "ratio": 0.1 }
+    ],
+    "certifications": ["사회조사분석사", "ADsP", "직업상담사"],
+    "gradSchoolOptions": ["사회학 석박사", "정책·복지 대학원", "사회데이터과학 석사"],
+    "industryTrends": [
+      "고령화·1인 가구·인구 절벽 이슈 부상",
+      "데이터 기반 정책 분석의 표준화",
+      "젠더·다양성·소수자 정책 확장",
+      "디지털 플랫폼이 사회 구조에 미치는 영향 연구"
+    ],
+    "outlook": { "direction": "STABLE", "summary": "사회 변화에 따른 정책·연구 수요가 꾸준하며, 데이터 분석을 더하면 진로 폭이 넓어집니다." },
+    "industryKeywords": ["인구 변화", "젠더·다양성", "데이터 정책", "플랫폼 사회", "복지"],
+    "activities": [
+      { "type": "CLUB", "title": "시사·사회 토론 동아리", "description": "주간 사회 이슈로 토론·기고문을 작성합니다." },
+      { "type": "CONTEST", "title": "공공데이터 활용 공모전", "description": "사회 데이터로 문제 해결 아이디어를 제안합니다." },
+      { "type": "VOLUNTEER", "title": "복지관·NGO 봉사", "description": "사회적 약자와 직접 만나며 현장을 이해합니다." },
+      { "type": "READING", "title": "사회·시사 매체 정기 구독", "description": "한겨레21·시사IN 등 매체로 사회 시각을 확장합니다." }
+    ],
+    "books": [
+      { "title": "사회학적 상상력", "author": "C. 라이트 밀스", "summary": "사회학을 시작하기 전 꼭 읽어야 할 고전." },
+      { "title": "아무도 미워하지 않는 자의 죽음", "author": "잉게 숄", "summary": "사회 정의에 대한 깊은 사유를 담은 명저." },
+      { "title": "팩트풀니스", "author": "한스 로슬링", "summary": "데이터로 세상을 정확하게 보는 시야를 길러줍니다." }
+    ]
+  },
+
+  "education": {
+    "careers": [
+      { "name": "교육 연구원", "averageSalary": 5500, "summary": "한국교육개발원·시도교육청 등에서 교육 정책을 연구합니다." },
+      { "name": "공교육 행정직", "averageSalary": 5000, "summary": "교육부·교육청에서 교육 행정 업무를 담당합니다." },
+      { "name": "에듀테크 PM/기획자", "averageSalary": 6500, "summary": "에듀테크 스타트업에서 학습 서비스를 기획합니다." },
+      { "name": "평생교육사·HRD 전문가", "averageSalary": 5500, "summary": "기업·기관의 교육 프로그램을 설계·운영합니다." },
+      { "name": "교육 콘텐츠 기획자", "averageSalary": 5500, "summary": "출판·미디어에서 학습 콘텐츠를 기획합니다." },
+      { "name": "학원/입시 컨설팅", "averageSalary": 6000, "summary": "사교육 시장에서 강의·컨설팅을 담당합니다." }
+    ],
+    "employmentDistribution": [
+      { "category": "공공/교육 행정", "ratio": 0.28 },
+      { "category": "에듀테크/IT", "ratio": 0.2 },
+      { "category": "사교육/출판", "ratio": 0.22 },
+      { "category": "기업 HRD/교육", "ratio": 0.13 },
+      { "category": "연구소/대학", "ratio": 0.12 },
+      { "category": "기타", "ratio": 0.05 }
+    ],
+    "certifications": ["평생교육사 2·3급", "직업상담사", "ADsP"],
+    "gradSchoolOptions": ["교육학 석박사", "교육공학·HRD 석사", "교육행정 대학원"],
+    "industryTrends": [
+      "학령인구 감소에 따른 학교 구조 변화",
+      "에듀테크·AI 튜터링 시장 성장",
+      "평생교육·재교육 수요 확대",
+      "맞춤형 학습·역량 중심 교육 전환"
+    ],
+    "outlook": { "direction": "TRANSFORMING", "summary": "전통 학교 일자리는 정체되지만 에듀테크·평생교육·HRD 등 새로운 영역이 빠르게 성장하고 있습니다." },
+    "industryKeywords": ["AI 튜터링", "에듀테크", "평생교육", "역량 중심 교육", "맞춤 학습"],
+    "activities": [
+      { "type": "VOLUNTEER", "title": "지역아동센터 학습 멘토링", "description": "어린 학생들의 학습을 돕는 멘토 봉사에 참여합니다." },
+      { "type": "CLUB", "title": "학습법·교육 토론 동아리", "description": "효과적인 학습법·교육 트렌드를 토론합니다." },
+      { "type": "PROJECT", "title": "관심 주제 강의 만들기", "description": "친구들에게 한 시간짜리 강의를 직접 기획·진행합니다." },
+      { "type": "READING", "title": "교육 매체·뉴스레터 구독", "description": "에듀테크·교육 정책 매체를 정기 구독합니다." }
+    ],
+    "books": [
+      { "title": "그릿", "author": "앤절라 더크워스", "summary": "교육·학습에 대한 통찰을 주는 베스트셀러." },
+      { "title": "수업이 바뀌면 학교가 바뀐다", "author": "사토 마나부", "summary": "수업 혁신의 방향을 제시한 책." },
+      { "title": "에밀", "author": "장 자크 루소", "summary": "교육학의 출발점이 된 고전 중의 고전." }
+    ]
+  },
+
+  "korean-language-edu": {
+    "careers": [
+      { "name": "중·고등학교 국어 교사", "averageSalary": 5200, "summary": "임용시험에 합격해 공립학교에서 수업합니다." },
+      { "name": "사립학교/대안학교 교사", "averageSalary": 4800, "summary": "사립·대안학교에서 국어 수업을 담당합니다." },
+      { "name": "국어 교과 출판 기획자", "averageSalary": 5000, "summary": "교과서·문제집·학습지를 기획·제작합니다." },
+      { "name": "국어/논술 강사", "averageSalary": 5500, "summary": "사교육 시장에서 국어·논술을 강의합니다." },
+      { "name": "한국어 교원(외국인 대상)", "averageSalary": 4800, "summary": "세종학당·국내외 기관에서 한국어를 가르칩니다." },
+      { "name": "교육 콘텐츠 기획자", "averageSalary": 5500, "summary": "에듀테크·미디어에서 국어 콘텐츠를 만듭니다." }
+    ],
+    "employmentDistribution": [
+      { "category": "공교육 교사", "ratio": 0.4 },
+      { "category": "사교육/출판", "ratio": 0.28 },
+      { "category": "한국어 교원", "ratio": 0.12 },
+      { "category": "에듀테크", "ratio": 0.1 },
+      { "category": "기타", "ratio": 0.1 }
+    ],
+    "certifications": ["중등 2급 정교사", "한국어교원 자격(2·3급)", "독서지도사"],
+    "gradSchoolOptions": ["국어교육 석박사", "한국어교육 석사", "교육대학원"],
+    "industryTrends": [
+      "학령인구 감소로 임용 경쟁 심화",
+      "한류·K-콘텐츠로 한국어 학습 수요 증가",
+      "AI 튜터·에듀테크 활용 수업 일반화",
+      "독서·논술·미디어 리터러시 중요성 강조"
+    ],
+    "outlook": { "direction": "TRANSFORMING", "summary": "공교육 임용은 좁아지지만, 한국어 세계화·에듀테크 등 새로운 영역이 활발히 열리고 있습니다." },
+    "industryKeywords": ["한국어 세계화", "AI 튜터", "에듀테크", "미디어 리터러시", "독서교육"],
+    "activities": [
+      { "type": "VOLUNTEER", "title": "지역아동센터 독서·작문 멘토", "description": "후배들에게 글쓰기·독서를 가르치며 교육 경험을 쌓습니다." },
+      { "type": "CLUB", "title": "교내 문학·독서 동아리", "description": "친구들과 작품을 읽고 토론·비평합니다." },
+      { "type": "PROJECT", "title": "교내 글쓰기 워크숍 기획", "description": "직접 글쓰기 모임을 기획하고 진행해봅니다." },
+      { "type": "READING", "title": "한국 문학 정전 50권 챌린지", "description": "교과 외 한국 문학 작품을 꾸준히 읽어둡니다." }
+    ],
+    "books": [
+      { "title": "교사도 학교가 두렵다", "author": "엄기호", "summary": "교사라는 직업의 현실에 대한 솔직한 책." },
+      { "title": "국어실력이 밥 먹여준다", "author": "김경원·김철호", "summary": "국어 교사 지망생을 위한 친절한 안내서." },
+      { "title": "토지", "author": "박경리", "summary": "한국 문학 교사의 토대가 되는 대하소설." }
+    ]
+  },
+
+  "english-language-lit": {
+    "careers": [
+      { "name": "통·번역가", "averageSalary": 5500, "summary": "기업·정부·미디어의 통번역 업무를 담당합니다." },
+      { "name": "외국계 기업 사무직", "averageSalary": 6000, "summary": "외국계 기업의 영업·기획·마케팅 업무를 합니다." },
+      { "name": "글로벌 콘텐츠 기획자", "averageSalary": 5800, "summary": "해외 진출 콘텐츠·마케팅을 기획합니다." },
+      { "name": "영어 교사/강사", "averageSalary": 5200, "summary": "공교육·사교육에서 영어를 가르칩니다." },
+      { "name": "외교부/국제기구 직원", "averageSalary": 6500, "summary": "외교부·국제기구에서 행정·정책 업무를 합니다." },
+      { "name": "출판·언론 에디터", "averageSalary": 5000, "summary": "외서 기획·번역 출판·국제 부문 기자 등으로 활동합니다." }
+    ],
+    "employmentDistribution": [
+      { "category": "외국계 기업", "ratio": 0.25 },
+      { "category": "콘텐츠/미디어", "ratio": 0.18 },
+      { "category": "교육", "ratio": 0.18 },
+      { "category": "공공/외교", "ratio": 0.12 },
+      { "category": "통번역/출판", "ratio": 0.15 },
+      { "category": "기타", "ratio": 0.12 }
+    ],
+    "certifications": ["TESOL", "영어 통번역사", "교사 자격(교직 이수 시)"],
+    "gradSchoolOptions": ["영문학 석박사", "통번역대학원(GSIT)", "TESOL/응용언어학 석사"],
+    "industryTrends": [
+      "기계 번역·AI 통역의 빠른 발전",
+      "K-콘텐츠 글로벌 진출에 따른 번역·자막 수요",
+      "영어 + 데이터·기술의 융합 인재 가치 상승",
+      "글로벌 원격 근무 확대로 영어 활용 직무 다양화"
+    ],
+    "outlook": { "direction": "TRANSFORMING", "summary": "단순 번역·강의 시장은 AI에 영향을 받지만, 콘텐츠·외교·글로벌 비즈니스 영역은 오히려 기회가 늘고 있습니다." },
+    "industryKeywords": ["기계번역", "K-콘텐츠", "글로벌 비즈니스", "원격 근무", "TESOL"],
+    "activities": [
+      { "type": "CLUB", "title": "영자신문·디베이트 동아리", "description": "영어 기사 작성·토론으로 실력을 다집니다." },
+      { "type": "CONTEST", "title": "전국 영어 디베이트·에세이 대회", "description": "영어로 의사소통하는 경험을 쌓습니다." },
+      { "type": "PROJECT", "title": "영문 블로그·번역 프로젝트", "description": "관심 콘텐츠를 영어로 옮기고 공유합니다." },
+      { "type": "READING", "title": "영문 단편·뉴스 정기 읽기", "description": "The Atlantic·Economist 등으로 깊이 있는 영어를 만납니다." }
+    ],
+    "books": [
+      { "title": "이기적 유전자", "author": "리처드 도킨스", "summary": "영문판으로 도전해볼 수 있는 명저." },
+      { "title": "이방인", "author": "알베르 카뮈", "summary": "영문 번역본도 쉽게 구할 수 있는 고전 단편." },
+      { "title": "Pride and Prejudice", "author": "Jane Austen", "summary": "영문학 입문에 좋은 고전 소설." }
+    ]
+  },
+
+  "korean-language-lit": {
+    "careers": [
+      { "name": "출판 편집자", "averageSalary": 4800, "summary": "단행본·문학 출판물을 기획·편집합니다." },
+      { "name": "콘텐츠 작가/카피라이터", "averageSalary": 5200, "summary": "방송·웹·광고용 글을 기획·작성합니다." },
+      { "name": "기자·언론인", "averageSalary": 5500, "summary": "신문·방송·디지털 매체에서 기사를 씁니다." },
+      { "name": "드라마/웹툰 스토리 작가", "averageSalary": 5500, "summary": "OTT·웹툰 플랫폼의 시나리오를 씁니다." },
+      { "name": "마케팅·브랜드 콘텐츠 기획자", "averageSalary": 5500, "summary": "기업의 브랜드 콘텐츠와 카피를 만듭니다." },
+      { "name": "국어 강사·논술 지도", "averageSalary": 5500, "summary": "사교육 시장에서 국어·논술을 강의합니다." }
+    ],
+    "employmentDistribution": [
+      { "category": "출판/언론", "ratio": 0.3 },
+      { "category": "콘텐츠/미디어", "ratio": 0.25 },
+      { "category": "마케팅/브랜드", "ratio": 0.18 },
+      { "category": "교육", "ratio": 0.15 },
+      { "category": "공공/문화재단", "ratio": 0.07 },
+      { "category": "기타", "ratio": 0.05 }
+    ],
+    "certifications": ["한국어교원 자격", "교사 자격(교직 이수 시)", "독서지도사"],
+    "gradSchoolOptions": ["국문학 석박사", "문예창작 대학원", "콘텐츠·미디어 석사"],
+    "industryTrends": [
+      "K-콘텐츠 글로벌 흥행으로 스토리텔링 가치 부상",
+      "OTT·웹툰·웹소설 IP 비즈니스 확장",
+      "AI 시대 인간만의 글쓰기·기획 역량 강조",
+      "출판 시장은 정체, 디지털 콘텐츠는 성장"
+    ],
+    "outlook": { "direction": "STABLE", "summary": "전통 출판은 정체되었지만 IP·콘텐츠 산업으로 글쓰기 인재의 활동 영역이 넓어지고 있습니다." },
+    "industryKeywords": ["K-콘텐츠", "OTT", "웹툰·웹소설", "스토리텔링", "IP 비즈니스"],
+    "activities": [
+      { "type": "CLUB", "title": "교내 문학·창작 동아리", "description": "시·소설·에세이를 함께 쓰고 합평합니다." },
+      { "type": "CONTEST", "title": "전국 청소년 문학상", "description": "문학상에 자작 작품을 출품해봅니다." },
+      { "type": "PROJECT", "title": "교내 문집/뉴스레터 운영", "description": "동아리 친구들과 함께 작은 매체를 만들어 봅니다." },
+      { "type": "READING", "title": "한국 현대문학 50선 읽기", "description": "교과 외 작품으로 시야를 확장합니다." }
+    ],
+    "books": [
+      { "title": "토지", "author": "박경리", "summary": "한국 문학을 대표하는 대하소설." },
+      { "title": "당신이 누군가를 죽였다", "author": "히가시노 게이고", "summary": "스토리텔링의 힘을 느낄 수 있는 추리소설." },
+      { "title": "글쓰기의 최전선", "author": "은유", "summary": "현대 글쓰기의 태도와 자세를 담은 에세이." }
+    ]
+  },
+
+  "history": {
+    "careers": [
+      { "name": "박물관·기록관 학예사", "averageSalary": 4800, "summary": "박물관·기록관에서 유물·기록을 관리·전시합니다." },
+      { "name": "역사 교사·강사", "averageSalary": 5200, "summary": "공교육·사교육에서 역사를 가르칩니다." },
+      { "name": "출판·언론 에디터", "averageSalary": 5000, "summary": "역사·인문 분야 출판·기사를 담당합니다." },
+      { "name": "문화재 행정직", "averageSalary": 5300, "summary": "국가유산청·지자체에서 문화재 행정을 담당합니다." },
+      { "name": "역사 콘텐츠 기획자", "averageSalary": 5500, "summary": "다큐멘터리·게임·웹툰의 역사 콘텐츠를 기획합니다." },
+      { "name": "연구원(국책·민간)", "averageSalary": 5500, "summary": "역사·문화 연구소에서 연구·기획 업무를 담당합니다." }
+    ],
+    "employmentDistribution": [
+      { "category": "교육(공·사교육)", "ratio": 0.3 },
+      { "category": "박물관·문화재", "ratio": 0.22 },
+      { "category": "출판/콘텐츠", "ratio": 0.2 },
+      { "category": "공공/공무원", "ratio": 0.12 },
+      { "category": "연구소", "ratio": 0.1 },
+      { "category": "기타", "ratio": 0.06 }
+    ],
+    "certifications": ["학예사(준학예사·정학예사)", "한국사능력검정시험 1급", "교사 자격(교직 이수 시)"],
+    "gradSchoolOptions": ["사학 석박사", "박물관학·기록관리학 석사", "문화유산학 대학원"],
+    "industryTrends": [
+      "K-콘텐츠로 한국사 기반 IP 수요 증가",
+      "디지털 헤리티지·VR 박물관 등장",
+      "지방 박물관·기록관 인력 채용 지속",
+      "역사 교양에 대한 사회적 관심 확대"
+    ],
+    "outlook": { "direction": "STABLE", "summary": "공공 분야 일자리는 한정적이지만 콘텐츠·디지털 헤리티지 분야의 새로운 기회가 열리고 있습니다." },
+    "industryKeywords": ["디지털 헤리티지", "K-콘텐츠", "박물관 DX", "지역 문화재", "기록관리"],
+    "activities": [
+      { "type": "CLUB", "title": "역사 답사·탐구 동아리", "description": "유적지를 답사하고 역사 사료를 함께 읽습니다." },
+      { "type": "VOLUNTEER", "title": "박물관·문화재 도슨트 봉사", "description": "지역 박물관에서 안내 봉사로 현장을 경험합니다." },
+      { "type": "PROJECT", "title": "지역사 자유 탐구", "description": "내가 사는 지역의 역사를 직접 조사·정리합니다." },
+      { "type": "READING", "title": "한국사·세계사 책 꾸준히 읽기", "description": "한 분기에 한 권씩 정리해 독서록을 남깁니다." }
+    ],
+    "books": [
+      { "title": "역사란 무엇인가", "author": "E. H. 카", "summary": "역사학을 시작하기 전 꼭 읽어야 할 고전." },
+      { "title": "총, 균, 쇠", "author": "재레드 다이아몬드", "summary": "거시 역사학의 명저." },
+      { "title": "한국사신론", "author": "이기백", "summary": "한국사 입문의 표준이 된 책." }
+    ]
+  },
+
+  "philosophy": {
+    "careers": [
+      { "name": "출판 편집자", "averageSalary": 4800, "summary": "인문·교양서적을 기획·편집합니다." },
+      { "name": "기자·논설위원", "averageSalary": 5500, "summary": "사회 이슈를 깊이 있게 분석하는 글을 씁니다." },
+      { "name": "교육 콘텐츠 기획자", "averageSalary": 5500, "summary": "철학·인문 강의·도서 콘텐츠를 기획합니다." },
+      { "name": "AI 윤리 전문가", "averageSalary": 7000, "summary": "기업·기관에서 AI 윤리 정책을 자문합니다." },
+      { "name": "정책·싱크탱크 연구원", "averageSalary": 5800, "summary": "정책 연구소에서 가치·윤리 영역을 분석합니다." },
+      { "name": "기획·전략 컨설턴트", "averageSalary": 7500, "summary": "프레임워크 기반의 사고력으로 컨설팅에 진출합니다." }
+    ],
+    "employmentDistribution": [
+      { "category": "출판/언론", "ratio": 0.3 },
+      { "category": "교육", "ratio": 0.2 },
+      { "category": "기업 기획/컨설팅", "ratio": 0.18 },
+      { "category": "공공/연구소", "ratio": 0.12 },
+      { "category": "AI/테크 윤리", "ratio": 0.1 },
+      { "category": "기타", "ratio": 0.1 }
+    ],
+    "certifications": ["교사 자격(교직 이수 시)", "독서지도사", "ADsP"],
+    "gradSchoolOptions": ["철학 석박사", "응용윤리·과학기술학 석사", "법학전문대학원"],
+    "industryTrends": [
+      "AI·생명윤리 등 응용 윤리 수요 급증",
+      "기업·정부의 ESG·윤리 규범 강화",
+      "철학 교양 콘텐츠(유튜브·강의) 확산",
+      "디지털 시대의 인간·자유 담론 부상"
+    ],
+    "outlook": { "direction": "STABLE", "summary": "전통적 일자리는 한정적이지만 AI·기업윤리 영역에서 철학 전공자의 가치가 새롭게 발견되고 있습니다." },
+    "industryKeywords": ["AI 윤리", "응용윤리", "ESG", "디지털 인문학", "콘텐츠 큐레이션"],
+    "activities": [
+      { "type": "CLUB", "title": "교내 인문학 토론 동아리", "description": "고전을 함께 읽고 자유롭게 토론합니다." },
+      { "type": "PROJECT", "title": "철학 에세이 쓰기 챌린지", "description": "한 학기에 4편의 자유 주제 에세이를 씁니다." },
+      { "type": "VOLUNTEER", "title": "지역 인문학 강좌 보조", "description": "도서관·문화재단의 인문 강좌 운영을 돕습니다." },
+      { "type": "READING", "title": "철학 고전 한 권 정독", "description": "1년에 한 권 고전을 끝까지 읽고 정리합니다." }
+    ],
+    "books": [
+      { "title": "소피의 세계", "author": "요슈타인 가아더", "summary": "서양 철학사를 소설로 풀어낸 입문 명저." },
+      { "title": "정의란 무엇인가", "author": "마이클 샌델", "summary": "철학과 사회를 잇는 베스트셀러." },
+      { "title": "이성의 한계 안에서의 종교", "author": "이마누엘 칸트", "summary": "도전해볼 만한 철학 고전." }
+    ]
+  },
+
+  "biology": {
+    "careers": [
+      { "name": "바이오 R&D 연구원", "averageSalary": 5500, "summary": "제약·바이오 회사에서 신약·진단 기술을 연구합니다." },
+      { "name": "유전체·바이오 정보학자", "averageSalary": 6500, "summary": "유전체 데이터를 분석해 의학 연구를 지원합니다." },
+      { "name": "임상 시험 전문가(CRA)", "averageSalary": 5800, "summary": "신약 임상시험의 모니터링을 담당합니다." },
+      { "name": "환경·생태 연구원", "averageSalary": 5000, "summary": "환경부·국립공원·연구소에서 생태 연구를 수행합니다." },
+      { "name": "식약처/공공기관 연구직", "averageSalary": 5500, "summary": "공공 연구기관에서 보건·식품 정책을 지원합니다." },
+      { "name": "과학 커뮤니케이터/콘텐츠", "averageSalary": 5000, "summary": "과학 매체에서 콘텐츠를 기획·전달합니다." }
+    ],
+    "employmentDistribution": [
+      { "category": "제약/바이오", "ratio": 0.4 },
+      { "category": "대학·연구소", "ratio": 0.22 },
+      { "category": "공공/식약처", "ratio": 0.13 },
+      { "category": "병원·진단", "ratio": 0.1 },
+      { "category": "환경/생태", "ratio": 0.08 },
+      { "category": "기타", "ratio": 0.07 }
+    ],
+    "certifications": ["생물공학기사", "위험물산업기사", "ADsP"],
+    "gradSchoolOptions": ["국내 생명과학 석박사", "의생명·바이오정보 대학원", "해외 PhD"],
+    "industryTrends": [
+      "유전자·세포치료제 등 바이오 신기술 부상",
+      "AI + 바이오의 융합 연구 활발",
+      "감염병 대응을 위한 백신·진단 연구 지속",
+      "기후·생태계 변화에 따른 환경 연구 수요"
+    ],
+    "outlook": { "direction": "GROWING", "summary": "한국 바이오 산업이 성장하면서 R&D 인력 수요가 꾸준히 늘고 있으며 데이터 분석 역량이 더욱 중요해지고 있습니다." },
+    "industryKeywords": ["유전자치료", "바이오 정보학", "세포치료", "백신", "기후·생태"],
+    "activities": [
+      { "type": "CLUB", "title": "생명과학 탐구 동아리", "description": "현미경 관찰·실험으로 생명과학에 흥미를 키웁니다." },
+      { "type": "CONTEST", "title": "한국생물올림피아드", "description": "전국 학생 대상 생물 경시에 도전합니다." },
+      { "type": "PROJECT", "title": "교내 생태 관찰 프로젝트", "description": "주변 식물·동물·미생물을 관찰·기록합니다." },
+      { "type": "READING", "title": "Nature/Cell 한국 매체 읽기", "description": "최신 연구 동향을 꾸준히 따라갑니다." }
+    ],
+    "books": [
+      { "title": "이기적 유전자", "author": "리처드 도킨스", "summary": "생명과학을 보는 시야를 길러주는 명저." },
+      { "title": "사피엔스", "author": "유발 하라리", "summary": "생물학적 인류사를 거시적으로 다룬 책." },
+      { "title": "코스모스", "author": "칼 세이건", "summary": "과학의 경이로움을 느끼게 해주는 고전." }
+    ]
+  },
+
+  "chemistry": {
+    "careers": [
+      { "name": "화학 R&D 연구원", "averageSalary": 5800, "summary": "화학·소재 기업에서 신소재·촉매를 연구합니다." },
+      { "name": "분석화학 전문가", "averageSalary": 5500, "summary": "기기 분석으로 품질·환경·보건 데이터를 다룹니다." },
+      { "name": "신약·바이오 연구원", "averageSalary": 6000, "summary": "제약회사에서 신약 후보물질을 합성·평가합니다." },
+      { "name": "화장품/식품 R&D", "averageSalary": 5200, "summary": "기능성 화장품·식품의 원료를 연구합니다." },
+      { "name": "환경·안전 전문가", "averageSalary": 5300, "summary": "공정 안전·환경 영향을 평가·관리합니다." },
+      { "name": "특허·기술 컨설턴트", "averageSalary": 6500, "summary": "화학 기술 특허·라이선싱을 담당합니다." }
+    ],
+    "employmentDistribution": [
+      { "category": "화학/소재", "ratio": 0.32 },
+      { "category": "제약/바이오", "ratio": 0.22 },
+      { "category": "환경/공공", "ratio": 0.13 },
+      { "category": "화장품/식품", "ratio": 0.13 },
+      { "category": "특허/컨설팅", "ratio": 0.1 },
+      { "category": "기타", "ratio": 0.1 }
+    ],
+    "certifications": ["화학분석기사", "위험물산업기사", "환경기사"],
+    "gradSchoolOptions": ["화학 석박사", "신소재공학 석사", "특허·과학기술학 대학원"],
+    "industryTrends": [
+      "이차전지·반도체 소재 국산화 정책",
+      "그린케미스트리·친환경 공정 강조",
+      "AI 신물질 탐색(MI) 활발",
+      "정밀화학·바이오 융합 연구 확대"
+    ],
+    "outlook": { "direction": "STABLE", "summary": "전통 화학 산업은 안정적이며, 배터리·반도체 소재·바이오 융합 분야에서 새로운 수요가 늘고 있습니다." },
+    "industryKeywords": ["배터리 소재", "그린케미스트리", "AI 신물질", "정밀화학", "촉매"],
+    "activities": [
+      { "type": "CLUB", "title": "화학 실험·탐구 동아리", "description": "교내 실험실에서 안전하게 실험을 수행합니다." },
+      { "type": "CONTEST", "title": "한국화학경시대회", "description": "화학 경시에 도전해 학문적 깊이를 점검합니다." },
+      { "type": "PROJECT", "title": "주변 물질 분석 프로젝트", "description": "관심 주제로 작은 분석 보고서를 작성합니다." },
+      { "type": "READING", "title": "과학 매체 정기 구독", "description": "Newton·과학동아 등으로 최신 연구를 접합니다." }
+    ],
+    "books": [
+      { "title": "역사를 바꾼 17가지 화학 이야기", "author": "페니 르 쿠퍼", "summary": "화학과 역사를 함께 즐기는 책." },
+      { "title": "기억의 비밀", "author": "에릭 캔델", "summary": "분자 수준의 신경과학 이야기." },
+      { "title": "코스모스", "author": "칼 세이건", "summary": "과학적 사유의 즐거움을 알려주는 고전." }
+    ]
+  },
+
+  "mathematics": {
+    "careers": [
+      { "name": "데이터 사이언티스트", "averageSalary": 7500, "summary": "통계·머신러닝으로 데이터의 가치를 끌어냅니다." },
+      { "name": "퀀트(금융 수학)", "averageSalary": 9000, "summary": "투자은행·헤지펀드에서 수학 모델을 만듭니다." },
+      { "name": "보험 계리사(액추어리)", "averageSalary": 8500, "summary": "보험·연금의 위험과 가격을 수학적으로 평가합니다." },
+      { "name": "AI 리서처", "averageSalary": 8500, "summary": "수학·통계 기반으로 AI 알고리즘을 연구합니다." },
+      { "name": "수학 교사·강사", "averageSalary": 5200, "summary": "공교육·사교육에서 수학을 가르칩니다." },
+      { "name": "공공/연구소 수리과학자", "averageSalary": 6500, "summary": "정부·국책 연구소에서 수리·통계 연구를 수행합니다." }
+    ],
+    "employmentDistribution": [
+      { "category": "IT/데이터", "ratio": 0.3 },
+      { "category": "금융/보험", "ratio": 0.25 },
+      { "category": "교육", "ratio": 0.2 },
+      { "category": "연구소", "ratio": 0.13 },
+      { "category": "공공", "ratio": 0.07 },
+      { "category": "기타", "ratio": 0.05 }
+    ],
+    "certifications": ["보험계리사", "투자자산운용사", "ADsP/ADP"],
+    "gradSchoolOptions": ["수학 석박사", "응용수학·통계 석사", "AI/데이터 사이언스 대학원"],
+    "industryTrends": [
+      "AI·머신러닝의 수학적 토대 수요 증가",
+      "퀀트 트레이딩·핀테크 시장 성장",
+      "보험·연금 수리 인력 수요 안정",
+      "암호학·블록체인 등 응용 분야 부상"
+    ],
+    "outlook": { "direction": "GROWING", "summary": "AI·금융·데이터 시대에 가장 중요한 학문 중 하나로 자리잡으면서 진로 폭이 매우 넓어졌습니다." },
+    "industryKeywords": ["AI 수학", "퀀트", "보험계리", "암호학", "데이터 사이언스"],
+    "activities": [
+      { "type": "CLUB", "title": "수학 탐구 동아리", "description": "올림피아드 문제·심화 주제를 함께 탐구합니다." },
+      { "type": "CONTEST", "title": "한국수학올림피아드(KMO)", "description": "전국 학생 대상 수학 경시에 도전합니다." },
+      { "type": "PROJECT", "title": "수학 자유 탐구", "description": "관심 주제(예: 암호·확률 게임)로 자유 탐구를 합니다." },
+      { "type": "READING", "title": "수학 교양서 정기 읽기", "description": "수학 베스트셀러로 시야를 넓힙니다." }
+    ],
+    "books": [
+      { "title": "페르마의 마지막 정리", "author": "사이먼 싱", "summary": "수학자의 매력을 담은 명저." },
+      { "title": "수학의 함정", "author": "박형주", "summary": "수학의 응용과 한계를 보여주는 책." },
+      { "title": "괴델, 에셔, 바흐", "author": "더글러스 호프스태터", "summary": "수학·논리·예술의 경계를 넘나드는 고전." }
+    ]
+  },
+
+  "physics": {
+    "careers": [
+      { "name": "반도체 R&D", "averageSalary": 6800, "summary": "반도체 소자·공정의 물리를 연구합니다." },
+      { "name": "기초과학 연구원", "averageSalary": 6500, "summary": "국가핵융합연·KIST·기초과학연 등에서 연구합니다." },
+      { "name": "AI 리서처", "averageSalary": 8500, "summary": "물리적 사고를 기반으로 AI 알고리즘을 연구합니다." },
+      { "name": "데이터 사이언티스트", "averageSalary": 7500, "summary": "물리 모델링 경험을 살려 데이터 직무로 진출합니다." },
+      { "name": "퀀트(금융 물리)", "averageSalary": 9000, "summary": "금융 시장 모델링·트레이딩을 담당합니다." },
+      { "name": "물리 교사·과학 콘텐츠", "averageSalary": 5200, "summary": "공교육·과학 콘텐츠 분야에서 활동합니다." }
+    ],
+    "employmentDistribution": [
+      { "category": "반도체/디스플레이", "ratio": 0.3 },
+      { "category": "연구소/대학", "ratio": 0.22 },
+      { "category": "IT/AI", "ratio": 0.18 },
+      { "category": "금융", "ratio": 0.1 },
+      { "category": "교육", "ratio": 0.13 },
+      { "category": "기타", "ratio": 0.07 }
+    ],
+    "certifications": ["원자력기사", "방사선관리기술사", "ADsP"],
+    "gradSchoolOptions": ["물리학 석박사", "응용물리·반도체 대학원", "해외 PhD"],
+    "industryTrends": [
+      "양자컴퓨팅·양자통신 등 양자 기술 부상",
+      "반도체 미세 공정의 물리적 한계 도전",
+      "AI 기반 물리 시뮬레이션 활용",
+      "핵융합·재생에너지 연구 가속"
+    ],
+    "outlook": { "direction": "STABLE", "summary": "기초연구 일자리는 한정적이지만 반도체·AI·금융 등 응용 분야에서 물리 전공자의 강점이 빛납니다." },
+    "industryKeywords": ["양자컴퓨팅", "반도체 물리", "핵융합", "AI 시뮬레이션", "광자공학"],
+    "activities": [
+      { "type": "CLUB", "title": "과학 탐구·천체관측 동아리", "description": "관측·실험으로 물리에 흥미를 붙입니다." },
+      { "type": "CONTEST", "title": "한국물리올림피아드(KPhO)", "description": "전국 물리 경시에 도전해 깊이를 다집니다." },
+      { "type": "PROJECT", "title": "물리 자유 탐구", "description": "관심 주제(예: 음향·광학)로 자유 탐구 보고서를 씁니다." },
+      { "type": "READING", "title": "과학 잡지·물리 책 정기 읽기", "description": "Newton·물리 교양서로 호기심을 키웁니다." }
+    ],
+    "books": [
+      { "title": "물리학 클래식", "author": "이종필", "summary": "고등학생도 즐길 수 있는 물리 입문서." },
+      { "title": "엔드 오브 타임", "author": "브라이언 그린", "summary": "현대 물리학을 종합하는 명저." },
+      { "title": "코스모스", "author": "칼 세이건", "summary": "과학의 매력을 알려주는 고전." }
+    ]
+  },
+
+  "design": {
+    "careers": [
+      { "name": "UX/프로덕트 디자이너", "averageSalary": 6500, "summary": "디지털 제품의 사용자 경험을 설계합니다." },
+      { "name": "그래픽/브랜드 디자이너", "averageSalary": 5500, "summary": "브랜드·캠페인의 시각 자산을 만듭니다." },
+      { "name": "산업 디자이너", "averageSalary": 5800, "summary": "제품의 형태·구조·UX를 설계합니다." },
+      { "name": "모션·그래픽 디자이너", "averageSalary": 5500, "summary": "영상·인터랙션의 모션을 디자인합니다." },
+      { "name": "패션·텍스타일 디자이너", "averageSalary": 5000, "summary": "패션·소재 분야 디자인을 담당합니다." },
+      { "name": "디자인 디렉터/창업", "averageSalary": 7500, "summary": "팀을 이끌거나 자기 스튜디오를 운영합니다." }
+    ],
+    "employmentDistribution": [
+      { "category": "IT/디지털 프로덕트", "ratio": 0.32 },
+      { "category": "광고/브랜드", "ratio": 0.2 },
+      { "category": "제조/산업디자인", "ratio": 0.15 },
+      { "category": "패션/콘텐츠", "ratio": 0.15 },
+      { "category": "스타트업/스튜디오", "ratio": 0.12 },
+      { "category": "기타", "ratio": 0.06 }
+    ],
+    "certifications": ["GTQ(그래픽기술자격)", "컬러리스트", "웹디자인기능사"],
+    "gradSchoolOptions": ["디자인 석사(국내·해외)", "UX·인터랙션 대학원", "예술 경영 석사"],
+    "industryTrends": [
+      "AI 디자인 툴(이미지·UI)의 빠른 도입",
+      "프로덕트 디자인의 비즈니스 영향력 확대",
+      "콘텐츠 IP·브랜드 디자인 시장 성장",
+      "지속가능 디자인·서비스 디자인 부상"
+    ],
+    "outlook": { "direction": "GROWING", "summary": "디지털 프로덕트·콘텐츠 산업이 커지면서 디자이너의 활동 범위와 영향력이 빠르게 확장되고 있습니다." },
+    "industryKeywords": ["UX", "AI 디자인", "프로덕트", "브랜드 IP", "지속가능 디자인"],
+    "activities": [
+      { "type": "CLUB", "title": "디자인·드로잉 동아리", "description": "정기적인 작품 활동과 합평을 진행합니다." },
+      { "type": "CONTEST", "title": "전국 청소년 디자인 공모전", "description": "아이디어와 작품을 외부에 공유해봅니다." },
+      { "type": "PROJECT", "title": "포트폴리오 1년 챌린지", "description": "월 1작품을 목표로 1년 포트폴리오를 만들어봅니다." },
+      { "type": "READING", "title": "디자인 매체·뉴스레터 구독", "description": "월간 CA·디자인하우스 등 매체를 정기 구독합니다." }
+    ],
+    "books": [
+      { "title": "디자이너의 일상과 실천", "author": "권준호 외", "summary": "현직 디자이너들의 솔직한 일 이야기." },
+      { "title": "디자인 너머의 디자인", "author": "이재용", "summary": "디자인 사고의 본질을 다룬 책." },
+      { "title": "심플은 정답이 아니다", "author": "켄 시걸", "summary": "프로덕트 디자인의 본질에 대한 통찰." }
+    ]
+  },
+
+  "media-communication": {
+    "careers": [
+      { "name": "방송 PD/기자", "averageSalary": 5800, "summary": "방송사에서 콘텐츠 기획·제작·취재를 합니다." },
+      { "name": "디지털 콘텐츠 PD", "averageSalary": 5500, "summary": "유튜브·OTT용 콘텐츠를 기획·제작합니다." },
+      { "name": "광고 AE/기획자", "averageSalary": 5500, "summary": "광고 캠페인을 기획·운영합니다." },
+      { "name": "PR·홍보 매니저", "averageSalary": 5800, "summary": "기업·기관의 대외 커뮤니케이션을 담당합니다." },
+      { "name": "디지털 마케터", "averageSalary": 6000, "summary": "퍼포먼스·콘텐츠 마케팅을 담당합니다." },
+      { "name": "콘텐츠 IP 기획자", "averageSalary": 6500, "summary": "OTT·웹툰·웹소설 IP의 기획·제작을 담당합니다." }
+    ],
+    "employmentDistribution": [
+      { "category": "방송/언론", "ratio": 0.22 },
+      { "category": "광고/PR", "ratio": 0.22 },
+      { "category": "디지털 마케팅", "ratio": 0.2 },
+      { "category": "콘텐츠/엔터", "ratio": 0.18 },
+      { "category": "기업 커뮤니케이션", "ratio": 0.12 },
+      { "category": "기타", "ratio": 0.06 }
+    ],
+    "certifications": ["광고기획전문가", "PR 전문가", "GTQ"],
+    "gradSchoolOptions": ["언론학·미디어 석사", "콘텐츠 기획 대학원", "MBA"],
+    "industryTrends": [
+      "OTT·숏폼 중심으로 콘텐츠 산업 재편",
+      "K-콘텐츠의 글로벌 확장",
+      "AI 기반 자동 편집·자막·번역 도입",
+      "전통 매체(신문·방송) 광고 매출 정체"
+    ],
+    "outlook": { "direction": "TRANSFORMING", "summary": "전통 방송·신문은 위축되지만 OTT·디지털 콘텐츠·IP 비즈니스는 빠르게 성장 중입니다." },
+    "industryKeywords": ["OTT", "K-콘텐츠", "숏폼", "AI 편집", "IP 비즈니스"],
+    "activities": [
+      { "type": "CLUB", "title": "방송반·영상 동아리", "description": "교내 방송·영상 제작에 참여하며 미디어 감각을 키웁니다." },
+      { "type": "PROJECT", "title": "유튜브·뉴스레터 운영", "description": "관심 주제로 작은 매체를 직접 운영해봅니다." },
+      { "type": "CONTEST", "title": "전국 청소년 미디어·광고 공모전", "description": "공모전을 통해 외부에 작품을 선보입니다." },
+      { "type": "READING", "title": "미디어·광고 매체 정기 구독", "description": "PDJournal·매드타임스 등으로 산업을 익힙니다." }
+    ],
+    "books": [
+      { "title": "콘텐츠 만드는 마음", "author": "서윤수", "summary": "현직 PD·기획자가 들려주는 콘텐츠 이야기." },
+      { "title": "팩트풀니스", "author": "한스 로슬링", "summary": "사실에 기반한 미디어 사고를 길러줍니다." },
+      { "title": "이상한 정상가족", "author": "김희경", "summary": "사회 이슈를 미디어 시각으로 풀어낸 책." }
+    ]
+  },
+
+  "physical-education": {
+    "careers": [
+      { "name": "체육 교사", "averageSalary": 5200, "summary": "임용시험 합격 후 공립 학교에서 수업합니다." },
+      { "name": "스포츠 트레이너", "averageSalary": 4800, "summary": "프로팀·일반인 대상 운동 지도를 합니다." },
+      { "name": "스포츠 마케터/매니저", "averageSalary": 5500, "summary": "프로구단·스포츠 단체의 마케팅·운영을 담당합니다." },
+      { "name": "스포츠 분석가", "averageSalary": 5500, "summary": "데이터 기반의 경기 분석·스카우팅을 합니다." },
+      { "name": "체육·레저 사업 운영", "averageSalary": 5000, "summary": "피트니스·아웃도어 사업을 기획·운영합니다." },
+      { "name": "공공/지자체 체육직", "averageSalary": 5000, "summary": "체육 진흥·생활체육 행정을 담당합니다." }
+    ],
+    "employmentDistribution": [
+      { "category": "공교육 교사", "ratio": 0.4 },
+      { "category": "스포츠 단체/구단", "ratio": 0.18 },
+      { "category": "피트니스/레저", "ratio": 0.18 },
+      { "category": "공공/지자체", "ratio": 0.13 },
+      { "category": "기타", "ratio": 0.11 }
+    ],
+    "certifications": ["중등 2급 정교사", "생활스포츠지도사", "건강운동관리사", "응급처치 자격"],
+    "gradSchoolOptions": ["체육교육·스포츠과학 석사", "스포츠 매니지먼트 대학원", "물리치료·재활 석사"],
+    "industryTrends": [
+      "생활체육·피트니스 시장 확대",
+      "데이터·AI 기반 스포츠 분석 부상",
+      "노년·재활 운동 수요 증가",
+      "이스포츠·디지털 스포츠의 제도화"
+    ],
+    "outlook": { "direction": "STABLE", "summary": "공교육 임용은 한정적이지만 생활체육·재활·스포츠 산업의 새로운 기회가 늘어나고 있습니다." },
+    "industryKeywords": ["생활체육", "스포츠 분석", "재활 운동", "피트니스", "이스포츠"],
+    "activities": [
+      { "type": "CLUB", "title": "교내 체육 동아리(농구·축구 등)", "description": "팀 활동으로 코칭·리더십 경험을 쌓습니다." },
+      { "type": "VOLUNTEER", "title": "지역 체육 행사 운영 봉사", "description": "지자체 체육 행사 진행을 돕습니다." },
+      { "type": "PROJECT", "title": "교내 운동 프로그램 기획", "description": "친구·후배 대상으로 작은 운동 프로그램을 기획·운영합니다." },
+      { "type": "READING", "title": "스포츠 과학·트레이닝 책 읽기", "description": "운동 생리·심리 책을 꾸준히 읽습니다." }
+    ],
+    "books": [
+      { "title": "스포츠과학자의 일", "author": "여러 저자", "summary": "스포츠 과학자의 진로 사례를 담은 책." },
+      { "title": "그릿", "author": "앤절라 더크워스", "summary": "스포츠인의 성장 마인드셋을 다룬 베스트셀러." },
+      { "title": "달리기를 말할 때 내가 하고 싶은 이야기", "author": "무라카미 하루키", "summary": "운동과 삶에 대한 깊은 에세이." }
+    ]
+  }
+}

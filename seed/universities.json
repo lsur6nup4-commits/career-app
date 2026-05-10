@@ -1,0 +1,23 @@
+[
+  { "id": "snu", "name": "서울대학교", "shortName": "서울대", "region": "서울", "type": "NATIONAL" },
+  { "id": "yonsei", "name": "연세대학교", "shortName": "연세대", "region": "서울", "type": "PRIVATE" },
+  { "id": "korea", "name": "고려대학교", "shortName": "고려대", "region": "서울", "type": "PRIVATE" },
+  { "id": "kaist", "name": "한국과학기술원", "shortName": "KAIST", "region": "대전", "type": "SPECIAL" },
+  { "id": "postech", "name": "포항공과대학교", "shortName": "POSTECH", "region": "경북", "type": "PRIVATE" },
+  { "id": "skku", "name": "성균관대학교", "shortName": "성균관대", "region": "서울", "type": "PRIVATE" },
+  { "id": "hanyang", "name": "한양대학교", "shortName": "한양대", "region": "서울", "type": "PRIVATE" },
+  { "id": "sogang", "name": "서강대학교", "shortName": "서강대", "region": "서울", "type": "PRIVATE" },
+  { "id": "ewha", "name": "이화여자대학교", "shortName": "이화여대", "region": "서울", "type": "PRIVATE" },
+  { "id": "cau", "name": "중앙대학교", "shortName": "중앙대", "region": "서울", "type": "PRIVATE" },
+  { "id": "khu", "name": "경희대학교", "shortName": "경희대", "region": "서울", "type": "PRIVATE" },
+  { "id": "hufs", "name": "한국외국어대학교", "shortName": "한국외대", "region": "서울", "type": "PRIVATE" },
+  { "id": "uos", "name": "서울시립대학교", "shortName": "서울시립대", "region": "서울", "type": "NATIONAL" },
+  { "id": "snue", "name": "건국대학교", "shortName": "건국대", "region": "서울", "type": "PRIVATE" },
+  { "id": "dongguk", "name": "동국대학교", "shortName": "동국대", "region": "서울", "type": "PRIVATE" },
+  { "id": "knu", "name": "경북대학교", "shortName": "경북대", "region": "대구", "type": "NATIONAL" },
+  { "id": "pnu", "name": "부산대학교", "shortName": "부산대", "region": "부산", "type": "NATIONAL" },
+  { "id": "cnu", "name": "충남대학교", "shortName": "충남대", "region": "대전", "type": "NATIONAL" },
+  { "id": "jnu", "name": "전남대학교", "shortName": "전남대", "region": "광주", "type": "NATIONAL" },
+  { "id": "inha", "name": "인하대학교", "shortName": "인하대", "region": "인천", "type": "PRIVATE" },
+  { "id": "hongik", "name": "홍익대학교", "shortName": "홍익대", "region": "서울", "type": "PRIVATE" }
+]
