@@ -3,11 +3,13 @@ import universitiesJson from "@/seed/universities.json";
 import universityMajorsJson from "@/seed/university_majors.json";
 import majorExtrasJson from "@/seed/major_extras.json";
 import courseDescriptionsJson from "@/seed/course_descriptions.json";
+import subjectsJson from "@/seed/subjects.json";
 import type {
   FullMajor,
   Major,
   MajorExtras,
   MajorWithUniversities,
+  Subject,
   University,
   UniversityMajor,
 } from "@/types/major";
@@ -23,9 +25,14 @@ const { _note: _extrasNote, ...extrasMap } = majorExtrasJson as Record<
 >;
 const { _note: _descNote, ...courseDescriptionMap } =
   courseDescriptionsJson as Record<string, string>;
+const { _note: _subjNote, ...subjectsMap } = subjectsJson as Record<
+  string,
+  Subject | string
+>;
 
 void _extrasNote;
 void _descNote;
+void _subjNote;
 
 export function getAllMajors(): Major[] {
   return majors;
@@ -59,18 +66,36 @@ function getCourseDescriptions(curriculum: Major["curriculum"]): Record<string, 
   return result;
 }
 
+function getSubjectsForCurriculum(
+  curriculum: Major["curriculum"],
+): Record<string, Subject> {
+  const result: Record<string, Subject> = {};
+  for (const year of curriculum) {
+    for (const course of year.courses) {
+      const entry = subjectsMap[course];
+      if (entry && typeof entry === "object") {
+        result[course] = entry;
+      }
+    }
+  }
+  return result;
+}
+
+export function getSubjectByName(name: string): Subject | null {
+  const entry = subjectsMap[name];
+  return entry && typeof entry === "object" ? entry : null;
+}
+
 export function getMajorById(id: string): MajorWithUniversities | null {
   const major = majors.find((m) => m.id === id);
   if (!major) return null;
 
   const linked = universityMajors
     .filter((um) => um.majorId === id)
-    .map((um) => {
+    .flatMap<University & { admissionQuota?: number }>((um) => {
       const uni = universities.find((u) => u.id === um.universityId);
-      if (!uni) return null;
-      return { ...uni, admissionQuota: um.admissionQuota };
-    })
-    .filter((u): u is University & { admissionQuota: number } => u !== null);
+      return uni ? [{ ...uni, admissionQuota: um.admissionQuota }] : [];
+    });
 
   return { ...major, universities: linked };
 }
@@ -83,6 +108,7 @@ export function getFullMajorById(id: string): FullMajor | null {
   const merged: FullMajor = {
     ...base,
     courseDescriptions: getCourseDescriptions(base.curriculum),
+    subjects: getSubjectsForCurriculum(base.curriculum),
   };
 
   if (extras && typeof extras === "object") {

@@ -1,0 +1,7809 @@
+{
+  "_note": "이 파일은 사람의 검수가 필요한 항목을 정리합니다. scripts/generate-descriptions.ts 로 Claude API 생성 후, 검수 완료된 항목은 이 파일에서 제거하고 seed/*.json 으로 머지하세요.",
+  "majors_missing_extras": {
+    "count": 0,
+    "items": []
+  },
+  "subjects_missing": {
+    "count": 1096,
+    "occurrences_total": 1221,
+    "items": [
+      {
+        "name": "임상 실습",
+        "occurrences": 7,
+        "majorIds": [
+          "dentistry",
+          "korean-medicine",
+          "veterinary",
+          "clinical-pathology",
+          "radiology"
+        ]
+      },
+      {
+        "name": "통계",
+        "occurrences": 4,
+        "majorIds": [
+          "sociology",
+          "policy-studies",
+          "health-admin",
+          "transportation"
+        ]
+      },
+      {
+        "name": "데이터 분석",
+        "occurrences": 3,
+        "majorIds": [
+          "industrial-engineering",
+          "data-science",
+          "astronomy"
+        ]
+      },
+      {
+        "name": "인간공학",
+        "occurrences": 3,
+        "majorIds": [
+          "industrial-engineering",
+          "industrial-design-eng",
+          "industrial-design"
+        ]
+      },
+      {
+        "name": "국제경영",
+        "occurrences": 3,
+        "majorIds": [
+          "business",
+          "trade",
+          "international-business"
+        ]
+      },
+      {
+        "name": "경제학",
+        "occurrences": 3,
+        "majorIds": [
+          "accounting",
+          "real-estate",
+          "consumer-studies"
+        ]
+      },
+      {
+        "name": "역사학 방법론",
+        "occurrences": 3,
+        "majorIds": [
+          "history",
+          "east-asian-history",
+          "western-history"
+        ]
+      },
+      {
+        "name": "바이오 정보학",
+        "occurrences": 3,
+        "majorIds": [
+          "biology",
+          "bio-engineering",
+          "agricultural-engineering"
+        ]
+      },
+      {
+        "name": "역학",
+        "occurrences": 3,
+        "majorIds": [
+          "physics",
+          "health-admin",
+          "public-health"
+        ]
+      },
+      {
+        "name": "커뮤니케이션 이론",
+        "occurrences": 3,
+        "majorIds": [
+          "media-communication",
+          "advertising",
+          "broadcasting"
+        ]
+      },
+      {
+        "name": "경제 원론",
+        "occurrences": 3,
+        "majorIds": [
+          "trade",
+          "international-business",
+          "social-edu"
+        ]
+      },
+      {
+        "name": "음악사",
+        "occurrences": 3,
+        "majorIds": [
+          "music-edu",
+          "music-theory",
+          "vocal"
+        ]
+      },
+      {
+        "name": "제도",
+        "occurrences": 3,
+        "majorIds": [
+          "technology-edu",
+          "urban-planning-eng",
+          "interior-design"
+        ]
+      },
+      {
+        "name": "해양 환경",
+        "occurrences": 3,
+        "majorIds": [
+          "naval-architecture",
+          "ocean-engineering",
+          "oceanography"
+        ]
+      },
+      {
+        "name": "스마트팜",
+        "occurrences": 3,
+        "majorIds": [
+          "agricultural-engineering",
+          "agriculture",
+          "horticulture"
+        ]
+      },
+      {
+        "name": "전시 기획",
+        "occurrences": 3,
+        "majorIds": [
+          "painting-eastern",
+          "painting-western",
+          "ceramic-art"
+        ]
+      },
+      {
+        "name": "객체지향 프로그래밍",
+        "occurrences": 2,
+        "majorIds": [
+          "computer-science",
+          "software"
+        ]
+      },
+      {
+        "name": "소프트웨어공학",
+        "occurrences": 2,
+        "majorIds": [
+          "computer-science",
+          "software"
+        ]
+      },
+      {
+        "name": "기계제도",
+        "occurrences": 2,
+        "majorIds": [
+          "mechanical-engineering",
+          "mechatronics"
+        ]
+      },
+      {
+        "name": "CAD/CAM",
+        "occurrences": 2,
+        "majorIds": [
+          "mechanical-engineering",
+          "mechatronics"
+        ]
+      },
+      {
+        "name": "내연기관",
+        "occurrences": 2,
+        "majorIds": [
+          "mechanical-engineering",
+          "automotive"
+        ]
+      },
+      {
+        "name": "도시 설계",
+        "occurrences": 2,
+        "majorIds": [
+          "civil-engineering",
+          "urban-planning-eng"
+        ]
+      },
+      {
+        "name": "프로젝트",
+        "occurrences": 2,
+        "majorIds": [
+          "civil-engineering",
+          "design"
+        ]
+      },
+      {
+        "name": "물류 시스템",
+        "occurrences": 2,
+        "majorIds": [
+          "industrial-engineering",
+          "transportation"
+        ]
+      },
+      {
+        "name": "프로젝트 관리",
+        "occurrences": 2,
+        "majorIds": [
+          "industrial-engineering",
+          "systems"
+        ]
+      },
+      {
+        "name": "국제경제학",
+        "occurrences": 2,
+        "majorIds": [
+          "economics",
+          "trade"
+        ]
+      },
+      {
+        "name": "형법총론",
+        "occurrences": 2,
+        "majorIds": [
+          "law",
+          "police-admin"
+        ]
+      },
+      {
+        "name": "형사소송법",
+        "occurrences": 2,
+        "majorIds": [
+          "law",
+          "police-admin"
+        ]
+      },
+      {
+        "name": "행정법",
+        "occurrences": 2,
+        "majorIds": [
+          "law",
+          "public-administration"
+        ]
+      },
+      {
+        "name": "교육과정",
+        "occurrences": 2,
+        "majorIds": [
+          "education",
+          "elementary-edu"
+        ]
+      },
+      {
+        "name": "영어학 개론",
+        "occurrences": 2,
+        "majorIds": [
+          "english-language-lit",
+          "english-edu"
+        ]
+      },
+      {
+        "name": "사료 강독",
+        "occurrences": 2,
+        "majorIds": [
+          "history",
+          "history-edu"
+        ]
+      },
+      {
+        "name": "물리학",
+        "occurrences": 2,
+        "majorIds": [
+          "chemistry",
+          "radiology"
+        ]
+      },
+      {
+        "name": "해석학",
+        "occurrences": 2,
+        "majorIds": [
+          "mathematics",
+          "math-edu"
+        ]
+      },
+      {
+        "name": "현대대수",
+        "occurrences": 2,
+        "majorIds": [
+          "mathematics",
+          "math-edu"
+        ]
+      },
+      {
+        "name": "확률론",
+        "occurrences": 2,
+        "majorIds": [
+          "mathematics",
+          "statistics"
+        ]
+      },
+      {
+        "name": "졸업 세미나",
+        "occurrences": 2,
+        "majorIds": [
+          "mathematics",
+          "statistics"
+        ]
+      },
+      {
+        "name": "고체물리",
+        "occurrences": 2,
+        "majorIds": [
+          "physics",
+          "nano"
+        ]
+      },
+      {
+        "name": "색채학",
+        "occurrences": 2,
+        "majorIds": [
+          "design",
+          "visual-design"
+        ]
+      },
+      {
+        "name": "브랜드 디자인",
+        "occurrences": 2,
+        "majorIds": [
+          "design",
+          "visual-design"
+        ]
+      },
+      {
+        "name": "방송 제작",
+        "occurrences": 2,
+        "majorIds": [
+          "media-communication",
+          "broadcasting"
+        ]
+      },
+      {
+        "name": "스포츠 심리",
+        "occurrences": 2,
+        "majorIds": [
+          "physical-education",
+          "sports-science"
+        ]
+      },
+      {
+        "name": "사료 강독1",
+        "occurrences": 2,
+        "majorIds": [
+          "east-asian-history",
+          "western-history"
+        ]
+      },
+      {
+        "name": "사료 강독2",
+        "occurrences": 2,
+        "majorIds": [
+          "east-asian-history",
+          "western-history"
+        ]
+      },
+      {
+        "name": "유물 분석",
+        "occurrences": 2,
+        "majorIds": [
+          "archaeology",
+          "cultural-heritage"
+        ]
+      },
+      {
+        "name": "박물관학",
+        "occurrences": 2,
+        "majorIds": [
+          "archaeology",
+          "cultural-heritage"
+        ]
+      },
+      {
+        "name": "경영학 원론",
+        "occurrences": 2,
+        "majorIds": [
+          "trade",
+          "international-business"
+        ]
+      },
+      {
+        "name": "무역 실무",
+        "occurrences": 2,
+        "majorIds": [
+          "trade",
+          "international-business"
+        ]
+      },
+      {
+        "name": "국제 마케팅",
+        "occurrences": 2,
+        "majorIds": [
+          "trade",
+          "international-business"
+        ]
+      },
+      {
+        "name": "서비스 매니지먼트",
+        "occurrences": 2,
+        "majorIds": [
+          "hotel-management",
+          "tourism"
+        ]
+      },
+      {
+        "name": "MICE",
+        "occurrences": 2,
+        "majorIds": [
+          "hotel-management",
+          "tourism"
+        ]
+      },
+      {
+        "name": "졸업 프로젝트",
+        "occurrences": 2,
+        "majorIds": [
+          "hotel-management",
+          "game-graphics"
+        ]
+      },
+      {
+        "name": "부모 교육",
+        "occurrences": 2,
+        "majorIds": [
+          "child-studies",
+          "early-childhood-edu"
+        ]
+      },
+      {
+        "name": "행정학",
+        "occurrences": 2,
+        "majorIds": [
+          "policy-studies",
+          "urban-planning-social"
+        ]
+      },
+      {
+        "name": "뉴미디어",
+        "occurrences": 2,
+        "majorIds": [
+          "broadcasting",
+          "sculpture"
+        ]
+      },
+      {
+        "name": "보건학 개론",
+        "occurrences": 2,
+        "majorIds": [
+          "health-admin",
+          "public-health"
+        ]
+      },
+      {
+        "name": "보건 정책",
+        "occurrences": 2,
+        "majorIds": [
+          "health-admin",
+          "public-health"
+        ]
+      },
+      {
+        "name": "보건 프로젝트",
+        "occurrences": 2,
+        "majorIds": [
+          "health-admin",
+          "public-health"
+        ]
+      },
+      {
+        "name": "도시 재생",
+        "occurrences": 2,
+        "majorIds": [
+          "urban-planning-social",
+          "urban-planning-eng"
+        ]
+      },
+      {
+        "name": "원격 탐사",
+        "occurrences": 2,
+        "majorIds": [
+          "human-geography",
+          "atmospheric"
+        ]
+      },
+      {
+        "name": "교재 연구",
+        "occurrences": 2,
+        "majorIds": [
+          "ethics-edu",
+          "technology-edu"
+        ]
+      },
+      {
+        "name": "전공 실기",
+        "occurrences": 2,
+        "majorIds": [
+          "music-edu",
+          "dance"
+        ]
+      },
+      {
+        "name": "영양학",
+        "occurrences": 2,
+        "majorIds": [
+          "home-edu",
+          "food-engineering"
+        ]
+      },
+      {
+        "name": "네트워크",
+        "occurrences": 2,
+        "majorIds": [
+          "information-communication",
+          "cybersecurity"
+        ]
+      },
+      {
+        "name": "베이지안 통계",
+        "occurrences": 2,
+        "majorIds": [
+          "data-science",
+          "statistics"
+        ]
+      },
+      {
+        "name": "구조역학",
+        "occurrences": 2,
+        "majorIds": [
+          "naval-architecture",
+          "civil-construction"
+        ]
+      },
+      {
+        "name": "해양 에너지",
+        "occurrences": 2,
+        "majorIds": [
+          "naval-architecture",
+          "ocean-engineering"
+        ]
+      },
+      {
+        "name": "재료과학",
+        "occurrences": 2,
+        "majorIds": [
+          "new-materials",
+          "metallurgy"
+        ]
+      },
+      {
+        "name": "상태도",
+        "occurrences": 2,
+        "majorIds": [
+          "new-materials",
+          "metallurgy"
+        ]
+      },
+      {
+        "name": "기후변화",
+        "occurrences": 2,
+        "majorIds": [
+          "environmental",
+          "earth-science"
+        ]
+      },
+      {
+        "name": "교통 계획",
+        "occurrences": 2,
+        "majorIds": [
+          "urban-planning-eng",
+          "transportation"
+        ]
+      },
+      {
+        "name": "제품 디자인",
+        "occurrences": 2,
+        "majorIds": [
+          "industrial-design-eng",
+          "industrial-design"
+        ]
+      },
+      {
+        "name": "CAD",
+        "occurrences": 2,
+        "majorIds": [
+          "industrial-design-eng",
+          "industrial-design"
+        ]
+      },
+      {
+        "name": "CMF",
+        "occurrences": 2,
+        "majorIds": [
+          "industrial-design-eng",
+          "industrial-design"
+        ]
+      },
+      {
+        "name": "지질학",
+        "occurrences": 2,
+        "majorIds": [
+          "mining",
+          "earth-science"
+        ]
+      },
+      {
+        "name": "광물학",
+        "occurrences": 2,
+        "majorIds": [
+          "mining",
+          "geology"
+        ]
+      },
+      {
+        "name": "환경 복원",
+        "occurrences": 2,
+        "majorIds": [
+          "mining",
+          "forestry"
+        ]
+      },
+      {
+        "name": "작물학",
+        "occurrences": 2,
+        "majorIds": [
+          "agricultural-engineering",
+          "agriculture"
+        ]
+      },
+      {
+        "name": "식물보호",
+        "occurrences": 2,
+        "majorIds": [
+          "agricultural-engineering",
+          "agriculture"
+        ]
+      },
+      {
+        "name": "농업 정책",
+        "occurrences": 2,
+        "majorIds": [
+          "agricultural-engineering",
+          "agriculture"
+        ]
+      },
+      {
+        "name": "해양학 개론",
+        "occurrences": 2,
+        "majorIds": [
+          "ocean-engineering",
+          "oceanography"
+        ]
+      },
+      {
+        "name": "해양 자원",
+        "occurrences": 2,
+        "majorIds": [
+          "ocean-engineering",
+          "oceanography"
+        ]
+      },
+      {
+        "name": "원격탐사",
+        "occurrences": 2,
+        "majorIds": [
+          "ocean-engineering",
+          "earth-science"
+        ]
+      },
+      {
+        "name": "기상학",
+        "occurrences": 2,
+        "majorIds": [
+          "earth-science",
+          "atmospheric"
+        ]
+      },
+      {
+        "name": "동물 복지",
+        "occurrences": 2,
+        "majorIds": [
+          "animal-science",
+          "veterinary"
+        ]
+      },
+      {
+        "name": "기초 드로잉",
+        "occurrences": 2,
+        "majorIds": [
+          "painting-eastern",
+          "painting-western"
+        ]
+      },
+      {
+        "name": "재료 연구",
+        "occurrences": 2,
+        "majorIds": [
+          "painting-eastern",
+          "sculpture"
+        ]
+      },
+      {
+        "name": "비평",
+        "occurrences": 2,
+        "majorIds": [
+          "painting-western",
+          "theater-film"
+        ]
+      },
+      {
+        "name": "다큐멘터리",
+        "occurrences": 2,
+        "majorIds": [
+          "photography",
+          "film-tv"
+        ]
+      },
+      {
+        "name": "연출",
+        "occurrences": 2,
+        "majorIds": [
+          "film-tv",
+          "theater-film"
+        ]
+      },
+      {
+        "name": "제작 워크숍",
+        "occurrences": 2,
+        "majorIds": [
+          "film-tv",
+          "theater-film"
+        ]
+      },
+      {
+        "name": "캐릭터 디자인",
+        "occurrences": 2,
+        "majorIds": [
+          "animation",
+          "game-graphics"
+        ]
+      },
+      {
+        "name": "대위법",
+        "occurrences": 2,
+        "majorIds": [
+          "music-theory",
+          "composition"
+        ]
+      },
+      {
+        "name": "현대 음악",
+        "occurrences": 2,
+        "majorIds": [
+          "music-theory",
+          "piano"
+        ]
+      },
+      {
+        "name": "관현악법",
+        "occurrences": 2,
+        "majorIds": [
+          "composition",
+          "orchestra"
+        ]
+      },
+      {
+        "name": "현대음악",
+        "occurrences": 2,
+        "majorIds": [
+          "composition",
+          "orchestra"
+        ]
+      },
+      {
+        "name": "실내악",
+        "occurrences": 2,
+        "majorIds": [
+          "piano",
+          "orchestra"
+        ]
+      },
+      {
+        "name": "졸업 독주회",
+        "occurrences": 2,
+        "majorIds": [
+          "piano",
+          "orchestra"
+        ]
+      },
+      {
+        "name": "악기 실기",
+        "occurrences": 2,
+        "majorIds": [
+          "orchestra",
+          "korean-music"
+        ]
+      },
+      {
+        "name": "합주",
+        "occurrences": 2,
+        "majorIds": [
+          "orchestra",
+          "korean-music"
+        ]
+      },
+      {
+        "name": "졸업 공연",
+        "occurrences": 2,
+        "majorIds": [
+          "applied-music",
+          "dance"
+        ]
+      },
+      {
+        "name": "운동생리",
+        "occurrences": 2,
+        "majorIds": [
+          "sports-science",
+          "social-sports"
+        ]
+      },
+      {
+        "name": "트레이닝",
+        "occurrences": 2,
+        "majorIds": [
+          "sports-science",
+          "social-sports"
+        ]
+      },
+      {
+        "name": "스포츠 마케팅",
+        "occurrences": 2,
+        "majorIds": [
+          "sports-science",
+          "social-sports"
+        ]
+      },
+      {
+        "name": "컴퓨터 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "computer-science"
+        ]
+      },
+      {
+        "name": "디지털 논리회로",
+        "occurrences": 1,
+        "majorIds": [
+          "computer-science"
+        ]
+      },
+      {
+        "name": "전력공학",
+        "occurrences": 1,
+        "majorIds": [
+          "electrical-engineering"
+        ]
+      },
+      {
+        "name": "기계설계",
+        "occurrences": 1,
+        "majorIds": [
+          "mechanical-engineering"
+        ]
+      },
+      {
+        "name": "기계공작법",
+        "occurrences": 1,
+        "majorIds": [
+          "mechanical-engineering"
+        ]
+      },
+      {
+        "name": "자동제어",
+        "occurrences": 1,
+        "majorIds": [
+          "mechanical-engineering"
+        ]
+      },
+      {
+        "name": "로보틱스",
+        "occurrences": 1,
+        "majorIds": [
+          "mechanical-engineering"
+        ]
+      },
+      {
+        "name": "화공열역학",
+        "occurrences": 1,
+        "majorIds": [
+          "chemical-engineering"
+        ]
+      },
+      {
+        "name": "분리공정",
+        "occurrences": 1,
+        "majorIds": [
+          "chemical-engineering"
+        ]
+      },
+      {
+        "name": "반응공학",
+        "occurrences": 1,
+        "majorIds": [
+          "chemical-engineering"
+        ]
+      },
+      {
+        "name": "공정설계",
+        "occurrences": 1,
+        "majorIds": [
+          "chemical-engineering"
+        ]
+      },
+      {
+        "name": "고분자공학",
+        "occurrences": 1,
+        "majorIds": [
+          "chemical-engineering"
+        ]
+      },
+      {
+        "name": "신소재공학",
+        "occurrences": 1,
+        "majorIds": [
+          "chemical-engineering"
+        ]
+      },
+      {
+        "name": "건축개론",
+        "occurrences": 1,
+        "majorIds": [
+          "civil-engineering"
+        ]
+      },
+      {
+        "name": "건축 드로잉",
+        "occurrences": 1,
+        "majorIds": [
+          "civil-engineering"
+        ]
+      },
+      {
+        "name": "건축 설계1",
+        "occurrences": 1,
+        "majorIds": [
+          "civil-engineering"
+        ]
+      },
+      {
+        "name": "건축 설계2",
+        "occurrences": 1,
+        "majorIds": [
+          "civil-engineering"
+        ]
+      },
+      {
+        "name": "건축사",
+        "occurrences": 1,
+        "majorIds": [
+          "civil-engineering"
+        ]
+      },
+      {
+        "name": "건축 구조",
+        "occurrences": 1,
+        "majorIds": [
+          "civil-engineering"
+        ]
+      },
+      {
+        "name": "건축 환경",
+        "occurrences": 1,
+        "majorIds": [
+          "civil-engineering"
+        ]
+      },
+      {
+        "name": "건축 재료",
+        "occurrences": 1,
+        "majorIds": [
+          "civil-engineering"
+        ]
+      },
+      {
+        "name": "고급 설계",
+        "occurrences": 1,
+        "majorIds": [
+          "civil-engineering"
+        ]
+      },
+      {
+        "name": "건축 법규",
+        "occurrences": 1,
+        "majorIds": [
+          "civil-engineering"
+        ]
+      },
+      {
+        "name": "졸업 설계",
+        "occurrences": 1,
+        "majorIds": [
+          "civil-engineering"
+        ]
+      },
+      {
+        "name": "실무 인턴십",
+        "occurrences": 1,
+        "majorIds": [
+          "civil-engineering"
+        ]
+      },
+      {
+        "name": "산업공학개론",
+        "occurrences": 1,
+        "majorIds": [
+          "industrial-engineering"
+        ]
+      },
+      {
+        "name": "확률통계",
+        "occurrences": 1,
+        "majorIds": [
+          "industrial-engineering"
+        ]
+      },
+      {
+        "name": "경영과학",
+        "occurrences": 1,
+        "majorIds": [
+          "industrial-engineering"
+        ]
+      },
+      {
+        "name": "생산시스템",
+        "occurrences": 1,
+        "majorIds": [
+          "industrial-engineering"
+        ]
+      },
+      {
+        "name": "품질공학",
+        "occurrences": 1,
+        "majorIds": [
+          "industrial-engineering"
+        ]
+      },
+      {
+        "name": "빅데이터 분석",
+        "occurrences": 1,
+        "majorIds": [
+          "industrial-engineering"
+        ]
+      },
+      {
+        "name": "해부생리학",
+        "occurrences": 1,
+        "majorIds": [
+          "biomedical-engineering"
+        ]
+      },
+      {
+        "name": "의공학개론",
+        "occurrences": 1,
+        "majorIds": [
+          "biomedical-engineering"
+        ]
+      },
+      {
+        "name": "신호처리",
+        "occurrences": 1,
+        "majorIds": [
+          "biomedical-engineering"
+        ]
+      },
+      {
+        "name": "의료영상",
+        "occurrences": 1,
+        "majorIds": [
+          "biomedical-engineering"
+        ]
+      },
+      {
+        "name": "의료기기",
+        "occurrences": 1,
+        "majorIds": [
+          "biomedical-engineering"
+        ]
+      },
+      {
+        "name": "바이오센서",
+        "occurrences": 1,
+        "majorIds": [
+          "biomedical-engineering"
+        ]
+      },
+      {
+        "name": "인공장기",
+        "occurrences": 1,
+        "majorIds": [
+          "biomedical-engineering"
+        ]
+      },
+      {
+        "name": "재활공학",
+        "occurrences": 1,
+        "majorIds": [
+          "biomedical-engineering"
+        ]
+      },
+      {
+        "name": "조직학",
+        "occurrences": 1,
+        "majorIds": [
+          "medicine"
+        ]
+      },
+      {
+        "name": "인체구조와 기능",
+        "occurrences": 1,
+        "majorIds": [
+          "nursing"
+        ]
+      },
+      {
+        "name": "간호학개론",
+        "occurrences": 1,
+        "majorIds": [
+          "nursing"
+        ]
+      },
+      {
+        "name": "병태생리학",
+        "occurrences": 1,
+        "majorIds": [
+          "nursing"
+        ]
+      },
+      {
+        "name": "성인간호학",
+        "occurrences": 1,
+        "majorIds": [
+          "nursing"
+        ]
+      },
+      {
+        "name": "아동간호학",
+        "occurrences": 1,
+        "majorIds": [
+          "nursing"
+        ]
+      },
+      {
+        "name": "지역사회간호학",
+        "occurrences": 1,
+        "majorIds": [
+          "nursing"
+        ]
+      },
+      {
+        "name": "정신간호학",
+        "occurrences": 1,
+        "majorIds": [
+          "nursing"
+        ]
+      },
+      {
+        "name": "통합실습",
+        "occurrences": 1,
+        "majorIds": [
+          "nursing"
+        ]
+      },
+      {
+        "name": "약물학",
+        "occurrences": 1,
+        "majorIds": [
+          "pharmacy"
+        ]
+      },
+      {
+        "name": "약제학",
+        "occurrences": 1,
+        "majorIds": [
+          "pharmacy"
+        ]
+      },
+      {
+        "name": "임상약학",
+        "occurrences": 1,
+        "majorIds": [
+          "pharmacy"
+        ]
+      },
+      {
+        "name": "약물치료학",
+        "occurrences": 1,
+        "majorIds": [
+          "pharmacy"
+        ]
+      },
+      {
+        "name": "독성학",
+        "occurrences": 1,
+        "majorIds": [
+          "pharmacy"
+        ]
+      },
+      {
+        "name": "인사관리",
+        "occurrences": 1,
+        "majorIds": [
+          "business"
+        ]
+      },
+      {
+        "name": "생산관리",
+        "occurrences": 1,
+        "majorIds": [
+          "business"
+        ]
+      },
+      {
+        "name": "전략경영",
+        "occurrences": 1,
+        "majorIds": [
+          "business"
+        ]
+      },
+      {
+        "name": "창업론",
+        "occurrences": 1,
+        "majorIds": [
+          "business"
+        ]
+      },
+      {
+        "name": "경영 사례 연구",
+        "occurrences": 1,
+        "majorIds": [
+          "business"
+        ]
+      },
+      {
+        "name": "미시경제학 기초",
+        "occurrences": 1,
+        "majorIds": [
+          "economics"
+        ]
+      },
+      {
+        "name": "화폐금융론",
+        "occurrences": 1,
+        "majorIds": [
+          "economics"
+        ]
+      },
+      {
+        "name": "산업조직론",
+        "occurrences": 1,
+        "majorIds": [
+          "economics"
+        ]
+      },
+      {
+        "name": "경제정책",
+        "occurrences": 1,
+        "majorIds": [
+          "economics"
+        ]
+      },
+      {
+        "name": "중급회계",
+        "occurrences": 1,
+        "majorIds": [
+          "accounting"
+        ]
+      },
+      {
+        "name": "원가회계",
+        "occurrences": 1,
+        "majorIds": [
+          "accounting"
+        ]
+      },
+      {
+        "name": "세법개론",
+        "occurrences": 1,
+        "majorIds": [
+          "accounting"
+        ]
+      },
+      {
+        "name": "고급회계",
+        "occurrences": 1,
+        "majorIds": [
+          "accounting"
+        ]
+      },
+      {
+        "name": "관리회계",
+        "occurrences": 1,
+        "majorIds": [
+          "accounting"
+        ]
+      },
+      {
+        "name": "회계감사",
+        "occurrences": 1,
+        "majorIds": [
+          "accounting"
+        ]
+      },
+      {
+        "name": "세무회계",
+        "occurrences": 1,
+        "majorIds": [
+          "accounting"
+        ]
+      },
+      {
+        "name": "재무제표 분석",
+        "occurrences": 1,
+        "majorIds": [
+          "accounting"
+        ]
+      },
+      {
+        "name": "회계 정보 시스템",
+        "occurrences": 1,
+        "majorIds": [
+          "accounting"
+        ]
+      },
+      {
+        "name": "민법 각칙",
+        "occurrences": 1,
+        "majorIds": [
+          "law"
+        ]
+      },
+      {
+        "name": "상법",
+        "occurrences": 1,
+        "majorIds": [
+          "law"
+        ]
+      },
+      {
+        "name": "민사소송법",
+        "occurrences": 1,
+        "majorIds": [
+          "law"
+        ]
+      },
+      {
+        "name": "국제법",
+        "occurrences": 1,
+        "majorIds": [
+          "law"
+        ]
+      },
+      {
+        "name": "노동법",
+        "occurrences": 1,
+        "majorIds": [
+          "law"
+        ]
+      },
+      {
+        "name": "법철학",
+        "occurrences": 1,
+        "majorIds": [
+          "law"
+        ]
+      },
+      {
+        "name": "국제관계입문",
+        "occurrences": 1,
+        "majorIds": [
+          "political-science"
+        ]
+      },
+      {
+        "name": "한국정치",
+        "occurrences": 1,
+        "majorIds": [
+          "political-science"
+        ]
+      },
+      {
+        "name": "비교정치",
+        "occurrences": 1,
+        "majorIds": [
+          "political-science"
+        ]
+      },
+      {
+        "name": "정치사상",
+        "occurrences": 1,
+        "majorIds": [
+          "political-science"
+        ]
+      },
+      {
+        "name": "외교사",
+        "occurrences": 1,
+        "majorIds": [
+          "political-science"
+        ]
+      },
+      {
+        "name": "국제정치이론",
+        "occurrences": 1,
+        "majorIds": [
+          "political-science"
+        ]
+      },
+      {
+        "name": "국제기구",
+        "occurrences": 1,
+        "majorIds": [
+          "political-science"
+        ]
+      },
+      {
+        "name": "지역연구",
+        "occurrences": 1,
+        "majorIds": [
+          "political-science"
+        ]
+      },
+      {
+        "name": "국제정치경제",
+        "occurrences": 1,
+        "majorIds": [
+          "political-science"
+        ]
+      },
+      {
+        "name": "외교정책 분석",
+        "occurrences": 1,
+        "majorIds": [
+          "political-science"
+        ]
+      },
+      {
+        "name": "인지심리",
+        "occurrences": 1,
+        "majorIds": [
+          "psychology"
+        ]
+      },
+      {
+        "name": "발달심리",
+        "occurrences": 1,
+        "majorIds": [
+          "psychology"
+        ]
+      },
+      {
+        "name": "사회심리",
+        "occurrences": 1,
+        "majorIds": [
+          "psychology"
+        ]
+      },
+      {
+        "name": "성격심리",
+        "occurrences": 1,
+        "majorIds": [
+          "psychology"
+        ]
+      },
+      {
+        "name": "임상심리",
+        "occurrences": 1,
+        "majorIds": [
+          "psychology"
+        ]
+      },
+      {
+        "name": "상담심리",
+        "occurrences": 1,
+        "majorIds": [
+          "psychology"
+        ]
+      },
+      {
+        "name": "산업조직심리",
+        "occurrences": 1,
+        "majorIds": [
+          "psychology"
+        ]
+      },
+      {
+        "name": "심리검사",
+        "occurrences": 1,
+        "majorIds": [
+          "psychology"
+        ]
+      },
+      {
+        "name": "심리치료",
+        "occurrences": 1,
+        "majorIds": [
+          "psychology"
+        ]
+      },
+      {
+        "name": "연구방법론",
+        "occurrences": 1,
+        "majorIds": [
+          "psychology"
+        ]
+      },
+      {
+        "name": "사회학사",
+        "occurrences": 1,
+        "majorIds": [
+          "sociology"
+        ]
+      },
+      {
+        "name": "사회조사방법",
+        "occurrences": 1,
+        "majorIds": [
+          "sociology"
+        ]
+      },
+      {
+        "name": "사회이론",
+        "occurrences": 1,
+        "majorIds": [
+          "sociology"
+        ]
+      },
+      {
+        "name": "문화사회학",
+        "occurrences": 1,
+        "majorIds": [
+          "sociology"
+        ]
+      },
+      {
+        "name": "노동사회학",
+        "occurrences": 1,
+        "majorIds": [
+          "sociology"
+        ]
+      },
+      {
+        "name": "가족사회학",
+        "occurrences": 1,
+        "majorIds": [
+          "sociology"
+        ]
+      },
+      {
+        "name": "사회정책",
+        "occurrences": 1,
+        "majorIds": [
+          "sociology"
+        ]
+      },
+      {
+        "name": "교육사상사",
+        "occurrences": 1,
+        "majorIds": [
+          "education"
+        ]
+      },
+      {
+        "name": "교육사회학",
+        "occurrences": 1,
+        "majorIds": [
+          "education"
+        ]
+      },
+      {
+        "name": "교육행정",
+        "occurrences": 1,
+        "majorIds": [
+          "education"
+        ]
+      },
+      {
+        "name": "교육방법",
+        "occurrences": 1,
+        "majorIds": [
+          "education"
+        ]
+      },
+      {
+        "name": "평가",
+        "occurrences": 1,
+        "majorIds": [
+          "education"
+        ]
+      },
+      {
+        "name": "평생교육론",
+        "occurrences": 1,
+        "majorIds": [
+          "education"
+        ]
+      },
+      {
+        "name": "교육 연구 방법",
+        "occurrences": 1,
+        "majorIds": [
+          "education"
+        ]
+      },
+      {
+        "name": "현대문학",
+        "occurrences": 1,
+        "majorIds": [
+          "korean-language-edu"
+        ]
+      },
+      {
+        "name": "고전문학",
+        "occurrences": 1,
+        "majorIds": [
+          "korean-language-edu"
+        ]
+      },
+      {
+        "name": "국어문법",
+        "occurrences": 1,
+        "majorIds": [
+          "korean-language-edu"
+        ]
+      },
+      {
+        "name": "국어교육론",
+        "occurrences": 1,
+        "majorIds": [
+          "korean-language-edu"
+        ]
+      },
+      {
+        "name": "문학교육론",
+        "occurrences": 1,
+        "majorIds": [
+          "korean-language-edu"
+        ]
+      },
+      {
+        "name": "독서교육",
+        "occurrences": 1,
+        "majorIds": [
+          "korean-language-edu"
+        ]
+      },
+      {
+        "name": "국어과 교재 연구",
+        "occurrences": 1,
+        "majorIds": [
+          "korean-language-edu"
+        ]
+      },
+      {
+        "name": "영시",
+        "occurrences": 1,
+        "majorIds": [
+          "english-language-lit"
+        ]
+      },
+      {
+        "name": "영소설",
+        "occurrences": 1,
+        "majorIds": [
+          "english-language-lit"
+        ]
+      },
+      {
+        "name": "영미 희곡",
+        "occurrences": 1,
+        "majorIds": [
+          "english-language-lit"
+        ]
+      },
+      {
+        "name": "영미 문화",
+        "occurrences": 1,
+        "majorIds": [
+          "english-language-lit"
+        ]
+      },
+      {
+        "name": "현대시",
+        "occurrences": 1,
+        "majorIds": [
+          "korean-language-lit"
+        ]
+      },
+      {
+        "name": "현대소설",
+        "occurrences": 1,
+        "majorIds": [
+          "korean-language-lit"
+        ]
+      },
+      {
+        "name": "고전문학사",
+        "occurrences": 1,
+        "majorIds": [
+          "korean-language-lit"
+        ]
+      },
+      {
+        "name": "국어 음운론",
+        "occurrences": 1,
+        "majorIds": [
+          "korean-language-lit"
+        ]
+      },
+      {
+        "name": "국어 통사론",
+        "occurrences": 1,
+        "majorIds": [
+          "korean-language-lit"
+        ]
+      },
+      {
+        "name": "비평이론",
+        "occurrences": 1,
+        "majorIds": [
+          "korean-language-lit"
+        ]
+      },
+      {
+        "name": "창작 실습",
+        "occurrences": 1,
+        "majorIds": [
+          "korean-language-lit"
+        ]
+      },
+      {
+        "name": "한국 고대사",
+        "occurrences": 1,
+        "majorIds": [
+          "history"
+        ]
+      },
+      {
+        "name": "동양 중세사",
+        "occurrences": 1,
+        "majorIds": [
+          "history"
+        ]
+      },
+      {
+        "name": "서양 근대사",
+        "occurrences": 1,
+        "majorIds": [
+          "history"
+        ]
+      },
+      {
+        "name": "사학사",
+        "occurrences": 1,
+        "majorIds": [
+          "history"
+        ]
+      },
+      {
+        "name": "지역사 연구",
+        "occurrences": 1,
+        "majorIds": [
+          "history"
+        ]
+      },
+      {
+        "name": "서양 고대 철학",
+        "occurrences": 1,
+        "majorIds": [
+          "philosophy"
+        ]
+      },
+      {
+        "name": "동양 철학",
+        "occurrences": 1,
+        "majorIds": [
+          "philosophy"
+        ]
+      },
+      {
+        "name": "윤리학",
+        "occurrences": 1,
+        "majorIds": [
+          "philosophy"
+        ]
+      },
+      {
+        "name": "근대 철학",
+        "occurrences": 1,
+        "majorIds": [
+          "philosophy"
+        ]
+      },
+      {
+        "name": "현대 철학",
+        "occurrences": 1,
+        "majorIds": [
+          "philosophy"
+        ]
+      },
+      {
+        "name": "인식론",
+        "occurrences": 1,
+        "majorIds": [
+          "philosophy"
+        ]
+      },
+      {
+        "name": "철학 세미나",
+        "occurrences": 1,
+        "majorIds": [
+          "philosophy"
+        ]
+      },
+      {
+        "name": "생태학",
+        "occurrences": 1,
+        "majorIds": [
+          "biology"
+        ]
+      },
+      {
+        "name": "기기 분석",
+        "occurrences": 1,
+        "majorIds": [
+          "chemistry"
+        ]
+      },
+      {
+        "name": "고분자화학",
+        "occurrences": 1,
+        "majorIds": [
+          "chemistry"
+        ]
+      },
+      {
+        "name": "고급 실험",
+        "occurrences": 1,
+        "majorIds": [
+          "chemistry"
+        ]
+      },
+      {
+        "name": "집합론",
+        "occurrences": 1,
+        "majorIds": [
+          "mathematics"
+        ]
+      },
+      {
+        "name": "미분방정식",
+        "occurrences": 1,
+        "majorIds": [
+          "mathematics"
+        ]
+      },
+      {
+        "name": "복소해석",
+        "occurrences": 1,
+        "majorIds": [
+          "mathematics"
+        ]
+      },
+      {
+        "name": "위상수학",
+        "occurrences": 1,
+        "majorIds": [
+          "mathematics"
+        ]
+      },
+      {
+        "name": "수치해석",
+        "occurrences": 1,
+        "majorIds": [
+          "mathematics"
+        ]
+      },
+      {
+        "name": "현대물리",
+        "occurrences": 1,
+        "majorIds": [
+          "physics"
+        ]
+      },
+      {
+        "name": "양자역학",
+        "occurrences": 1,
+        "majorIds": [
+          "physics"
+        ]
+      },
+      {
+        "name": "통계역학",
+        "occurrences": 1,
+        "majorIds": [
+          "physics"
+        ]
+      },
+      {
+        "name": "광학",
+        "occurrences": 1,
+        "majorIds": [
+          "physics"
+        ]
+      },
+      {
+        "name": "입자물리",
+        "occurrences": 1,
+        "majorIds": [
+          "physics"
+        ]
+      },
+      {
+        "name": "인터랙션 디자인",
+        "occurrences": 1,
+        "majorIds": [
+          "design"
+        ]
+      },
+      {
+        "name": "미디어개론",
+        "occurrences": 1,
+        "majorIds": [
+          "media-communication"
+        ]
+      },
+      {
+        "name": "저널리즘",
+        "occurrences": 1,
+        "majorIds": [
+          "media-communication"
+        ]
+      },
+      {
+        "name": "광고",
+        "occurrences": 1,
+        "majorIds": [
+          "media-communication"
+        ]
+      },
+      {
+        "name": "미디어 산업",
+        "occurrences": 1,
+        "majorIds": [
+          "media-communication"
+        ]
+      },
+      {
+        "name": "디지털 마케팅",
+        "occurrences": 1,
+        "majorIds": [
+          "media-communication"
+        ]
+      },
+      {
+        "name": "PR",
+        "occurrences": 1,
+        "majorIds": [
+          "media-communication"
+        ]
+      },
+      {
+        "name": "미디어 연구",
+        "occurrences": 1,
+        "majorIds": [
+          "media-communication"
+        ]
+      },
+      {
+        "name": "체육 교육론",
+        "occurrences": 1,
+        "majorIds": [
+          "physical-education"
+        ]
+      },
+      {
+        "name": "운동 역학",
+        "occurrences": 1,
+        "majorIds": [
+          "physical-education"
+        ]
+      },
+      {
+        "name": "스포츠 사회학",
+        "occurrences": 1,
+        "majorIds": [
+          "physical-education"
+        ]
+      },
+      {
+        "name": "코칭론",
+        "occurrences": 1,
+        "majorIds": [
+          "physical-education"
+        ]
+      },
+      {
+        "name": "체육 측정평가",
+        "occurrences": 1,
+        "majorIds": [
+          "physical-education"
+        ]
+      },
+      {
+        "name": "체육과 교재 연구",
+        "occurrences": 1,
+        "majorIds": [
+          "physical-education"
+        ]
+      },
+      {
+        "name": "프랑스어 회화1",
+        "occurrences": 1,
+        "majorIds": [
+          "french-lit"
+        ]
+      },
+      {
+        "name": "프랑스어 문법",
+        "occurrences": 1,
+        "majorIds": [
+          "french-lit"
+        ]
+      },
+      {
+        "name": "프랑스 문학 입문",
+        "occurrences": 1,
+        "majorIds": [
+          "french-lit"
+        ]
+      },
+      {
+        "name": "프랑스어 회화2",
+        "occurrences": 1,
+        "majorIds": [
+          "french-lit"
+        ]
+      },
+      {
+        "name": "프랑스 소설",
+        "occurrences": 1,
+        "majorIds": [
+          "french-lit"
+        ]
+      },
+      {
+        "name": "프랑스 문화",
+        "occurrences": 1,
+        "majorIds": [
+          "french-lit"
+        ]
+      },
+      {
+        "name": "프랑스 시",
+        "occurrences": 1,
+        "majorIds": [
+          "french-lit"
+        ]
+      },
+      {
+        "name": "프랑스 희곡",
+        "occurrences": 1,
+        "majorIds": [
+          "french-lit"
+        ]
+      },
+      {
+        "name": "프랑스 비평",
+        "occurrences": 1,
+        "majorIds": [
+          "french-lit"
+        ]
+      },
+      {
+        "name": "독일어 회화1",
+        "occurrences": 1,
+        "majorIds": [
+          "german-lit"
+        ]
+      },
+      {
+        "name": "독일어 문법",
+        "occurrences": 1,
+        "majorIds": [
+          "german-lit"
+        ]
+      },
+      {
+        "name": "독일 문학 입문",
+        "occurrences": 1,
+        "majorIds": [
+          "german-lit"
+        ]
+      },
+      {
+        "name": "독일어 회화2",
+        "occurrences": 1,
+        "majorIds": [
+          "german-lit"
+        ]
+      },
+      {
+        "name": "독일 소설",
+        "occurrences": 1,
+        "majorIds": [
+          "german-lit"
+        ]
+      },
+      {
+        "name": "독일 문화",
+        "occurrences": 1,
+        "majorIds": [
+          "german-lit"
+        ]
+      },
+      {
+        "name": "독일 시",
+        "occurrences": 1,
+        "majorIds": [
+          "german-lit"
+        ]
+      },
+      {
+        "name": "독일 사상",
+        "occurrences": 1,
+        "majorIds": [
+          "german-lit"
+        ]
+      },
+      {
+        "name": "독일 희곡",
+        "occurrences": 1,
+        "majorIds": [
+          "german-lit"
+        ]
+      },
+      {
+        "name": "일본어 회화1",
+        "occurrences": 1,
+        "majorIds": [
+          "japanese-lit"
+        ]
+      },
+      {
+        "name": "일본어 문법",
+        "occurrences": 1,
+        "majorIds": [
+          "japanese-lit"
+        ]
+      },
+      {
+        "name": "일본 문학 입문",
+        "occurrences": 1,
+        "majorIds": [
+          "japanese-lit"
+        ]
+      },
+      {
+        "name": "일본어 회화2",
+        "occurrences": 1,
+        "majorIds": [
+          "japanese-lit"
+        ]
+      },
+      {
+        "name": "일본 소설",
+        "occurrences": 1,
+        "majorIds": [
+          "japanese-lit"
+        ]
+      },
+      {
+        "name": "일본 문화",
+        "occurrences": 1,
+        "majorIds": [
+          "japanese-lit"
+        ]
+      },
+      {
+        "name": "일본 고전",
+        "occurrences": 1,
+        "majorIds": [
+          "japanese-lit"
+        ]
+      },
+      {
+        "name": "일본 사회",
+        "occurrences": 1,
+        "majorIds": [
+          "japanese-lit"
+        ]
+      },
+      {
+        "name": "일본 비평",
+        "occurrences": 1,
+        "majorIds": [
+          "japanese-lit"
+        ]
+      },
+      {
+        "name": "중국어 회화1",
+        "occurrences": 1,
+        "majorIds": [
+          "chinese-lit"
+        ]
+      },
+      {
+        "name": "중국어 문법",
+        "occurrences": 1,
+        "majorIds": [
+          "chinese-lit"
+        ]
+      },
+      {
+        "name": "중국 문학 입문",
+        "occurrences": 1,
+        "majorIds": [
+          "chinese-lit"
+        ]
+      },
+      {
+        "name": "중국어 회화2",
+        "occurrences": 1,
+        "majorIds": [
+          "chinese-lit"
+        ]
+      },
+      {
+        "name": "중국 고전",
+        "occurrences": 1,
+        "majorIds": [
+          "chinese-lit"
+        ]
+      },
+      {
+        "name": "중국 문화",
+        "occurrences": 1,
+        "majorIds": [
+          "chinese-lit"
+        ]
+      },
+      {
+        "name": "중국 현대문학",
+        "occurrences": 1,
+        "majorIds": [
+          "chinese-lit"
+        ]
+      },
+      {
+        "name": "한문 강독",
+        "occurrences": 1,
+        "majorIds": [
+          "chinese-lit"
+        ]
+      },
+      {
+        "name": "중국 사상",
+        "occurrences": 1,
+        "majorIds": [
+          "chinese-lit"
+        ]
+      },
+      {
+        "name": "러시아어 회화",
+        "occurrences": 1,
+        "majorIds": [
+          "russian-lit"
+        ]
+      },
+      {
+        "name": "러시아어 문법",
+        "occurrences": 1,
+        "majorIds": [
+          "russian-lit"
+        ]
+      },
+      {
+        "name": "러시아 문학 입문",
+        "occurrences": 1,
+        "majorIds": [
+          "russian-lit"
+        ]
+      },
+      {
+        "name": "러시아 소설",
+        "occurrences": 1,
+        "majorIds": [
+          "russian-lit"
+        ]
+      },
+      {
+        "name": "러시아 시",
+        "occurrences": 1,
+        "majorIds": [
+          "russian-lit"
+        ]
+      },
+      {
+        "name": "러시아 문화",
+        "occurrences": 1,
+        "majorIds": [
+          "russian-lit"
+        ]
+      },
+      {
+        "name": "러시아 사상",
+        "occurrences": 1,
+        "majorIds": [
+          "russian-lit"
+        ]
+      },
+      {
+        "name": "러시아 사회",
+        "occurrences": 1,
+        "majorIds": [
+          "russian-lit"
+        ]
+      },
+      {
+        "name": "스페인어 회화1",
+        "occurrences": 1,
+        "majorIds": [
+          "spanish-lit"
+        ]
+      },
+      {
+        "name": "스페인어 문법",
+        "occurrences": 1,
+        "majorIds": [
+          "spanish-lit"
+        ]
+      },
+      {
+        "name": "스페인 문학 입문",
+        "occurrences": 1,
+        "majorIds": [
+          "spanish-lit"
+        ]
+      },
+      {
+        "name": "스페인어 회화2",
+        "occurrences": 1,
+        "majorIds": [
+          "spanish-lit"
+        ]
+      },
+      {
+        "name": "스페인 문학",
+        "occurrences": 1,
+        "majorIds": [
+          "spanish-lit"
+        ]
+      },
+      {
+        "name": "라틴아메리카 문학",
+        "occurrences": 1,
+        "majorIds": [
+          "spanish-lit"
+        ]
+      },
+      {
+        "name": "스페인 문화",
+        "occurrences": 1,
+        "majorIds": [
+          "spanish-lit"
+        ]
+      },
+      {
+        "name": "비즈니스 스페인어",
+        "occurrences": 1,
+        "majorIds": [
+          "spanish-lit"
+        ]
+      },
+      {
+        "name": "아랍어 회화1",
+        "occurrences": 1,
+        "majorIds": [
+          "arabic-lit"
+        ]
+      },
+      {
+        "name": "아랍어 문법",
+        "occurrences": 1,
+        "majorIds": [
+          "arabic-lit"
+        ]
+      },
+      {
+        "name": "아랍 문학 입문",
+        "occurrences": 1,
+        "majorIds": [
+          "arabic-lit"
+        ]
+      },
+      {
+        "name": "아랍어 회화2",
+        "occurrences": 1,
+        "majorIds": [
+          "arabic-lit"
+        ]
+      },
+      {
+        "name": "이슬람 문화",
+        "occurrences": 1,
+        "majorIds": [
+          "arabic-lit"
+        ]
+      },
+      {
+        "name": "아랍 사회",
+        "occurrences": 1,
+        "majorIds": [
+          "arabic-lit"
+        ]
+      },
+      {
+        "name": "통번역",
+        "occurrences": 1,
+        "majorIds": [
+          "arabic-lit"
+        ]
+      },
+      {
+        "name": "중동 정치",
+        "occurrences": 1,
+        "majorIds": [
+          "arabic-lit"
+        ]
+      },
+      {
+        "name": "비즈니스 아랍어",
+        "occurrences": 1,
+        "majorIds": [
+          "arabic-lit"
+        ]
+      },
+      {
+        "name": "베트남어 회화",
+        "occurrences": 1,
+        "majorIds": [
+          "vietnamese-lit"
+        ]
+      },
+      {
+        "name": "베트남어 문법",
+        "occurrences": 1,
+        "majorIds": [
+          "vietnamese-lit"
+        ]
+      },
+      {
+        "name": "베트남 문화",
+        "occurrences": 1,
+        "majorIds": [
+          "vietnamese-lit"
+        ]
+      },
+      {
+        "name": "베트남 사회",
+        "occurrences": 1,
+        "majorIds": [
+          "vietnamese-lit"
+        ]
+      },
+      {
+        "name": "베트남 문학",
+        "occurrences": 1,
+        "majorIds": [
+          "vietnamese-lit"
+        ]
+      },
+      {
+        "name": "비즈니스 베트남어",
+        "occurrences": 1,
+        "majorIds": [
+          "vietnamese-lit"
+        ]
+      },
+      {
+        "name": "동남아 정치",
+        "occurrences": 1,
+        "majorIds": [
+          "vietnamese-lit"
+        ]
+      },
+      {
+        "name": "힌디어 회화",
+        "occurrences": 1,
+        "majorIds": [
+          "indian-lit"
+        ]
+      },
+      {
+        "name": "힌디어 문법",
+        "occurrences": 1,
+        "majorIds": [
+          "indian-lit"
+        ]
+      },
+      {
+        "name": "인도 문화",
+        "occurrences": 1,
+        "majorIds": [
+          "indian-lit"
+        ]
+      },
+      {
+        "name": "인도 종교",
+        "occurrences": 1,
+        "majorIds": [
+          "indian-lit"
+        ]
+      },
+      {
+        "name": "인도 사회",
+        "occurrences": 1,
+        "majorIds": [
+          "indian-lit"
+        ]
+      },
+      {
+        "name": "인도 경제",
+        "occurrences": 1,
+        "majorIds": [
+          "indian-lit"
+        ]
+      },
+      {
+        "name": "비즈니스 힌디어",
+        "occurrences": 1,
+        "majorIds": [
+          "indian-lit"
+        ]
+      },
+      {
+        "name": "한문 입문",
+        "occurrences": 1,
+        "majorIds": [
+          "east-asian-history"
+        ]
+      },
+      {
+        "name": "중국 고대사",
+        "occurrences": 1,
+        "majorIds": [
+          "east-asian-history"
+        ]
+      },
+      {
+        "name": "일본 고대사",
+        "occurrences": 1,
+        "majorIds": [
+          "east-asian-history"
+        ]
+      },
+      {
+        "name": "한자문화권",
+        "occurrences": 1,
+        "majorIds": [
+          "east-asian-history"
+        ]
+      },
+      {
+        "name": "중국 근대사",
+        "occurrences": 1,
+        "majorIds": [
+          "east-asian-history"
+        ]
+      },
+      {
+        "name": "동아시아 교류사",
+        "occurrences": 1,
+        "majorIds": [
+          "east-asian-history"
+        ]
+      },
+      {
+        "name": "라틴어 입문",
+        "occurrences": 1,
+        "majorIds": [
+          "western-history"
+        ]
+      },
+      {
+        "name": "고대 그리스·로마",
+        "occurrences": 1,
+        "majorIds": [
+          "western-history"
+        ]
+      },
+      {
+        "name": "중세 유럽",
+        "occurrences": 1,
+        "majorIds": [
+          "western-history"
+        ]
+      },
+      {
+        "name": "서양 근대",
+        "occurrences": 1,
+        "majorIds": [
+          "western-history"
+        ]
+      },
+      {
+        "name": "근현대 유럽",
+        "occurrences": 1,
+        "majorIds": [
+          "western-history"
+        ]
+      },
+      {
+        "name": "미국사",
+        "occurrences": 1,
+        "majorIds": [
+          "western-history"
+        ]
+      },
+      {
+        "name": "고고학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "archaeology"
+        ]
+      },
+      {
+        "name": "선사문화",
+        "occurrences": 1,
+        "majorIds": [
+          "archaeology"
+        ]
+      },
+      {
+        "name": "발굴 입문",
+        "occurrences": 1,
+        "majorIds": [
+          "archaeology"
+        ]
+      },
+      {
+        "name": "한국 고고학",
+        "occurrences": 1,
+        "majorIds": [
+          "archaeology"
+        ]
+      },
+      {
+        "name": "동양 고고학",
+        "occurrences": 1,
+        "majorIds": [
+          "archaeology"
+        ]
+      },
+      {
+        "name": "발굴 실습",
+        "occurrences": 1,
+        "majorIds": [
+          "archaeology"
+        ]
+      },
+      {
+        "name": "고고화학",
+        "occurrences": 1,
+        "majorIds": [
+          "archaeology"
+        ]
+      },
+      {
+        "name": "학술 답사",
+        "occurrences": 1,
+        "majorIds": [
+          "archaeology"
+        ]
+      },
+      {
+        "name": "문화재학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "cultural-heritage"
+        ]
+      },
+      {
+        "name": "문화재 보존론",
+        "occurrences": 1,
+        "majorIds": [
+          "cultural-heritage"
+        ]
+      },
+      {
+        "name": "보존과학",
+        "occurrences": 1,
+        "majorIds": [
+          "cultural-heritage"
+        ]
+      },
+      {
+        "name": "문화재 정책",
+        "occurrences": 1,
+        "majorIds": [
+          "cultural-heritage"
+        ]
+      },
+      {
+        "name": "문화재 복원 실습",
+        "occurrences": 1,
+        "majorIds": [
+          "cultural-heritage"
+        ]
+      },
+      {
+        "name": "문화재 법규",
+        "occurrences": 1,
+        "majorIds": [
+          "cultural-heritage"
+        ]
+      },
+      {
+        "name": "종교학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "religion-studies"
+        ]
+      },
+      {
+        "name": "세계 종교사",
+        "occurrences": 1,
+        "majorIds": [
+          "religion-studies"
+        ]
+      },
+      {
+        "name": "기독교",
+        "occurrences": 1,
+        "majorIds": [
+          "religion-studies"
+        ]
+      },
+      {
+        "name": "불교",
+        "occurrences": 1,
+        "majorIds": [
+          "religion-studies"
+        ]
+      },
+      {
+        "name": "유교",
+        "occurrences": 1,
+        "majorIds": [
+          "religion-studies"
+        ]
+      },
+      {
+        "name": "이슬람",
+        "occurrences": 1,
+        "majorIds": [
+          "religion-studies"
+        ]
+      },
+      {
+        "name": "민속종교",
+        "occurrences": 1,
+        "majorIds": [
+          "religion-studies"
+        ]
+      },
+      {
+        "name": "종교 사회학",
+        "occurrences": 1,
+        "majorIds": [
+          "religion-studies"
+        ]
+      },
+      {
+        "name": "종교 철학",
+        "occurrences": 1,
+        "majorIds": [
+          "religion-studies"
+        ]
+      },
+      {
+        "name": "신학 입문",
+        "occurrences": 1,
+        "majorIds": [
+          "theology"
+        ]
+      },
+      {
+        "name": "성서 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "theology"
+        ]
+      },
+      {
+        "name": "구약학",
+        "occurrences": 1,
+        "majorIds": [
+          "theology"
+        ]
+      },
+      {
+        "name": "신약학",
+        "occurrences": 1,
+        "majorIds": [
+          "theology"
+        ]
+      },
+      {
+        "name": "교회사",
+        "occurrences": 1,
+        "majorIds": [
+          "theology"
+        ]
+      },
+      {
+        "name": "조직신학",
+        "occurrences": 1,
+        "majorIds": [
+          "theology"
+        ]
+      },
+      {
+        "name": "기독교 윤리",
+        "occurrences": 1,
+        "majorIds": [
+          "theology"
+        ]
+      },
+      {
+        "name": "목회학",
+        "occurrences": 1,
+        "majorIds": [
+          "theology"
+        ]
+      },
+      {
+        "name": "실천신학",
+        "occurrences": 1,
+        "majorIds": [
+          "theology"
+        ]
+      },
+      {
+        "name": "인류학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "anthropology"
+        ]
+      },
+      {
+        "name": "문화이론",
+        "occurrences": 1,
+        "majorIds": [
+          "anthropology"
+        ]
+      },
+      {
+        "name": "민족지 방법",
+        "occurrences": 1,
+        "majorIds": [
+          "anthropology"
+        ]
+      },
+      {
+        "name": "친족·가족",
+        "occurrences": 1,
+        "majorIds": [
+          "anthropology"
+        ]
+      },
+      {
+        "name": "언어인류학",
+        "occurrences": 1,
+        "majorIds": [
+          "anthropology"
+        ]
+      },
+      {
+        "name": "경제인류학",
+        "occurrences": 1,
+        "majorIds": [
+          "anthropology"
+        ]
+      },
+      {
+        "name": "의례와 종교",
+        "occurrences": 1,
+        "majorIds": [
+          "anthropology"
+        ]
+      },
+      {
+        "name": "현장 조사",
+        "occurrences": 1,
+        "majorIds": [
+          "anthropology"
+        ]
+      },
+      {
+        "name": "응용인류학",
+        "occurrences": 1,
+        "majorIds": [
+          "anthropology"
+        ]
+      },
+      {
+        "name": "행정학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "public-administration"
+        ]
+      },
+      {
+        "name": "정치학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "public-administration"
+        ]
+      },
+      {
+        "name": "경제학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "public-administration"
+        ]
+      },
+      {
+        "name": "조직론",
+        "occurrences": 1,
+        "majorIds": [
+          "public-administration"
+        ]
+      },
+      {
+        "name": "인사행정",
+        "occurrences": 1,
+        "majorIds": [
+          "public-administration"
+        ]
+      },
+      {
+        "name": "재무행정",
+        "occurrences": 1,
+        "majorIds": [
+          "public-administration"
+        ]
+      },
+      {
+        "name": "정책학",
+        "occurrences": 1,
+        "majorIds": [
+          "public-administration"
+        ]
+      },
+      {
+        "name": "지방행정",
+        "occurrences": 1,
+        "majorIds": [
+          "public-administration"
+        ]
+      },
+      {
+        "name": "행정 사례 연구",
+        "occurrences": 1,
+        "majorIds": [
+          "public-administration"
+        ]
+      },
+      {
+        "name": "무역학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "trade"
+        ]
+      },
+      {
+        "name": "관세론",
+        "occurrences": 1,
+        "majorIds": [
+          "trade"
+        ]
+      },
+      {
+        "name": "무역 영어",
+        "occurrences": 1,
+        "majorIds": [
+          "trade"
+        ]
+      },
+      {
+        "name": "무역 분쟁",
+        "occurrences": 1,
+        "majorIds": [
+          "trade"
+        ]
+      },
+      {
+        "name": "국제통상 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "international-business"
+        ]
+      },
+      {
+        "name": "국제금융",
+        "occurrences": 1,
+        "majorIds": [
+          "international-business"
+        ]
+      },
+      {
+        "name": "WTO·FTA",
+        "occurrences": 1,
+        "majorIds": [
+          "international-business"
+        ]
+      },
+      {
+        "name": "비즈니스 영어",
+        "occurrences": 1,
+        "majorIds": [
+          "international-business"
+        ]
+      },
+      {
+        "name": "글로벌 전략",
+        "occurrences": 1,
+        "majorIds": [
+          "international-business"
+        ]
+      },
+      {
+        "name": "호텔경영 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "hotel-management"
+        ]
+      },
+      {
+        "name": "외식산업론",
+        "occurrences": 1,
+        "majorIds": [
+          "hotel-management"
+        ]
+      },
+      {
+        "name": "객실 경영",
+        "occurrences": 1,
+        "majorIds": [
+          "hotel-management"
+        ]
+      },
+      {
+        "name": "식음료 경영",
+        "occurrences": 1,
+        "majorIds": [
+          "hotel-management"
+        ]
+      },
+      {
+        "name": "호텔 마케팅",
+        "occurrences": 1,
+        "majorIds": [
+          "hotel-management"
+        ]
+      },
+      {
+        "name": "와인·바리스타",
+        "occurrences": 1,
+        "majorIds": [
+          "hotel-management"
+        ]
+      },
+      {
+        "name": "글로벌 호텔",
+        "occurrences": 1,
+        "majorIds": [
+          "hotel-management"
+        ]
+      },
+      {
+        "name": "호텔 실습",
+        "occurrences": 1,
+        "majorIds": [
+          "hotel-management"
+        ]
+      },
+      {
+        "name": "관광학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "tourism"
+        ]
+      },
+      {
+        "name": "관광경영",
+        "occurrences": 1,
+        "majorIds": [
+          "tourism"
+        ]
+      },
+      {
+        "name": "관광 마케팅",
+        "occurrences": 1,
+        "majorIds": [
+          "tourism"
+        ]
+      },
+      {
+        "name": "문화관광",
+        "occurrences": 1,
+        "majorIds": [
+          "tourism"
+        ]
+      },
+      {
+        "name": "여행사 경영",
+        "occurrences": 1,
+        "majorIds": [
+          "tourism"
+        ]
+      },
+      {
+        "name": "국제관광",
+        "occurrences": 1,
+        "majorIds": [
+          "tourism"
+        ]
+      },
+      {
+        "name": "항공경영",
+        "occurrences": 1,
+        "majorIds": [
+          "tourism"
+        ]
+      },
+      {
+        "name": "관광 프로젝트",
+        "occurrences": 1,
+        "majorIds": [
+          "tourism"
+        ]
+      },
+      {
+        "name": "부동산학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "real-estate"
+        ]
+      },
+      {
+        "name": "민법",
+        "occurrences": 1,
+        "majorIds": [
+          "real-estate"
+        ]
+      },
+      {
+        "name": "부동산 평가",
+        "occurrences": 1,
+        "majorIds": [
+          "real-estate"
+        ]
+      },
+      {
+        "name": "부동산 금융",
+        "occurrences": 1,
+        "majorIds": [
+          "real-estate"
+        ]
+      },
+      {
+        "name": "부동산 법",
+        "occurrences": 1,
+        "majorIds": [
+          "real-estate"
+        ]
+      },
+      {
+        "name": "부동산 개발",
+        "occurrences": 1,
+        "majorIds": [
+          "real-estate"
+        ]
+      },
+      {
+        "name": "도시계획",
+        "occurrences": 1,
+        "majorIds": [
+          "real-estate"
+        ]
+      },
+      {
+        "name": "REITs",
+        "occurrences": 1,
+        "majorIds": [
+          "real-estate"
+        ]
+      },
+      {
+        "name": "부동산 사례",
+        "occurrences": 1,
+        "majorIds": [
+          "real-estate"
+        ]
+      },
+      {
+        "name": "광고학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "advertising"
+        ]
+      },
+      {
+        "name": "광고 기획",
+        "occurrences": 1,
+        "majorIds": [
+          "advertising"
+        ]
+      },
+      {
+        "name": "카피라이팅",
+        "occurrences": 1,
+        "majorIds": [
+          "advertising"
+        ]
+      },
+      {
+        "name": "미디어 기획",
+        "occurrences": 1,
+        "majorIds": [
+          "advertising"
+        ]
+      },
+      {
+        "name": "디지털 광고",
+        "occurrences": 1,
+        "majorIds": [
+          "advertising"
+        ]
+      },
+      {
+        "name": "PR 실무",
+        "occurrences": 1,
+        "majorIds": [
+          "advertising"
+        ]
+      },
+      {
+        "name": "브랜드 전략",
+        "occurrences": 1,
+        "majorIds": [
+          "advertising"
+        ]
+      },
+      {
+        "name": "광고 프로젝트",
+        "occurrences": 1,
+        "majorIds": [
+          "advertising"
+        ]
+      },
+      {
+        "name": "사회복지 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "social-welfare"
+        ]
+      },
+      {
+        "name": "인간행동과 사회환경",
+        "occurrences": 1,
+        "majorIds": [
+          "social-welfare"
+        ]
+      },
+      {
+        "name": "사회복지 정책",
+        "occurrences": 1,
+        "majorIds": [
+          "social-welfare"
+        ]
+      },
+      {
+        "name": "사회복지 행정",
+        "occurrences": 1,
+        "majorIds": [
+          "social-welfare"
+        ]
+      },
+      {
+        "name": "사회복지 실천",
+        "occurrences": 1,
+        "majorIds": [
+          "social-welfare"
+        ]
+      },
+      {
+        "name": "아동복지",
+        "occurrences": 1,
+        "majorIds": [
+          "social-welfare"
+        ]
+      },
+      {
+        "name": "노인복지",
+        "occurrences": 1,
+        "majorIds": [
+          "social-welfare"
+        ]
+      },
+      {
+        "name": "임상사회복지",
+        "occurrences": 1,
+        "majorIds": [
+          "social-welfare"
+        ]
+      },
+      {
+        "name": "사회복지 현장 실습",
+        "occurrences": 1,
+        "majorIds": [
+          "social-welfare"
+        ]
+      },
+      {
+        "name": "아동학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "child-studies"
+        ]
+      },
+      {
+        "name": "아동 복지",
+        "occurrences": 1,
+        "majorIds": [
+          "child-studies"
+        ]
+      },
+      {
+        "name": "아동 상담",
+        "occurrences": 1,
+        "majorIds": [
+          "child-studies"
+        ]
+      },
+      {
+        "name": "유아 교육",
+        "occurrences": 1,
+        "majorIds": [
+          "child-studies"
+        ]
+      },
+      {
+        "name": "아동 권리",
+        "occurrences": 1,
+        "majorIds": [
+          "child-studies"
+        ]
+      },
+      {
+        "name": "아동 정책",
+        "occurrences": 1,
+        "majorIds": [
+          "child-studies"
+        ]
+      },
+      {
+        "name": "가족학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "family-studies"
+        ]
+      },
+      {
+        "name": "사회학",
+        "occurrences": 1,
+        "majorIds": [
+          "family-studies"
+        ]
+      },
+      {
+        "name": "가족 관계론",
+        "occurrences": 1,
+        "majorIds": [
+          "family-studies"
+        ]
+      },
+      {
+        "name": "결혼과 가족",
+        "occurrences": 1,
+        "majorIds": [
+          "family-studies"
+        ]
+      },
+      {
+        "name": "가족 상담",
+        "occurrences": 1,
+        "majorIds": [
+          "family-studies"
+        ]
+      },
+      {
+        "name": "가족 정책",
+        "occurrences": 1,
+        "majorIds": [
+          "family-studies"
+        ]
+      },
+      {
+        "name": "노인 가족",
+        "occurrences": 1,
+        "majorIds": [
+          "family-studies"
+        ]
+      },
+      {
+        "name": "가족 사례 연구",
+        "occurrences": 1,
+        "majorIds": [
+          "family-studies"
+        ]
+      },
+      {
+        "name": "청소년학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "youth-studies"
+        ]
+      },
+      {
+        "name": "청소년 문화",
+        "occurrences": 1,
+        "majorIds": [
+          "youth-studies"
+        ]
+      },
+      {
+        "name": "청소년 복지",
+        "occurrences": 1,
+        "majorIds": [
+          "youth-studies"
+        ]
+      },
+      {
+        "name": "청소년 상담",
+        "occurrences": 1,
+        "majorIds": [
+          "youth-studies"
+        ]
+      },
+      {
+        "name": "청소년 활동",
+        "occurrences": 1,
+        "majorIds": [
+          "youth-studies"
+        ]
+      },
+      {
+        "name": "청소년 정책",
+        "occurrences": 1,
+        "majorIds": [
+          "youth-studies"
+        ]
+      },
+      {
+        "name": "진로 지도",
+        "occurrences": 1,
+        "majorIds": [
+          "youth-studies"
+        ]
+      },
+      {
+        "name": "정책학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "policy-studies"
+        ]
+      },
+      {
+        "name": "정책 분석",
+        "occurrences": 1,
+        "majorIds": [
+          "policy-studies"
+        ]
+      },
+      {
+        "name": "정책 평가",
+        "occurrences": 1,
+        "majorIds": [
+          "policy-studies"
+        ]
+      },
+      {
+        "name": "계량 정책",
+        "occurrences": 1,
+        "majorIds": [
+          "policy-studies"
+        ]
+      },
+      {
+        "name": "공공 경제",
+        "occurrences": 1,
+        "majorIds": [
+          "policy-studies"
+        ]
+      },
+      {
+        "name": "규제 정책",
+        "occurrences": 1,
+        "majorIds": [
+          "policy-studies"
+        ]
+      },
+      {
+        "name": "비교 정책",
+        "occurrences": 1,
+        "majorIds": [
+          "policy-studies"
+        ]
+      },
+      {
+        "name": "정책 사례",
+        "occurrences": 1,
+        "majorIds": [
+          "policy-studies"
+        ]
+      },
+      {
+        "name": "저널리즘 입문",
+        "occurrences": 1,
+        "majorIds": [
+          "broadcasting"
+        ]
+      },
+      {
+        "name": "취재 보도",
+        "occurrences": 1,
+        "majorIds": [
+          "broadcasting"
+        ]
+      },
+      {
+        "name": "영상편집",
+        "occurrences": 1,
+        "majorIds": [
+          "broadcasting"
+        ]
+      },
+      {
+        "name": "디지털 저널리즘",
+        "occurrences": 1,
+        "majorIds": [
+          "broadcasting"
+        ]
+      },
+      {
+        "name": "미디어 비평",
+        "occurrences": 1,
+        "majorIds": [
+          "broadcasting"
+        ]
+      },
+      {
+        "name": "보도 프로젝트",
+        "occurrences": 1,
+        "majorIds": [
+          "broadcasting"
+        ]
+      },
+      {
+        "name": "경찰학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "police-admin"
+        ]
+      },
+      {
+        "name": "경찰 영어",
+        "occurrences": 1,
+        "majorIds": [
+          "police-admin"
+        ]
+      },
+      {
+        "name": "범죄학",
+        "occurrences": 1,
+        "majorIds": [
+          "police-admin"
+        ]
+      },
+      {
+        "name": "경찰 실무",
+        "occurrences": 1,
+        "majorIds": [
+          "police-admin"
+        ]
+      },
+      {
+        "name": "경찰행정",
+        "occurrences": 1,
+        "majorIds": [
+          "police-admin"
+        ]
+      },
+      {
+        "name": "범죄 심리",
+        "occurrences": 1,
+        "majorIds": [
+          "police-admin"
+        ]
+      },
+      {
+        "name": "교통경찰",
+        "occurrences": 1,
+        "majorIds": [
+          "police-admin"
+        ]
+      },
+      {
+        "name": "경찰 사례",
+        "occurrences": 1,
+        "majorIds": [
+          "police-admin"
+        ]
+      },
+      {
+        "name": "군사학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "military-studies"
+        ]
+      },
+      {
+        "name": "국가 안보",
+        "occurrences": 1,
+        "majorIds": [
+          "military-studies"
+        ]
+      },
+      {
+        "name": "리더십",
+        "occurrences": 1,
+        "majorIds": [
+          "military-studies"
+        ]
+      },
+      {
+        "name": "군사 전략",
+        "occurrences": 1,
+        "majorIds": [
+          "military-studies"
+        ]
+      },
+      {
+        "name": "국방 정책",
+        "occurrences": 1,
+        "majorIds": [
+          "military-studies"
+        ]
+      },
+      {
+        "name": "무기 체계",
+        "occurrences": 1,
+        "majorIds": [
+          "military-studies"
+        ]
+      },
+      {
+        "name": "군사사",
+        "occurrences": 1,
+        "majorIds": [
+          "military-studies"
+        ]
+      },
+      {
+        "name": "국제 안보",
+        "occurrences": 1,
+        "majorIds": [
+          "military-studies"
+        ]
+      },
+      {
+        "name": "사이버 안보",
+        "occurrences": 1,
+        "majorIds": [
+          "military-studies"
+        ]
+      },
+      {
+        "name": "군사 사례",
+        "occurrences": 1,
+        "majorIds": [
+          "military-studies"
+        ]
+      },
+      {
+        "name": "의료 행정",
+        "occurrences": 1,
+        "majorIds": [
+          "health-admin"
+        ]
+      },
+      {
+        "name": "병원 경영",
+        "occurrences": 1,
+        "majorIds": [
+          "health-admin"
+        ]
+      },
+      {
+        "name": "의료 정보",
+        "occurrences": 1,
+        "majorIds": [
+          "health-admin"
+        ]
+      },
+      {
+        "name": "건강 보험",
+        "occurrences": 1,
+        "majorIds": [
+          "health-admin"
+        ]
+      },
+      {
+        "name": "의료 마케팅",
+        "occurrences": 1,
+        "majorIds": [
+          "health-admin"
+        ]
+      },
+      {
+        "name": "도시학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "urban-planning-social"
+        ]
+      },
+      {
+        "name": "도시 행정",
+        "occurrences": 1,
+        "majorIds": [
+          "urban-planning-social"
+        ]
+      },
+      {
+        "name": "지방 자치",
+        "occurrences": 1,
+        "majorIds": [
+          "urban-planning-social"
+        ]
+      },
+      {
+        "name": "도시 사회학",
+        "occurrences": 1,
+        "majorIds": [
+          "urban-planning-social"
+        ]
+      },
+      {
+        "name": "주거 정책",
+        "occurrences": 1,
+        "majorIds": [
+          "urban-planning-social"
+        ]
+      },
+      {
+        "name": "지역 경제",
+        "occurrences": 1,
+        "majorIds": [
+          "urban-planning-social"
+        ]
+      },
+      {
+        "name": "도시 정책 사례",
+        "occurrences": 1,
+        "majorIds": [
+          "urban-planning-social"
+        ]
+      },
+      {
+        "name": "지리학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "human-geography"
+        ]
+      },
+      {
+        "name": "지도학",
+        "occurrences": 1,
+        "majorIds": [
+          "human-geography"
+        ]
+      },
+      {
+        "name": "인문지리",
+        "occurrences": 1,
+        "majorIds": [
+          "human-geography"
+        ]
+      },
+      {
+        "name": "자연지리",
+        "occurrences": 1,
+        "majorIds": [
+          "human-geography"
+        ]
+      },
+      {
+        "name": "GIS 기초",
+        "occurrences": 1,
+        "majorIds": [
+          "human-geography"
+        ]
+      },
+      {
+        "name": "도시지리",
+        "occurrences": 1,
+        "majorIds": [
+          "human-geography"
+        ]
+      },
+      {
+        "name": "경제지리",
+        "occurrences": 1,
+        "majorIds": [
+          "human-geography"
+        ]
+      },
+      {
+        "name": "지역 분석",
+        "occurrences": 1,
+        "majorIds": [
+          "human-geography"
+        ]
+      },
+      {
+        "name": "글로벌학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "global-studies"
+        ]
+      },
+      {
+        "name": "국제관계",
+        "occurrences": 1,
+        "majorIds": [
+          "global-studies"
+        ]
+      },
+      {
+        "name": "제2외국어",
+        "occurrences": 1,
+        "majorIds": [
+          "global-studies"
+        ]
+      },
+      {
+        "name": "국제 정치",
+        "occurrences": 1,
+        "majorIds": [
+          "global-studies"
+        ]
+      },
+      {
+        "name": "국제 경제",
+        "occurrences": 1,
+        "majorIds": [
+          "global-studies"
+        ]
+      },
+      {
+        "name": "비교 문화",
+        "occurrences": 1,
+        "majorIds": [
+          "global-studies"
+        ]
+      },
+      {
+        "name": "지역 연구",
+        "occurrences": 1,
+        "majorIds": [
+          "global-studies"
+        ]
+      },
+      {
+        "name": "글로벌 거버넌스",
+        "occurrences": 1,
+        "majorIds": [
+          "global-studies"
+        ]
+      },
+      {
+        "name": "국제 프로젝트",
+        "occurrences": 1,
+        "majorIds": [
+          "global-studies"
+        ]
+      },
+      {
+        "name": "북한학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "north-korea-studies"
+        ]
+      },
+      {
+        "name": "한반도 정세",
+        "occurrences": 1,
+        "majorIds": [
+          "north-korea-studies"
+        ]
+      },
+      {
+        "name": "북한 정치",
+        "occurrences": 1,
+        "majorIds": [
+          "north-korea-studies"
+        ]
+      },
+      {
+        "name": "북한 경제",
+        "occurrences": 1,
+        "majorIds": [
+          "north-korea-studies"
+        ]
+      },
+      {
+        "name": "북한 사회",
+        "occurrences": 1,
+        "majorIds": [
+          "north-korea-studies"
+        ]
+      },
+      {
+        "name": "통일 정책",
+        "occurrences": 1,
+        "majorIds": [
+          "north-korea-studies"
+        ]
+      },
+      {
+        "name": "북·중 관계",
+        "occurrences": 1,
+        "majorIds": [
+          "north-korea-studies"
+        ]
+      },
+      {
+        "name": "북한 인권",
+        "occurrences": 1,
+        "majorIds": [
+          "north-korea-studies"
+        ]
+      },
+      {
+        "name": "북한 사례 연구",
+        "occurrences": 1,
+        "majorIds": [
+          "north-korea-studies"
+        ]
+      },
+      {
+        "name": "소비자학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "consumer-studies"
+        ]
+      },
+      {
+        "name": "소비자 심리",
+        "occurrences": 1,
+        "majorIds": [
+          "consumer-studies"
+        ]
+      },
+      {
+        "name": "소비자 정책",
+        "occurrences": 1,
+        "majorIds": [
+          "consumer-studies"
+        ]
+      },
+      {
+        "name": "소비자 재무",
+        "occurrences": 1,
+        "majorIds": [
+          "consumer-studies"
+        ]
+      },
+      {
+        "name": "디지털 소비자",
+        "occurrences": 1,
+        "majorIds": [
+          "consumer-studies"
+        ]
+      },
+      {
+        "name": "소비자 빅데이터",
+        "occurrences": 1,
+        "majorIds": [
+          "consumer-studies"
+        ]
+      },
+      {
+        "name": "소비자 보호",
+        "occurrences": 1,
+        "majorIds": [
+          "consumer-studies"
+        ]
+      },
+      {
+        "name": "소비자 프로젝트",
+        "occurrences": 1,
+        "majorIds": [
+          "consumer-studies"
+        ]
+      },
+      {
+        "name": "수학교육 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "math-edu"
+        ]
+      },
+      {
+        "name": "수학교육론",
+        "occurrences": 1,
+        "majorIds": [
+          "math-edu"
+        ]
+      },
+      {
+        "name": "기하학",
+        "occurrences": 1,
+        "majorIds": [
+          "math-edu"
+        ]
+      },
+      {
+        "name": "수학사",
+        "occurrences": 1,
+        "majorIds": [
+          "math-edu"
+        ]
+      },
+      {
+        "name": "수학과 교재 연구",
+        "occurrences": 1,
+        "majorIds": [
+          "math-edu"
+        ]
+      },
+      {
+        "name": "영어교육론",
+        "occurrences": 1,
+        "majorIds": [
+          "english-edu"
+        ]
+      },
+      {
+        "name": "영어 음성학",
+        "occurrences": 1,
+        "majorIds": [
+          "english-edu"
+        ]
+      },
+      {
+        "name": "영문법 교육",
+        "occurrences": 1,
+        "majorIds": [
+          "english-edu"
+        ]
+      },
+      {
+        "name": "영어과 교재 연구",
+        "occurrences": 1,
+        "majorIds": [
+          "english-edu"
+        ]
+      },
+      {
+        "name": "독해 지도",
+        "occurrences": 1,
+        "majorIds": [
+          "english-edu"
+        ]
+      },
+      {
+        "name": "사회과학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "social-edu"
+        ]
+      },
+      {
+        "name": "역사학 개설",
+        "occurrences": 1,
+        "majorIds": [
+          "social-edu"
+        ]
+      },
+      {
+        "name": "일반사회",
+        "occurrences": 1,
+        "majorIds": [
+          "social-edu"
+        ]
+      },
+      {
+        "name": "지리학",
+        "occurrences": 1,
+        "majorIds": [
+          "social-edu"
+        ]
+      },
+      {
+        "name": "사회과 교육론",
+        "occurrences": 1,
+        "majorIds": [
+          "social-edu"
+        ]
+      },
+      {
+        "name": "정치학",
+        "occurrences": 1,
+        "majorIds": [
+          "social-edu"
+        ]
+      },
+      {
+        "name": "법학 입문",
+        "occurrences": 1,
+        "majorIds": [
+          "social-edu"
+        ]
+      },
+      {
+        "name": "사회과 교재 연구",
+        "occurrences": 1,
+        "majorIds": [
+          "social-edu"
+        ]
+      },
+      {
+        "name": "과학교육 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "science-edu"
+        ]
+      },
+      {
+        "name": "지구과학",
+        "occurrences": 1,
+        "majorIds": [
+          "science-edu"
+        ]
+      },
+      {
+        "name": "과학교육론",
+        "occurrences": 1,
+        "majorIds": [
+          "science-edu"
+        ]
+      },
+      {
+        "name": "전공 심화",
+        "occurrences": 1,
+        "majorIds": [
+          "science-edu"
+        ]
+      },
+      {
+        "name": "실험 지도",
+        "occurrences": 1,
+        "majorIds": [
+          "science-edu"
+        ]
+      },
+      {
+        "name": "과학과 교재 연구",
+        "occurrences": 1,
+        "majorIds": [
+          "science-edu"
+        ]
+      },
+      {
+        "name": "유아교육 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "early-childhood-edu"
+        ]
+      },
+      {
+        "name": "아동 발달",
+        "occurrences": 1,
+        "majorIds": [
+          "early-childhood-edu"
+        ]
+      },
+      {
+        "name": "유아 놀이",
+        "occurrences": 1,
+        "majorIds": [
+          "early-childhood-edu"
+        ]
+      },
+      {
+        "name": "유아 언어",
+        "occurrences": 1,
+        "majorIds": [
+          "early-childhood-edu"
+        ]
+      },
+      {
+        "name": "유아 음악·미술",
+        "occurrences": 1,
+        "majorIds": [
+          "early-childhood-edu"
+        ]
+      },
+      {
+        "name": "유아 교육과정",
+        "occurrences": 1,
+        "majorIds": [
+          "early-childhood-edu"
+        ]
+      },
+      {
+        "name": "유아 평가",
+        "occurrences": 1,
+        "majorIds": [
+          "early-childhood-edu"
+        ]
+      },
+      {
+        "name": "초등교육 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "elementary-edu"
+        ]
+      },
+      {
+        "name": "국어교육",
+        "occurrences": 1,
+        "majorIds": [
+          "elementary-edu"
+        ]
+      },
+      {
+        "name": "수학교육",
+        "occurrences": 1,
+        "majorIds": [
+          "elementary-edu"
+        ]
+      },
+      {
+        "name": "사회교육",
+        "occurrences": 1,
+        "majorIds": [
+          "elementary-edu"
+        ]
+      },
+      {
+        "name": "과학교육",
+        "occurrences": 1,
+        "majorIds": [
+          "elementary-edu"
+        ]
+      },
+      {
+        "name": "음악·미술교육",
+        "occurrences": 1,
+        "majorIds": [
+          "elementary-edu"
+        ]
+      },
+      {
+        "name": "체육교육",
+        "occurrences": 1,
+        "majorIds": [
+          "elementary-edu"
+        ]
+      },
+      {
+        "name": "통합교과 지도",
+        "occurrences": 1,
+        "majorIds": [
+          "elementary-edu"
+        ]
+      },
+      {
+        "name": "특수교육 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "special-edu"
+        ]
+      },
+      {
+        "name": "지적 장애",
+        "occurrences": 1,
+        "majorIds": [
+          "special-edu"
+        ]
+      },
+      {
+        "name": "정서·행동 장애",
+        "occurrences": 1,
+        "majorIds": [
+          "special-edu"
+        ]
+      },
+      {
+        "name": "학습 장애",
+        "occurrences": 1,
+        "majorIds": [
+          "special-edu"
+        ]
+      },
+      {
+        "name": "통합교육",
+        "occurrences": 1,
+        "majorIds": [
+          "special-edu"
+        ]
+      },
+      {
+        "name": "개별화 교육",
+        "occurrences": 1,
+        "majorIds": [
+          "special-edu"
+        ]
+      },
+      {
+        "name": "진로·전환 교육",
+        "occurrences": 1,
+        "majorIds": [
+          "special-edu"
+        ]
+      },
+      {
+        "name": "윤리학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "ethics-edu"
+        ]
+      },
+      {
+        "name": "도덕교육 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "ethics-edu"
+        ]
+      },
+      {
+        "name": "서양 윤리",
+        "occurrences": 1,
+        "majorIds": [
+          "ethics-edu"
+        ]
+      },
+      {
+        "name": "동양 윤리",
+        "occurrences": 1,
+        "majorIds": [
+          "ethics-edu"
+        ]
+      },
+      {
+        "name": "사회 윤리",
+        "occurrences": 1,
+        "majorIds": [
+          "ethics-edu"
+        ]
+      },
+      {
+        "name": "응용 윤리",
+        "occurrences": 1,
+        "majorIds": [
+          "ethics-edu"
+        ]
+      },
+      {
+        "name": "도덕교육론",
+        "occurrences": 1,
+        "majorIds": [
+          "ethics-edu"
+        ]
+      },
+      {
+        "name": "회화 기초",
+        "occurrences": 1,
+        "majorIds": [
+          "art-edu"
+        ]
+      },
+      {
+        "name": "미술교육 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "art-edu"
+        ]
+      },
+      {
+        "name": "회화 심화",
+        "occurrences": 1,
+        "majorIds": [
+          "art-edu"
+        ]
+      },
+      {
+        "name": "조소",
+        "occurrences": 1,
+        "majorIds": [
+          "art-edu"
+        ]
+      },
+      {
+        "name": "미술교육론",
+        "occurrences": 1,
+        "majorIds": [
+          "art-edu"
+        ]
+      },
+      {
+        "name": "디자인",
+        "occurrences": 1,
+        "majorIds": [
+          "art-edu"
+        ]
+      },
+      {
+        "name": "현대 미술",
+        "occurrences": 1,
+        "majorIds": [
+          "art-edu"
+        ]
+      },
+      {
+        "name": "미술과 교재 연구",
+        "occurrences": 1,
+        "majorIds": [
+          "art-edu"
+        ]
+      },
+      {
+        "name": "음악교육 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "music-edu"
+        ]
+      },
+      {
+        "name": "음악교육론",
+        "occurrences": 1,
+        "majorIds": [
+          "music-edu"
+        ]
+      },
+      {
+        "name": "합창·합주",
+        "occurrences": 1,
+        "majorIds": [
+          "music-edu"
+        ]
+      },
+      {
+        "name": "음악과 교재 연구",
+        "occurrences": 1,
+        "majorIds": [
+          "music-edu"
+        ]
+      },
+      {
+        "name": "졸업 연주",
+        "occurrences": 1,
+        "majorIds": [
+          "music-edu"
+        ]
+      },
+      {
+        "name": "기술교육 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "technology-edu"
+        ]
+      },
+      {
+        "name": "기초 공학",
+        "occurrences": 1,
+        "majorIds": [
+          "technology-edu"
+        ]
+      },
+      {
+        "name": "기계 기술",
+        "occurrences": 1,
+        "majorIds": [
+          "technology-edu"
+        ]
+      },
+      {
+        "name": "전기·전자",
+        "occurrences": 1,
+        "majorIds": [
+          "technology-edu"
+        ]
+      },
+      {
+        "name": "정보 기술",
+        "occurrences": 1,
+        "majorIds": [
+          "technology-edu"
+        ]
+      },
+      {
+        "name": "건설·자동차",
+        "occurrences": 1,
+        "majorIds": [
+          "technology-edu"
+        ]
+      },
+      {
+        "name": "기술교육론",
+        "occurrences": 1,
+        "majorIds": [
+          "technology-edu"
+        ]
+      },
+      {
+        "name": "가정교육 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "home-edu"
+        ]
+      },
+      {
+        "name": "식품학",
+        "occurrences": 1,
+        "majorIds": [
+          "home-edu"
+        ]
+      },
+      {
+        "name": "의류학",
+        "occurrences": 1,
+        "majorIds": [
+          "home-edu"
+        ]
+      },
+      {
+        "name": "주거학",
+        "occurrences": 1,
+        "majorIds": [
+          "home-edu"
+        ]
+      },
+      {
+        "name": "아동학",
+        "occurrences": 1,
+        "majorIds": [
+          "home-edu"
+        ]
+      },
+      {
+        "name": "소비자학",
+        "occurrences": 1,
+        "majorIds": [
+          "home-edu"
+        ]
+      },
+      {
+        "name": "가정교과 교재 연구",
+        "occurrences": 1,
+        "majorIds": [
+          "home-edu"
+        ]
+      },
+      {
+        "name": "역사교육 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "history-edu"
+        ]
+      },
+      {
+        "name": "동양사",
+        "occurrences": 1,
+        "majorIds": [
+          "history-edu"
+        ]
+      },
+      {
+        "name": "역사교육론",
+        "occurrences": 1,
+        "majorIds": [
+          "history-edu"
+        ]
+      },
+      {
+        "name": "근현대사",
+        "occurrences": 1,
+        "majorIds": [
+          "history-edu"
+        ]
+      },
+      {
+        "name": "역사과 교재 연구",
+        "occurrences": 1,
+        "majorIds": [
+          "history-edu"
+        ]
+      },
+      {
+        "name": "문화재 답사",
+        "occurrences": 1,
+        "majorIds": [
+          "history-edu"
+        ]
+      },
+      {
+        "name": "무선통신",
+        "occurrences": 1,
+        "majorIds": [
+          "information-communication"
+        ]
+      },
+      {
+        "name": "5G·6G",
+        "occurrences": 1,
+        "majorIds": [
+          "information-communication"
+        ]
+      },
+      {
+        "name": "위성통신",
+        "occurrences": 1,
+        "majorIds": [
+          "information-communication"
+        ]
+      },
+      {
+        "name": "소프트웨어 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "software"
+        ]
+      },
+      {
+        "name": "소프트웨어 설계",
+        "occurrences": 1,
+        "majorIds": [
+          "software"
+        ]
+      },
+      {
+        "name": "웹 프로그래밍",
+        "occurrences": 1,
+        "majorIds": [
+          "software"
+        ]
+      },
+      {
+        "name": "클라우드 시스템",
+        "occurrences": 1,
+        "majorIds": [
+          "software"
+        ]
+      },
+      {
+        "name": "테스트 자동화",
+        "occurrences": 1,
+        "majorIds": [
+          "software"
+        ]
+      },
+      {
+        "name": "강화학습",
+        "occurrences": 1,
+        "majorIds": [
+          "ai-engineering"
+        ]
+      },
+      {
+        "name": "AI 윤리",
+        "occurrences": 1,
+        "majorIds": [
+          "ai-engineering"
+        ]
+      },
+      {
+        "name": "빅데이터 시스템",
+        "occurrences": 1,
+        "majorIds": [
+          "data-science"
+        ]
+      },
+      {
+        "name": "시각화",
+        "occurrences": 1,
+        "majorIds": [
+          "data-science"
+        ]
+      },
+      {
+        "name": "딥러닝 응용",
+        "occurrences": 1,
+        "majorIds": [
+          "data-science"
+        ]
+      },
+      {
+        "name": "데이터 윤리",
+        "occurrences": 1,
+        "majorIds": [
+          "data-science"
+        ]
+      },
+      {
+        "name": "보안 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "cybersecurity"
+        ]
+      },
+      {
+        "name": "암호학 기초",
+        "occurrences": 1,
+        "majorIds": [
+          "cybersecurity"
+        ]
+      },
+      {
+        "name": "시스템 보안",
+        "occurrences": 1,
+        "majorIds": [
+          "cybersecurity"
+        ]
+      },
+      {
+        "name": "웹 보안",
+        "occurrences": 1,
+        "majorIds": [
+          "cybersecurity"
+        ]
+      },
+      {
+        "name": "디지털 포렌식",
+        "occurrences": 1,
+        "majorIds": [
+          "cybersecurity"
+        ]
+      },
+      {
+        "name": "침해사고 대응",
+        "occurrences": 1,
+        "majorIds": [
+          "cybersecurity"
+        ]
+      },
+      {
+        "name": "AI 보안",
+        "occurrences": 1,
+        "majorIds": [
+          "cybersecurity"
+        ]
+      },
+      {
+        "name": "수학 기초",
+        "occurrences": 1,
+        "majorIds": [
+          "game-engineering"
+        ]
+      },
+      {
+        "name": "게임 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "game-engineering"
+        ]
+      },
+      {
+        "name": "그래픽스",
+        "occurrences": 1,
+        "majorIds": [
+          "game-engineering"
+        ]
+      },
+      {
+        "name": "게임 디자인",
+        "occurrences": 1,
+        "majorIds": [
+          "game-engineering"
+        ]
+      },
+      {
+        "name": "게임 엔진",
+        "occurrences": 1,
+        "majorIds": [
+          "game-engineering"
+        ]
+      },
+      {
+        "name": "물리 엔진",
+        "occurrences": 1,
+        "majorIds": [
+          "game-engineering"
+        ]
+      },
+      {
+        "name": "온라인 게임 서버",
+        "occurrences": 1,
+        "majorIds": [
+          "game-engineering"
+        ]
+      },
+      {
+        "name": "AI 캐릭터",
+        "occurrences": 1,
+        "majorIds": [
+          "game-engineering"
+        ]
+      },
+      {
+        "name": "VR/AR",
+        "occurrences": 1,
+        "majorIds": [
+          "game-engineering"
+        ]
+      },
+      {
+        "name": "항공우주 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "aerospace"
+        ]
+      },
+      {
+        "name": "비행 역학",
+        "occurrences": 1,
+        "majorIds": [
+          "aerospace"
+        ]
+      },
+      {
+        "name": "추진공학",
+        "occurrences": 1,
+        "majorIds": [
+          "aerospace"
+        ]
+      },
+      {
+        "name": "항공전자",
+        "occurrences": 1,
+        "majorIds": [
+          "aerospace"
+        ]
+      },
+      {
+        "name": "항공 구조",
+        "occurrences": 1,
+        "majorIds": [
+          "aerospace"
+        ]
+      },
+      {
+        "name": "우주 시스템",
+        "occurrences": 1,
+        "majorIds": [
+          "aerospace"
+        ]
+      },
+      {
+        "name": "위성공학",
+        "occurrences": 1,
+        "majorIds": [
+          "aerospace"
+        ]
+      },
+      {
+        "name": "조선해양 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "naval-architecture"
+        ]
+      },
+      {
+        "name": "선박 설계",
+        "occurrences": 1,
+        "majorIds": [
+          "naval-architecture"
+        ]
+      },
+      {
+        "name": "선박 동력",
+        "occurrences": 1,
+        "majorIds": [
+          "naval-architecture"
+        ]
+      },
+      {
+        "name": "해양 구조물",
+        "occurrences": 1,
+        "majorIds": [
+          "naval-architecture"
+        ]
+      },
+      {
+        "name": "선박 생산",
+        "occurrences": 1,
+        "majorIds": [
+          "naval-architecture"
+        ]
+      },
+      {
+        "name": "자동차 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "automotive"
+        ]
+      },
+      {
+        "name": "차량 동역학",
+        "occurrences": 1,
+        "majorIds": [
+          "automotive"
+        ]
+      },
+      {
+        "name": "전기차 시스템",
+        "occurrences": 1,
+        "majorIds": [
+          "automotive"
+        ]
+      },
+      {
+        "name": "자율주행",
+        "occurrences": 1,
+        "majorIds": [
+          "automotive"
+        ]
+      },
+      {
+        "name": "차량 전자",
+        "occurrences": 1,
+        "majorIds": [
+          "automotive"
+        ]
+      },
+      {
+        "name": "미래 모빌리티",
+        "occurrences": 1,
+        "majorIds": [
+          "automotive"
+        ]
+      },
+      {
+        "name": "로봇 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "robotics"
+        ]
+      },
+      {
+        "name": "기구학",
+        "occurrences": 1,
+        "majorIds": [
+          "robotics"
+        ]
+      },
+      {
+        "name": "센서·구동기",
+        "occurrences": 1,
+        "majorIds": [
+          "robotics"
+        ]
+      },
+      {
+        "name": "로봇 비전",
+        "occurrences": 1,
+        "majorIds": [
+          "robotics"
+        ]
+      },
+      {
+        "name": "로봇 AI",
+        "occurrences": 1,
+        "majorIds": [
+          "robotics"
+        ]
+      },
+      {
+        "name": "협동 로봇",
+        "occurrences": 1,
+        "majorIds": [
+          "robotics"
+        ]
+      },
+      {
+        "name": "휴머노이드",
+        "occurrences": 1,
+        "majorIds": [
+          "robotics"
+        ]
+      },
+      {
+        "name": "SLAM",
+        "occurrences": 1,
+        "majorIds": [
+          "robotics"
+        ]
+      },
+      {
+        "name": "전기회로",
+        "occurrences": 1,
+        "majorIds": [
+          "mechatronics"
+        ]
+      },
+      {
+        "name": "센서·액추에이터",
+        "occurrences": 1,
+        "majorIds": [
+          "mechatronics"
+        ]
+      },
+      {
+        "name": "임베디드",
+        "occurrences": 1,
+        "majorIds": [
+          "mechatronics"
+        ]
+      },
+      {
+        "name": "스마트 공장",
+        "occurrences": 1,
+        "majorIds": [
+          "mechatronics"
+        ]
+      },
+      {
+        "name": "로봇 시스템",
+        "occurrences": 1,
+        "majorIds": [
+          "mechatronics"
+        ]
+      },
+      {
+        "name": "결정학",
+        "occurrences": 1,
+        "majorIds": [
+          "new-materials"
+        ]
+      },
+      {
+        "name": "반도체 소재",
+        "occurrences": 1,
+        "majorIds": [
+          "new-materials"
+        ]
+      },
+      {
+        "name": "고분자",
+        "occurrences": 1,
+        "majorIds": [
+          "new-materials"
+        ]
+      },
+      {
+        "name": "나노소재",
+        "occurrences": 1,
+        "majorIds": [
+          "new-materials"
+        ]
+      },
+      {
+        "name": "에너지 소재",
+        "occurrences": 1,
+        "majorIds": [
+          "new-materials"
+        ]
+      },
+      {
+        "name": "소재 분석",
+        "occurrences": 1,
+        "majorIds": [
+          "new-materials"
+        ]
+      },
+      {
+        "name": "철강 제련",
+        "occurrences": 1,
+        "majorIds": [
+          "metallurgy"
+        ]
+      },
+      {
+        "name": "비철금속",
+        "occurrences": 1,
+        "majorIds": [
+          "metallurgy"
+        ]
+      },
+      {
+        "name": "열처리",
+        "occurrences": 1,
+        "majorIds": [
+          "metallurgy"
+        ]
+      },
+      {
+        "name": "재료 분석",
+        "occurrences": 1,
+        "majorIds": [
+          "metallurgy"
+        ]
+      },
+      {
+        "name": "공정 설계",
+        "occurrences": 1,
+        "majorIds": [
+          "metallurgy"
+        ]
+      },
+      {
+        "name": "고분자 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "textile"
+        ]
+      },
+      {
+        "name": "섬유 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "textile"
+        ]
+      },
+      {
+        "name": "섬유과학",
+        "occurrences": 1,
+        "majorIds": [
+          "textile"
+        ]
+      },
+      {
+        "name": "염색·가공",
+        "occurrences": 1,
+        "majorIds": [
+          "textile"
+        ]
+      },
+      {
+        "name": "의류 소재",
+        "occurrences": 1,
+        "majorIds": [
+          "textile"
+        ]
+      },
+      {
+        "name": "기능성 텍스타일",
+        "occurrences": 1,
+        "majorIds": [
+          "textile"
+        ]
+      },
+      {
+        "name": "스마트 의류",
+        "occurrences": 1,
+        "majorIds": [
+          "textile"
+        ]
+      },
+      {
+        "name": "섬유 분석",
+        "occurrences": 1,
+        "majorIds": [
+          "textile"
+        ]
+      },
+      {
+        "name": "산업용 섬유",
+        "occurrences": 1,
+        "majorIds": [
+          "textile"
+        ]
+      },
+      {
+        "name": "식품학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "food-engineering"
+        ]
+      },
+      {
+        "name": "식품화학",
+        "occurrences": 1,
+        "majorIds": [
+          "food-engineering"
+        ]
+      },
+      {
+        "name": "식품 미생물",
+        "occurrences": 1,
+        "majorIds": [
+          "food-engineering"
+        ]
+      },
+      {
+        "name": "식품 가공",
+        "occurrences": 1,
+        "majorIds": [
+          "food-engineering"
+        ]
+      },
+      {
+        "name": "식품 분석",
+        "occurrences": 1,
+        "majorIds": [
+          "food-engineering"
+        ]
+      },
+      {
+        "name": "발효학",
+        "occurrences": 1,
+        "majorIds": [
+          "food-engineering"
+        ]
+      },
+      {
+        "name": "식품 안전",
+        "occurrences": 1,
+        "majorIds": [
+          "food-engineering"
+        ]
+      },
+      {
+        "name": "HACCP",
+        "occurrences": 1,
+        "majorIds": [
+          "food-engineering"
+        ]
+      },
+      {
+        "name": "환경학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "environmental"
+        ]
+      },
+      {
+        "name": "수질공학",
+        "occurrences": 1,
+        "majorIds": [
+          "environmental"
+        ]
+      },
+      {
+        "name": "대기공학",
+        "occurrences": 1,
+        "majorIds": [
+          "environmental"
+        ]
+      },
+      {
+        "name": "폐기물공학",
+        "occurrences": 1,
+        "majorIds": [
+          "environmental"
+        ]
+      },
+      {
+        "name": "환경 미생물",
+        "occurrences": 1,
+        "majorIds": [
+          "environmental"
+        ]
+      },
+      {
+        "name": "환경 영향평가",
+        "occurrences": 1,
+        "majorIds": [
+          "environmental"
+        ]
+      },
+      {
+        "name": "환경 정책",
+        "occurrences": 1,
+        "majorIds": [
+          "environmental"
+        ]
+      },
+      {
+        "name": "자원순환",
+        "occurrences": 1,
+        "majorIds": [
+          "environmental"
+        ]
+      },
+      {
+        "name": "토목 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "civil-construction"
+        ]
+      },
+      {
+        "name": "지반공학",
+        "occurrences": 1,
+        "majorIds": [
+          "civil-construction"
+        ]
+      },
+      {
+        "name": "수리학",
+        "occurrences": 1,
+        "majorIds": [
+          "civil-construction"
+        ]
+      },
+      {
+        "name": "철근콘크리트",
+        "occurrences": 1,
+        "majorIds": [
+          "civil-construction"
+        ]
+      },
+      {
+        "name": "교량공학",
+        "occurrences": 1,
+        "majorIds": [
+          "civil-construction"
+        ]
+      },
+      {
+        "name": "교통공학",
+        "occurrences": 1,
+        "majorIds": [
+          "civil-construction"
+        ]
+      },
+      {
+        "name": "스마트 건설",
+        "occurrences": 1,
+        "majorIds": [
+          "civil-construction"
+        ]
+      },
+      {
+        "name": "BIM",
+        "occurrences": 1,
+        "majorIds": [
+          "civil-construction"
+        ]
+      },
+      {
+        "name": "도시공학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "urban-planning-eng"
+        ]
+      },
+      {
+        "name": "도시 계획",
+        "occurrences": 1,
+        "majorIds": [
+          "urban-planning-eng"
+        ]
+      },
+      {
+        "name": "GIS",
+        "occurrences": 1,
+        "majorIds": [
+          "urban-planning-eng"
+        ]
+      },
+      {
+        "name": "주택 정책",
+        "occurrences": 1,
+        "majorIds": [
+          "urban-planning-eng"
+        ]
+      },
+      {
+        "name": "스마트시티",
+        "occurrences": 1,
+        "majorIds": [
+          "urban-planning-eng"
+        ]
+      },
+      {
+        "name": "교통공학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "transportation"
+        ]
+      },
+      {
+        "name": "교통 운영",
+        "occurrences": 1,
+        "majorIds": [
+          "transportation"
+        ]
+      },
+      {
+        "name": "교통 안전",
+        "occurrences": 1,
+        "majorIds": [
+          "transportation"
+        ]
+      },
+      {
+        "name": "ITS",
+        "occurrences": 1,
+        "majorIds": [
+          "transportation"
+        ]
+      },
+      {
+        "name": "대중교통",
+        "occurrences": 1,
+        "majorIds": [
+          "transportation"
+        ]
+      },
+      {
+        "name": "스마트 모빌리티",
+        "occurrences": 1,
+        "majorIds": [
+          "transportation"
+        ]
+      },
+      {
+        "name": "시스템공학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "systems"
+        ]
+      },
+      {
+        "name": "시스템 모델링",
+        "occurrences": 1,
+        "majorIds": [
+          "systems"
+        ]
+      },
+      {
+        "name": "신뢰성",
+        "occurrences": 1,
+        "majorIds": [
+          "systems"
+        ]
+      },
+      {
+        "name": "최적화",
+        "occurrences": 1,
+        "majorIds": [
+          "systems"
+        ]
+      },
+      {
+        "name": "시스템 아키텍처",
+        "occurrences": 1,
+        "majorIds": [
+          "systems"
+        ]
+      },
+      {
+        "name": "시뮬레이션",
+        "occurrences": 1,
+        "majorIds": [
+          "systems"
+        ]
+      },
+      {
+        "name": "국방·우주 시스템",
+        "occurrences": 1,
+        "majorIds": [
+          "systems"
+        ]
+      },
+      {
+        "name": "원자력 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "nuclear"
+        ]
+      },
+      {
+        "name": "원자핵공학",
+        "occurrences": 1,
+        "majorIds": [
+          "nuclear"
+        ]
+      },
+      {
+        "name": "방사선",
+        "occurrences": 1,
+        "majorIds": [
+          "nuclear"
+        ]
+      },
+      {
+        "name": "열전달",
+        "occurrences": 1,
+        "majorIds": [
+          "nuclear"
+        ]
+      },
+      {
+        "name": "원자로공학",
+        "occurrences": 1,
+        "majorIds": [
+          "nuclear"
+        ]
+      },
+      {
+        "name": "핵연료",
+        "occurrences": 1,
+        "majorIds": [
+          "nuclear"
+        ]
+      },
+      {
+        "name": "원자력 안전",
+        "occurrences": 1,
+        "majorIds": [
+          "nuclear"
+        ]
+      },
+      {
+        "name": "원전 설계",
+        "occurrences": 1,
+        "majorIds": [
+          "nuclear"
+        ]
+      },
+      {
+        "name": "SMR",
+        "occurrences": 1,
+        "majorIds": [
+          "nuclear"
+        ]
+      },
+      {
+        "name": "전기에너지",
+        "occurrences": 1,
+        "majorIds": [
+          "energy"
+        ]
+      },
+      {
+        "name": "태양에너지",
+        "occurrences": 1,
+        "majorIds": [
+          "energy"
+        ]
+      },
+      {
+        "name": "수소·연료전지",
+        "occurrences": 1,
+        "majorIds": [
+          "energy"
+        ]
+      },
+      {
+        "name": "에너지 저장",
+        "occurrences": 1,
+        "majorIds": [
+          "energy"
+        ]
+      },
+      {
+        "name": "풍력공학",
+        "occurrences": 1,
+        "majorIds": [
+          "energy"
+        ]
+      },
+      {
+        "name": "스마트 그리드",
+        "occurrences": 1,
+        "majorIds": [
+          "energy"
+        ]
+      },
+      {
+        "name": "에너지 정책",
+        "occurrences": 1,
+        "majorIds": [
+          "energy"
+        ]
+      },
+      {
+        "name": "나노 재료",
+        "occurrences": 1,
+        "majorIds": [
+          "nano"
+        ]
+      },
+      {
+        "name": "나노 소자",
+        "occurrences": 1,
+        "majorIds": [
+          "nano"
+        ]
+      },
+      {
+        "name": "나노 바이오",
+        "occurrences": 1,
+        "majorIds": [
+          "nano"
+        ]
+      },
+      {
+        "name": "박막공정",
+        "occurrences": 1,
+        "majorIds": [
+          "nano"
+        ]
+      },
+      {
+        "name": "나노 분석",
+        "occurrences": 1,
+        "majorIds": [
+          "nano"
+        ]
+      },
+      {
+        "name": "유전공학",
+        "occurrences": 1,
+        "majorIds": [
+          "bio-engineering"
+        ]
+      },
+      {
+        "name": "세포공학",
+        "occurrences": 1,
+        "majorIds": [
+          "bio-engineering"
+        ]
+      },
+      {
+        "name": "생물공정",
+        "occurrences": 1,
+        "majorIds": [
+          "bio-engineering"
+        ]
+      },
+      {
+        "name": "바이오 의약",
+        "occurrences": 1,
+        "majorIds": [
+          "bio-engineering"
+        ]
+      },
+      {
+        "name": "합성생물학",
+        "occurrences": 1,
+        "majorIds": [
+          "bio-engineering"
+        ]
+      },
+      {
+        "name": "프로토타이핑",
+        "occurrences": 1,
+        "majorIds": [
+          "industrial-design-eng"
+        ]
+      },
+      {
+        "name": "디자인 프로젝트",
+        "occurrences": 1,
+        "majorIds": [
+          "industrial-design-eng"
+        ]
+      },
+      {
+        "name": "시추공학",
+        "occurrences": 1,
+        "majorIds": [
+          "mining"
+        ]
+      },
+      {
+        "name": "자원 탐사",
+        "occurrences": 1,
+        "majorIds": [
+          "mining"
+        ]
+      },
+      {
+        "name": "광산 안전",
+        "occurrences": 1,
+        "majorIds": [
+          "mining"
+        ]
+      },
+      {
+        "name": "자원 처리",
+        "occurrences": 1,
+        "majorIds": [
+          "mining"
+        ]
+      },
+      {
+        "name": "에너지 자원",
+        "occurrences": 1,
+        "majorIds": [
+          "mining"
+        ]
+      },
+      {
+        "name": "농업 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "agricultural-engineering"
+        ]
+      },
+      {
+        "name": "원예학",
+        "occurrences": 1,
+        "majorIds": [
+          "agricultural-engineering"
+        ]
+      },
+      {
+        "name": "식물 유전",
+        "occurrences": 1,
+        "majorIds": [
+          "agricultural-engineering"
+        ]
+      },
+      {
+        "name": "해양 구조",
+        "occurrences": 1,
+        "majorIds": [
+          "ocean-engineering"
+        ]
+      },
+      {
+        "name": "해양 정책",
+        "occurrences": 1,
+        "majorIds": [
+          "ocean-engineering"
+        ]
+      },
+      {
+        "name": "지구과학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "earth-science"
+        ]
+      },
+      {
+        "name": "해양학",
+        "occurrences": 1,
+        "majorIds": [
+          "earth-science"
+        ]
+      },
+      {
+        "name": "천문학",
+        "occurrences": 1,
+        "majorIds": [
+          "earth-science"
+        ]
+      },
+      {
+        "name": "고기후",
+        "occurrences": 1,
+        "majorIds": [
+          "earth-science"
+        ]
+      },
+      {
+        "name": "천문학 입문",
+        "occurrences": 1,
+        "majorIds": [
+          "astronomy"
+        ]
+      },
+      {
+        "name": "관측천문학",
+        "occurrences": 1,
+        "majorIds": [
+          "astronomy"
+        ]
+      },
+      {
+        "name": "항성천문학",
+        "occurrences": 1,
+        "majorIds": [
+          "astronomy"
+        ]
+      },
+      {
+        "name": "우주물리",
+        "occurrences": 1,
+        "majorIds": [
+          "astronomy"
+        ]
+      },
+      {
+        "name": "은하천문학",
+        "occurrences": 1,
+        "majorIds": [
+          "astronomy"
+        ]
+      },
+      {
+        "name": "우주론",
+        "occurrences": 1,
+        "majorIds": [
+          "astronomy"
+        ]
+      },
+      {
+        "name": "우주 환경",
+        "occurrences": 1,
+        "majorIds": [
+          "astronomy"
+        ]
+      },
+      {
+        "name": "통계학 입문",
+        "occurrences": 1,
+        "majorIds": [
+          "statistics"
+        ]
+      },
+      {
+        "name": "회귀분석",
+        "occurrences": 1,
+        "majorIds": [
+          "statistics"
+        ]
+      },
+      {
+        "name": "다변량 분석",
+        "occurrences": 1,
+        "majorIds": [
+          "statistics"
+        ]
+      },
+      {
+        "name": "시계열",
+        "occurrences": 1,
+        "majorIds": [
+          "statistics"
+        ]
+      },
+      {
+        "name": "통계 계산",
+        "occurrences": 1,
+        "majorIds": [
+          "statistics"
+        ]
+      },
+      {
+        "name": "빅데이터",
+        "occurrences": 1,
+        "majorIds": [
+          "statistics"
+        ]
+      },
+      {
+        "name": "대기과학 입문",
+        "occurrences": 1,
+        "majorIds": [
+          "atmospheric"
+        ]
+      },
+      {
+        "name": "대기 역학",
+        "occurrences": 1,
+        "majorIds": [
+          "atmospheric"
+        ]
+      },
+      {
+        "name": "대기 화학",
+        "occurrences": 1,
+        "majorIds": [
+          "atmospheric"
+        ]
+      },
+      {
+        "name": "기후 시스템",
+        "occurrences": 1,
+        "majorIds": [
+          "atmospheric"
+        ]
+      },
+      {
+        "name": "수치 예보",
+        "occurrences": 1,
+        "majorIds": [
+          "atmospheric"
+        ]
+      },
+      {
+        "name": "기후 변화",
+        "occurrences": 1,
+        "majorIds": [
+          "atmospheric"
+        ]
+      },
+      {
+        "name": "물리 해양",
+        "occurrences": 1,
+        "majorIds": [
+          "oceanography"
+        ]
+      },
+      {
+        "name": "화학 해양",
+        "occurrences": 1,
+        "majorIds": [
+          "oceanography"
+        ]
+      },
+      {
+        "name": "생물 해양",
+        "occurrences": 1,
+        "majorIds": [
+          "oceanography"
+        ]
+      },
+      {
+        "name": "해양 지질",
+        "occurrences": 1,
+        "majorIds": [
+          "oceanography"
+        ]
+      },
+      {
+        "name": "기후·해양",
+        "occurrences": 1,
+        "majorIds": [
+          "oceanography"
+        ]
+      },
+      {
+        "name": "지질학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "geology"
+        ]
+      },
+      {
+        "name": "암석학",
+        "occurrences": 1,
+        "majorIds": [
+          "geology"
+        ]
+      },
+      {
+        "name": "고생물학",
+        "occurrences": 1,
+        "majorIds": [
+          "geology"
+        ]
+      },
+      {
+        "name": "지구화학",
+        "occurrences": 1,
+        "majorIds": [
+          "geology"
+        ]
+      },
+      {
+        "name": "층서학",
+        "occurrences": 1,
+        "majorIds": [
+          "geology"
+        ]
+      },
+      {
+        "name": "구조지질학",
+        "occurrences": 1,
+        "majorIds": [
+          "geology"
+        ]
+      },
+      {
+        "name": "현장 답사",
+        "occurrences": 1,
+        "majorIds": [
+          "geology"
+        ]
+      },
+      {
+        "name": "응용지질",
+        "occurrences": 1,
+        "majorIds": [
+          "geology"
+        ]
+      },
+      {
+        "name": "농학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "agriculture"
+        ]
+      },
+      {
+        "name": "토양학",
+        "occurrences": 1,
+        "majorIds": [
+          "agriculture"
+        ]
+      },
+      {
+        "name": "식물생리학",
+        "occurrences": 1,
+        "majorIds": [
+          "agriculture"
+        ]
+      },
+      {
+        "name": "유전·육종",
+        "occurrences": 1,
+        "majorIds": [
+          "agriculture"
+        ]
+      },
+      {
+        "name": "산림학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "forestry"
+        ]
+      },
+      {
+        "name": "수목학",
+        "occurrences": 1,
+        "majorIds": [
+          "forestry"
+        ]
+      },
+      {
+        "name": "산림 생태",
+        "occurrences": 1,
+        "majorIds": [
+          "forestry"
+        ]
+      },
+      {
+        "name": "산림 경영",
+        "occurrences": 1,
+        "majorIds": [
+          "forestry"
+        ]
+      },
+      {
+        "name": "임산공학",
+        "occurrences": 1,
+        "majorIds": [
+          "forestry"
+        ]
+      },
+      {
+        "name": "조림학",
+        "occurrences": 1,
+        "majorIds": [
+          "forestry"
+        ]
+      },
+      {
+        "name": "임업 정책",
+        "occurrences": 1,
+        "majorIds": [
+          "forestry"
+        ]
+      },
+      {
+        "name": "원예학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "horticulture"
+        ]
+      },
+      {
+        "name": "식물생리",
+        "occurrences": 1,
+        "majorIds": [
+          "horticulture"
+        ]
+      },
+      {
+        "name": "채소학",
+        "occurrences": 1,
+        "majorIds": [
+          "horticulture"
+        ]
+      },
+      {
+        "name": "과수학",
+        "occurrences": 1,
+        "majorIds": [
+          "horticulture"
+        ]
+      },
+      {
+        "name": "화훼학",
+        "occurrences": 1,
+        "majorIds": [
+          "horticulture"
+        ]
+      },
+      {
+        "name": "조경학",
+        "occurrences": 1,
+        "majorIds": [
+          "horticulture"
+        ]
+      },
+      {
+        "name": "원예 유통",
+        "occurrences": 1,
+        "majorIds": [
+          "horticulture"
+        ]
+      },
+      {
+        "name": "수확 후 관리",
+        "occurrences": 1,
+        "majorIds": [
+          "horticulture"
+        ]
+      },
+      {
+        "name": "동물학",
+        "occurrences": 1,
+        "majorIds": [
+          "animal-science"
+        ]
+      },
+      {
+        "name": "동물자원 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "animal-science"
+        ]
+      },
+      {
+        "name": "동물 영양",
+        "occurrences": 1,
+        "majorIds": [
+          "animal-science"
+        ]
+      },
+      {
+        "name": "동물 번식",
+        "occurrences": 1,
+        "majorIds": [
+          "animal-science"
+        ]
+      },
+      {
+        "name": "축산물 가공",
+        "occurrences": 1,
+        "majorIds": [
+          "animal-science"
+        ]
+      },
+      {
+        "name": "동물 행동",
+        "occurrences": 1,
+        "majorIds": [
+          "animal-science"
+        ]
+      },
+      {
+        "name": "사료학",
+        "occurrences": 1,
+        "majorIds": [
+          "animal-science"
+        ]
+      },
+      {
+        "name": "축산 경영",
+        "occurrences": 1,
+        "majorIds": [
+          "animal-science"
+        ]
+      },
+      {
+        "name": "수산학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "fisheries"
+        ]
+      },
+      {
+        "name": "어류학",
+        "occurrences": 1,
+        "majorIds": [
+          "fisheries"
+        ]
+      },
+      {
+        "name": "어병학",
+        "occurrences": 1,
+        "majorIds": [
+          "fisheries"
+        ]
+      },
+      {
+        "name": "양식학",
+        "occurrences": 1,
+        "majorIds": [
+          "fisheries"
+        ]
+      },
+      {
+        "name": "수산 미생물",
+        "occurrences": 1,
+        "majorIds": [
+          "fisheries"
+        ]
+      },
+      {
+        "name": "수산 자원",
+        "occurrences": 1,
+        "majorIds": [
+          "fisheries"
+        ]
+      },
+      {
+        "name": "수산 환경",
+        "occurrences": 1,
+        "majorIds": [
+          "fisheries"
+        ]
+      },
+      {
+        "name": "수산 정책",
+        "occurrences": 1,
+        "majorIds": [
+          "fisheries"
+        ]
+      },
+      {
+        "name": "치의학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "dentistry"
+        ]
+      },
+      {
+        "name": "치아 형태학",
+        "occurrences": 1,
+        "majorIds": [
+          "dentistry"
+        ]
+      },
+      {
+        "name": "구강 해부",
+        "occurrences": 1,
+        "majorIds": [
+          "dentistry"
+        ]
+      },
+      {
+        "name": "의료 윤리",
+        "occurrences": 1,
+        "majorIds": [
+          "dentistry"
+        ]
+      },
+      {
+        "name": "치주학",
+        "occurrences": 1,
+        "majorIds": [
+          "dentistry"
+        ]
+      },
+      {
+        "name": "보존학",
+        "occurrences": 1,
+        "majorIds": [
+          "dentistry"
+        ]
+      },
+      {
+        "name": "교정학",
+        "occurrences": 1,
+        "majorIds": [
+          "dentistry"
+        ]
+      },
+      {
+        "name": "치과 보철",
+        "occurrences": 1,
+        "majorIds": [
+          "dentistry"
+        ]
+      },
+      {
+        "name": "치과 외과",
+        "occurrences": 1,
+        "majorIds": [
+          "dentistry"
+        ]
+      },
+      {
+        "name": "한의학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "korean-medicine"
+        ]
+      },
+      {
+        "name": "한자 강독",
+        "occurrences": 1,
+        "majorIds": [
+          "korean-medicine"
+        ]
+      },
+      {
+        "name": "본초학",
+        "occurrences": 1,
+        "majorIds": [
+          "korean-medicine"
+        ]
+      },
+      {
+        "name": "경혈학",
+        "occurrences": 1,
+        "majorIds": [
+          "korean-medicine"
+        ]
+      },
+      {
+        "name": "의학 한문",
+        "occurrences": 1,
+        "majorIds": [
+          "korean-medicine"
+        ]
+      },
+      {
+        "name": "방제학",
+        "occurrences": 1,
+        "majorIds": [
+          "korean-medicine"
+        ]
+      },
+      {
+        "name": "침구학",
+        "occurrences": 1,
+        "majorIds": [
+          "korean-medicine"
+        ]
+      },
+      {
+        "name": "사상의학",
+        "occurrences": 1,
+        "majorIds": [
+          "korean-medicine"
+        ]
+      },
+      {
+        "name": "한방 내과",
+        "occurrences": 1,
+        "majorIds": [
+          "korean-medicine"
+        ]
+      },
+      {
+        "name": "한방 외과",
+        "occurrences": 1,
+        "majorIds": [
+          "korean-medicine"
+        ]
+      },
+      {
+        "name": "수의학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "veterinary"
+        ]
+      },
+      {
+        "name": "수의 해부",
+        "occurrences": 1,
+        "majorIds": [
+          "veterinary"
+        ]
+      },
+      {
+        "name": "수의 생리",
+        "occurrences": 1,
+        "majorIds": [
+          "veterinary"
+        ]
+      },
+      {
+        "name": "수의 약리",
+        "occurrences": 1,
+        "majorIds": [
+          "veterinary"
+        ]
+      },
+      {
+        "name": "수의 내과",
+        "occurrences": 1,
+        "majorIds": [
+          "veterinary"
+        ]
+      },
+      {
+        "name": "수의 외과",
+        "occurrences": 1,
+        "majorIds": [
+          "veterinary"
+        ]
+      },
+      {
+        "name": "공중 보건",
+        "occurrences": 1,
+        "majorIds": [
+          "veterinary"
+        ]
+      },
+      {
+        "name": "축산 검역",
+        "occurrences": 1,
+        "majorIds": [
+          "veterinary"
+        ]
+      },
+      {
+        "name": "임상병리 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "clinical-pathology"
+        ]
+      },
+      {
+        "name": "혈액학",
+        "occurrences": 1,
+        "majorIds": [
+          "clinical-pathology"
+        ]
+      },
+      {
+        "name": "임상 미생물",
+        "occurrences": 1,
+        "majorIds": [
+          "clinical-pathology"
+        ]
+      },
+      {
+        "name": "임상 화학",
+        "occurrences": 1,
+        "majorIds": [
+          "clinical-pathology"
+        ]
+      },
+      {
+        "name": "조직병리",
+        "occurrences": 1,
+        "majorIds": [
+          "clinical-pathology"
+        ]
+      },
+      {
+        "name": "면역혈청",
+        "occurrences": 1,
+        "majorIds": [
+          "clinical-pathology"
+        ]
+      },
+      {
+        "name": "분자 진단",
+        "occurrences": 1,
+        "majorIds": [
+          "clinical-pathology"
+        ]
+      },
+      {
+        "name": "검사 정도관리",
+        "occurrences": 1,
+        "majorIds": [
+          "clinical-pathology"
+        ]
+      },
+      {
+        "name": "방사선학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "radiology"
+        ]
+      },
+      {
+        "name": "방사선 물리",
+        "occurrences": 1,
+        "majorIds": [
+          "radiology"
+        ]
+      },
+      {
+        "name": "X선 영상",
+        "occurrences": 1,
+        "majorIds": [
+          "radiology"
+        ]
+      },
+      {
+        "name": "방사선 안전",
+        "occurrences": 1,
+        "majorIds": [
+          "radiology"
+        ]
+      },
+      {
+        "name": "CT·MRI",
+        "occurrences": 1,
+        "majorIds": [
+          "radiology"
+        ]
+      },
+      {
+        "name": "핵의학",
+        "occurrences": 1,
+        "majorIds": [
+          "radiology"
+        ]
+      },
+      {
+        "name": "방사선 치료",
+        "occurrences": 1,
+        "majorIds": [
+          "radiology"
+        ]
+      },
+      {
+        "name": "영상 진단",
+        "occurrences": 1,
+        "majorIds": [
+          "radiology"
+        ]
+      },
+      {
+        "name": "작업치료 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "occupational-therapy"
+        ]
+      },
+      {
+        "name": "신체 작업",
+        "occurrences": 1,
+        "majorIds": [
+          "occupational-therapy"
+        ]
+      },
+      {
+        "name": "정신 작업",
+        "occurrences": 1,
+        "majorIds": [
+          "occupational-therapy"
+        ]
+      },
+      {
+        "name": "아동 작업",
+        "occurrences": 1,
+        "majorIds": [
+          "occupational-therapy"
+        ]
+      },
+      {
+        "name": "노인 작업",
+        "occurrences": 1,
+        "majorIds": [
+          "occupational-therapy"
+        ]
+      },
+      {
+        "name": "지역사회 재활",
+        "occurrences": 1,
+        "majorIds": [
+          "occupational-therapy"
+        ]
+      },
+      {
+        "name": "보조공학",
+        "occurrences": 1,
+        "majorIds": [
+          "occupational-therapy"
+        ]
+      },
+      {
+        "name": "운동학",
+        "occurrences": 1,
+        "majorIds": [
+          "physical-therapy"
+        ]
+      },
+      {
+        "name": "물리치료 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "physical-therapy"
+        ]
+      },
+      {
+        "name": "근골격계 치료",
+        "occurrences": 1,
+        "majorIds": [
+          "physical-therapy"
+        ]
+      },
+      {
+        "name": "신경계 치료",
+        "occurrences": 1,
+        "majorIds": [
+          "physical-therapy"
+        ]
+      },
+      {
+        "name": "전기 치료",
+        "occurrences": 1,
+        "majorIds": [
+          "physical-therapy"
+        ]
+      },
+      {
+        "name": "스포츠 재활",
+        "occurrences": 1,
+        "majorIds": [
+          "physical-therapy"
+        ]
+      },
+      {
+        "name": "수기 치료",
+        "occurrences": 1,
+        "majorIds": [
+          "physical-therapy"
+        ]
+      },
+      {
+        "name": "임상 통합",
+        "occurrences": 1,
+        "majorIds": [
+          "physical-therapy"
+        ]
+      },
+      {
+        "name": "응급의학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "emergency-medical"
+        ]
+      },
+      {
+        "name": "기본 소생술",
+        "occurrences": 1,
+        "majorIds": [
+          "emergency-medical"
+        ]
+      },
+      {
+        "name": "응급 처치",
+        "occurrences": 1,
+        "majorIds": [
+          "emergency-medical"
+        ]
+      },
+      {
+        "name": "외상 처치",
+        "occurrences": 1,
+        "majorIds": [
+          "emergency-medical"
+        ]
+      },
+      {
+        "name": "응급 약리",
+        "occurrences": 1,
+        "majorIds": [
+          "emergency-medical"
+        ]
+      },
+      {
+        "name": "재난 의료",
+        "occurrences": 1,
+        "majorIds": [
+          "emergency-medical"
+        ]
+      },
+      {
+        "name": "119 실습",
+        "occurrences": 1,
+        "majorIds": [
+          "emergency-medical"
+        ]
+      },
+      {
+        "name": "병원 실습",
+        "occurrences": 1,
+        "majorIds": [
+          "emergency-medical"
+        ]
+      },
+      {
+        "name": "응급 통합",
+        "occurrences": 1,
+        "majorIds": [
+          "emergency-medical"
+        ]
+      },
+      {
+        "name": "생물통계",
+        "occurrences": 1,
+        "majorIds": [
+          "public-health"
+        ]
+      },
+      {
+        "name": "환경 보건",
+        "occurrences": 1,
+        "majorIds": [
+          "public-health"
+        ]
+      },
+      {
+        "name": "보건 교육",
+        "occurrences": 1,
+        "majorIds": [
+          "public-health"
+        ]
+      },
+      {
+        "name": "산업 보건",
+        "occurrences": 1,
+        "majorIds": [
+          "public-health"
+        ]
+      },
+      {
+        "name": "건강 행동",
+        "occurrences": 1,
+        "majorIds": [
+          "public-health"
+        ]
+      },
+      {
+        "name": "일러스트레이션",
+        "occurrences": 1,
+        "majorIds": [
+          "visual-design"
+        ]
+      },
+      {
+        "name": "편집디자인",
+        "occurrences": 1,
+        "majorIds": [
+          "visual-design"
+        ]
+      },
+      {
+        "name": "모션그래픽",
+        "occurrences": 1,
+        "majorIds": [
+          "visual-design"
+        ]
+      },
+      {
+        "name": "모형 제작",
+        "occurrences": 1,
+        "majorIds": [
+          "industrial-design"
+        ]
+      },
+      {
+        "name": "운송 디자인",
+        "occurrences": 1,
+        "majorIds": [
+          "industrial-design"
+        ]
+      },
+      {
+        "name": "UX",
+        "occurrences": 1,
+        "majorIds": [
+          "industrial-design"
+        ]
+      },
+      {
+        "name": "의복 구성",
+        "occurrences": 1,
+        "majorIds": [
+          "fashion-design"
+        ]
+      },
+      {
+        "name": "패션 일러스트",
+        "occurrences": 1,
+        "majorIds": [
+          "fashion-design"
+        ]
+      },
+      {
+        "name": "패턴",
+        "occurrences": 1,
+        "majorIds": [
+          "fashion-design"
+        ]
+      },
+      {
+        "name": "소재",
+        "occurrences": 1,
+        "majorIds": [
+          "fashion-design"
+        ]
+      },
+      {
+        "name": "컬렉션 디자인",
+        "occurrences": 1,
+        "majorIds": [
+          "fashion-design"
+        ]
+      },
+      {
+        "name": "패션 마케팅",
+        "occurrences": 1,
+        "majorIds": [
+          "fashion-design"
+        ]
+      },
+      {
+        "name": "니트·텍스타일",
+        "occurrences": 1,
+        "majorIds": [
+          "fashion-design"
+        ]
+      },
+      {
+        "name": "졸업 컬렉션",
+        "occurrences": 1,
+        "majorIds": [
+          "fashion-design"
+        ]
+      },
+      {
+        "name": "공간 디자인 기초",
+        "occurrences": 1,
+        "majorIds": [
+          "interior-design"
+        ]
+      },
+      {
+        "name": "주거 공간",
+        "occurrences": 1,
+        "majorIds": [
+          "interior-design"
+        ]
+      },
+      {
+        "name": "상업 공간",
+        "occurrences": 1,
+        "majorIds": [
+          "interior-design"
+        ]
+      },
+      {
+        "name": "재료",
+        "occurrences": 1,
+        "majorIds": [
+          "interior-design"
+        ]
+      },
+      {
+        "name": "조명",
+        "occurrences": 1,
+        "majorIds": [
+          "interior-design"
+        ]
+      },
+      {
+        "name": "가구",
+        "occurrences": 1,
+        "majorIds": [
+          "interior-design"
+        ]
+      },
+      {
+        "name": "CAD/BIM",
+        "occurrences": 1,
+        "majorIds": [
+          "interior-design"
+        ]
+      },
+      {
+        "name": "서예",
+        "occurrences": 1,
+        "majorIds": [
+          "painting-eastern"
+        ]
+      },
+      {
+        "name": "동양화 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "painting-eastern"
+        ]
+      },
+      {
+        "name": "수묵화",
+        "occurrences": 1,
+        "majorIds": [
+          "painting-eastern"
+        ]
+      },
+      {
+        "name": "채색화",
+        "occurrences": 1,
+        "majorIds": [
+          "painting-eastern"
+        ]
+      },
+      {
+        "name": "한국 미술사",
+        "occurrences": 1,
+        "majorIds": [
+          "painting-eastern"
+        ]
+      },
+      {
+        "name": "현대 동양화",
+        "occurrences": 1,
+        "majorIds": [
+          "painting-eastern"
+        ]
+      },
+      {
+        "name": "평론",
+        "occurrences": 1,
+        "majorIds": [
+          "painting-eastern"
+        ]
+      },
+      {
+        "name": "유화 기초",
+        "occurrences": 1,
+        "majorIds": [
+          "painting-western"
+        ]
+      },
+      {
+        "name": "서양 미술사",
+        "occurrences": 1,
+        "majorIds": [
+          "painting-western"
+        ]
+      },
+      {
+        "name": "인체 드로잉",
+        "occurrences": 1,
+        "majorIds": [
+          "painting-western"
+        ]
+      },
+      {
+        "name": "유화 심화",
+        "occurrences": 1,
+        "majorIds": [
+          "painting-western"
+        ]
+      },
+      {
+        "name": "현대 미술 이론",
+        "occurrences": 1,
+        "majorIds": [
+          "painting-western"
+        ]
+      },
+      {
+        "name": "혼합 매체",
+        "occurrences": 1,
+        "majorIds": [
+          "painting-western"
+        ]
+      },
+      {
+        "name": "기초 조소",
+        "occurrences": 1,
+        "majorIds": [
+          "sculpture"
+        ]
+      },
+      {
+        "name": "인체 조소",
+        "occurrences": 1,
+        "majorIds": [
+          "sculpture"
+        ]
+      },
+      {
+        "name": "목조",
+        "occurrences": 1,
+        "majorIds": [
+          "sculpture"
+        ]
+      },
+      {
+        "name": "석조",
+        "occurrences": 1,
+        "majorIds": [
+          "sculpture"
+        ]
+      },
+      {
+        "name": "설치",
+        "occurrences": 1,
+        "majorIds": [
+          "sculpture"
+        ]
+      },
+      {
+        "name": "공공미술",
+        "occurrences": 1,
+        "majorIds": [
+          "sculpture"
+        ]
+      },
+      {
+        "name": "도예 기초",
+        "occurrences": 1,
+        "majorIds": [
+          "ceramic-art"
+        ]
+      },
+      {
+        "name": "흙·물·불",
+        "occurrences": 1,
+        "majorIds": [
+          "ceramic-art"
+        ]
+      },
+      {
+        "name": "물레",
+        "occurrences": 1,
+        "majorIds": [
+          "ceramic-art"
+        ]
+      },
+      {
+        "name": "조형",
+        "occurrences": 1,
+        "majorIds": [
+          "ceramic-art"
+        ]
+      },
+      {
+        "name": "유약학",
+        "occurrences": 1,
+        "majorIds": [
+          "ceramic-art"
+        ]
+      },
+      {
+        "name": "세라믹 디자인",
+        "occurrences": 1,
+        "majorIds": [
+          "ceramic-art"
+        ]
+      },
+      {
+        "name": "현대 도예",
+        "occurrences": 1,
+        "majorIds": [
+          "ceramic-art"
+        ]
+      },
+      {
+        "name": "사진 기초",
+        "occurrences": 1,
+        "majorIds": [
+          "photography"
+        ]
+      },
+      {
+        "name": "카메라 워크",
+        "occurrences": 1,
+        "majorIds": [
+          "photography"
+        ]
+      },
+      {
+        "name": "사진사",
+        "occurrences": 1,
+        "majorIds": [
+          "photography"
+        ]
+      },
+      {
+        "name": "인물 사진",
+        "occurrences": 1,
+        "majorIds": [
+          "photography"
+        ]
+      },
+      {
+        "name": "풍경 사진",
+        "occurrences": 1,
+        "majorIds": [
+          "photography"
+        ]
+      },
+      {
+        "name": "디지털 후보정",
+        "occurrences": 1,
+        "majorIds": [
+          "photography"
+        ]
+      },
+      {
+        "name": "스튜디오 라이팅",
+        "occurrences": 1,
+        "majorIds": [
+          "photography"
+        ]
+      },
+      {
+        "name": "사진 비평",
+        "occurrences": 1,
+        "majorIds": [
+          "photography"
+        ]
+      },
+      {
+        "name": "영화 입문",
+        "occurrences": 1,
+        "majorIds": [
+          "film-tv"
+        ]
+      },
+      {
+        "name": "시나리오 기초",
+        "occurrences": 1,
+        "majorIds": [
+          "film-tv"
+        ]
+      },
+      {
+        "name": "촬영 기초",
+        "occurrences": 1,
+        "majorIds": [
+          "film-tv"
+        ]
+      },
+      {
+        "name": "편집",
+        "occurrences": 1,
+        "majorIds": [
+          "film-tv"
+        ]
+      },
+      {
+        "name": "음향",
+        "occurrences": 1,
+        "majorIds": [
+          "film-tv"
+        ]
+      },
+      {
+        "name": "영화 비평",
+        "occurrences": 1,
+        "majorIds": [
+          "film-tv"
+        ]
+      },
+      {
+        "name": "영화제 출품",
+        "occurrences": 1,
+        "majorIds": [
+          "film-tv"
+        ]
+      },
+      {
+        "name": "스토리텔링",
+        "occurrences": 1,
+        "majorIds": [
+          "animation"
+        ]
+      },
+      {
+        "name": "애니메이션 입문",
+        "occurrences": 1,
+        "majorIds": [
+          "animation"
+        ]
+      },
+      {
+        "name": "스토리보드",
+        "occurrences": 1,
+        "majorIds": [
+          "animation"
+        ]
+      },
+      {
+        "name": "2D 애니메이션",
+        "occurrences": 1,
+        "majorIds": [
+          "animation"
+        ]
+      },
+      {
+        "name": "3D 애니메이션",
+        "occurrences": 1,
+        "majorIds": [
+          "animation"
+        ]
+      },
+      {
+        "name": "웹툰 연재",
+        "occurrences": 1,
+        "majorIds": [
+          "animation"
+        ]
+      },
+      {
+        "name": "사운드 디자인",
+        "occurrences": 1,
+        "majorIds": [
+          "animation"
+        ]
+      },
+      {
+        "name": "디지털 페인팅",
+        "occurrences": 1,
+        "majorIds": [
+          "game-graphics"
+        ]
+      },
+      {
+        "name": "게임 그래픽 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "game-graphics"
+        ]
+      },
+      {
+        "name": "3D 모델링",
+        "occurrences": 1,
+        "majorIds": [
+          "game-graphics"
+        ]
+      },
+      {
+        "name": "텍스처",
+        "occurrences": 1,
+        "majorIds": [
+          "game-graphics"
+        ]
+      },
+      {
+        "name": "환경 디자인",
+        "occurrences": 1,
+        "majorIds": [
+          "game-graphics"
+        ]
+      },
+      {
+        "name": "애니메이션",
+        "occurrences": 1,
+        "majorIds": [
+          "game-graphics"
+        ]
+      },
+      {
+        "name": "게임 UX/UI",
+        "occurrences": 1,
+        "majorIds": [
+          "game-graphics"
+        ]
+      },
+      {
+        "name": "민족음악학",
+        "occurrences": 1,
+        "majorIds": [
+          "music-theory"
+        ]
+      },
+      {
+        "name": "음악 사회학",
+        "occurrences": 1,
+        "majorIds": [
+          "music-theory"
+        ]
+      },
+      {
+        "name": "연구 방법",
+        "occurrences": 1,
+        "majorIds": [
+          "music-theory"
+        ]
+      },
+      {
+        "name": "비평 워크숍",
+        "occurrences": 1,
+        "majorIds": [
+          "music-theory"
+        ]
+      },
+      {
+        "name": "피아노",
+        "occurrences": 1,
+        "majorIds": [
+          "composition"
+        ]
+      },
+      {
+        "name": "작곡 실기",
+        "occurrences": 1,
+        "majorIds": [
+          "composition"
+        ]
+      },
+      {
+        "name": "영상음악",
+        "occurrences": 1,
+        "majorIds": [
+          "composition"
+        ]
+      },
+      {
+        "name": "발표회",
+        "occurrences": 1,
+        "majorIds": [
+          "composition"
+        ]
+      },
+      {
+        "name": "발성",
+        "occurrences": 1,
+        "majorIds": [
+          "vocal"
+        ]
+      },
+      {
+        "name": "이탈리아 가곡",
+        "occurrences": 1,
+        "majorIds": [
+          "vocal"
+        ]
+      },
+      {
+        "name": "독일 가곡",
+        "occurrences": 1,
+        "majorIds": [
+          "vocal"
+        ]
+      },
+      {
+        "name": "연기",
+        "occurrences": 1,
+        "majorIds": [
+          "vocal"
+        ]
+      },
+      {
+        "name": "오페라",
+        "occurrences": 1,
+        "majorIds": [
+          "vocal"
+        ]
+      },
+      {
+        "name": "합창",
+        "occurrences": 1,
+        "majorIds": [
+          "vocal"
+        ]
+      },
+      {
+        "name": "한국 가곡",
+        "occurrences": 1,
+        "majorIds": [
+          "vocal"
+        ]
+      },
+      {
+        "name": "졸업 독창회",
+        "occurrences": 1,
+        "majorIds": [
+          "vocal"
+        ]
+      },
+      {
+        "name": "피아노 실기",
+        "occurrences": 1,
+        "majorIds": [
+          "piano"
+        ]
+      },
+      {
+        "name": "연주법",
+        "occurrences": 1,
+        "majorIds": [
+          "piano"
+        ]
+      },
+      {
+        "name": "피아노 문헌",
+        "occurrences": 1,
+        "majorIds": [
+          "piano"
+        ]
+      },
+      {
+        "name": "반주법",
+        "occurrences": 1,
+        "majorIds": [
+          "piano"
+        ]
+      },
+      {
+        "name": "오케스트라",
+        "occurrences": 1,
+        "majorIds": [
+          "orchestra"
+        ]
+      },
+      {
+        "name": "국악 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "korean-music"
+        ]
+      },
+      {
+        "name": "국악사",
+        "occurrences": 1,
+        "majorIds": [
+          "korean-music"
+        ]
+      },
+      {
+        "name": "판소리·정가",
+        "occurrences": 1,
+        "majorIds": [
+          "korean-music"
+        ]
+      },
+      {
+        "name": "창작 국악",
+        "occurrences": 1,
+        "majorIds": [
+          "korean-music"
+        ]
+      },
+      {
+        "name": "현대 국악",
+        "occurrences": 1,
+        "majorIds": [
+          "korean-music"
+        ]
+      },
+      {
+        "name": "민속음악",
+        "occurrences": 1,
+        "majorIds": [
+          "korean-music"
+        ]
+      },
+      {
+        "name": "졸업 연주회",
+        "occurrences": 1,
+        "majorIds": [
+          "korean-music"
+        ]
+      },
+      {
+        "name": "실기",
+        "occurrences": 1,
+        "majorIds": [
+          "applied-music"
+        ]
+      },
+      {
+        "name": "현대 음악사",
+        "occurrences": 1,
+        "majorIds": [
+          "applied-music"
+        ]
+      },
+      {
+        "name": "재즈 화성",
+        "occurrences": 1,
+        "majorIds": [
+          "applied-music"
+        ]
+      },
+      {
+        "name": "앙상블",
+        "occurrences": 1,
+        "majorIds": [
+          "applied-music"
+        ]
+      },
+      {
+        "name": "녹음 실습",
+        "occurrences": 1,
+        "majorIds": [
+          "applied-music"
+        ]
+      },
+      {
+        "name": "편곡",
+        "occurrences": 1,
+        "majorIds": [
+          "applied-music"
+        ]
+      },
+      {
+        "name": "프로듀싱",
+        "occurrences": 1,
+        "majorIds": [
+          "applied-music"
+        ]
+      },
+      {
+        "name": "공연 실무",
+        "occurrences": 1,
+        "majorIds": [
+          "applied-music"
+        ]
+      },
+      {
+        "name": "기본기",
+        "occurrences": 1,
+        "majorIds": [
+          "dance"
+        ]
+      },
+      {
+        "name": "무용사",
+        "occurrences": 1,
+        "majorIds": [
+          "dance"
+        ]
+      },
+      {
+        "name": "음악·리듬",
+        "occurrences": 1,
+        "majorIds": [
+          "dance"
+        ]
+      },
+      {
+        "name": "즉흥",
+        "occurrences": 1,
+        "majorIds": [
+          "dance"
+        ]
+      },
+      {
+        "name": "안무 입문",
+        "occurrences": 1,
+        "majorIds": [
+          "dance"
+        ]
+      },
+      {
+        "name": "안무",
+        "occurrences": 1,
+        "majorIds": [
+          "dance"
+        ]
+      },
+      {
+        "name": "무대 실습",
+        "occurrences": 1,
+        "majorIds": [
+          "dance"
+        ]
+      },
+      {
+        "name": "무용 비평",
+        "occurrences": 1,
+        "majorIds": [
+          "dance"
+        ]
+      },
+      {
+        "name": "연기 기초",
+        "occurrences": 1,
+        "majorIds": [
+          "theater-film"
+        ]
+      },
+      {
+        "name": "연극사",
+        "occurrences": 1,
+        "majorIds": [
+          "theater-film"
+        ]
+      },
+      {
+        "name": "영화사",
+        "occurrences": 1,
+        "majorIds": [
+          "theater-film"
+        ]
+      },
+      {
+        "name": "연기 실기",
+        "occurrences": 1,
+        "majorIds": [
+          "theater-film"
+        ]
+      },
+      {
+        "name": "극작",
+        "occurrences": 1,
+        "majorIds": [
+          "theater-film"
+        ]
+      },
+      {
+        "name": "영상 연기",
+        "occurrences": 1,
+        "majorIds": [
+          "theater-film"
+        ]
+      },
+      {
+        "name": "스포츠과학 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "sports-science"
+        ]
+      },
+      {
+        "name": "운동역학",
+        "occurrences": 1,
+        "majorIds": [
+          "sports-science"
+        ]
+      },
+      {
+        "name": "스포츠 데이터",
+        "occurrences": 1,
+        "majorIds": [
+          "sports-science"
+        ]
+      },
+      {
+        "name": "상해 관리",
+        "occurrences": 1,
+        "majorIds": [
+          "sports-science"
+        ]
+      },
+      {
+        "name": "사회체육 개론",
+        "occurrences": 1,
+        "majorIds": [
+          "social-sports"
+        ]
+      },
+      {
+        "name": "레크리에이션",
+        "occurrences": 1,
+        "majorIds": [
+          "social-sports"
+        ]
+      },
+      {
+        "name": "노인 체육",
+        "occurrences": 1,
+        "majorIds": [
+          "social-sports"
+        ]
+      },
+      {
+        "name": "장애인 체육",
+        "occurrences": 1,
+        "majorIds": [
+          "social-sports"
+        ]
+      },
+      {
+        "name": "스포츠 이벤트",
+        "occurrences": 1,
+        "majorIds": [
+          "social-sports"
+        ]
+      },
+      {
+        "name": "태권도 기본",
+        "occurrences": 1,
+        "majorIds": [
+          "taekwondo"
+        ]
+      },
+      {
+        "name": "품새",
+        "occurrences": 1,
+        "majorIds": [
+          "taekwondo"
+        ]
+      },
+      {
+        "name": "태권도사",
+        "occurrences": 1,
+        "majorIds": [
+          "taekwondo"
+        ]
+      },
+      {
+        "name": "겨루기",
+        "occurrences": 1,
+        "majorIds": [
+          "taekwondo"
+        ]
+      },
+      {
+        "name": "심판법",
+        "occurrences": 1,
+        "majorIds": [
+          "taekwondo"
+        ]
+      },
+      {
+        "name": "태권도 철학",
+        "occurrences": 1,
+        "majorIds": [
+          "taekwondo"
+        ]
+      },
+      {
+        "name": "지도법",
+        "occurrences": 1,
+        "majorIds": [
+          "taekwondo"
+        ]
+      },
+      {
+        "name": "태권도 영어",
+        "occurrences": 1,
+        "majorIds": [
+          "taekwondo"
+        ]
+      },
+      {
+        "name": "경기 분석",
+        "occurrences": 1,
+        "majorIds": [
+          "taekwondo"
+        ]
+      },
+      {
+        "name": "국제 보급",
+        "occurrences": 1,
+        "majorIds": [
+          "taekwondo"
+        ]
+      },
+      {
+        "name": "졸업 시연",
+        "occurrences": 1,
+        "majorIds": [
+          "taekwondo"
+        ]
+      }
+    ]
+  },
+  "generated_descriptions": []
+}

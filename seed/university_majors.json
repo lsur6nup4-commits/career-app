@@ -1,169 +1,6967 @@
 [
-  { "majorId": "computer-science", "universityId": "snu", "admissionQuota": 75 },
-  { "majorId": "computer-science", "universityId": "kaist", "admissionQuota": 200 },
-  { "majorId": "computer-science", "universityId": "postech", "admissionQuota": 80 },
-  { "majorId": "computer-science", "universityId": "yonsei", "admissionQuota": 100 },
-  { "majorId": "computer-science", "universityId": "korea", "admissionQuota": 110 },
-  { "majorId": "computer-science", "universityId": "skku", "admissionQuota": 100 },
-  { "majorId": "computer-science", "universityId": "hanyang", "admissionQuota": 130 },
-  { "majorId": "computer-science", "universityId": "sogang", "admissionQuota": 60 },
-  { "majorId": "computer-science", "universityId": "khu", "admissionQuota": 90 },
-  { "majorId": "computer-science", "universityId": "knu", "admissionQuota": 100 },
-
-  { "majorId": "electrical-engineering", "universityId": "snu", "admissionQuota": 130 },
-  { "majorId": "electrical-engineering", "universityId": "kaist", "admissionQuota": 220 },
-  { "majorId": "electrical-engineering", "universityId": "yonsei", "admissionQuota": 120 },
-  { "majorId": "electrical-engineering", "universityId": "korea", "admissionQuota": 110 },
-  { "majorId": "electrical-engineering", "universityId": "hanyang", "admissionQuota": 145 },
-  { "majorId": "electrical-engineering", "universityId": "skku", "admissionQuota": 100 },
-  { "majorId": "electrical-engineering", "universityId": "pnu", "admissionQuota": 130 },
-
-  { "majorId": "mechanical-engineering", "universityId": "snu", "admissionQuota": 95 },
-  { "majorId": "mechanical-engineering", "universityId": "kaist", "admissionQuota": 130 },
-  { "majorId": "mechanical-engineering", "universityId": "yonsei", "admissionQuota": 90 },
-  { "majorId": "mechanical-engineering", "universityId": "hanyang", "admissionQuota": 120 },
-  { "majorId": "mechanical-engineering", "universityId": "inha", "admissionQuota": 110 },
-  { "majorId": "mechanical-engineering", "universityId": "knu", "admissionQuota": 95 },
-
-  { "majorId": "chemical-engineering", "universityId": "snu", "admissionQuota": 80 },
-  { "majorId": "chemical-engineering", "universityId": "kaist", "admissionQuota": 100 },
-  { "majorId": "chemical-engineering", "universityId": "yonsei", "admissionQuota": 75 },
-  { "majorId": "chemical-engineering", "universityId": "hanyang", "admissionQuota": 90 },
-  { "majorId": "chemical-engineering", "universityId": "pnu", "admissionQuota": 100 },
-
-  { "majorId": "civil-engineering", "universityId": "snu", "admissionQuota": 50 },
-  { "majorId": "civil-engineering", "universityId": "yonsei", "admissionQuota": 45 },
-  { "majorId": "civil-engineering", "universityId": "hanyang", "admissionQuota": 60 },
-  { "majorId": "civil-engineering", "universityId": "khu", "admissionQuota": 50 },
-
-  { "majorId": "industrial-engineering", "universityId": "snu", "admissionQuota": 55 },
-  { "majorId": "industrial-engineering", "universityId": "kaist", "admissionQuota": 70 },
-  { "majorId": "industrial-engineering", "universityId": "korea", "admissionQuota": 65 },
-  { "majorId": "industrial-engineering", "universityId": "hanyang", "admissionQuota": 80 },
-
-  { "majorId": "biomedical-engineering", "universityId": "yonsei", "admissionQuota": 50 },
-  { "majorId": "biomedical-engineering", "universityId": "korea", "admissionQuota": 45 },
-  { "majorId": "biomedical-engineering", "universityId": "kaist", "admissionQuota": 60 },
-
-  { "majorId": "medicine", "universityId": "snu", "admissionQuota": 135 },
-  { "majorId": "medicine", "universityId": "yonsei", "admissionQuota": 110 },
-  { "majorId": "medicine", "universityId": "korea", "admissionQuota": 110 },
-  { "majorId": "medicine", "universityId": "skku", "admissionQuota": 40 },
-  { "majorId": "medicine", "universityId": "knu", "admissionQuota": 110 },
-  { "majorId": "medicine", "universityId": "pnu", "admissionQuota": 125 },
-  { "majorId": "medicine", "universityId": "cnu", "admissionQuota": 110 },
-
-  { "majorId": "nursing", "universityId": "snu", "admissionQuota": 70 },
-  { "majorId": "nursing", "universityId": "yonsei", "admissionQuota": 80 },
-  { "majorId": "nursing", "universityId": "korea", "admissionQuota": 80 },
-  { "majorId": "nursing", "universityId": "ewha", "admissionQuota": 80 },
-  { "majorId": "nursing", "universityId": "knu", "admissionQuota": 100 },
-
-  { "majorId": "pharmacy", "universityId": "snu", "admissionQuota": 65 },
-  { "majorId": "pharmacy", "universityId": "yonsei", "admissionQuota": 30 },
-  { "majorId": "pharmacy", "universityId": "skku", "admissionQuota": 60 },
-  { "majorId": "pharmacy", "universityId": "ewha", "admissionQuota": 120 },
-
-  { "majorId": "business", "universityId": "snu", "admissionQuota": 135 },
-  { "majorId": "business", "universityId": "yonsei", "admissionQuota": 290 },
-  { "majorId": "business", "universityId": "korea", "admissionQuota": 320 },
-  { "majorId": "business", "universityId": "skku", "admissionQuota": 200 },
-  { "majorId": "business", "universityId": "hanyang", "admissionQuota": 160 },
-  { "majorId": "business", "universityId": "sogang", "admissionQuota": 140 },
-  { "majorId": "business", "universityId": "ewha", "admissionQuota": 120 },
-  { "majorId": "business", "universityId": "cau", "admissionQuota": 220 },
-  { "majorId": "business", "universityId": "khu", "admissionQuota": 200 },
-
-  { "majorId": "economics", "universityId": "snu", "admissionQuota": 110 },
-  { "majorId": "economics", "universityId": "yonsei", "admissionQuota": 100 },
-  { "majorId": "economics", "universityId": "korea", "admissionQuota": 110 },
-  { "majorId": "economics", "universityId": "sogang", "admissionQuota": 80 },
-  { "majorId": "economics", "universityId": "uos", "admissionQuota": 95 },
-
-  { "majorId": "accounting", "universityId": "yonsei", "admissionQuota": 60 },
-  { "majorId": "accounting", "universityId": "korea", "admissionQuota": 60 },
-  { "majorId": "accounting", "universityId": "skku", "admissionQuota": 60 },
-  { "majorId": "accounting", "universityId": "uos", "admissionQuota": 50 },
-
-  { "majorId": "law", "universityId": "korea", "admissionQuota": 60 },
-  { "majorId": "law", "universityId": "hanyang", "admissionQuota": 60 },
-  { "majorId": "law", "universityId": "khu", "admissionQuota": 60 },
-
-  { "majorId": "political-science", "universityId": "snu", "admissionQuota": 55 },
-  { "majorId": "political-science", "universityId": "yonsei", "admissionQuota": 55 },
-  { "majorId": "political-science", "universityId": "korea", "admissionQuota": 60 },
-  { "majorId": "political-science", "universityId": "hufs", "admissionQuota": 65 },
-
-  { "majorId": "psychology", "universityId": "snu", "admissionQuota": 35 },
-  { "majorId": "psychology", "universityId": "yonsei", "admissionQuota": 50 },
-  { "majorId": "psychology", "universityId": "korea", "admissionQuota": 55 },
-  { "majorId": "psychology", "universityId": "ewha", "admissionQuota": 55 },
-  { "majorId": "psychology", "universityId": "cau", "admissionQuota": 60 },
-
-  { "majorId": "sociology", "universityId": "snu", "admissionQuota": 50 },
-  { "majorId": "sociology", "universityId": "yonsei", "admissionQuota": 60 },
-  { "majorId": "sociology", "universityId": "korea", "admissionQuota": 65 },
-
-  { "majorId": "education", "universityId": "snu", "admissionQuota": 18 },
-  { "majorId": "education", "universityId": "korea", "admissionQuota": 24 },
-  { "majorId": "education", "universityId": "ewha", "admissionQuota": 35 },
-
-  { "majorId": "korean-language-edu", "universityId": "snu", "admissionQuota": 16 },
-  { "majorId": "korean-language-edu", "universityId": "korea", "admissionQuota": 24 },
-  { "majorId": "korean-language-edu", "universityId": "ewha", "admissionQuota": 30 },
-  { "majorId": "korean-language-edu", "universityId": "knu", "admissionQuota": 25 },
-
-  { "majorId": "english-language-lit", "universityId": "snu", "admissionQuota": 35 },
-  { "majorId": "english-language-lit", "universityId": "yonsei", "admissionQuota": 60 },
-  { "majorId": "english-language-lit", "universityId": "korea", "admissionQuota": 65 },
-  { "majorId": "english-language-lit", "universityId": "hufs", "admissionQuota": 70 },
-  { "majorId": "english-language-lit", "universityId": "ewha", "admissionQuota": 60 },
-
-  { "majorId": "korean-language-lit", "universityId": "snu", "admissionQuota": 30 },
-  { "majorId": "korean-language-lit", "universityId": "yonsei", "admissionQuota": 35 },
-  { "majorId": "korean-language-lit", "universityId": "korea", "admissionQuota": 40 },
-  { "majorId": "korean-language-lit", "universityId": "ewha", "admissionQuota": 40 },
-
-  { "majorId": "history", "universityId": "snu", "admissionQuota": 40 },
-  { "majorId": "history", "universityId": "korea", "admissionQuota": 50 },
-  { "majorId": "history", "universityId": "yonsei", "admissionQuota": 35 },
-
-  { "majorId": "philosophy", "universityId": "snu", "admissionQuota": 30 },
-  { "majorId": "philosophy", "universityId": "yonsei", "admissionQuota": 30 },
-  { "majorId": "philosophy", "universityId": "korea", "admissionQuota": 40 },
-
-  { "majorId": "biology", "universityId": "snu", "admissionQuota": 60 },
-  { "majorId": "biology", "universityId": "kaist", "admissionQuota": 80 },
-  { "majorId": "biology", "universityId": "yonsei", "admissionQuota": 60 },
-  { "majorId": "biology", "universityId": "khu", "admissionQuota": 70 },
-
-  { "majorId": "chemistry", "universityId": "snu", "admissionQuota": 40 },
-  { "majorId": "chemistry", "universityId": "kaist", "admissionQuota": 80 },
-  { "majorId": "chemistry", "universityId": "yonsei", "admissionQuota": 35 },
-  { "majorId": "chemistry", "universityId": "knu", "admissionQuota": 50 },
-
-  { "majorId": "mathematics", "universityId": "snu", "admissionQuota": 30 },
-  { "majorId": "mathematics", "universityId": "kaist", "admissionQuota": 65 },
-  { "majorId": "mathematics", "universityId": "yonsei", "admissionQuota": 35 },
-  { "majorId": "mathematics", "universityId": "korea", "admissionQuota": 40 },
-
-  { "majorId": "physics", "universityId": "snu", "admissionQuota": 50 },
-  { "majorId": "physics", "universityId": "kaist", "admissionQuota": 80 },
-  { "majorId": "physics", "universityId": "postech", "admissionQuota": 80 },
-  { "majorId": "physics", "universityId": "yonsei", "admissionQuota": 40 },
-
-  { "majorId": "design", "universityId": "snu", "admissionQuota": 50 },
-  { "majorId": "design", "universityId": "ewha", "admissionQuota": 80 },
-  { "majorId": "design", "universityId": "hongik", "admissionQuota": 100 },
-  { "majorId": "design", "universityId": "cau", "admissionQuota": 120 },
-
-  { "majorId": "media-communication", "universityId": "yonsei", "admissionQuota": 70 },
-  { "majorId": "media-communication", "universityId": "korea", "admissionQuota": 65 },
-  { "majorId": "media-communication", "universityId": "skku", "admissionQuota": 60 },
-  { "majorId": "media-communication", "universityId": "cau", "admissionQuota": 80 },
-
-  { "majorId": "physical-education", "universityId": "snu", "admissionQuota": 25 },
-  { "majorId": "physical-education", "universityId": "korea", "admissionQuota": 35 },
-  { "majorId": "physical-education", "universityId": "ewha", "admissionQuota": 25 },
-  { "majorId": "physical-education", "universityId": "knu", "admissionQuota": 30 }
+  {
+    "majorId": "accounting",
+    "universityId": "dongguk",
+    "admissionQuota": 65
+  },
+  {
+    "majorId": "accounting",
+    "universityId": "hufs",
+    "admissionQuota": 66
+  },
+  {
+    "majorId": "accounting",
+    "universityId": "korea",
+    "admissionQuota": 60
+  },
+  {
+    "majorId": "accounting",
+    "universityId": "pnu",
+    "admissionQuota": 122
+  },
+  {
+    "majorId": "accounting",
+    "universityId": "postech",
+    "admissionQuota": 58
+  },
+  {
+    "majorId": "accounting",
+    "universityId": "seoul-women",
+    "admissionQuota": 116
+  },
+  {
+    "majorId": "accounting",
+    "universityId": "skku",
+    "admissionQuota": 60
+  },
+  {
+    "majorId": "accounting",
+    "universityId": "snue",
+    "admissionQuota": 91
+  },
+  {
+    "majorId": "accounting",
+    "universityId": "uos",
+    "admissionQuota": 50
+  },
+  {
+    "majorId": "accounting",
+    "universityId": "yonsei",
+    "admissionQuota": 60
+  },
+  {
+    "majorId": "advertising",
+    "universityId": "chonbuk",
+    "admissionQuota": 122
+  },
+  {
+    "majorId": "advertising",
+    "universityId": "ewha",
+    "admissionQuota": 52
+  },
+  {
+    "majorId": "advertising",
+    "universityId": "hongik",
+    "admissionQuota": 73
+  },
+  {
+    "majorId": "advertising",
+    "universityId": "hufs",
+    "admissionQuota": 113
+  },
+  {
+    "majorId": "advertising",
+    "universityId": "inha",
+    "admissionQuota": 80
+  },
+  {
+    "majorId": "advertising",
+    "universityId": "korea",
+    "admissionQuota": 80
+  },
+  {
+    "majorId": "advertising",
+    "universityId": "myongji",
+    "admissionQuota": 67
+  },
+  {
+    "majorId": "advertising",
+    "universityId": "pnu",
+    "admissionQuota": 128
+  },
+  {
+    "majorId": "advertising",
+    "universityId": "postech",
+    "admissionQuota": 56
+  },
+  {
+    "majorId": "advertising",
+    "universityId": "yonsei",
+    "admissionQuota": 75
+  },
+  {
+    "majorId": "aerospace",
+    "universityId": "cnu",
+    "admissionQuota": 57
+  },
+  {
+    "majorId": "aerospace",
+    "universityId": "dankook-cheonan",
+    "admissionQuota": 99
+  },
+  {
+    "majorId": "aerospace",
+    "universityId": "dgist",
+    "admissionQuota": 74
+  },
+  {
+    "majorId": "aerospace",
+    "universityId": "jnu",
+    "admissionQuota": 58
+  },
+  {
+    "majorId": "aerospace",
+    "universityId": "kmou",
+    "admissionQuota": 66
+  },
+  {
+    "majorId": "aerospace",
+    "universityId": "pufs",
+    "admissionQuota": 70
+  },
+  {
+    "majorId": "aerospace",
+    "universityId": "seoul-tech",
+    "admissionQuota": 73
+  },
+  {
+    "majorId": "aerospace",
+    "universityId": "sookmyung",
+    "admissionQuota": 98
+  },
+  {
+    "majorId": "aerospace",
+    "universityId": "soongsil",
+    "admissionQuota": 32
+  },
+  {
+    "majorId": "aerospace",
+    "universityId": "suwon",
+    "admissionQuota": 60
+  },
+  {
+    "majorId": "agricultural-engineering",
+    "universityId": "chonbuk",
+    "admissionQuota": 33
+  },
+  {
+    "majorId": "agricultural-engineering",
+    "universityId": "dongguk",
+    "admissionQuota": 49
+  },
+  {
+    "majorId": "agricultural-engineering",
+    "universityId": "kmou",
+    "admissionQuota": 115
+  },
+  {
+    "majorId": "agricultural-engineering",
+    "universityId": "korea-univ-sejong",
+    "admissionQuota": 62
+  },
+  {
+    "majorId": "agricultural-engineering",
+    "universityId": "sejong",
+    "admissionQuota": 75
+  },
+  {
+    "majorId": "agricultural-engineering",
+    "universityId": "skku",
+    "admissionQuota": 46
+  },
+  {
+    "majorId": "agricultural-engineering",
+    "universityId": "snu",
+    "admissionQuota": 92
+  },
+  {
+    "majorId": "agricultural-engineering",
+    "universityId": "snue",
+    "admissionQuota": 50
+  },
+  {
+    "majorId": "agricultural-engineering",
+    "universityId": "suwon",
+    "admissionQuota": 129
+  },
+  {
+    "majorId": "agricultural-engineering",
+    "universityId": "unist",
+    "admissionQuota": 85
+  },
+  {
+    "majorId": "agriculture",
+    "universityId": "dgist",
+    "admissionQuota": 87
+  },
+  {
+    "majorId": "agriculture",
+    "universityId": "ewha",
+    "admissionQuota": 91
+  },
+  {
+    "majorId": "agriculture",
+    "universityId": "gist",
+    "admissionQuota": 87
+  },
+  {
+    "majorId": "agriculture",
+    "universityId": "jnu",
+    "admissionQuota": 102
+  },
+  {
+    "majorId": "agriculture",
+    "universityId": "sejong",
+    "admissionQuota": 43
+  },
+  {
+    "majorId": "agriculture",
+    "universityId": "snu",
+    "admissionQuota": 88
+  },
+  {
+    "majorId": "agriculture",
+    "universityId": "snue",
+    "admissionQuota": 108
+  },
+  {
+    "majorId": "agriculture",
+    "universityId": "yonsei",
+    "admissionQuota": 88
+  },
+  {
+    "majorId": "ai-engineering",
+    "universityId": "cau",
+    "admissionQuota": 64
+  },
+  {
+    "majorId": "ai-engineering",
+    "universityId": "chonbuk",
+    "admissionQuota": 96
+  },
+  {
+    "majorId": "ai-engineering",
+    "universityId": "inha",
+    "admissionQuota": 125
+  },
+  {
+    "majorId": "ai-engineering",
+    "universityId": "korea-aerospace",
+    "admissionQuota": 125
+  },
+  {
+    "majorId": "ai-engineering",
+    "universityId": "korea-univ-sejong",
+    "admissionQuota": 49
+  },
+  {
+    "majorId": "ai-engineering",
+    "universityId": "pnu",
+    "admissionQuota": 32
+  },
+  {
+    "majorId": "ai-engineering",
+    "universityId": "pufs",
+    "admissionQuota": 64
+  },
+  {
+    "majorId": "ai-engineering",
+    "universityId": "snu",
+    "admissionQuota": 45
+  },
+  {
+    "majorId": "ai-engineering",
+    "universityId": "sogang",
+    "admissionQuota": 42
+  },
+  {
+    "majorId": "ai-engineering",
+    "universityId": "yonsei",
+    "admissionQuota": 115
+  },
+  {
+    "majorId": "animal-science",
+    "universityId": "andong",
+    "admissionQuota": 65
+  },
+  {
+    "majorId": "animal-science",
+    "universityId": "chonbuk",
+    "admissionQuota": 78
+  },
+  {
+    "majorId": "animal-science",
+    "universityId": "dongguk",
+    "admissionQuota": 34
+  },
+  {
+    "majorId": "animal-science",
+    "universityId": "korea-aerospace",
+    "admissionQuota": 66
+  },
+  {
+    "majorId": "animal-science",
+    "universityId": "pnu",
+    "admissionQuota": 45
+  },
+  {
+    "majorId": "animal-science",
+    "universityId": "skku",
+    "admissionQuota": 112
+  },
+  {
+    "majorId": "animal-science",
+    "universityId": "unist",
+    "admissionQuota": 75
+  },
+  {
+    "majorId": "animal-science",
+    "universityId": "uos",
+    "admissionQuota": 108
+  },
+  {
+    "majorId": "animation",
+    "universityId": "dankook-cheonan",
+    "admissionQuota": 98
+  },
+  {
+    "majorId": "animation",
+    "universityId": "dongduk-women",
+    "admissionQuota": 117
+  },
+  {
+    "majorId": "animation",
+    "universityId": "hongik",
+    "admissionQuota": 69
+  },
+  {
+    "majorId": "animation",
+    "universityId": "ka-univ",
+    "admissionQuota": 63
+  },
+  {
+    "majorId": "animation",
+    "universityId": "kgu",
+    "admissionQuota": 122
+  },
+  {
+    "majorId": "animation",
+    "universityId": "korea-univ-arts",
+    "admissionQuota": 103
+  },
+  {
+    "majorId": "animation",
+    "universityId": "myongji",
+    "admissionQuota": 38
+  },
+  {
+    "majorId": "animation",
+    "universityId": "sejong",
+    "admissionQuota": 117
+  },
+  {
+    "majorId": "animation",
+    "universityId": "seokyeong",
+    "admissionQuota": 34
+  },
+  {
+    "majorId": "animation",
+    "universityId": "sookmyung",
+    "admissionQuota": 75
+  },
+  {
+    "majorId": "anthropology",
+    "universityId": "cnu",
+    "admissionQuota": 90
+  },
+  {
+    "majorId": "anthropology",
+    "universityId": "dongguk",
+    "admissionQuota": 122
+  },
+  {
+    "majorId": "anthropology",
+    "universityId": "ewha",
+    "admissionQuota": 97
+  },
+  {
+    "majorId": "anthropology",
+    "universityId": "hufs",
+    "admissionQuota": 79
+  },
+  {
+    "majorId": "anthropology",
+    "universityId": "pnu",
+    "admissionQuota": 85
+  },
+  {
+    "majorId": "anthropology",
+    "universityId": "snue",
+    "admissionQuota": 91
+  },
+  {
+    "majorId": "anthropology",
+    "universityId": "sogang",
+    "admissionQuota": 36
+  },
+  {
+    "majorId": "anthropology",
+    "universityId": "uos",
+    "admissionQuota": 34
+  },
+  {
+    "majorId": "applied-music",
+    "universityId": "cau",
+    "admissionQuota": 57
+  },
+  {
+    "majorId": "applied-music",
+    "universityId": "dankook-cheonan",
+    "admissionQuota": 121
+  },
+  {
+    "majorId": "applied-music",
+    "universityId": "dongguk",
+    "admissionQuota": 106
+  },
+  {
+    "majorId": "applied-music",
+    "universityId": "ewha",
+    "admissionQuota": 43
+  },
+  {
+    "majorId": "applied-music",
+    "universityId": "ka-univ",
+    "admissionQuota": 63
+  },
+  {
+    "majorId": "applied-music",
+    "universityId": "korea",
+    "admissionQuota": 86
+  },
+  {
+    "majorId": "applied-music",
+    "universityId": "sejong",
+    "admissionQuota": 112
+  },
+  {
+    "majorId": "applied-music",
+    "universityId": "snu",
+    "admissionQuota": 75
+  },
+  {
+    "majorId": "applied-music",
+    "universityId": "sookmyung",
+    "admissionQuota": 53
+  },
+  {
+    "majorId": "applied-music",
+    "universityId": "yonsei",
+    "admissionQuota": 66
+  },
+  {
+    "majorId": "arabic-lit",
+    "universityId": "chonbuk",
+    "admissionQuota": 84
+  },
+  {
+    "majorId": "arabic-lit",
+    "universityId": "jnu",
+    "admissionQuota": 31
+  },
+  {
+    "majorId": "arabic-lit",
+    "universityId": "khu",
+    "admissionQuota": 31
+  },
+  {
+    "majorId": "arabic-lit",
+    "universityId": "kookmin",
+    "admissionQuota": 68
+  },
+  {
+    "majorId": "arabic-lit",
+    "universityId": "sejong",
+    "admissionQuota": 80
+  },
+  {
+    "majorId": "arabic-lit",
+    "universityId": "snu",
+    "admissionQuota": 100
+  },
+  {
+    "majorId": "arabic-lit",
+    "universityId": "sogang",
+    "admissionQuota": 83
+  },
+  {
+    "majorId": "arabic-lit",
+    "universityId": "uos",
+    "admissionQuota": 104
+  },
+  {
+    "majorId": "archaeology",
+    "universityId": "cnu",
+    "admissionQuota": 112
+  },
+  {
+    "majorId": "archaeology",
+    "universityId": "dongguk",
+    "admissionQuota": 78
+  },
+  {
+    "majorId": "archaeology",
+    "universityId": "hanyang",
+    "admissionQuota": 123
+  },
+  {
+    "majorId": "archaeology",
+    "universityId": "hufs",
+    "admissionQuota": 82
+  },
+  {
+    "majorId": "archaeology",
+    "universityId": "kgu",
+    "admissionQuota": 69
+  },
+  {
+    "majorId": "archaeology",
+    "universityId": "postech",
+    "admissionQuota": 30
+  },
+  {
+    "majorId": "archaeology",
+    "universityId": "sangmyung",
+    "admissionQuota": 85
+  },
+  {
+    "majorId": "archaeology",
+    "universityId": "sogang",
+    "admissionQuota": 84
+  },
+  {
+    "majorId": "art-edu",
+    "universityId": "chonbuk",
+    "admissionQuota": 73
+  },
+  {
+    "majorId": "art-edu",
+    "universityId": "cnu",
+    "admissionQuota": 59
+  },
+  {
+    "majorId": "art-edu",
+    "universityId": "dongguk",
+    "admissionQuota": 39
+  },
+  {
+    "majorId": "art-edu",
+    "universityId": "korea",
+    "admissionQuota": 68
+  },
+  {
+    "majorId": "art-edu",
+    "universityId": "sangmyung",
+    "admissionQuota": 31
+  },
+  {
+    "majorId": "art-edu",
+    "universityId": "seoul-women",
+    "admissionQuota": 45
+  },
+  {
+    "majorId": "art-edu",
+    "universityId": "sookmyung",
+    "admissionQuota": 102
+  },
+  {
+    "majorId": "art-edu",
+    "universityId": "sungshin",
+    "admissionQuota": 61
+  },
+  {
+    "majorId": "astronomy",
+    "universityId": "dgist",
+    "admissionQuota": 119
+  },
+  {
+    "majorId": "astronomy",
+    "universityId": "hanyang",
+    "admissionQuota": 67
+  },
+  {
+    "majorId": "astronomy",
+    "universityId": "hongik",
+    "admissionQuota": 63
+  },
+  {
+    "majorId": "astronomy",
+    "universityId": "hufs",
+    "admissionQuota": 63
+  },
+  {
+    "majorId": "astronomy",
+    "universityId": "kaist",
+    "admissionQuota": 116
+  },
+  {
+    "majorId": "astronomy",
+    "universityId": "knu",
+    "admissionQuota": 61
+  },
+  {
+    "majorId": "astronomy",
+    "universityId": "korea-aerospace",
+    "admissionQuota": 46
+  },
+  {
+    "majorId": "astronomy",
+    "universityId": "pnu",
+    "admissionQuota": 77
+  },
+  {
+    "majorId": "atmospheric",
+    "universityId": "gachon",
+    "admissionQuota": 72
+  },
+  {
+    "majorId": "atmospheric",
+    "universityId": "hongik",
+    "admissionQuota": 55
+  },
+  {
+    "majorId": "atmospheric",
+    "universityId": "hufs",
+    "admissionQuota": 124
+  },
+  {
+    "majorId": "atmospheric",
+    "universityId": "inha",
+    "admissionQuota": 96
+  },
+  {
+    "majorId": "atmospheric",
+    "universityId": "knu",
+    "admissionQuota": 75
+  },
+  {
+    "majorId": "atmospheric",
+    "universityId": "korea",
+    "admissionQuota": 72
+  },
+  {
+    "majorId": "atmospheric",
+    "universityId": "korea-aerospace",
+    "admissionQuota": 97
+  },
+  {
+    "majorId": "atmospheric",
+    "universityId": "snue",
+    "admissionQuota": 112
+  },
+  {
+    "majorId": "automotive",
+    "universityId": "ajou",
+    "admissionQuota": 59
+  },
+  {
+    "majorId": "automotive",
+    "universityId": "chonbuk",
+    "admissionQuota": 92
+  },
+  {
+    "majorId": "automotive",
+    "universityId": "dgist",
+    "admissionQuota": 69
+  },
+  {
+    "majorId": "automotive",
+    "universityId": "konkuk-glocal",
+    "admissionQuota": 129
+  },
+  {
+    "majorId": "automotive",
+    "universityId": "korea",
+    "admissionQuota": 97
+  },
+  {
+    "majorId": "automotive",
+    "universityId": "pufs",
+    "admissionQuota": 55
+  },
+  {
+    "majorId": "automotive",
+    "universityId": "sogang",
+    "admissionQuota": 58
+  },
+  {
+    "majorId": "automotive",
+    "universityId": "sookmyung",
+    "admissionQuota": 86
+  },
+  {
+    "majorId": "automotive",
+    "universityId": "soongsil",
+    "admissionQuota": 110
+  },
+  {
+    "majorId": "automotive",
+    "universityId": "suwon",
+    "admissionQuota": 93
+  },
+  {
+    "majorId": "bio-engineering",
+    "universityId": "dongguk",
+    "admissionQuota": 45
+  },
+  {
+    "majorId": "bio-engineering",
+    "universityId": "hknu",
+    "admissionQuota": 100
+  },
+  {
+    "majorId": "bio-engineering",
+    "universityId": "knu",
+    "admissionQuota": 65
+  },
+  {
+    "majorId": "bio-engineering",
+    "universityId": "korea-aerospace",
+    "admissionQuota": 47
+  },
+  {
+    "majorId": "bio-engineering",
+    "universityId": "kpu",
+    "admissionQuota": 65
+  },
+  {
+    "majorId": "bio-engineering",
+    "universityId": "pufs",
+    "admissionQuota": 124
+  },
+  {
+    "majorId": "bio-engineering",
+    "universityId": "snue",
+    "admissionQuota": 47
+  },
+  {
+    "majorId": "bio-engineering",
+    "universityId": "sookmyung",
+    "admissionQuota": 75
+  },
+  {
+    "majorId": "bio-engineering",
+    "universityId": "soongsil",
+    "admissionQuota": 127
+  },
+  {
+    "majorId": "bio-engineering",
+    "universityId": "yonsei",
+    "admissionQuota": 115
+  },
+  {
+    "majorId": "biology",
+    "universityId": "chonbuk",
+    "admissionQuota": 106
+  },
+  {
+    "majorId": "biology",
+    "universityId": "hufs",
+    "admissionQuota": 99
+  },
+  {
+    "majorId": "biology",
+    "universityId": "jnu",
+    "admissionQuota": 103
+  },
+  {
+    "majorId": "biology",
+    "universityId": "kaist",
+    "admissionQuota": 80
+  },
+  {
+    "majorId": "biology",
+    "universityId": "khu",
+    "admissionQuota": 70
+  },
+  {
+    "majorId": "biology",
+    "universityId": "korea-aerospace",
+    "admissionQuota": 95
+  },
+  {
+    "majorId": "biology",
+    "universityId": "snu",
+    "admissionQuota": 60
+  },
+  {
+    "majorId": "biology",
+    "universityId": "yonsei",
+    "admissionQuota": 60
+  },
+  {
+    "majorId": "biomedical-engineering",
+    "universityId": "ajou",
+    "admissionQuota": 60
+  },
+  {
+    "majorId": "biomedical-engineering",
+    "universityId": "hongik",
+    "admissionQuota": 115
+  },
+  {
+    "majorId": "biomedical-engineering",
+    "universityId": "kaist",
+    "admissionQuota": 60
+  },
+  {
+    "majorId": "biomedical-engineering",
+    "universityId": "kentech",
+    "admissionQuota": 84
+  },
+  {
+    "majorId": "biomedical-engineering",
+    "universityId": "khu",
+    "admissionQuota": 110
+  },
+  {
+    "majorId": "biomedical-engineering",
+    "universityId": "kmou",
+    "admissionQuota": 101
+  },
+  {
+    "majorId": "biomedical-engineering",
+    "universityId": "kookmin",
+    "admissionQuota": 78
+  },
+  {
+    "majorId": "biomedical-engineering",
+    "universityId": "korea",
+    "admissionQuota": 45
+  },
+  {
+    "majorId": "biomedical-engineering",
+    "universityId": "pufs",
+    "admissionQuota": 122
+  },
+  {
+    "majorId": "biomedical-engineering",
+    "universityId": "yonsei",
+    "admissionQuota": 50
+  },
+  {
+    "majorId": "broadcasting",
+    "universityId": "ewha",
+    "admissionQuota": 83
+  },
+  {
+    "majorId": "broadcasting",
+    "universityId": "gachon",
+    "admissionQuota": 82
+  },
+  {
+    "majorId": "broadcasting",
+    "universityId": "hanyang",
+    "admissionQuota": 97
+  },
+  {
+    "majorId": "broadcasting",
+    "universityId": "kaist",
+    "admissionQuota": 72
+  },
+  {
+    "majorId": "broadcasting",
+    "universityId": "khu",
+    "admissionQuota": 98
+  },
+  {
+    "majorId": "broadcasting",
+    "universityId": "knu",
+    "admissionQuota": 51
+  },
+  {
+    "majorId": "broadcasting",
+    "universityId": "postech",
+    "admissionQuota": 107
+  },
+  {
+    "majorId": "broadcasting",
+    "universityId": "sejong",
+    "admissionQuota": 119
+  },
+  {
+    "majorId": "broadcasting",
+    "universityId": "snu",
+    "admissionQuota": 52
+  },
+  {
+    "majorId": "broadcasting",
+    "universityId": "uos",
+    "admissionQuota": 64
+  },
+  {
+    "majorId": "business",
+    "universityId": "cau",
+    "admissionQuota": 220
+  },
+  {
+    "majorId": "business",
+    "universityId": "ewha",
+    "admissionQuota": 120
+  },
+  {
+    "majorId": "business",
+    "universityId": "hanyang",
+    "admissionQuota": 160
+  },
+  {
+    "majorId": "business",
+    "universityId": "kgu",
+    "admissionQuota": 78
+  },
+  {
+    "majorId": "business",
+    "universityId": "khu",
+    "admissionQuota": 200
+  },
+  {
+    "majorId": "business",
+    "universityId": "korea",
+    "admissionQuota": 320
+  },
+  {
+    "majorId": "business",
+    "universityId": "skku",
+    "admissionQuota": 200
+  },
+  {
+    "majorId": "business",
+    "universityId": "snu",
+    "admissionQuota": 135
+  },
+  {
+    "majorId": "business",
+    "universityId": "sogang",
+    "admissionQuota": 140
+  },
+  {
+    "majorId": "business",
+    "universityId": "yonsei",
+    "admissionQuota": 290
+  },
+  {
+    "majorId": "ceramic-art",
+    "universityId": "cau",
+    "admissionQuota": 45
+  },
+  {
+    "majorId": "ceramic-art",
+    "universityId": "dongduk-women",
+    "admissionQuota": 115
+  },
+  {
+    "majorId": "ceramic-art",
+    "universityId": "ewha",
+    "admissionQuota": 65
+  },
+  {
+    "majorId": "ceramic-art",
+    "universityId": "ka-univ",
+    "admissionQuota": 66
+  },
+  {
+    "majorId": "ceramic-art",
+    "universityId": "kgu",
+    "admissionQuota": 45
+  },
+  {
+    "majorId": "ceramic-art",
+    "universityId": "kookmin",
+    "admissionQuota": 106
+  },
+  {
+    "majorId": "ceramic-art",
+    "universityId": "korea-univ-arts",
+    "admissionQuota": 98
+  },
+  {
+    "majorId": "ceramic-art",
+    "universityId": "sejong",
+    "admissionQuota": 85
+  },
+  {
+    "majorId": "ceramic-art",
+    "universityId": "seoul-tech",
+    "admissionQuota": 115
+  },
+  {
+    "majorId": "ceramic-art",
+    "universityId": "seoul-women",
+    "admissionQuota": 47
+  },
+  {
+    "majorId": "chemical-engineering",
+    "universityId": "hanbat",
+    "admissionQuota": 31
+  },
+  {
+    "majorId": "chemical-engineering",
+    "universityId": "hanyang",
+    "admissionQuota": 90
+  },
+  {
+    "majorId": "chemical-engineering",
+    "universityId": "hknu",
+    "admissionQuota": 124
+  },
+  {
+    "majorId": "chemical-engineering",
+    "universityId": "kaist",
+    "admissionQuota": 100
+  },
+  {
+    "majorId": "chemical-engineering",
+    "universityId": "knu",
+    "admissionQuota": 71
+  },
+  {
+    "majorId": "chemical-engineering",
+    "universityId": "konkuk-glocal",
+    "admissionQuota": 60
+  },
+  {
+    "majorId": "chemical-engineering",
+    "universityId": "kookmin",
+    "admissionQuota": 114
+  },
+  {
+    "majorId": "chemical-engineering",
+    "universityId": "pnu",
+    "admissionQuota": 100
+  },
+  {
+    "majorId": "chemical-engineering",
+    "universityId": "snu",
+    "admissionQuota": 80
+  },
+  {
+    "majorId": "chemical-engineering",
+    "universityId": "yonsei",
+    "admissionQuota": 75
+  },
+  {
+    "majorId": "chemistry",
+    "universityId": "andong",
+    "admissionQuota": 113
+  },
+  {
+    "majorId": "chemistry",
+    "universityId": "hufs",
+    "admissionQuota": 73
+  },
+  {
+    "majorId": "chemistry",
+    "universityId": "kaist",
+    "admissionQuota": 80
+  },
+  {
+    "majorId": "chemistry",
+    "universityId": "knu",
+    "admissionQuota": 50
+  },
+  {
+    "majorId": "chemistry",
+    "universityId": "korea-aerospace",
+    "admissionQuota": 91
+  },
+  {
+    "majorId": "chemistry",
+    "universityId": "snu",
+    "admissionQuota": 40
+  },
+  {
+    "majorId": "chemistry",
+    "universityId": "uos",
+    "admissionQuota": 42
+  },
+  {
+    "majorId": "chemistry",
+    "universityId": "yonsei",
+    "admissionQuota": 35
+  },
+  {
+    "majorId": "child-studies",
+    "universityId": "ajou",
+    "admissionQuota": 63
+  },
+  {
+    "majorId": "child-studies",
+    "universityId": "cau",
+    "admissionQuota": 40
+  },
+  {
+    "majorId": "child-studies",
+    "universityId": "chonbuk",
+    "admissionQuota": 119
+  },
+  {
+    "majorId": "child-studies",
+    "universityId": "cnu",
+    "admissionQuota": 62
+  },
+  {
+    "majorId": "child-studies",
+    "universityId": "dgu",
+    "admissionQuota": 31
+  },
+  {
+    "majorId": "child-studies",
+    "universityId": "dongguk",
+    "admissionQuota": 102
+  },
+  {
+    "majorId": "child-studies",
+    "universityId": "kaist",
+    "admissionQuota": 79
+  },
+  {
+    "majorId": "child-studies",
+    "universityId": "khu",
+    "admissionQuota": 105
+  },
+  {
+    "majorId": "child-studies",
+    "universityId": "skku",
+    "admissionQuota": 125
+  },
+  {
+    "majorId": "child-studies",
+    "universityId": "sookmyung",
+    "admissionQuota": 118
+  },
+  {
+    "majorId": "chinese-lit",
+    "universityId": "cau",
+    "admissionQuota": 88
+  },
+  {
+    "majorId": "chinese-lit",
+    "universityId": "hanyang",
+    "admissionQuota": 50
+  },
+  {
+    "majorId": "chinese-lit",
+    "universityId": "inha",
+    "admissionQuota": 127
+  },
+  {
+    "majorId": "chinese-lit",
+    "universityId": "jnu",
+    "admissionQuota": 47
+  },
+  {
+    "majorId": "chinese-lit",
+    "universityId": "snue",
+    "admissionQuota": 59
+  },
+  {
+    "majorId": "chinese-lit",
+    "universityId": "sogang",
+    "admissionQuota": 33
+  },
+  {
+    "majorId": "chinese-lit",
+    "universityId": "soongsil",
+    "admissionQuota": 72
+  },
+  {
+    "majorId": "chinese-lit",
+    "universityId": "uos",
+    "admissionQuota": 69
+  },
+  {
+    "majorId": "civil-construction",
+    "universityId": "cau",
+    "admissionQuota": 100
+  },
+  {
+    "majorId": "civil-construction",
+    "universityId": "hanbat",
+    "admissionQuota": 115
+  },
+  {
+    "majorId": "civil-construction",
+    "universityId": "hongik",
+    "admissionQuota": 79
+  },
+  {
+    "majorId": "civil-construction",
+    "universityId": "konkuk-glocal",
+    "admissionQuota": 61
+  },
+  {
+    "majorId": "civil-construction",
+    "universityId": "korea-univ-sejong",
+    "admissionQuota": 86
+  },
+  {
+    "majorId": "civil-construction",
+    "universityId": "kpu",
+    "admissionQuota": 119
+  },
+  {
+    "majorId": "civil-construction",
+    "universityId": "kut",
+    "admissionQuota": 103
+  },
+  {
+    "majorId": "civil-construction",
+    "universityId": "snue",
+    "admissionQuota": 41
+  },
+  {
+    "majorId": "civil-construction",
+    "universityId": "soongsil",
+    "admissionQuota": 65
+  },
+  {
+    "majorId": "civil-construction",
+    "universityId": "unist",
+    "admissionQuota": 42
+  },
+  {
+    "majorId": "civil-engineering",
+    "universityId": "cau",
+    "admissionQuota": 125
+  },
+  {
+    "majorId": "civil-engineering",
+    "universityId": "hanyang",
+    "admissionQuota": 60
+  },
+  {
+    "majorId": "civil-engineering",
+    "universityId": "hknu",
+    "admissionQuota": 50
+  },
+  {
+    "majorId": "civil-engineering",
+    "universityId": "kaist",
+    "admissionQuota": 116
+  },
+  {
+    "majorId": "civil-engineering",
+    "universityId": "khu",
+    "admissionQuota": 50
+  },
+  {
+    "majorId": "civil-engineering",
+    "universityId": "knu",
+    "admissionQuota": 48
+  },
+  {
+    "majorId": "civil-engineering",
+    "universityId": "pnu",
+    "admissionQuota": 119
+  },
+  {
+    "majorId": "civil-engineering",
+    "universityId": "snu",
+    "admissionQuota": 50
+  },
+  {
+    "majorId": "civil-engineering",
+    "universityId": "soongsil",
+    "admissionQuota": 51
+  },
+  {
+    "majorId": "civil-engineering",
+    "universityId": "yonsei",
+    "admissionQuota": 45
+  },
+  {
+    "majorId": "clinical-pathology",
+    "universityId": "chonbuk",
+    "admissionQuota": 54
+  },
+  {
+    "majorId": "clinical-pathology",
+    "universityId": "cnu",
+    "admissionQuota": 64
+  },
+  {
+    "majorId": "clinical-pathology",
+    "universityId": "gnu-gyeongsang",
+    "admissionQuota": 38
+  },
+  {
+    "majorId": "clinical-pathology",
+    "universityId": "hufs",
+    "admissionQuota": 102
+  },
+  {
+    "majorId": "clinical-pathology",
+    "universityId": "kaist",
+    "admissionQuota": 47
+  },
+  {
+    "majorId": "clinical-pathology",
+    "universityId": "konyang",
+    "admissionQuota": 40
+  },
+  {
+    "majorId": "clinical-pathology",
+    "universityId": "korea",
+    "admissionQuota": 76
+  },
+  {
+    "majorId": "clinical-pathology",
+    "universityId": "kosin",
+    "admissionQuota": 67
+  },
+  {
+    "majorId": "composition",
+    "universityId": "dankook-cheonan",
+    "admissionQuota": 116
+  },
+  {
+    "majorId": "composition",
+    "universityId": "khu",
+    "admissionQuota": 103
+  },
+  {
+    "majorId": "composition",
+    "universityId": "knu",
+    "admissionQuota": 129
+  },
+  {
+    "majorId": "composition",
+    "universityId": "korea",
+    "admissionQuota": 102
+  },
+  {
+    "majorId": "composition",
+    "universityId": "pnu",
+    "admissionQuota": 49
+  },
+  {
+    "majorId": "composition",
+    "universityId": "sejong",
+    "admissionQuota": 34
+  },
+  {
+    "majorId": "composition",
+    "universityId": "snu",
+    "admissionQuota": 33
+  },
+  {
+    "majorId": "composition",
+    "universityId": "sookmyung",
+    "admissionQuota": 38
+  },
+  {
+    "majorId": "composition",
+    "universityId": "sungshin",
+    "admissionQuota": 37
+  },
+  {
+    "majorId": "composition",
+    "universityId": "yonsei",
+    "admissionQuota": 111
+  },
+  {
+    "majorId": "computer-science",
+    "universityId": "hanyang",
+    "admissionQuota": 130
+  },
+  {
+    "majorId": "computer-science",
+    "universityId": "kaist",
+    "admissionQuota": 200
+  },
+  {
+    "majorId": "computer-science",
+    "universityId": "khu",
+    "admissionQuota": 90
+  },
+  {
+    "majorId": "computer-science",
+    "universityId": "knu",
+    "admissionQuota": 100
+  },
+  {
+    "majorId": "computer-science",
+    "universityId": "korea",
+    "admissionQuota": 110
+  },
+  {
+    "majorId": "computer-science",
+    "universityId": "postech",
+    "admissionQuota": 80
+  },
+  {
+    "majorId": "computer-science",
+    "universityId": "skku",
+    "admissionQuota": 100
+  },
+  {
+    "majorId": "computer-science",
+    "universityId": "snu",
+    "admissionQuota": 75
+  },
+  {
+    "majorId": "computer-science",
+    "universityId": "sogang",
+    "admissionQuota": 60
+  },
+  {
+    "majorId": "computer-science",
+    "universityId": "yonsei",
+    "admissionQuota": 100
+  },
+  {
+    "majorId": "consumer-studies",
+    "universityId": "dgu",
+    "admissionQuota": 32
+  },
+  {
+    "majorId": "consumer-studies",
+    "universityId": "hongik",
+    "admissionQuota": 37
+  },
+  {
+    "majorId": "consumer-studies",
+    "universityId": "hufs",
+    "admissionQuota": 49
+  },
+  {
+    "majorId": "consumer-studies",
+    "universityId": "inha",
+    "admissionQuota": 113
+  },
+  {
+    "majorId": "consumer-studies",
+    "universityId": "myongji",
+    "admissionQuota": 120
+  },
+  {
+    "majorId": "consumer-studies",
+    "universityId": "postech",
+    "admissionQuota": 127
+  },
+  {
+    "majorId": "consumer-studies",
+    "universityId": "seoul-women",
+    "admissionQuota": 42
+  },
+  {
+    "majorId": "consumer-studies",
+    "universityId": "skku",
+    "admissionQuota": 87
+  },
+  {
+    "majorId": "consumer-studies",
+    "universityId": "snue",
+    "admissionQuota": 125
+  },
+  {
+    "majorId": "consumer-studies",
+    "universityId": "soongsil",
+    "admissionQuota": 37
+  },
+  {
+    "majorId": "cultural-heritage",
+    "universityId": "ajou",
+    "admissionQuota": 47
+  },
+  {
+    "majorId": "cultural-heritage",
+    "universityId": "hufs",
+    "admissionQuota": 128
+  },
+  {
+    "majorId": "cultural-heritage",
+    "universityId": "inha",
+    "admissionQuota": 94
+  },
+  {
+    "majorId": "cultural-heritage",
+    "universityId": "kgu",
+    "admissionQuota": 74
+  },
+  {
+    "majorId": "cultural-heritage",
+    "universityId": "knu",
+    "admissionQuota": 36
+  },
+  {
+    "majorId": "cultural-heritage",
+    "universityId": "korea",
+    "admissionQuota": 128
+  },
+  {
+    "majorId": "cultural-heritage",
+    "universityId": "pnu",
+    "admissionQuota": 50
+  },
+  {
+    "majorId": "cultural-heritage",
+    "universityId": "postech",
+    "admissionQuota": 120
+  },
+  {
+    "majorId": "cybersecurity",
+    "universityId": "hanbat",
+    "admissionQuota": 51
+  },
+  {
+    "majorId": "cybersecurity",
+    "universityId": "hufs",
+    "admissionQuota": 117
+  },
+  {
+    "majorId": "cybersecurity",
+    "universityId": "kgu",
+    "admissionQuota": 47
+  },
+  {
+    "majorId": "cybersecurity",
+    "universityId": "khu",
+    "admissionQuota": 99
+  },
+  {
+    "majorId": "cybersecurity",
+    "universityId": "kmou",
+    "admissionQuota": 53
+  },
+  {
+    "majorId": "cybersecurity",
+    "universityId": "korea-univ-sejong",
+    "admissionQuota": 101
+  },
+  {
+    "majorId": "cybersecurity",
+    "universityId": "postech",
+    "admissionQuota": 69
+  },
+  {
+    "majorId": "cybersecurity",
+    "universityId": "sejong",
+    "admissionQuota": 42
+  },
+  {
+    "majorId": "cybersecurity",
+    "universityId": "skku",
+    "admissionQuota": 90
+  },
+  {
+    "majorId": "cybersecurity",
+    "universityId": "suwon",
+    "admissionQuota": 50
+  },
+  {
+    "majorId": "dance",
+    "universityId": "cau",
+    "admissionQuota": 41
+  },
+  {
+    "majorId": "dance",
+    "universityId": "dankook-cheonan",
+    "admissionQuota": 101
+  },
+  {
+    "majorId": "dance",
+    "universityId": "dongduk-women",
+    "admissionQuota": 123
+  },
+  {
+    "majorId": "dance",
+    "universityId": "ewha",
+    "admissionQuota": 60
+  },
+  {
+    "majorId": "dance",
+    "universityId": "ka-univ",
+    "admissionQuota": 89
+  },
+  {
+    "majorId": "dance",
+    "universityId": "myongji",
+    "admissionQuota": 82
+  },
+  {
+    "majorId": "dance",
+    "universityId": "sejong",
+    "admissionQuota": 60
+  },
+  {
+    "majorId": "dance",
+    "universityId": "seoul-tech",
+    "admissionQuota": 67
+  },
+  {
+    "majorId": "dance",
+    "universityId": "seoul-women",
+    "admissionQuota": 110
+  },
+  {
+    "majorId": "dance",
+    "universityId": "sookmyung",
+    "admissionQuota": 69
+  },
+  {
+    "majorId": "data-science",
+    "universityId": "ajou",
+    "admissionQuota": 84
+  },
+  {
+    "majorId": "data-science",
+    "universityId": "cnu",
+    "admissionQuota": 33
+  },
+  {
+    "majorId": "data-science",
+    "universityId": "dgist",
+    "admissionQuota": 113
+  },
+  {
+    "majorId": "data-science",
+    "universityId": "kgu",
+    "admissionQuota": 65
+  },
+  {
+    "majorId": "data-science",
+    "universityId": "konkuk-glocal",
+    "admissionQuota": 77
+  },
+  {
+    "majorId": "data-science",
+    "universityId": "seoul-tech",
+    "admissionQuota": 109
+  },
+  {
+    "majorId": "data-science",
+    "universityId": "skku",
+    "admissionQuota": 61
+  },
+  {
+    "majorId": "data-science",
+    "universityId": "unist",
+    "admissionQuota": 102
+  },
+  {
+    "majorId": "data-science",
+    "universityId": "uos",
+    "admissionQuota": 85
+  },
+  {
+    "majorId": "data-science",
+    "universityId": "yonsei",
+    "admissionQuota": 71
+  },
+  {
+    "majorId": "dentistry",
+    "universityId": "catholic-busan",
+    "admissionQuota": 126
+  },
+  {
+    "majorId": "dentistry",
+    "universityId": "chosun",
+    "admissionQuota": 117
+  },
+  {
+    "majorId": "dentistry",
+    "universityId": "dankook-cheonan",
+    "admissionQuota": 106
+  },
+  {
+    "majorId": "dentistry",
+    "universityId": "dgu",
+    "admissionQuota": 83
+  },
+  {
+    "majorId": "dentistry",
+    "universityId": "knu",
+    "admissionQuota": 121
+  },
+  {
+    "majorId": "dentistry",
+    "universityId": "pnu",
+    "admissionQuota": 72
+  },
+  {
+    "majorId": "dentistry",
+    "universityId": "snu",
+    "admissionQuota": 82
+  },
+  {
+    "majorId": "dentistry",
+    "universityId": "yonsei",
+    "admissionQuota": 125
+  },
+  {
+    "majorId": "design",
+    "universityId": "cau",
+    "admissionQuota": 120
+  },
+  {
+    "majorId": "design",
+    "universityId": "ewha",
+    "admissionQuota": 80
+  },
+  {
+    "majorId": "design",
+    "universityId": "hongik",
+    "admissionQuota": 100
+  },
+  {
+    "majorId": "design",
+    "universityId": "ka-univ",
+    "admissionQuota": 63
+  },
+  {
+    "majorId": "design",
+    "universityId": "korea-univ-arts",
+    "admissionQuota": 67
+  },
+  {
+    "majorId": "design",
+    "universityId": "myongji",
+    "admissionQuota": 64
+  },
+  {
+    "majorId": "design",
+    "universityId": "sangmyung",
+    "admissionQuota": 104
+  },
+  {
+    "majorId": "design",
+    "universityId": "seokyeong",
+    "admissionQuota": 46
+  },
+  {
+    "majorId": "design",
+    "universityId": "seoul-tech",
+    "admissionQuota": 98
+  },
+  {
+    "majorId": "design",
+    "universityId": "snu",
+    "admissionQuota": 50
+  },
+  {
+    "majorId": "early-childhood-edu",
+    "universityId": "cau",
+    "admissionQuota": 100
+  },
+  {
+    "majorId": "early-childhood-edu",
+    "universityId": "cwnu",
+    "admissionQuota": 33
+  },
+  {
+    "majorId": "early-childhood-edu",
+    "universityId": "ewha",
+    "admissionQuota": 60
+  },
+  {
+    "majorId": "early-childhood-edu",
+    "universityId": "hanyang",
+    "admissionQuota": 53
+  },
+  {
+    "majorId": "early-childhood-edu",
+    "universityId": "korea",
+    "admissionQuota": 64
+  },
+  {
+    "majorId": "early-childhood-edu",
+    "universityId": "myongji",
+    "admissionQuota": 57
+  },
+  {
+    "majorId": "early-childhood-edu",
+    "universityId": "sangmyung",
+    "admissionQuota": 84
+  },
+  {
+    "majorId": "early-childhood-edu",
+    "universityId": "sookmyung",
+    "admissionQuota": 88
+  },
+  {
+    "majorId": "earth-science",
+    "universityId": "cbnu",
+    "admissionQuota": 50
+  },
+  {
+    "majorId": "earth-science",
+    "universityId": "cnu",
+    "admissionQuota": 129
+  },
+  {
+    "majorId": "earth-science",
+    "universityId": "cwnu",
+    "admissionQuota": 129
+  },
+  {
+    "majorId": "earth-science",
+    "universityId": "knu",
+    "admissionQuota": 117
+  },
+  {
+    "majorId": "earth-science",
+    "universityId": "korea-aerospace",
+    "admissionQuota": 60
+  },
+  {
+    "majorId": "earth-science",
+    "universityId": "snue",
+    "admissionQuota": 68
+  },
+  {
+    "majorId": "earth-science",
+    "universityId": "soongsil",
+    "admissionQuota": 85
+  },
+  {
+    "majorId": "earth-science",
+    "universityId": "yonsei",
+    "admissionQuota": 114
+  },
+  {
+    "majorId": "east-asian-history",
+    "universityId": "cau",
+    "admissionQuota": 32
+  },
+  {
+    "majorId": "east-asian-history",
+    "universityId": "dgu",
+    "admissionQuota": 109
+  },
+  {
+    "majorId": "east-asian-history",
+    "universityId": "hanyang",
+    "admissionQuota": 48
+  },
+  {
+    "majorId": "east-asian-history",
+    "universityId": "hufs",
+    "admissionQuota": 97
+  },
+  {
+    "majorId": "east-asian-history",
+    "universityId": "jnu",
+    "admissionQuota": 103
+  },
+  {
+    "majorId": "east-asian-history",
+    "universityId": "kaist",
+    "admissionQuota": 108
+  },
+  {
+    "majorId": "east-asian-history",
+    "universityId": "khu",
+    "admissionQuota": 119
+  },
+  {
+    "majorId": "east-asian-history",
+    "universityId": "sookmyung",
+    "admissionQuota": 86
+  },
+  {
+    "majorId": "economics",
+    "universityId": "hongik",
+    "admissionQuota": 122
+  },
+  {
+    "majorId": "economics",
+    "universityId": "hufs",
+    "admissionQuota": 97
+  },
+  {
+    "majorId": "economics",
+    "universityId": "jnu",
+    "admissionQuota": 90
+  },
+  {
+    "majorId": "economics",
+    "universityId": "korea",
+    "admissionQuota": 110
+  },
+  {
+    "majorId": "economics",
+    "universityId": "sejong",
+    "admissionQuota": 35
+  },
+  {
+    "majorId": "economics",
+    "universityId": "snu",
+    "admissionQuota": 110
+  },
+  {
+    "majorId": "economics",
+    "universityId": "sogang",
+    "admissionQuota": 80
+  },
+  {
+    "majorId": "economics",
+    "universityId": "soongsil",
+    "admissionQuota": 84
+  },
+  {
+    "majorId": "economics",
+    "universityId": "uos",
+    "admissionQuota": 95
+  },
+  {
+    "majorId": "economics",
+    "universityId": "yonsei",
+    "admissionQuota": 100
+  },
+  {
+    "majorId": "education",
+    "universityId": "cau",
+    "admissionQuota": 52
+  },
+  {
+    "majorId": "education",
+    "universityId": "cnu",
+    "admissionQuota": 121
+  },
+  {
+    "majorId": "education",
+    "universityId": "ewha",
+    "admissionQuota": 35
+  },
+  {
+    "majorId": "education",
+    "universityId": "knue",
+    "admissionQuota": 34
+  },
+  {
+    "majorId": "education",
+    "universityId": "korea",
+    "admissionQuota": 24
+  },
+  {
+    "majorId": "education",
+    "universityId": "sangmyung",
+    "admissionQuota": 105
+  },
+  {
+    "majorId": "education",
+    "universityId": "snu",
+    "admissionQuota": 18
+  },
+  {
+    "majorId": "education",
+    "universityId": "sookmyung",
+    "admissionQuota": 53
+  },
+  {
+    "majorId": "electrical-engineering",
+    "universityId": "ajou",
+    "admissionQuota": 87
+  },
+  {
+    "majorId": "electrical-engineering",
+    "universityId": "hanyang",
+    "admissionQuota": 145
+  },
+  {
+    "majorId": "electrical-engineering",
+    "universityId": "kaist",
+    "admissionQuota": 220
+  },
+  {
+    "majorId": "electrical-engineering",
+    "universityId": "korea",
+    "admissionQuota": 110
+  },
+  {
+    "majorId": "electrical-engineering",
+    "universityId": "pnu",
+    "admissionQuota": 130
+  },
+  {
+    "majorId": "electrical-engineering",
+    "universityId": "pufs",
+    "admissionQuota": 66
+  },
+  {
+    "majorId": "electrical-engineering",
+    "universityId": "skku",
+    "admissionQuota": 100
+  },
+  {
+    "majorId": "electrical-engineering",
+    "universityId": "snu",
+    "admissionQuota": 130
+  },
+  {
+    "majorId": "electrical-engineering",
+    "universityId": "soongsil",
+    "admissionQuota": 68
+  },
+  {
+    "majorId": "electrical-engineering",
+    "universityId": "yonsei",
+    "admissionQuota": 120
+  },
+  {
+    "majorId": "elementary-edu",
+    "universityId": "cju-edu",
+    "admissionQuota": 55
+  },
+  {
+    "majorId": "elementary-edu",
+    "universityId": "daegu-edu",
+    "admissionQuota": 111
+  },
+  {
+    "majorId": "elementary-edu",
+    "universityId": "jeonju-edu",
+    "admissionQuota": 44
+  },
+  {
+    "majorId": "elementary-edu",
+    "universityId": "jinju-edu",
+    "admissionQuota": 116
+  },
+  {
+    "majorId": "elementary-edu",
+    "universityId": "kainu",
+    "admissionQuota": 112
+  },
+  {
+    "majorId": "elementary-edu",
+    "universityId": "knu-chuncheon",
+    "admissionQuota": 55
+  },
+  {
+    "majorId": "elementary-edu",
+    "universityId": "pukyong-edu",
+    "admissionQuota": 112
+  },
+  {
+    "majorId": "elementary-edu",
+    "universityId": "snue-edu",
+    "admissionQuota": 105
+  },
+  {
+    "majorId": "emergency-medical",
+    "universityId": "cwnu",
+    "admissionQuota": 82
+  },
+  {
+    "majorId": "emergency-medical",
+    "universityId": "hallym",
+    "admissionQuota": 78
+  },
+  {
+    "majorId": "emergency-medical",
+    "universityId": "hongik",
+    "admissionQuota": 93
+  },
+  {
+    "majorId": "emergency-medical",
+    "universityId": "hufs",
+    "admissionQuota": 72
+  },
+  {
+    "majorId": "emergency-medical",
+    "universityId": "korea",
+    "admissionQuota": 95
+  },
+  {
+    "majorId": "emergency-medical",
+    "universityId": "skku",
+    "admissionQuota": 114
+  },
+  {
+    "majorId": "emergency-medical",
+    "universityId": "snu",
+    "admissionQuota": 86
+  },
+  {
+    "majorId": "emergency-medical",
+    "universityId": "soonchunhyang",
+    "admissionQuota": 81
+  },
+  {
+    "majorId": "energy",
+    "universityId": "dongguk",
+    "admissionQuota": 32
+  },
+  {
+    "majorId": "energy",
+    "universityId": "ewha",
+    "admissionQuota": 48
+  },
+  {
+    "majorId": "energy",
+    "universityId": "hknu",
+    "admissionQuota": 50
+  },
+  {
+    "majorId": "energy",
+    "universityId": "hongik",
+    "admissionQuota": 38
+  },
+  {
+    "majorId": "energy",
+    "universityId": "hufs",
+    "admissionQuota": 98
+  },
+  {
+    "majorId": "energy",
+    "universityId": "jnu",
+    "admissionQuota": 76
+  },
+  {
+    "majorId": "energy",
+    "universityId": "kaist",
+    "admissionQuota": 36
+  },
+  {
+    "majorId": "energy",
+    "universityId": "knu",
+    "admissionQuota": 128
+  },
+  {
+    "majorId": "energy",
+    "universityId": "korea-univ-sejong",
+    "admissionQuota": 53
+  },
+  {
+    "majorId": "energy",
+    "universityId": "sejong",
+    "admissionQuota": 99
+  },
+  {
+    "majorId": "english-edu",
+    "universityId": "cau",
+    "admissionQuota": 100
+  },
+  {
+    "majorId": "english-edu",
+    "universityId": "chonbuk",
+    "admissionQuota": 54
+  },
+  {
+    "majorId": "english-edu",
+    "universityId": "cnu",
+    "admissionQuota": 68
+  },
+  {
+    "majorId": "english-edu",
+    "universityId": "cwnu",
+    "admissionQuota": 120
+  },
+  {
+    "majorId": "english-edu",
+    "universityId": "knu",
+    "admissionQuota": 76
+  },
+  {
+    "majorId": "english-edu",
+    "universityId": "knue",
+    "admissionQuota": 71
+  },
+  {
+    "majorId": "english-edu",
+    "universityId": "myongji",
+    "admissionQuota": 93
+  },
+  {
+    "majorId": "english-edu",
+    "universityId": "sangmyung",
+    "admissionQuota": 53
+  },
+  {
+    "majorId": "english-language-lit",
+    "universityId": "cau",
+    "admissionQuota": 108
+  },
+  {
+    "majorId": "english-language-lit",
+    "universityId": "ewha",
+    "admissionQuota": 60
+  },
+  {
+    "majorId": "english-language-lit",
+    "universityId": "hufs",
+    "admissionQuota": 70
+  },
+  {
+    "majorId": "english-language-lit",
+    "universityId": "korea",
+    "admissionQuota": 65
+  },
+  {
+    "majorId": "english-language-lit",
+    "universityId": "postech",
+    "admissionQuota": 43
+  },
+  {
+    "majorId": "english-language-lit",
+    "universityId": "sangmyung",
+    "admissionQuota": 65
+  },
+  {
+    "majorId": "english-language-lit",
+    "universityId": "snu",
+    "admissionQuota": 35
+  },
+  {
+    "majorId": "english-language-lit",
+    "universityId": "yonsei",
+    "admissionQuota": 60
+  },
+  {
+    "majorId": "environmental",
+    "universityId": "cau",
+    "admissionQuota": 42
+  },
+  {
+    "majorId": "environmental",
+    "universityId": "gachon",
+    "admissionQuota": 106
+  },
+  {
+    "majorId": "environmental",
+    "universityId": "hanyang",
+    "admissionQuota": 78
+  },
+  {
+    "majorId": "environmental",
+    "universityId": "hongik",
+    "admissionQuota": 51
+  },
+  {
+    "majorId": "environmental",
+    "universityId": "jnu",
+    "admissionQuota": 98
+  },
+  {
+    "majorId": "environmental",
+    "universityId": "korea-univ-sejong",
+    "admissionQuota": 31
+  },
+  {
+    "majorId": "environmental",
+    "universityId": "kpu",
+    "admissionQuota": 68
+  },
+  {
+    "majorId": "environmental",
+    "universityId": "pnu",
+    "admissionQuota": 48
+  },
+  {
+    "majorId": "environmental",
+    "universityId": "snue",
+    "admissionQuota": 30
+  },
+  {
+    "majorId": "environmental",
+    "universityId": "soongsil",
+    "admissionQuota": 35
+  },
+  {
+    "majorId": "ethics-edu",
+    "universityId": "cau",
+    "admissionQuota": 112
+  },
+  {
+    "majorId": "ethics-edu",
+    "universityId": "cbnu",
+    "admissionQuota": 93
+  },
+  {
+    "majorId": "ethics-edu",
+    "universityId": "cwnu",
+    "admissionQuota": 109
+  },
+  {
+    "majorId": "ethics-edu",
+    "universityId": "hanyang",
+    "admissionQuota": 80
+  },
+  {
+    "majorId": "ethics-edu",
+    "universityId": "khu",
+    "admissionQuota": 79
+  },
+  {
+    "majorId": "ethics-edu",
+    "universityId": "knue",
+    "admissionQuota": 30
+  },
+  {
+    "majorId": "ethics-edu",
+    "universityId": "pnu",
+    "admissionQuota": 58
+  },
+  {
+    "majorId": "ethics-edu",
+    "universityId": "sangmyung",
+    "admissionQuota": 125
+  },
+  {
+    "majorId": "family-studies",
+    "universityId": "chonbuk",
+    "admissionQuota": 109
+  },
+  {
+    "majorId": "family-studies",
+    "universityId": "cnu",
+    "admissionQuota": 122
+  },
+  {
+    "majorId": "family-studies",
+    "universityId": "daejeon-univ",
+    "admissionQuota": 49
+  },
+  {
+    "majorId": "family-studies",
+    "universityId": "gachon",
+    "admissionQuota": 110
+  },
+  {
+    "majorId": "family-studies",
+    "universityId": "jnu",
+    "admissionQuota": 114
+  },
+  {
+    "majorId": "family-studies",
+    "universityId": "knu",
+    "admissionQuota": 100
+  },
+  {
+    "majorId": "family-studies",
+    "universityId": "sejong",
+    "admissionQuota": 92
+  },
+  {
+    "majorId": "family-studies",
+    "universityId": "seoul-women",
+    "admissionQuota": 31
+  },
+  {
+    "majorId": "family-studies",
+    "universityId": "snue",
+    "admissionQuota": 58
+  },
+  {
+    "majorId": "family-studies",
+    "universityId": "sogang",
+    "admissionQuota": 80
+  },
+  {
+    "majorId": "fashion-design",
+    "universityId": "cau",
+    "admissionQuota": 100
+  },
+  {
+    "majorId": "fashion-design",
+    "universityId": "dongduk-women",
+    "admissionQuota": 115
+  },
+  {
+    "majorId": "fashion-design",
+    "universityId": "ewha",
+    "admissionQuota": 58
+  },
+  {
+    "majorId": "fashion-design",
+    "universityId": "kgu",
+    "admissionQuota": 109
+  },
+  {
+    "majorId": "fashion-design",
+    "universityId": "korea-univ-arts",
+    "admissionQuota": 84
+  },
+  {
+    "majorId": "fashion-design",
+    "universityId": "myongji",
+    "admissionQuota": 44
+  },
+  {
+    "majorId": "fashion-design",
+    "universityId": "sangmyung",
+    "admissionQuota": 108
+  },
+  {
+    "majorId": "fashion-design",
+    "universityId": "sejong",
+    "admissionQuota": 109
+  },
+  {
+    "majorId": "fashion-design",
+    "universityId": "seokyeong",
+    "admissionQuota": 98
+  },
+  {
+    "majorId": "fashion-design",
+    "universityId": "sookmyung",
+    "admissionQuota": 107
+  },
+  {
+    "majorId": "film-tv",
+    "universityId": "ewha",
+    "admissionQuota": 89
+  },
+  {
+    "majorId": "film-tv",
+    "universityId": "hongik",
+    "admissionQuota": 123
+  },
+  {
+    "majorId": "film-tv",
+    "universityId": "ka-univ",
+    "admissionQuota": 72
+  },
+  {
+    "majorId": "film-tv",
+    "universityId": "kookmin",
+    "admissionQuota": 101
+  },
+  {
+    "majorId": "film-tv",
+    "universityId": "korea-univ-arts",
+    "admissionQuota": 51
+  },
+  {
+    "majorId": "film-tv",
+    "universityId": "sangmyung",
+    "admissionQuota": 69
+  },
+  {
+    "majorId": "film-tv",
+    "universityId": "seokyeong",
+    "admissionQuota": 43
+  },
+  {
+    "majorId": "film-tv",
+    "universityId": "seoul-women",
+    "admissionQuota": 88
+  },
+  {
+    "majorId": "film-tv",
+    "universityId": "sookmyung",
+    "admissionQuota": 123
+  },
+  {
+    "majorId": "film-tv",
+    "universityId": "sungshin",
+    "admissionQuota": 80
+  },
+  {
+    "majorId": "fisheries",
+    "universityId": "andong",
+    "admissionQuota": 68
+  },
+  {
+    "majorId": "fisheries",
+    "universityId": "chonbuk",
+    "admissionQuota": 83
+  },
+  {
+    "majorId": "fisheries",
+    "universityId": "gist",
+    "admissionQuota": 83
+  },
+  {
+    "majorId": "fisheries",
+    "universityId": "hufs",
+    "admissionQuota": 128
+  },
+  {
+    "majorId": "fisheries",
+    "universityId": "pnu",
+    "admissionQuota": 58
+  },
+  {
+    "majorId": "fisheries",
+    "universityId": "postech",
+    "admissionQuota": 121
+  },
+  {
+    "majorId": "fisheries",
+    "universityId": "sookmyung",
+    "admissionQuota": 104
+  },
+  {
+    "majorId": "fisheries",
+    "universityId": "yonsei",
+    "admissionQuota": 91
+  },
+  {
+    "majorId": "food-engineering",
+    "universityId": "dgist",
+    "admissionQuota": 52
+  },
+  {
+    "majorId": "food-engineering",
+    "universityId": "konkuk-glocal",
+    "admissionQuota": 89
+  },
+  {
+    "majorId": "food-engineering",
+    "universityId": "kookmin",
+    "admissionQuota": 104
+  },
+  {
+    "majorId": "food-engineering",
+    "universityId": "korea",
+    "admissionQuota": 67
+  },
+  {
+    "majorId": "food-engineering",
+    "universityId": "kut",
+    "admissionQuota": 114
+  },
+  {
+    "majorId": "food-engineering",
+    "universityId": "myongji",
+    "admissionQuota": 95
+  },
+  {
+    "majorId": "food-engineering",
+    "universityId": "pnu",
+    "admissionQuota": 117
+  },
+  {
+    "majorId": "food-engineering",
+    "universityId": "pufs",
+    "admissionQuota": 125
+  },
+  {
+    "majorId": "food-engineering",
+    "universityId": "snue",
+    "admissionQuota": 124
+  },
+  {
+    "majorId": "food-engineering",
+    "universityId": "sookmyung",
+    "admissionQuota": 124
+  },
+  {
+    "majorId": "forestry",
+    "universityId": "andong",
+    "admissionQuota": 80
+  },
+  {
+    "majorId": "forestry",
+    "universityId": "dgist",
+    "admissionQuota": 126
+  },
+  {
+    "majorId": "forestry",
+    "universityId": "ewha",
+    "admissionQuota": 97
+  },
+  {
+    "majorId": "forestry",
+    "universityId": "hanyang",
+    "admissionQuota": 51
+  },
+  {
+    "majorId": "forestry",
+    "universityId": "kaist",
+    "admissionQuota": 34
+  },
+  {
+    "majorId": "forestry",
+    "universityId": "khu",
+    "admissionQuota": 34
+  },
+  {
+    "majorId": "forestry",
+    "universityId": "snu",
+    "admissionQuota": 56
+  },
+  {
+    "majorId": "forestry",
+    "universityId": "sookmyung",
+    "admissionQuota": 89
+  },
+  {
+    "majorId": "french-lit",
+    "universityId": "ewha",
+    "admissionQuota": 93
+  },
+  {
+    "majorId": "french-lit",
+    "universityId": "hanyang",
+    "admissionQuota": 46
+  },
+  {
+    "majorId": "french-lit",
+    "universityId": "jnu",
+    "admissionQuota": 70
+  },
+  {
+    "majorId": "french-lit",
+    "universityId": "kgu",
+    "admissionQuota": 89
+  },
+  {
+    "majorId": "french-lit",
+    "universityId": "khu",
+    "admissionQuota": 115
+  },
+  {
+    "majorId": "french-lit",
+    "universityId": "myongji",
+    "admissionQuota": 58
+  },
+  {
+    "majorId": "french-lit",
+    "universityId": "snu",
+    "admissionQuota": 124
+  },
+  {
+    "majorId": "french-lit",
+    "universityId": "soongsil",
+    "admissionQuota": 116
+  },
+  {
+    "majorId": "game-engineering",
+    "universityId": "cnu",
+    "admissionQuota": 117
+  },
+  {
+    "majorId": "game-engineering",
+    "universityId": "dgist",
+    "admissionQuota": 102
+  },
+  {
+    "majorId": "game-engineering",
+    "universityId": "dongguk",
+    "admissionQuota": 37
+  },
+  {
+    "majorId": "game-engineering",
+    "universityId": "gachon",
+    "admissionQuota": 95
+  },
+  {
+    "majorId": "game-engineering",
+    "universityId": "hongik",
+    "admissionQuota": 56
+  },
+  {
+    "majorId": "game-engineering",
+    "universityId": "hufs",
+    "admissionQuota": 80
+  },
+  {
+    "majorId": "game-engineering",
+    "universityId": "kaist",
+    "admissionQuota": 53
+  },
+  {
+    "majorId": "game-engineering",
+    "universityId": "kentech",
+    "admissionQuota": 105
+  },
+  {
+    "majorId": "game-engineering",
+    "universityId": "kut",
+    "admissionQuota": 109
+  },
+  {
+    "majorId": "game-engineering",
+    "universityId": "unist",
+    "admissionQuota": 122
+  },
+  {
+    "majorId": "game-graphics",
+    "universityId": "cau",
+    "admissionQuota": 117
+  },
+  {
+    "majorId": "game-graphics",
+    "universityId": "dankook-cheonan",
+    "admissionQuota": 69
+  },
+  {
+    "majorId": "game-graphics",
+    "universityId": "ka-univ",
+    "admissionQuota": 63
+  },
+  {
+    "majorId": "game-graphics",
+    "universityId": "kgu",
+    "admissionQuota": 114
+  },
+  {
+    "majorId": "game-graphics",
+    "universityId": "myongji",
+    "admissionQuota": 107
+  },
+  {
+    "majorId": "game-graphics",
+    "universityId": "sejong",
+    "admissionQuota": 46
+  },
+  {
+    "majorId": "game-graphics",
+    "universityId": "seoul-tech",
+    "admissionQuota": 60
+  },
+  {
+    "majorId": "game-graphics",
+    "universityId": "seoul-women",
+    "admissionQuota": 107
+  },
+  {
+    "majorId": "game-graphics",
+    "universityId": "snu",
+    "admissionQuota": 108
+  },
+  {
+    "majorId": "game-graphics",
+    "universityId": "sookmyung",
+    "admissionQuota": 37
+  },
+  {
+    "majorId": "geology",
+    "universityId": "cau",
+    "admissionQuota": 106
+  },
+  {
+    "majorId": "geology",
+    "universityId": "chonbuk",
+    "admissionQuota": 113
+  },
+  {
+    "majorId": "geology",
+    "universityId": "gist",
+    "admissionQuota": 71
+  },
+  {
+    "majorId": "geology",
+    "universityId": "pnu",
+    "admissionQuota": 121
+  },
+  {
+    "majorId": "geology",
+    "universityId": "postech",
+    "admissionQuota": 57
+  },
+  {
+    "majorId": "geology",
+    "universityId": "sejong",
+    "admissionQuota": 116
+  },
+  {
+    "majorId": "geology",
+    "universityId": "skku",
+    "admissionQuota": 118
+  },
+  {
+    "majorId": "geology",
+    "universityId": "sogang",
+    "admissionQuota": 119
+  },
+  {
+    "majorId": "german-lit",
+    "universityId": "ajou",
+    "admissionQuota": 57
+  },
+  {
+    "majorId": "german-lit",
+    "universityId": "hongik",
+    "admissionQuota": 54
+  },
+  {
+    "majorId": "german-lit",
+    "universityId": "jnu",
+    "admissionQuota": 94
+  },
+  {
+    "majorId": "german-lit",
+    "universityId": "kgu",
+    "admissionQuota": 113
+  },
+  {
+    "majorId": "german-lit",
+    "universityId": "korea",
+    "admissionQuota": 92
+  },
+  {
+    "majorId": "german-lit",
+    "universityId": "pnu",
+    "admissionQuota": 96
+  },
+  {
+    "majorId": "german-lit",
+    "universityId": "sangmyung",
+    "admissionQuota": 55
+  },
+  {
+    "majorId": "german-lit",
+    "universityId": "sogang",
+    "admissionQuota": 72
+  },
+  {
+    "majorId": "global-studies",
+    "universityId": "chonbuk",
+    "admissionQuota": 49
+  },
+  {
+    "majorId": "global-studies",
+    "universityId": "dongguk",
+    "admissionQuota": 31
+  },
+  {
+    "majorId": "global-studies",
+    "universityId": "inha",
+    "admissionQuota": 81
+  },
+  {
+    "majorId": "global-studies",
+    "universityId": "kaist",
+    "admissionQuota": 93
+  },
+  {
+    "majorId": "global-studies",
+    "universityId": "kgu",
+    "admissionQuota": 83
+  },
+  {
+    "majorId": "global-studies",
+    "universityId": "khu",
+    "admissionQuota": 34
+  },
+  {
+    "majorId": "global-studies",
+    "universityId": "korea",
+    "admissionQuota": 105
+  },
+  {
+    "majorId": "global-studies",
+    "universityId": "skku",
+    "admissionQuota": 39
+  },
+  {
+    "majorId": "global-studies",
+    "universityId": "snu",
+    "admissionQuota": 51
+  },
+  {
+    "majorId": "global-studies",
+    "universityId": "sogang",
+    "admissionQuota": 117
+  },
+  {
+    "majorId": "health-admin",
+    "universityId": "cau",
+    "admissionQuota": 116
+  },
+  {
+    "majorId": "health-admin",
+    "universityId": "hongik",
+    "admissionQuota": 31
+  },
+  {
+    "majorId": "health-admin",
+    "universityId": "hufs",
+    "admissionQuota": 125
+  },
+  {
+    "majorId": "health-admin",
+    "universityId": "jnu",
+    "admissionQuota": 55
+  },
+  {
+    "majorId": "health-admin",
+    "universityId": "kaist",
+    "admissionQuota": 87
+  },
+  {
+    "majorId": "health-admin",
+    "universityId": "knu",
+    "admissionQuota": 70
+  },
+  {
+    "majorId": "health-admin",
+    "universityId": "korea",
+    "admissionQuota": 47
+  },
+  {
+    "majorId": "health-admin",
+    "universityId": "pnu",
+    "admissionQuota": 80
+  },
+  {
+    "majorId": "health-admin",
+    "universityId": "sejong",
+    "admissionQuota": 95
+  },
+  {
+    "majorId": "health-admin",
+    "universityId": "uos",
+    "admissionQuota": 105
+  },
+  {
+    "majorId": "history",
+    "universityId": "ajou",
+    "admissionQuota": 114
+  },
+  {
+    "majorId": "history",
+    "universityId": "dgu",
+    "admissionQuota": 51
+  },
+  {
+    "majorId": "history",
+    "universityId": "hufs",
+    "admissionQuota": 49
+  },
+  {
+    "majorId": "history",
+    "universityId": "korea",
+    "admissionQuota": 50
+  },
+  {
+    "majorId": "history",
+    "universityId": "sangmyung",
+    "admissionQuota": 89
+  },
+  {
+    "majorId": "history",
+    "universityId": "skku",
+    "admissionQuota": 113
+  },
+  {
+    "majorId": "history",
+    "universityId": "snu",
+    "admissionQuota": 40
+  },
+  {
+    "majorId": "history",
+    "universityId": "yonsei",
+    "admissionQuota": 35
+  },
+  {
+    "majorId": "history-edu",
+    "universityId": "cau",
+    "admissionQuota": 116
+  },
+  {
+    "majorId": "history-edu",
+    "universityId": "chonbuk",
+    "admissionQuota": 98
+  },
+  {
+    "majorId": "history-edu",
+    "universityId": "dongguk",
+    "admissionQuota": 91
+  },
+  {
+    "majorId": "history-edu",
+    "universityId": "khu",
+    "admissionQuota": 69
+  },
+  {
+    "majorId": "history-edu",
+    "universityId": "knu",
+    "admissionQuota": 80
+  },
+  {
+    "majorId": "history-edu",
+    "universityId": "knue",
+    "admissionQuota": 108
+  },
+  {
+    "majorId": "history-edu",
+    "universityId": "snu",
+    "admissionQuota": 90
+  },
+  {
+    "majorId": "history-edu",
+    "universityId": "sungshin",
+    "admissionQuota": 111
+  },
+  {
+    "majorId": "home-edu",
+    "universityId": "cau",
+    "admissionQuota": 70
+  },
+  {
+    "majorId": "home-edu",
+    "universityId": "cnu",
+    "admissionQuota": 45
+  },
+  {
+    "majorId": "home-edu",
+    "universityId": "cwnu",
+    "admissionQuota": 103
+  },
+  {
+    "majorId": "home-edu",
+    "universityId": "jnu",
+    "admissionQuota": 79
+  },
+  {
+    "majorId": "home-edu",
+    "universityId": "khu",
+    "admissionQuota": 122
+  },
+  {
+    "majorId": "home-edu",
+    "universityId": "knue",
+    "admissionQuota": 85
+  },
+  {
+    "majorId": "home-edu",
+    "universityId": "korea",
+    "admissionQuota": 63
+  },
+  {
+    "majorId": "home-edu",
+    "universityId": "sungshin",
+    "admissionQuota": 38
+  },
+  {
+    "majorId": "horticulture",
+    "universityId": "cau",
+    "admissionQuota": 73
+  },
+  {
+    "majorId": "horticulture",
+    "universityId": "cwnu",
+    "admissionQuota": 114
+  },
+  {
+    "majorId": "horticulture",
+    "universityId": "dgist",
+    "admissionQuota": 104
+  },
+  {
+    "majorId": "horticulture",
+    "universityId": "kookmin",
+    "admissionQuota": 119
+  },
+  {
+    "majorId": "horticulture",
+    "universityId": "postech",
+    "admissionQuota": 97
+  },
+  {
+    "majorId": "horticulture",
+    "universityId": "sejong",
+    "admissionQuota": 82
+  },
+  {
+    "majorId": "horticulture",
+    "universityId": "skku",
+    "admissionQuota": 113
+  },
+  {
+    "majorId": "horticulture",
+    "universityId": "unist",
+    "admissionQuota": 127
+  },
+  {
+    "majorId": "hotel-management",
+    "universityId": "ajou",
+    "admissionQuota": 38
+  },
+  {
+    "majorId": "hotel-management",
+    "universityId": "daejeon-univ",
+    "admissionQuota": 31
+  },
+  {
+    "majorId": "hotel-management",
+    "universityId": "hongik",
+    "admissionQuota": 127
+  },
+  {
+    "majorId": "hotel-management",
+    "universityId": "hufs",
+    "admissionQuota": 68
+  },
+  {
+    "majorId": "hotel-management",
+    "universityId": "kaist",
+    "admissionQuota": 75
+  },
+  {
+    "majorId": "hotel-management",
+    "universityId": "kgu",
+    "admissionQuota": 91
+  },
+  {
+    "majorId": "hotel-management",
+    "universityId": "korea",
+    "admissionQuota": 43
+  },
+  {
+    "majorId": "hotel-management",
+    "universityId": "pnu",
+    "admissionQuota": 46
+  },
+  {
+    "majorId": "hotel-management",
+    "universityId": "seoul-women",
+    "admissionQuota": 40
+  },
+  {
+    "majorId": "hotel-management",
+    "universityId": "sookmyung",
+    "admissionQuota": 42
+  },
+  {
+    "majorId": "human-geography",
+    "universityId": "chonbuk",
+    "admissionQuota": 43
+  },
+  {
+    "majorId": "human-geography",
+    "universityId": "kaist",
+    "admissionQuota": 86
+  },
+  {
+    "majorId": "human-geography",
+    "universityId": "kgu",
+    "admissionQuota": 52
+  },
+  {
+    "majorId": "human-geography",
+    "universityId": "kookmin",
+    "admissionQuota": 75
+  },
+  {
+    "majorId": "human-geography",
+    "universityId": "korea",
+    "admissionQuota": 66
+  },
+  {
+    "majorId": "human-geography",
+    "universityId": "myongji",
+    "admissionQuota": 69
+  },
+  {
+    "majorId": "human-geography",
+    "universityId": "sejong",
+    "admissionQuota": 34
+  },
+  {
+    "majorId": "human-geography",
+    "universityId": "snu",
+    "admissionQuota": 31
+  },
+  {
+    "majorId": "human-geography",
+    "universityId": "soongsil",
+    "admissionQuota": 61
+  },
+  {
+    "majorId": "human-geography",
+    "universityId": "yonsei",
+    "admissionQuota": 73
+  },
+  {
+    "majorId": "indian-lit",
+    "universityId": "hongik",
+    "admissionQuota": 79
+  },
+  {
+    "majorId": "indian-lit",
+    "universityId": "hufs",
+    "admissionQuota": 126
+  },
+  {
+    "majorId": "indian-lit",
+    "universityId": "jnu",
+    "admissionQuota": 63
+  },
+  {
+    "majorId": "indian-lit",
+    "universityId": "kaist",
+    "admissionQuota": 95
+  },
+  {
+    "majorId": "indian-lit",
+    "universityId": "korea",
+    "admissionQuota": 90
+  },
+  {
+    "majorId": "indian-lit",
+    "universityId": "pnu",
+    "admissionQuota": 105
+  },
+  {
+    "majorId": "indian-lit",
+    "universityId": "uos",
+    "admissionQuota": 35
+  },
+  {
+    "majorId": "indian-lit",
+    "universityId": "yonsei",
+    "admissionQuota": 99
+  },
+  {
+    "majorId": "industrial-design",
+    "universityId": "dankook-cheonan",
+    "admissionQuota": 31
+  },
+  {
+    "majorId": "industrial-design",
+    "universityId": "hongik",
+    "admissionQuota": 68
+  },
+  {
+    "majorId": "industrial-design",
+    "universityId": "ka-univ",
+    "admissionQuota": 57
+  },
+  {
+    "majorId": "industrial-design",
+    "universityId": "kgu",
+    "admissionQuota": 128
+  },
+  {
+    "majorId": "industrial-design",
+    "universityId": "kookmin",
+    "admissionQuota": 92
+  },
+  {
+    "majorId": "industrial-design",
+    "universityId": "korea-univ-arts",
+    "admissionQuota": 67
+  },
+  {
+    "majorId": "industrial-design",
+    "universityId": "sangmyung",
+    "admissionQuota": 72
+  },
+  {
+    "majorId": "industrial-design",
+    "universityId": "seoul-tech",
+    "admissionQuota": 76
+  },
+  {
+    "majorId": "industrial-design",
+    "universityId": "snu",
+    "admissionQuota": 118
+  },
+  {
+    "majorId": "industrial-design",
+    "universityId": "sungshin",
+    "admissionQuota": 103
+  },
+  {
+    "majorId": "industrial-design-eng",
+    "universityId": "dankook-cheonan",
+    "admissionQuota": 71
+  },
+  {
+    "majorId": "industrial-design-eng",
+    "universityId": "inha",
+    "admissionQuota": 101
+  },
+  {
+    "majorId": "industrial-design-eng",
+    "universityId": "kgu",
+    "admissionQuota": 127
+  },
+  {
+    "majorId": "industrial-design-eng",
+    "universityId": "khu",
+    "admissionQuota": 67
+  },
+  {
+    "majorId": "industrial-design-eng",
+    "universityId": "korea-aerospace",
+    "admissionQuota": 109
+  },
+  {
+    "majorId": "industrial-design-eng",
+    "universityId": "korea-univ-sejong",
+    "admissionQuota": 76
+  },
+  {
+    "majorId": "industrial-design-eng",
+    "universityId": "kpu",
+    "admissionQuota": 94
+  },
+  {
+    "majorId": "industrial-design-eng",
+    "universityId": "myongji",
+    "admissionQuota": 126
+  },
+  {
+    "majorId": "industrial-design-eng",
+    "universityId": "sogang",
+    "admissionQuota": 58
+  },
+  {
+    "majorId": "industrial-design-eng",
+    "universityId": "yonsei",
+    "admissionQuota": 118
+  },
+  {
+    "majorId": "industrial-engineering",
+    "universityId": "ewha",
+    "admissionQuota": 129
+  },
+  {
+    "majorId": "industrial-engineering",
+    "universityId": "hanyang",
+    "admissionQuota": 80
+  },
+  {
+    "majorId": "industrial-engineering",
+    "universityId": "hknu",
+    "admissionQuota": 73
+  },
+  {
+    "majorId": "industrial-engineering",
+    "universityId": "kaist",
+    "admissionQuota": 70
+  },
+  {
+    "majorId": "industrial-engineering",
+    "universityId": "konkuk-glocal",
+    "admissionQuota": 52
+  },
+  {
+    "majorId": "industrial-engineering",
+    "universityId": "korea",
+    "admissionQuota": 65
+  },
+  {
+    "majorId": "industrial-engineering",
+    "universityId": "korea-univ-sejong",
+    "admissionQuota": 32
+  },
+  {
+    "majorId": "industrial-engineering",
+    "universityId": "postech",
+    "admissionQuota": 50
+  },
+  {
+    "majorId": "industrial-engineering",
+    "universityId": "snu",
+    "admissionQuota": 55
+  },
+  {
+    "majorId": "industrial-engineering",
+    "universityId": "snue",
+    "admissionQuota": 79
+  },
+  {
+    "majorId": "information-communication",
+    "universityId": "dgist",
+    "admissionQuota": 58
+  },
+  {
+    "majorId": "information-communication",
+    "universityId": "hanbat",
+    "admissionQuota": 84
+  },
+  {
+    "majorId": "information-communication",
+    "universityId": "hknu",
+    "admissionQuota": 67
+  },
+  {
+    "majorId": "information-communication",
+    "universityId": "jnu",
+    "admissionQuota": 49
+  },
+  {
+    "majorId": "information-communication",
+    "universityId": "kaist",
+    "admissionQuota": 37
+  },
+  {
+    "majorId": "information-communication",
+    "universityId": "kgu",
+    "admissionQuota": 39
+  },
+  {
+    "majorId": "information-communication",
+    "universityId": "korea-aerospace",
+    "admissionQuota": 62
+  },
+  {
+    "majorId": "information-communication",
+    "universityId": "kpu",
+    "admissionQuota": 82
+  },
+  {
+    "majorId": "information-communication",
+    "universityId": "suwon",
+    "admissionQuota": 76
+  },
+  {
+    "majorId": "information-communication",
+    "universityId": "uos",
+    "admissionQuota": 69
+  },
+  {
+    "majorId": "interior-design",
+    "universityId": "cau",
+    "admissionQuota": 37
+  },
+  {
+    "majorId": "interior-design",
+    "universityId": "dankook-cheonan",
+    "admissionQuota": 57
+  },
+  {
+    "majorId": "interior-design",
+    "universityId": "ewha",
+    "admissionQuota": 73
+  },
+  {
+    "majorId": "interior-design",
+    "universityId": "ka-univ",
+    "admissionQuota": 79
+  },
+  {
+    "majorId": "interior-design",
+    "universityId": "kgu",
+    "admissionQuota": 31
+  },
+  {
+    "majorId": "interior-design",
+    "universityId": "kookmin",
+    "admissionQuota": 126
+  },
+  {
+    "majorId": "interior-design",
+    "universityId": "myongji",
+    "admissionQuota": 124
+  },
+  {
+    "majorId": "interior-design",
+    "universityId": "sejong",
+    "admissionQuota": 53
+  },
+  {
+    "majorId": "interior-design",
+    "universityId": "seoul-tech",
+    "admissionQuota": 91
+  },
+  {
+    "majorId": "interior-design",
+    "universityId": "sookmyung",
+    "admissionQuota": 58
+  },
+  {
+    "majorId": "international-business",
+    "universityId": "chonbuk",
+    "admissionQuota": 109
+  },
+  {
+    "majorId": "international-business",
+    "universityId": "gachon",
+    "admissionQuota": 106
+  },
+  {
+    "majorId": "international-business",
+    "universityId": "hufs",
+    "admissionQuota": 70
+  },
+  {
+    "majorId": "international-business",
+    "universityId": "inha",
+    "admissionQuota": 37
+  },
+  {
+    "majorId": "international-business",
+    "universityId": "jnu",
+    "admissionQuota": 119
+  },
+  {
+    "majorId": "international-business",
+    "universityId": "khu",
+    "admissionQuota": 93
+  },
+  {
+    "majorId": "international-business",
+    "universityId": "korea",
+    "admissionQuota": 115
+  },
+  {
+    "majorId": "international-business",
+    "universityId": "seoul-women",
+    "admissionQuota": 41
+  },
+  {
+    "majorId": "international-business",
+    "universityId": "skku",
+    "admissionQuota": 107
+  },
+  {
+    "majorId": "international-business",
+    "universityId": "sookmyung",
+    "admissionQuota": 69
+  },
+  {
+    "majorId": "japanese-lit",
+    "universityId": "ajou",
+    "admissionQuota": 88
+  },
+  {
+    "majorId": "japanese-lit",
+    "universityId": "chonbuk",
+    "admissionQuota": 58
+  },
+  {
+    "majorId": "japanese-lit",
+    "universityId": "dgu",
+    "admissionQuota": 119
+  },
+  {
+    "majorId": "japanese-lit",
+    "universityId": "postech",
+    "admissionQuota": 67
+  },
+  {
+    "majorId": "japanese-lit",
+    "universityId": "sejong",
+    "admissionQuota": 117
+  },
+  {
+    "majorId": "japanese-lit",
+    "universityId": "skku",
+    "admissionQuota": 62
+  },
+  {
+    "majorId": "japanese-lit",
+    "universityId": "sookmyung",
+    "admissionQuota": 79
+  },
+  {
+    "majorId": "japanese-lit",
+    "universityId": "uos",
+    "admissionQuota": 49
+  },
+  {
+    "majorId": "korean-language-edu",
+    "universityId": "cau",
+    "admissionQuota": 79
+  },
+  {
+    "majorId": "korean-language-edu",
+    "universityId": "chonbuk",
+    "admissionQuota": 37
+  },
+  {
+    "majorId": "korean-language-edu",
+    "universityId": "cnu",
+    "admissionQuota": 66
+  },
+  {
+    "majorId": "korean-language-edu",
+    "universityId": "ewha",
+    "admissionQuota": 30
+  },
+  {
+    "majorId": "korean-language-edu",
+    "universityId": "knu",
+    "admissionQuota": 25
+  },
+  {
+    "majorId": "korean-language-edu",
+    "universityId": "korea",
+    "admissionQuota": 24
+  },
+  {
+    "majorId": "korean-language-edu",
+    "universityId": "sangmyung",
+    "admissionQuota": 44
+  },
+  {
+    "majorId": "korean-language-edu",
+    "universityId": "snu",
+    "admissionQuota": 16
+  },
+  {
+    "majorId": "korean-language-lit",
+    "universityId": "cau",
+    "admissionQuota": 96
+  },
+  {
+    "majorId": "korean-language-lit",
+    "universityId": "ewha",
+    "admissionQuota": 40
+  },
+  {
+    "majorId": "korean-language-lit",
+    "universityId": "kgu",
+    "admissionQuota": 48
+  },
+  {
+    "majorId": "korean-language-lit",
+    "universityId": "korea",
+    "admissionQuota": 40
+  },
+  {
+    "majorId": "korean-language-lit",
+    "universityId": "snu",
+    "admissionQuota": 30
+  },
+  {
+    "majorId": "korean-language-lit",
+    "universityId": "soongsil",
+    "admissionQuota": 104
+  },
+  {
+    "majorId": "korean-language-lit",
+    "universityId": "uos",
+    "admissionQuota": 54
+  },
+  {
+    "majorId": "korean-language-lit",
+    "universityId": "yonsei",
+    "admissionQuota": 35
+  },
+  {
+    "majorId": "korean-medicine",
+    "universityId": "daegu-haany",
+    "admissionQuota": 77
+  },
+  {
+    "majorId": "korean-medicine",
+    "universityId": "dgu",
+    "admissionQuota": 77
+  },
+  {
+    "majorId": "korean-medicine",
+    "universityId": "dongguk",
+    "admissionQuota": 79
+  },
+  {
+    "majorId": "korean-medicine",
+    "universityId": "jeonju",
+    "admissionQuota": 129
+  },
+  {
+    "majorId": "korean-medicine",
+    "universityId": "khu",
+    "admissionQuota": 68
+  },
+  {
+    "majorId": "korean-medicine",
+    "universityId": "sangji",
+    "admissionQuota": 74
+  },
+  {
+    "majorId": "korean-medicine",
+    "universityId": "wonkwang",
+    "admissionQuota": 115
+  },
+  {
+    "majorId": "korean-music",
+    "universityId": "cau",
+    "admissionQuota": 55
+  },
+  {
+    "majorId": "korean-music",
+    "universityId": "dankook-cheonan",
+    "admissionQuota": 55
+  },
+  {
+    "majorId": "korean-music",
+    "universityId": "dongguk",
+    "admissionQuota": 39
+  },
+  {
+    "majorId": "korean-music",
+    "universityId": "ewha",
+    "admissionQuota": 110
+  },
+  {
+    "majorId": "korean-music",
+    "universityId": "khu",
+    "admissionQuota": 121
+  },
+  {
+    "majorId": "korean-music",
+    "universityId": "korea",
+    "admissionQuota": 63
+  },
+  {
+    "majorId": "korean-music",
+    "universityId": "pnu",
+    "admissionQuota": 126
+  },
+  {
+    "majorId": "korean-music",
+    "universityId": "snu",
+    "admissionQuota": 118
+  },
+  {
+    "majorId": "korean-music",
+    "universityId": "sookmyung",
+    "admissionQuota": 85
+  },
+  {
+    "majorId": "korean-music",
+    "universityId": "sungshin",
+    "admissionQuota": 38
+  },
+  {
+    "majorId": "law",
+    "universityId": "ajou",
+    "admissionQuota": 110
+  },
+  {
+    "majorId": "law",
+    "universityId": "cnu",
+    "admissionQuota": 78
+  },
+  {
+    "majorId": "law",
+    "universityId": "ewha",
+    "admissionQuota": 110
+  },
+  {
+    "majorId": "law",
+    "universityId": "hanyang",
+    "admissionQuota": 60
+  },
+  {
+    "majorId": "law",
+    "universityId": "khu",
+    "admissionQuota": 60
+  },
+  {
+    "majorId": "law",
+    "universityId": "korea",
+    "admissionQuota": 60
+  },
+  {
+    "majorId": "law",
+    "universityId": "skku",
+    "admissionQuota": 73
+  },
+  {
+    "majorId": "law",
+    "universityId": "snu",
+    "admissionQuota": 40
+  },
+  {
+    "majorId": "law",
+    "universityId": "snue",
+    "admissionQuota": 123
+  },
+  {
+    "majorId": "law",
+    "universityId": "soongsil",
+    "admissionQuota": 36
+  },
+  {
+    "majorId": "math-edu",
+    "universityId": "dongguk",
+    "admissionQuota": 49
+  },
+  {
+    "majorId": "math-edu",
+    "universityId": "ewha",
+    "admissionQuota": 128
+  },
+  {
+    "majorId": "math-edu",
+    "universityId": "hanyang",
+    "admissionQuota": 80
+  },
+  {
+    "majorId": "math-edu",
+    "universityId": "knu",
+    "admissionQuota": 44
+  },
+  {
+    "majorId": "math-edu",
+    "universityId": "korea",
+    "admissionQuota": 68
+  },
+  {
+    "majorId": "math-edu",
+    "universityId": "myongji",
+    "admissionQuota": 53
+  },
+  {
+    "majorId": "math-edu",
+    "universityId": "pnu",
+    "admissionQuota": 85
+  },
+  {
+    "majorId": "math-edu",
+    "universityId": "sungshin",
+    "admissionQuota": 121
+  },
+  {
+    "majorId": "mathematics",
+    "universityId": "andong",
+    "admissionQuota": 50
+  },
+  {
+    "majorId": "mathematics",
+    "universityId": "hufs",
+    "admissionQuota": 83
+  },
+  {
+    "majorId": "mathematics",
+    "universityId": "kaist",
+    "admissionQuota": 65
+  },
+  {
+    "majorId": "mathematics",
+    "universityId": "korea",
+    "admissionQuota": 40
+  },
+  {
+    "majorId": "mathematics",
+    "universityId": "snu",
+    "admissionQuota": 30
+  },
+  {
+    "majorId": "mathematics",
+    "universityId": "soongsil",
+    "admissionQuota": 92
+  },
+  {
+    "majorId": "mathematics",
+    "universityId": "unist",
+    "admissionQuota": 77
+  },
+  {
+    "majorId": "mathematics",
+    "universityId": "yonsei",
+    "admissionQuota": 35
+  },
+  {
+    "majorId": "mechanical-engineering",
+    "universityId": "hanyang",
+    "admissionQuota": 120
+  },
+  {
+    "majorId": "mechanical-engineering",
+    "universityId": "inha",
+    "admissionQuota": 110
+  },
+  {
+    "majorId": "mechanical-engineering",
+    "universityId": "kaist",
+    "admissionQuota": 130
+  },
+  {
+    "majorId": "mechanical-engineering",
+    "universityId": "kentech",
+    "admissionQuota": 49
+  },
+  {
+    "majorId": "mechanical-engineering",
+    "universityId": "knu",
+    "admissionQuota": 95
+  },
+  {
+    "majorId": "mechanical-engineering",
+    "universityId": "korea",
+    "admissionQuota": 127
+  },
+  {
+    "majorId": "mechanical-engineering",
+    "universityId": "kut",
+    "admissionQuota": 103
+  },
+  {
+    "majorId": "mechanical-engineering",
+    "universityId": "snu",
+    "admissionQuota": 95
+  },
+  {
+    "majorId": "mechanical-engineering",
+    "universityId": "suwon",
+    "admissionQuota": 70
+  },
+  {
+    "majorId": "mechanical-engineering",
+    "universityId": "yonsei",
+    "admissionQuota": 90
+  },
+  {
+    "majorId": "mechatronics",
+    "universityId": "hanyang",
+    "admissionQuota": 128
+  },
+  {
+    "majorId": "mechatronics",
+    "universityId": "hknu",
+    "admissionQuota": 123
+  },
+  {
+    "majorId": "mechatronics",
+    "universityId": "kaist",
+    "admissionQuota": 30
+  },
+  {
+    "majorId": "mechatronics",
+    "universityId": "kentech",
+    "admissionQuota": 100
+  },
+  {
+    "majorId": "mechatronics",
+    "universityId": "kgu",
+    "admissionQuota": 43
+  },
+  {
+    "majorId": "mechatronics",
+    "universityId": "kut",
+    "admissionQuota": 81
+  },
+  {
+    "majorId": "mechatronics",
+    "universityId": "pufs",
+    "admissionQuota": 62
+  },
+  {
+    "majorId": "mechatronics",
+    "universityId": "snue",
+    "admissionQuota": 121
+  },
+  {
+    "majorId": "mechatronics",
+    "universityId": "uos",
+    "admissionQuota": 129
+  },
+  {
+    "majorId": "mechatronics",
+    "universityId": "yonsei",
+    "admissionQuota": 109
+  },
+  {
+    "majorId": "media-communication",
+    "universityId": "cau",
+    "admissionQuota": 80
+  },
+  {
+    "majorId": "media-communication",
+    "universityId": "chonbuk",
+    "admissionQuota": 58
+  },
+  {
+    "majorId": "media-communication",
+    "universityId": "cnu",
+    "admissionQuota": 124
+  },
+  {
+    "majorId": "media-communication",
+    "universityId": "kgu",
+    "admissionQuota": 125
+  },
+  {
+    "majorId": "media-communication",
+    "universityId": "knu",
+    "admissionQuota": 68
+  },
+  {
+    "majorId": "media-communication",
+    "universityId": "kookmin",
+    "admissionQuota": 71
+  },
+  {
+    "majorId": "media-communication",
+    "universityId": "korea",
+    "admissionQuota": 65
+  },
+  {
+    "majorId": "media-communication",
+    "universityId": "skku",
+    "admissionQuota": 60
+  },
+  {
+    "majorId": "media-communication",
+    "universityId": "sogang",
+    "admissionQuota": 125
+  },
+  {
+    "majorId": "media-communication",
+    "universityId": "yonsei",
+    "admissionQuota": 70
+  },
+  {
+    "majorId": "medicine",
+    "universityId": "cnu",
+    "admissionQuota": 110
+  },
+  {
+    "majorId": "medicine",
+    "universityId": "dgist",
+    "admissionQuota": 106
+  },
+  {
+    "majorId": "medicine",
+    "universityId": "knu",
+    "admissionQuota": 110
+  },
+  {
+    "majorId": "medicine",
+    "universityId": "korea",
+    "admissionQuota": 110
+  },
+  {
+    "majorId": "medicine",
+    "universityId": "pnu",
+    "admissionQuota": 125
+  },
+  {
+    "majorId": "medicine",
+    "universityId": "skku",
+    "admissionQuota": 40
+  },
+  {
+    "majorId": "medicine",
+    "universityId": "snu",
+    "admissionQuota": 135
+  },
+  {
+    "majorId": "medicine",
+    "universityId": "yonsei",
+    "admissionQuota": 110
+  },
+  {
+    "majorId": "metallurgy",
+    "universityId": "dongguk",
+    "admissionQuota": 74
+  },
+  {
+    "majorId": "metallurgy",
+    "universityId": "hongik",
+    "admissionQuota": 111
+  },
+  {
+    "majorId": "metallurgy",
+    "universityId": "inha",
+    "admissionQuota": 75
+  },
+  {
+    "majorId": "metallurgy",
+    "universityId": "knu",
+    "admissionQuota": 63
+  },
+  {
+    "majorId": "metallurgy",
+    "universityId": "konkuk-glocal",
+    "admissionQuota": 59
+  },
+  {
+    "majorId": "metallurgy",
+    "universityId": "korea",
+    "admissionQuota": 121
+  },
+  {
+    "majorId": "metallurgy",
+    "universityId": "korea-aerospace",
+    "admissionQuota": 43
+  },
+  {
+    "majorId": "metallurgy",
+    "universityId": "myongji",
+    "admissionQuota": 94
+  },
+  {
+    "majorId": "metallurgy",
+    "universityId": "postech",
+    "admissionQuota": 30
+  },
+  {
+    "majorId": "metallurgy",
+    "universityId": "soonchunhyang",
+    "admissionQuota": 35
+  },
+  {
+    "majorId": "military-studies",
+    "universityId": "cnu",
+    "admissionQuota": 37
+  },
+  {
+    "majorId": "military-studies",
+    "universityId": "dongguk",
+    "admissionQuota": 50
+  },
+  {
+    "majorId": "military-studies",
+    "universityId": "hufs",
+    "admissionQuota": 78
+  },
+  {
+    "majorId": "military-studies",
+    "universityId": "jnu",
+    "admissionQuota": 84
+  },
+  {
+    "majorId": "military-studies",
+    "universityId": "knu",
+    "admissionQuota": 46
+  },
+  {
+    "majorId": "military-studies",
+    "universityId": "sangmyung",
+    "admissionQuota": 118
+  },
+  {
+    "majorId": "military-studies",
+    "universityId": "snu",
+    "admissionQuota": 77
+  },
+  {
+    "majorId": "military-studies",
+    "universityId": "snue",
+    "admissionQuota": 93
+  },
+  {
+    "majorId": "military-studies",
+    "universityId": "soongsil",
+    "admissionQuota": 53
+  },
+  {
+    "majorId": "military-studies",
+    "universityId": "yonsei",
+    "admissionQuota": 110
+  },
+  {
+    "majorId": "mining",
+    "universityId": "dongguk",
+    "admissionQuota": 70
+  },
+  {
+    "majorId": "mining",
+    "universityId": "ewha",
+    "admissionQuota": 116
+  },
+  {
+    "majorId": "mining",
+    "universityId": "hongik",
+    "admissionQuota": 106
+  },
+  {
+    "majorId": "mining",
+    "universityId": "kaist",
+    "admissionQuota": 86
+  },
+  {
+    "majorId": "mining",
+    "universityId": "khu",
+    "admissionQuota": 110
+  },
+  {
+    "majorId": "mining",
+    "universityId": "konkuk-glocal",
+    "admissionQuota": 126
+  },
+  {
+    "majorId": "mining",
+    "universityId": "korea-aerospace",
+    "admissionQuota": 65
+  },
+  {
+    "majorId": "mining",
+    "universityId": "sogang",
+    "admissionQuota": 64
+  },
+  {
+    "majorId": "mining",
+    "universityId": "sookmyung",
+    "admissionQuota": 50
+  },
+  {
+    "majorId": "mining",
+    "universityId": "uos",
+    "admissionQuota": 96
+  },
+  {
+    "majorId": "music-edu",
+    "universityId": "cnu",
+    "admissionQuota": 86
+  },
+  {
+    "majorId": "music-edu",
+    "universityId": "dongguk",
+    "admissionQuota": 102
+  },
+  {
+    "majorId": "music-edu",
+    "universityId": "hanyang",
+    "admissionQuota": 51
+  },
+  {
+    "majorId": "music-edu",
+    "universityId": "jnu",
+    "admissionQuota": 126
+  },
+  {
+    "majorId": "music-edu",
+    "universityId": "knue",
+    "admissionQuota": 110
+  },
+  {
+    "majorId": "music-edu",
+    "universityId": "korea",
+    "admissionQuota": 113
+  },
+  {
+    "majorId": "music-edu",
+    "universityId": "sangmyung",
+    "admissionQuota": 114
+  },
+  {
+    "majorId": "music-edu",
+    "universityId": "seoul-women",
+    "admissionQuota": 101
+  },
+  {
+    "majorId": "music-theory",
+    "universityId": "cau",
+    "admissionQuota": 128
+  },
+  {
+    "majorId": "music-theory",
+    "universityId": "dankook-cheonan",
+    "admissionQuota": 121
+  },
+  {
+    "majorId": "music-theory",
+    "universityId": "ewha",
+    "admissionQuota": 40
+  },
+  {
+    "majorId": "music-theory",
+    "universityId": "ka-univ",
+    "admissionQuota": 123
+  },
+  {
+    "majorId": "music-theory",
+    "universityId": "khu",
+    "admissionQuota": 82
+  },
+  {
+    "majorId": "music-theory",
+    "universityId": "knu",
+    "admissionQuota": 67
+  },
+  {
+    "majorId": "music-theory",
+    "universityId": "korea",
+    "admissionQuota": 129
+  },
+  {
+    "majorId": "music-theory",
+    "universityId": "pnu",
+    "admissionQuota": 81
+  },
+  {
+    "majorId": "music-theory",
+    "universityId": "sookmyung",
+    "admissionQuota": 118
+  },
+  {
+    "majorId": "music-theory",
+    "universityId": "sungshin",
+    "admissionQuota": 128
+  },
+  {
+    "majorId": "nano",
+    "universityId": "cau",
+    "admissionQuota": 60
+  },
+  {
+    "majorId": "nano",
+    "universityId": "gachon",
+    "admissionQuota": 82
+  },
+  {
+    "majorId": "nano",
+    "universityId": "hanyang",
+    "admissionQuota": 100
+  },
+  {
+    "majorId": "nano",
+    "universityId": "khu",
+    "admissionQuota": 47
+  },
+  {
+    "majorId": "nano",
+    "universityId": "knu",
+    "admissionQuota": 72
+  },
+  {
+    "majorId": "nano",
+    "universityId": "pufs",
+    "admissionQuota": 109
+  },
+  {
+    "majorId": "nano",
+    "universityId": "seoul-tech",
+    "admissionQuota": 94
+  },
+  {
+    "majorId": "nano",
+    "universityId": "snue",
+    "admissionQuota": 63
+  },
+  {
+    "majorId": "nano",
+    "universityId": "suwon",
+    "admissionQuota": 105
+  },
+  {
+    "majorId": "nano",
+    "universityId": "yonsei",
+    "admissionQuota": 53
+  },
+  {
+    "majorId": "naval-architecture",
+    "universityId": "cau",
+    "admissionQuota": 48
+  },
+  {
+    "majorId": "naval-architecture",
+    "universityId": "dankook-cheonan",
+    "admissionQuota": 68
+  },
+  {
+    "majorId": "naval-architecture",
+    "universityId": "ewha",
+    "admissionQuota": 88
+  },
+  {
+    "majorId": "naval-architecture",
+    "universityId": "hanbat",
+    "admissionQuota": 124
+  },
+  {
+    "majorId": "naval-architecture",
+    "universityId": "korea",
+    "admissionQuota": 41
+  },
+  {
+    "majorId": "naval-architecture",
+    "universityId": "seoul-tech",
+    "admissionQuota": 42
+  },
+  {
+    "majorId": "naval-architecture",
+    "universityId": "sookmyung",
+    "admissionQuota": 128
+  },
+  {
+    "majorId": "naval-architecture",
+    "universityId": "unist",
+    "admissionQuota": 67
+  },
+  {
+    "majorId": "naval-architecture",
+    "universityId": "uos",
+    "admissionQuota": 108
+  },
+  {
+    "majorId": "naval-architecture",
+    "universityId": "yonsei",
+    "admissionQuota": 76
+  },
+  {
+    "majorId": "new-materials",
+    "universityId": "cau",
+    "admissionQuota": 87
+  },
+  {
+    "majorId": "new-materials",
+    "universityId": "dgist",
+    "admissionQuota": 50
+  },
+  {
+    "majorId": "new-materials",
+    "universityId": "hongik",
+    "admissionQuota": 99
+  },
+  {
+    "majorId": "new-materials",
+    "universityId": "khu",
+    "admissionQuota": 53
+  },
+  {
+    "majorId": "new-materials",
+    "universityId": "knu",
+    "admissionQuota": 80
+  },
+  {
+    "majorId": "new-materials",
+    "universityId": "korea-aerospace",
+    "admissionQuota": 80
+  },
+  {
+    "majorId": "new-materials",
+    "universityId": "kpu",
+    "admissionQuota": 108
+  },
+  {
+    "majorId": "new-materials",
+    "universityId": "skku",
+    "admissionQuota": 78
+  },
+  {
+    "majorId": "new-materials",
+    "universityId": "soonchunhyang",
+    "admissionQuota": 35
+  },
+  {
+    "majorId": "new-materials",
+    "universityId": "unist",
+    "admissionQuota": 60
+  },
+  {
+    "majorId": "north-korea-studies",
+    "universityId": "cnu",
+    "admissionQuota": 95
+  },
+  {
+    "majorId": "north-korea-studies",
+    "universityId": "dongguk",
+    "admissionQuota": 84
+  },
+  {
+    "majorId": "north-korea-studies",
+    "universityId": "ewha",
+    "admissionQuota": 93
+  },
+  {
+    "majorId": "north-korea-studies",
+    "universityId": "hongik",
+    "admissionQuota": 32
+  },
+  {
+    "majorId": "north-korea-studies",
+    "universityId": "kaist",
+    "admissionQuota": 35
+  },
+  {
+    "majorId": "north-korea-studies",
+    "universityId": "korea",
+    "admissionQuota": 42
+  },
+  {
+    "majorId": "north-korea-studies",
+    "universityId": "myongji",
+    "admissionQuota": 63
+  },
+  {
+    "majorId": "north-korea-studies",
+    "universityId": "skku",
+    "admissionQuota": 75
+  },
+  {
+    "majorId": "north-korea-studies",
+    "universityId": "sookmyung",
+    "admissionQuota": 31
+  },
+  {
+    "majorId": "north-korea-studies",
+    "universityId": "yonsei",
+    "admissionQuota": 55
+  },
+  {
+    "majorId": "nuclear",
+    "universityId": "dongguk",
+    "admissionQuota": 37
+  },
+  {
+    "majorId": "nuclear",
+    "universityId": "hanyang",
+    "admissionQuota": 73
+  },
+  {
+    "majorId": "nuclear",
+    "universityId": "hknu",
+    "admissionQuota": 96
+  },
+  {
+    "majorId": "nuclear",
+    "universityId": "khu",
+    "admissionQuota": 118
+  },
+  {
+    "majorId": "nuclear",
+    "universityId": "kut",
+    "admissionQuota": 47
+  },
+  {
+    "majorId": "nuclear",
+    "universityId": "postech",
+    "admissionQuota": 96
+  },
+  {
+    "majorId": "nuclear",
+    "universityId": "pufs",
+    "admissionQuota": 100
+  },
+  {
+    "majorId": "nuclear",
+    "universityId": "seoul-tech",
+    "admissionQuota": 80
+  },
+  {
+    "majorId": "nuclear",
+    "universityId": "skku",
+    "admissionQuota": 107
+  },
+  {
+    "majorId": "nuclear",
+    "universityId": "sookmyung",
+    "admissionQuota": 74
+  },
+  {
+    "majorId": "nursing",
+    "universityId": "ewha",
+    "admissionQuota": 80
+  },
+  {
+    "majorId": "nursing",
+    "universityId": "hanyang",
+    "admissionQuota": 75
+  },
+  {
+    "majorId": "nursing",
+    "universityId": "hongik",
+    "admissionQuota": 80
+  },
+  {
+    "majorId": "nursing",
+    "universityId": "knu",
+    "admissionQuota": 100
+  },
+  {
+    "majorId": "nursing",
+    "universityId": "korea",
+    "admissionQuota": 80
+  },
+  {
+    "majorId": "nursing",
+    "universityId": "kosin",
+    "admissionQuota": 106
+  },
+  {
+    "majorId": "nursing",
+    "universityId": "snu",
+    "admissionQuota": 70
+  },
+  {
+    "majorId": "nursing",
+    "universityId": "yonsei",
+    "admissionQuota": 80
+  },
+  {
+    "majorId": "occupational-therapy",
+    "universityId": "cau",
+    "admissionQuota": 110
+  },
+  {
+    "majorId": "occupational-therapy",
+    "universityId": "hallym",
+    "admissionQuota": 56
+  },
+  {
+    "majorId": "occupational-therapy",
+    "universityId": "hongik",
+    "admissionQuota": 59
+  },
+  {
+    "majorId": "occupational-therapy",
+    "universityId": "inha",
+    "admissionQuota": 48
+  },
+  {
+    "majorId": "occupational-therapy",
+    "universityId": "knu",
+    "admissionQuota": 127
+  },
+  {
+    "majorId": "occupational-therapy",
+    "universityId": "kosin",
+    "admissionQuota": 123
+  },
+  {
+    "majorId": "occupational-therapy",
+    "universityId": "snu",
+    "admissionQuota": 96
+  },
+  {
+    "majorId": "occupational-therapy",
+    "universityId": "sogang",
+    "admissionQuota": 82
+  },
+  {
+    "majorId": "ocean-engineering",
+    "universityId": "chonbuk",
+    "admissionQuota": 39
+  },
+  {
+    "majorId": "ocean-engineering",
+    "universityId": "ewha",
+    "admissionQuota": 115
+  },
+  {
+    "majorId": "ocean-engineering",
+    "universityId": "gachon",
+    "admissionQuota": 113
+  },
+  {
+    "majorId": "ocean-engineering",
+    "universityId": "hufs",
+    "admissionQuota": 39
+  },
+  {
+    "majorId": "ocean-engineering",
+    "universityId": "knu",
+    "admissionQuota": 46
+  },
+  {
+    "majorId": "ocean-engineering",
+    "universityId": "konkuk-glocal",
+    "admissionQuota": 96
+  },
+  {
+    "majorId": "ocean-engineering",
+    "universityId": "korea-aerospace",
+    "admissionQuota": 64
+  },
+  {
+    "majorId": "ocean-engineering",
+    "universityId": "myongji",
+    "admissionQuota": 118
+  },
+  {
+    "majorId": "ocean-engineering",
+    "universityId": "snue",
+    "admissionQuota": 121
+  },
+  {
+    "majorId": "ocean-engineering",
+    "universityId": "uos",
+    "admissionQuota": 64
+  },
+  {
+    "majorId": "oceanography",
+    "universityId": "cau",
+    "admissionQuota": 84
+  },
+  {
+    "majorId": "oceanography",
+    "universityId": "cwnu",
+    "admissionQuota": 115
+  },
+  {
+    "majorId": "oceanography",
+    "universityId": "dgist",
+    "admissionQuota": 85
+  },
+  {
+    "majorId": "oceanography",
+    "universityId": "dongguk",
+    "admissionQuota": 87
+  },
+  {
+    "majorId": "oceanography",
+    "universityId": "gist",
+    "admissionQuota": 93
+  },
+  {
+    "majorId": "oceanography",
+    "universityId": "hufs",
+    "admissionQuota": 58
+  },
+  {
+    "majorId": "oceanography",
+    "universityId": "inha",
+    "admissionQuota": 97
+  },
+  {
+    "majorId": "oceanography",
+    "universityId": "yonsei",
+    "admissionQuota": 111
+  },
+  {
+    "majorId": "orchestra",
+    "universityId": "cau",
+    "admissionQuota": 41
+  },
+  {
+    "majorId": "orchestra",
+    "universityId": "dankook-cheonan",
+    "admissionQuota": 80
+  },
+  {
+    "majorId": "orchestra",
+    "universityId": "dongguk",
+    "admissionQuota": 113
+  },
+  {
+    "majorId": "orchestra",
+    "universityId": "ewha",
+    "admissionQuota": 116
+  },
+  {
+    "majorId": "orchestra",
+    "universityId": "ka-univ",
+    "admissionQuota": 102
+  },
+  {
+    "majorId": "orchestra",
+    "universityId": "khu",
+    "admissionQuota": 37
+  },
+  {
+    "majorId": "orchestra",
+    "universityId": "korea",
+    "admissionQuota": 67
+  },
+  {
+    "majorId": "orchestra",
+    "universityId": "snu",
+    "admissionQuota": 35
+  },
+  {
+    "majorId": "orchestra",
+    "universityId": "sookmyung",
+    "admissionQuota": 82
+  },
+  {
+    "majorId": "orchestra",
+    "universityId": "sungshin",
+    "admissionQuota": 79
+  },
+  {
+    "majorId": "painting-eastern",
+    "universityId": "dankook-cheonan",
+    "admissionQuota": 108
+  },
+  {
+    "majorId": "painting-eastern",
+    "universityId": "hongik",
+    "admissionQuota": 61
+  },
+  {
+    "majorId": "painting-eastern",
+    "universityId": "ka-univ",
+    "admissionQuota": 78
+  },
+  {
+    "majorId": "painting-eastern",
+    "universityId": "kgu",
+    "admissionQuota": 107
+  },
+  {
+    "majorId": "painting-eastern",
+    "universityId": "korea-univ-arts",
+    "admissionQuota": 125
+  },
+  {
+    "majorId": "painting-eastern",
+    "universityId": "sangmyung",
+    "admissionQuota": 66
+  },
+  {
+    "majorId": "painting-eastern",
+    "universityId": "sejong",
+    "admissionQuota": 89
+  },
+  {
+    "majorId": "painting-eastern",
+    "universityId": "seoul-tech",
+    "admissionQuota": 59
+  },
+  {
+    "majorId": "painting-eastern",
+    "universityId": "seoul-women",
+    "admissionQuota": 80
+  },
+  {
+    "majorId": "painting-eastern",
+    "universityId": "snu",
+    "admissionQuota": 73
+  },
+  {
+    "majorId": "painting-western",
+    "universityId": "cau",
+    "admissionQuota": 63
+  },
+  {
+    "majorId": "painting-western",
+    "universityId": "dankook-cheonan",
+    "admissionQuota": 87
+  },
+  {
+    "majorId": "painting-western",
+    "universityId": "dongduk-women",
+    "admissionQuota": 101
+  },
+  {
+    "majorId": "painting-western",
+    "universityId": "kgu",
+    "admissionQuota": 117
+  },
+  {
+    "majorId": "painting-western",
+    "universityId": "kookmin",
+    "admissionQuota": 55
+  },
+  {
+    "majorId": "painting-western",
+    "universityId": "myongji",
+    "admissionQuota": 99
+  },
+  {
+    "majorId": "painting-western",
+    "universityId": "sangmyung",
+    "admissionQuota": 38
+  },
+  {
+    "majorId": "painting-western",
+    "universityId": "seokyeong",
+    "admissionQuota": 72
+  },
+  {
+    "majorId": "painting-western",
+    "universityId": "snu",
+    "admissionQuota": 52
+  },
+  {
+    "majorId": "painting-western",
+    "universityId": "sungshin",
+    "admissionQuota": 111
+  },
+  {
+    "majorId": "pharmacy",
+    "universityId": "cnu",
+    "admissionQuota": 102
+  },
+  {
+    "majorId": "pharmacy",
+    "universityId": "dongguk",
+    "admissionQuota": 127
+  },
+  {
+    "majorId": "pharmacy",
+    "universityId": "ewha",
+    "admissionQuota": 120
+  },
+  {
+    "majorId": "pharmacy",
+    "universityId": "knu",
+    "admissionQuota": 51
+  },
+  {
+    "majorId": "pharmacy",
+    "universityId": "skku",
+    "admissionQuota": 60
+  },
+  {
+    "majorId": "pharmacy",
+    "universityId": "snu",
+    "admissionQuota": 65
+  },
+  {
+    "majorId": "pharmacy",
+    "universityId": "sookmyung",
+    "admissionQuota": 103
+  },
+  {
+    "majorId": "pharmacy",
+    "universityId": "yonsei",
+    "admissionQuota": 30
+  },
+  {
+    "majorId": "philosophy",
+    "universityId": "dgu",
+    "admissionQuota": 43
+  },
+  {
+    "majorId": "philosophy",
+    "universityId": "ewha",
+    "admissionQuota": 53
+  },
+  {
+    "majorId": "philosophy",
+    "universityId": "hanyang",
+    "admissionQuota": 32
+  },
+  {
+    "majorId": "philosophy",
+    "universityId": "hongik",
+    "admissionQuota": 59
+  },
+  {
+    "majorId": "philosophy",
+    "universityId": "hufs",
+    "admissionQuota": 30
+  },
+  {
+    "majorId": "philosophy",
+    "universityId": "korea",
+    "admissionQuota": 40
+  },
+  {
+    "majorId": "philosophy",
+    "universityId": "snu",
+    "admissionQuota": 30
+  },
+  {
+    "majorId": "philosophy",
+    "universityId": "yonsei",
+    "admissionQuota": 30
+  },
+  {
+    "majorId": "photography",
+    "universityId": "ewha",
+    "admissionQuota": 111
+  },
+  {
+    "majorId": "photography",
+    "universityId": "kgu",
+    "admissionQuota": 30
+  },
+  {
+    "majorId": "photography",
+    "universityId": "korea-univ-arts",
+    "admissionQuota": 78
+  },
+  {
+    "majorId": "photography",
+    "universityId": "sangmyung",
+    "admissionQuota": 56
+  },
+  {
+    "majorId": "photography",
+    "universityId": "sejong",
+    "admissionQuota": 98
+  },
+  {
+    "majorId": "photography",
+    "universityId": "seokyeong",
+    "admissionQuota": 48
+  },
+  {
+    "majorId": "photography",
+    "universityId": "seoul-tech",
+    "admissionQuota": 54
+  },
+  {
+    "majorId": "photography",
+    "universityId": "snu",
+    "admissionQuota": 73
+  },
+  {
+    "majorId": "photography",
+    "universityId": "sookmyung",
+    "admissionQuota": 42
+  },
+  {
+    "majorId": "photography",
+    "universityId": "sungshin",
+    "admissionQuota": 93
+  },
+  {
+    "majorId": "physical-education",
+    "universityId": "cwnu",
+    "admissionQuota": 34
+  },
+  {
+    "majorId": "physical-education",
+    "universityId": "dongguk",
+    "admissionQuota": 81
+  },
+  {
+    "majorId": "physical-education",
+    "universityId": "ewha",
+    "admissionQuota": 25
+  },
+  {
+    "majorId": "physical-education",
+    "universityId": "jnu",
+    "admissionQuota": 117
+  },
+  {
+    "majorId": "physical-education",
+    "universityId": "knu",
+    "admissionQuota": 30
+  },
+  {
+    "majorId": "physical-education",
+    "universityId": "korea",
+    "admissionQuota": 35
+  },
+  {
+    "majorId": "physical-education",
+    "universityId": "snu",
+    "admissionQuota": 25
+  },
+  {
+    "majorId": "physical-education",
+    "universityId": "sungshin",
+    "admissionQuota": 46
+  },
+  {
+    "majorId": "physical-therapy",
+    "universityId": "cnu",
+    "admissionQuota": 57
+  },
+  {
+    "majorId": "physical-therapy",
+    "universityId": "gnu-gyeongsang",
+    "admissionQuota": 31
+  },
+  {
+    "majorId": "physical-therapy",
+    "universityId": "hanyang",
+    "admissionQuota": 129
+  },
+  {
+    "majorId": "physical-therapy",
+    "universityId": "kaist",
+    "admissionQuota": 90
+  },
+  {
+    "majorId": "physical-therapy",
+    "universityId": "khu",
+    "admissionQuota": 90
+  },
+  {
+    "majorId": "physical-therapy",
+    "universityId": "konyang",
+    "admissionQuota": 30
+  },
+  {
+    "majorId": "physical-therapy",
+    "universityId": "skku",
+    "admissionQuota": 77
+  },
+  {
+    "majorId": "physical-therapy",
+    "universityId": "snu",
+    "admissionQuota": 94
+  },
+  {
+    "majorId": "physics",
+    "universityId": "cau",
+    "admissionQuota": 63
+  },
+  {
+    "majorId": "physics",
+    "universityId": "kaist",
+    "admissionQuota": 80
+  },
+  {
+    "majorId": "physics",
+    "universityId": "postech",
+    "admissionQuota": 80
+  },
+  {
+    "majorId": "physics",
+    "universityId": "skku",
+    "admissionQuota": 63
+  },
+  {
+    "majorId": "physics",
+    "universityId": "snu",
+    "admissionQuota": 50
+  },
+  {
+    "majorId": "physics",
+    "universityId": "soongsil",
+    "admissionQuota": 56
+  },
+  {
+    "majorId": "physics",
+    "universityId": "unist",
+    "admissionQuota": 52
+  },
+  {
+    "majorId": "physics",
+    "universityId": "yonsei",
+    "admissionQuota": 40
+  },
+  {
+    "majorId": "piano",
+    "universityId": "cau",
+    "admissionQuota": 118
+  },
+  {
+    "majorId": "piano",
+    "universityId": "dankook-cheonan",
+    "admissionQuota": 96
+  },
+  {
+    "majorId": "piano",
+    "universityId": "dongguk",
+    "admissionQuota": 111
+  },
+  {
+    "majorId": "piano",
+    "universityId": "ewha",
+    "admissionQuota": 41
+  },
+  {
+    "majorId": "piano",
+    "universityId": "ka-univ",
+    "admissionQuota": 79
+  },
+  {
+    "majorId": "piano",
+    "universityId": "knu",
+    "admissionQuota": 100
+  },
+  {
+    "majorId": "piano",
+    "universityId": "korea",
+    "admissionQuota": 98
+  },
+  {
+    "majorId": "piano",
+    "universityId": "pnu",
+    "admissionQuota": 53
+  },
+  {
+    "majorId": "piano",
+    "universityId": "snu",
+    "admissionQuota": 90
+  },
+  {
+    "majorId": "piano",
+    "universityId": "sungshin",
+    "admissionQuota": 44
+  },
+  {
+    "majorId": "police-admin",
+    "universityId": "dgu",
+    "admissionQuota": 101
+  },
+  {
+    "majorId": "police-admin",
+    "universityId": "hanyang",
+    "admissionQuota": 52
+  },
+  {
+    "majorId": "police-admin",
+    "universityId": "jnu",
+    "admissionQuota": 87
+  },
+  {
+    "majorId": "police-admin",
+    "universityId": "kookmin",
+    "admissionQuota": 106
+  },
+  {
+    "majorId": "police-admin",
+    "universityId": "korea",
+    "admissionQuota": 47
+  },
+  {
+    "majorId": "police-admin",
+    "universityId": "myongji",
+    "admissionQuota": 60
+  },
+  {
+    "majorId": "police-admin",
+    "universityId": "sejong",
+    "admissionQuota": 90
+  },
+  {
+    "majorId": "police-admin",
+    "universityId": "skku",
+    "admissionQuota": 41
+  },
+  {
+    "majorId": "police-admin",
+    "universityId": "sogang",
+    "admissionQuota": 79
+  },
+  {
+    "majorId": "police-admin",
+    "universityId": "uos",
+    "admissionQuota": 63
+  },
+  {
+    "majorId": "policy-studies",
+    "universityId": "chonbuk",
+    "admissionQuota": 116
+  },
+  {
+    "majorId": "policy-studies",
+    "universityId": "ewha",
+    "admissionQuota": 79
+  },
+  {
+    "majorId": "policy-studies",
+    "universityId": "jnu",
+    "admissionQuota": 59
+  },
+  {
+    "majorId": "policy-studies",
+    "universityId": "khu",
+    "admissionQuota": 112
+  },
+  {
+    "majorId": "policy-studies",
+    "universityId": "kookmin",
+    "admissionQuota": 94
+  },
+  {
+    "majorId": "policy-studies",
+    "universityId": "sejong",
+    "admissionQuota": 61
+  },
+  {
+    "majorId": "policy-studies",
+    "universityId": "seoul-women",
+    "admissionQuota": 59
+  },
+  {
+    "majorId": "policy-studies",
+    "universityId": "snu",
+    "admissionQuota": 61
+  },
+  {
+    "majorId": "policy-studies",
+    "universityId": "sogang",
+    "admissionQuota": 85
+  },
+  {
+    "majorId": "policy-studies",
+    "universityId": "soongsil",
+    "admissionQuota": 68
+  },
+  {
+    "majorId": "political-science",
+    "universityId": "ewha",
+    "admissionQuota": 54
+  },
+  {
+    "majorId": "political-science",
+    "universityId": "gachon",
+    "admissionQuota": 52
+  },
+  {
+    "majorId": "political-science",
+    "universityId": "hufs",
+    "admissionQuota": 65
+  },
+  {
+    "majorId": "political-science",
+    "universityId": "inha",
+    "admissionQuota": 53
+  },
+  {
+    "majorId": "political-science",
+    "universityId": "korea",
+    "admissionQuota": 60
+  },
+  {
+    "majorId": "political-science",
+    "universityId": "sejong",
+    "admissionQuota": 118
+  },
+  {
+    "majorId": "political-science",
+    "universityId": "seoul-women",
+    "admissionQuota": 123
+  },
+  {
+    "majorId": "political-science",
+    "universityId": "snu",
+    "admissionQuota": 55
+  },
+  {
+    "majorId": "political-science",
+    "universityId": "soongsil",
+    "admissionQuota": 111
+  },
+  {
+    "majorId": "political-science",
+    "universityId": "yonsei",
+    "admissionQuota": 55
+  },
+  {
+    "majorId": "psychology",
+    "universityId": "cau",
+    "admissionQuota": 60
+  },
+  {
+    "majorId": "psychology",
+    "universityId": "ewha",
+    "admissionQuota": 55
+  },
+  {
+    "majorId": "psychology",
+    "universityId": "kaist",
+    "admissionQuota": 31
+  },
+  {
+    "majorId": "psychology",
+    "universityId": "kookmin",
+    "admissionQuota": 120
+  },
+  {
+    "majorId": "psychology",
+    "universityId": "korea",
+    "admissionQuota": 55
+  },
+  {
+    "majorId": "psychology",
+    "universityId": "sangmyung",
+    "admissionQuota": 51
+  },
+  {
+    "majorId": "psychology",
+    "universityId": "seoul-women",
+    "admissionQuota": 40
+  },
+  {
+    "majorId": "psychology",
+    "universityId": "snu",
+    "admissionQuota": 35
+  },
+  {
+    "majorId": "psychology",
+    "universityId": "soongsil",
+    "admissionQuota": 52
+  },
+  {
+    "majorId": "psychology",
+    "universityId": "yonsei",
+    "admissionQuota": 50
+  },
+  {
+    "majorId": "public-administration",
+    "universityId": "ajou",
+    "admissionQuota": 112
+  },
+  {
+    "majorId": "public-administration",
+    "universityId": "hanyang",
+    "admissionQuota": 68
+  },
+  {
+    "majorId": "public-administration",
+    "universityId": "inha",
+    "admissionQuota": 68
+  },
+  {
+    "majorId": "public-administration",
+    "universityId": "jnu",
+    "admissionQuota": 89
+  },
+  {
+    "majorId": "public-administration",
+    "universityId": "kgu",
+    "admissionQuota": 65
+  },
+  {
+    "majorId": "public-administration",
+    "universityId": "khu",
+    "admissionQuota": 79
+  },
+  {
+    "majorId": "public-administration",
+    "universityId": "myongji",
+    "admissionQuota": 126
+  },
+  {
+    "majorId": "public-administration",
+    "universityId": "skku",
+    "admissionQuota": 67
+  },
+  {
+    "majorId": "public-administration",
+    "universityId": "snu",
+    "admissionQuota": 59
+  },
+  {
+    "majorId": "public-administration",
+    "universityId": "soongsil",
+    "admissionQuota": 116
+  },
+  {
+    "majorId": "public-health",
+    "universityId": "catholic-busan",
+    "admissionQuota": 74
+  },
+  {
+    "majorId": "public-health",
+    "universityId": "hallym",
+    "admissionQuota": 95
+  },
+  {
+    "majorId": "public-health",
+    "universityId": "khu",
+    "admissionQuota": 55
+  },
+  {
+    "majorId": "public-health",
+    "universityId": "korea",
+    "admissionQuota": 57
+  },
+  {
+    "majorId": "public-health",
+    "universityId": "postech",
+    "admissionQuota": 82
+  },
+  {
+    "majorId": "public-health",
+    "universityId": "sejong",
+    "admissionQuota": 72
+  },
+  {
+    "majorId": "public-health",
+    "universityId": "skku",
+    "admissionQuota": 74
+  },
+  {
+    "majorId": "public-health",
+    "universityId": "snu",
+    "admissionQuota": 125
+  },
+  {
+    "majorId": "radiology",
+    "universityId": "chonbuk",
+    "admissionQuota": 41
+  },
+  {
+    "majorId": "radiology",
+    "universityId": "cnu",
+    "admissionQuota": 101
+  },
+  {
+    "majorId": "radiology",
+    "universityId": "dankook-cheonan",
+    "admissionQuota": 32
+  },
+  {
+    "majorId": "radiology",
+    "universityId": "khu",
+    "admissionQuota": 81
+  },
+  {
+    "majorId": "radiology",
+    "universityId": "korea",
+    "admissionQuota": 112
+  },
+  {
+    "majorId": "radiology",
+    "universityId": "skku",
+    "admissionQuota": 62
+  },
+  {
+    "majorId": "radiology",
+    "universityId": "sogang",
+    "admissionQuota": 46
+  },
+  {
+    "majorId": "radiology",
+    "universityId": "soonchunhyang",
+    "admissionQuota": 78
+  },
+  {
+    "majorId": "real-estate",
+    "universityId": "ajou",
+    "admissionQuota": 32
+  },
+  {
+    "majorId": "real-estate",
+    "universityId": "gachon",
+    "admissionQuota": 58
+  },
+  {
+    "majorId": "real-estate",
+    "universityId": "inha",
+    "admissionQuota": 75
+  },
+  {
+    "majorId": "real-estate",
+    "universityId": "kgu",
+    "admissionQuota": 111
+  },
+  {
+    "majorId": "real-estate",
+    "universityId": "kookmin",
+    "admissionQuota": 63
+  },
+  {
+    "majorId": "real-estate",
+    "universityId": "myongji",
+    "admissionQuota": 38
+  },
+  {
+    "majorId": "real-estate",
+    "universityId": "pnu",
+    "admissionQuota": 50
+  },
+  {
+    "majorId": "real-estate",
+    "universityId": "sejong",
+    "admissionQuota": 70
+  },
+  {
+    "majorId": "real-estate",
+    "universityId": "sogang",
+    "admissionQuota": 100
+  },
+  {
+    "majorId": "real-estate",
+    "universityId": "uos",
+    "admissionQuota": 30
+  },
+  {
+    "majorId": "religion-studies",
+    "universityId": "cau",
+    "admissionQuota": 41
+  },
+  {
+    "majorId": "religion-studies",
+    "universityId": "cnu",
+    "admissionQuota": 121
+  },
+  {
+    "majorId": "religion-studies",
+    "universityId": "kaist",
+    "admissionQuota": 55
+  },
+  {
+    "majorId": "religion-studies",
+    "universityId": "kookmin",
+    "admissionQuota": 63
+  },
+  {
+    "majorId": "religion-studies",
+    "universityId": "korea",
+    "admissionQuota": 115
+  },
+  {
+    "majorId": "religion-studies",
+    "universityId": "skku",
+    "admissionQuota": 41
+  },
+  {
+    "majorId": "religion-studies",
+    "universityId": "snue",
+    "admissionQuota": 128
+  },
+  {
+    "majorId": "religion-studies",
+    "universityId": "uos",
+    "admissionQuota": 35
+  },
+  {
+    "majorId": "robotics",
+    "universityId": "cau",
+    "admissionQuota": 125
+  },
+  {
+    "majorId": "robotics",
+    "universityId": "dankook-cheonan",
+    "admissionQuota": 39
+  },
+  {
+    "majorId": "robotics",
+    "universityId": "hanbat",
+    "admissionQuota": 120
+  },
+  {
+    "majorId": "robotics",
+    "universityId": "hufs",
+    "admissionQuota": 102
+  },
+  {
+    "majorId": "robotics",
+    "universityId": "korea",
+    "admissionQuota": 44
+  },
+  {
+    "majorId": "robotics",
+    "universityId": "myongji",
+    "admissionQuota": 52
+  },
+  {
+    "majorId": "robotics",
+    "universityId": "sejong",
+    "admissionQuota": 104
+  },
+  {
+    "majorId": "robotics",
+    "universityId": "skku",
+    "admissionQuota": 40
+  },
+  {
+    "majorId": "robotics",
+    "universityId": "sogang",
+    "admissionQuota": 40
+  },
+  {
+    "majorId": "robotics",
+    "universityId": "soonchunhyang",
+    "admissionQuota": 108
+  },
+  {
+    "majorId": "russian-lit",
+    "universityId": "ajou",
+    "admissionQuota": 94
+  },
+  {
+    "majorId": "russian-lit",
+    "universityId": "chonbuk",
+    "admissionQuota": 119
+  },
+  {
+    "majorId": "russian-lit",
+    "universityId": "daejeon-univ",
+    "admissionQuota": 97
+  },
+  {
+    "majorId": "russian-lit",
+    "universityId": "hanyang",
+    "admissionQuota": 117
+  },
+  {
+    "majorId": "russian-lit",
+    "universityId": "pnu",
+    "admissionQuota": 53
+  },
+  {
+    "majorId": "russian-lit",
+    "universityId": "snu",
+    "admissionQuota": 98
+  },
+  {
+    "majorId": "russian-lit",
+    "universityId": "snue",
+    "admissionQuota": 75
+  },
+  {
+    "majorId": "russian-lit",
+    "universityId": "sogang",
+    "admissionQuota": 123
+  },
+  {
+    "majorId": "science-edu",
+    "universityId": "cau",
+    "admissionQuota": 67
+  },
+  {
+    "majorId": "science-edu",
+    "universityId": "cbnu",
+    "admissionQuota": 82
+  },
+  {
+    "majorId": "science-edu",
+    "universityId": "chonbuk",
+    "admissionQuota": 92
+  },
+  {
+    "majorId": "science-edu",
+    "universityId": "jnu",
+    "admissionQuota": 98
+  },
+  {
+    "majorId": "science-edu",
+    "universityId": "knue",
+    "admissionQuota": 128
+  },
+  {
+    "majorId": "science-edu",
+    "universityId": "seoul-women",
+    "admissionQuota": 31
+  },
+  {
+    "majorId": "science-edu",
+    "universityId": "snu",
+    "admissionQuota": 48
+  },
+  {
+    "majorId": "science-edu",
+    "universityId": "sungshin",
+    "admissionQuota": 42
+  },
+  {
+    "majorId": "sculpture",
+    "universityId": "dankook-cheonan",
+    "admissionQuota": 115
+  },
+  {
+    "majorId": "sculpture",
+    "universityId": "ka-univ",
+    "admissionQuota": 79
+  },
+  {
+    "majorId": "sculpture",
+    "universityId": "kgu",
+    "admissionQuota": 91
+  },
+  {
+    "majorId": "sculpture",
+    "universityId": "myongji",
+    "admissionQuota": 119
+  },
+  {
+    "majorId": "sculpture",
+    "universityId": "sangmyung",
+    "admissionQuota": 101
+  },
+  {
+    "majorId": "sculpture",
+    "universityId": "seoul-tech",
+    "admissionQuota": 97
+  },
+  {
+    "majorId": "sculpture",
+    "universityId": "seoul-women",
+    "admissionQuota": 51
+  },
+  {
+    "majorId": "sculpture",
+    "universityId": "snu",
+    "admissionQuota": 67
+  },
+  {
+    "majorId": "sculpture",
+    "universityId": "sookmyung",
+    "admissionQuota": 114
+  },
+  {
+    "majorId": "sculpture",
+    "universityId": "sungshin",
+    "admissionQuota": 40
+  },
+  {
+    "majorId": "social-edu",
+    "universityId": "cau",
+    "admissionQuota": 115
+  },
+  {
+    "majorId": "social-edu",
+    "universityId": "chonbuk",
+    "admissionQuota": 62
+  },
+  {
+    "majorId": "social-edu",
+    "universityId": "cwnu",
+    "admissionQuota": 68
+  },
+  {
+    "majorId": "social-edu",
+    "universityId": "dongguk",
+    "admissionQuota": 64
+  },
+  {
+    "majorId": "social-edu",
+    "universityId": "korea",
+    "admissionQuota": 98
+  },
+  {
+    "majorId": "social-edu",
+    "universityId": "seoul-women",
+    "admissionQuota": 34
+  },
+  {
+    "majorId": "social-edu",
+    "universityId": "sookmyung",
+    "admissionQuota": 71
+  },
+  {
+    "majorId": "social-edu",
+    "universityId": "sungshin",
+    "admissionQuota": 87
+  },
+  {
+    "majorId": "social-sports",
+    "universityId": "cau",
+    "admissionQuota": 123
+  },
+  {
+    "majorId": "social-sports",
+    "universityId": "dankook-cheonan",
+    "admissionQuota": 42
+  },
+  {
+    "majorId": "social-sports",
+    "universityId": "ewha",
+    "admissionQuota": 97
+  },
+  {
+    "majorId": "social-sports",
+    "universityId": "hanyang",
+    "admissionQuota": 99
+  },
+  {
+    "majorId": "social-sports",
+    "universityId": "jnu",
+    "admissionQuota": 43
+  },
+  {
+    "majorId": "social-sports",
+    "universityId": "khu",
+    "admissionQuota": 75
+  },
+  {
+    "majorId": "social-sports",
+    "universityId": "korea",
+    "admissionQuota": 114
+  },
+  {
+    "majorId": "social-sports",
+    "universityId": "snu",
+    "admissionQuota": 97
+  },
+  {
+    "majorId": "social-sports",
+    "universityId": "yongin",
+    "admissionQuota": 108
+  },
+  {
+    "majorId": "social-sports",
+    "universityId": "yonsei",
+    "admissionQuota": 82
+  },
+  {
+    "majorId": "social-welfare",
+    "universityId": "ajou",
+    "admissionQuota": 41
+  },
+  {
+    "majorId": "social-welfare",
+    "universityId": "dongguk",
+    "admissionQuota": 36
+  },
+  {
+    "majorId": "social-welfare",
+    "universityId": "hanyang",
+    "admissionQuota": 124
+  },
+  {
+    "majorId": "social-welfare",
+    "universityId": "hongik",
+    "admissionQuota": 81
+  },
+  {
+    "majorId": "social-welfare",
+    "universityId": "jnu",
+    "admissionQuota": 93
+  },
+  {
+    "majorId": "social-welfare",
+    "universityId": "kookmin",
+    "admissionQuota": 57
+  },
+  {
+    "majorId": "social-welfare",
+    "universityId": "postech",
+    "admissionQuota": 71
+  },
+  {
+    "majorId": "social-welfare",
+    "universityId": "seoul-women",
+    "admissionQuota": 44
+  },
+  {
+    "majorId": "social-welfare",
+    "universityId": "snu",
+    "admissionQuota": 42
+  },
+  {
+    "majorId": "social-welfare",
+    "universityId": "yonsei",
+    "admissionQuota": 66
+  },
+  {
+    "majorId": "sociology",
+    "universityId": "cau",
+    "admissionQuota": 54
+  },
+  {
+    "majorId": "sociology",
+    "universityId": "ewha",
+    "admissionQuota": 101
+  },
+  {
+    "majorId": "sociology",
+    "universityId": "gachon",
+    "admissionQuota": 32
+  },
+  {
+    "majorId": "sociology",
+    "universityId": "hufs",
+    "admissionQuota": 31
+  },
+  {
+    "majorId": "sociology",
+    "universityId": "inha",
+    "admissionQuota": 32
+  },
+  {
+    "majorId": "sociology",
+    "universityId": "korea",
+    "admissionQuota": 65
+  },
+  {
+    "majorId": "sociology",
+    "universityId": "postech",
+    "admissionQuota": 118
+  },
+  {
+    "majorId": "sociology",
+    "universityId": "snu",
+    "admissionQuota": 50
+  },
+  {
+    "majorId": "sociology",
+    "universityId": "snue",
+    "admissionQuota": 75
+  },
+  {
+    "majorId": "sociology",
+    "universityId": "yonsei",
+    "admissionQuota": 60
+  },
+  {
+    "majorId": "software",
+    "universityId": "chonbuk",
+    "admissionQuota": 126
+  },
+  {
+    "majorId": "software",
+    "universityId": "hufs",
+    "admissionQuota": 126
+  },
+  {
+    "majorId": "software",
+    "universityId": "inha",
+    "admissionQuota": 50
+  },
+  {
+    "majorId": "software",
+    "universityId": "korea-aerospace",
+    "admissionQuota": 95
+  },
+  {
+    "majorId": "software",
+    "universityId": "kut",
+    "admissionQuota": 46
+  },
+  {
+    "majorId": "software",
+    "universityId": "pnu",
+    "admissionQuota": 121
+  },
+  {
+    "majorId": "software",
+    "universityId": "seoul-tech",
+    "admissionQuota": 74
+  },
+  {
+    "majorId": "software",
+    "universityId": "snue",
+    "admissionQuota": 52
+  },
+  {
+    "majorId": "software",
+    "universityId": "sookmyung",
+    "admissionQuota": 40
+  },
+  {
+    "majorId": "software",
+    "universityId": "soongsil",
+    "admissionQuota": 90
+  },
+  {
+    "majorId": "spanish-lit",
+    "universityId": "cau",
+    "admissionQuota": 44
+  },
+  {
+    "majorId": "spanish-lit",
+    "universityId": "gachon",
+    "admissionQuota": 90
+  },
+  {
+    "majorId": "spanish-lit",
+    "universityId": "korea",
+    "admissionQuota": 79
+  },
+  {
+    "majorId": "spanish-lit",
+    "universityId": "myongji",
+    "admissionQuota": 76
+  },
+  {
+    "majorId": "spanish-lit",
+    "universityId": "pnu",
+    "admissionQuota": 78
+  },
+  {
+    "majorId": "spanish-lit",
+    "universityId": "skku",
+    "admissionQuota": 44
+  },
+  {
+    "majorId": "spanish-lit",
+    "universityId": "sookmyung",
+    "admissionQuota": 62
+  },
+  {
+    "majorId": "spanish-lit",
+    "universityId": "soongsil",
+    "admissionQuota": 113
+  },
+  {
+    "majorId": "special-edu",
+    "universityId": "cau",
+    "admissionQuota": 90
+  },
+  {
+    "majorId": "special-edu",
+    "universityId": "cbnu",
+    "admissionQuota": 66
+  },
+  {
+    "majorId": "special-edu",
+    "universityId": "chonbuk",
+    "admissionQuota": 100
+  },
+  {
+    "majorId": "special-edu",
+    "universityId": "cnu",
+    "admissionQuota": 37
+  },
+  {
+    "majorId": "special-edu",
+    "universityId": "knue",
+    "admissionQuota": 38
+  },
+  {
+    "majorId": "special-edu",
+    "universityId": "snu",
+    "admissionQuota": 49
+  },
+  {
+    "majorId": "special-edu",
+    "universityId": "sookmyung",
+    "admissionQuota": 125
+  },
+  {
+    "majorId": "special-edu",
+    "universityId": "sungshin",
+    "admissionQuota": 79
+  },
+  {
+    "majorId": "sports-science",
+    "universityId": "cau",
+    "admissionQuota": 111
+  },
+  {
+    "majorId": "sports-science",
+    "universityId": "dongguk",
+    "admissionQuota": 58
+  },
+  {
+    "majorId": "sports-science",
+    "universityId": "ewha",
+    "admissionQuota": 36
+  },
+  {
+    "majorId": "sports-science",
+    "universityId": "khu",
+    "admissionQuota": 45
+  },
+  {
+    "majorId": "sports-science",
+    "universityId": "kookje",
+    "admissionQuota": 119
+  },
+  {
+    "majorId": "sports-science",
+    "universityId": "pnu",
+    "admissionQuota": 30
+  },
+  {
+    "majorId": "sports-science",
+    "universityId": "snu",
+    "admissionQuota": 79
+  },
+  {
+    "majorId": "sports-science",
+    "universityId": "yongin",
+    "admissionQuota": 66
+  },
+  {
+    "majorId": "sports-science",
+    "universityId": "yonsei",
+    "admissionQuota": 81
+  },
+  {
+    "majorId": "sports-science",
+    "universityId": "youngsan",
+    "admissionQuota": 56
+  },
+  {
+    "majorId": "statistics",
+    "universityId": "ajou",
+    "admissionQuota": 71
+  },
+  {
+    "majorId": "statistics",
+    "universityId": "cbnu",
+    "admissionQuota": 79
+  },
+  {
+    "majorId": "statistics",
+    "universityId": "cnu",
+    "admissionQuota": 49
+  },
+  {
+    "majorId": "statistics",
+    "universityId": "dongguk",
+    "admissionQuota": 55
+  },
+  {
+    "majorId": "statistics",
+    "universityId": "kaist",
+    "admissionQuota": 46
+  },
+  {
+    "majorId": "statistics",
+    "universityId": "kookmin",
+    "admissionQuota": 62
+  },
+  {
+    "majorId": "statistics",
+    "universityId": "pnu",
+    "admissionQuota": 68
+  },
+  {
+    "majorId": "statistics",
+    "universityId": "yonsei",
+    "admissionQuota": 50
+  },
+  {
+    "majorId": "systems",
+    "universityId": "ajou",
+    "admissionQuota": 70
+  },
+  {
+    "majorId": "systems",
+    "universityId": "dankook-cheonan",
+    "admissionQuota": 45
+  },
+  {
+    "majorId": "systems",
+    "universityId": "dgist",
+    "admissionQuota": 99
+  },
+  {
+    "majorId": "systems",
+    "universityId": "gachon",
+    "admissionQuota": 63
+  },
+  {
+    "majorId": "systems",
+    "universityId": "hknu",
+    "admissionQuota": 83
+  },
+  {
+    "majorId": "systems",
+    "universityId": "khu",
+    "admissionQuota": 79
+  },
+  {
+    "majorId": "systems",
+    "universityId": "kookmin",
+    "admissionQuota": 101
+  },
+  {
+    "majorId": "systems",
+    "universityId": "korea",
+    "admissionQuota": 110
+  },
+  {
+    "majorId": "systems",
+    "universityId": "snu",
+    "admissionQuota": 128
+  },
+  {
+    "majorId": "systems",
+    "universityId": "yonsei",
+    "admissionQuota": 36
+  },
+  {
+    "majorId": "taekwondo",
+    "universityId": "dankook-cheonan",
+    "admissionQuota": 41
+  },
+  {
+    "majorId": "taekwondo",
+    "universityId": "ewha",
+    "admissionQuota": 72
+  },
+  {
+    "majorId": "taekwondo",
+    "universityId": "hanyang",
+    "admissionQuota": 79
+  },
+  {
+    "majorId": "taekwondo",
+    "universityId": "jnu",
+    "admissionQuota": 114
+  },
+  {
+    "majorId": "taekwondo",
+    "universityId": "knu",
+    "admissionQuota": 32
+  },
+  {
+    "majorId": "taekwondo",
+    "universityId": "kookje",
+    "admissionQuota": 34
+  },
+  {
+    "majorId": "taekwondo",
+    "universityId": "korea",
+    "admissionQuota": 71
+  },
+  {
+    "majorId": "taekwondo",
+    "universityId": "pnu",
+    "admissionQuota": 103
+  },
+  {
+    "majorId": "taekwondo",
+    "universityId": "yonsei",
+    "admissionQuota": 114
+  },
+  {
+    "majorId": "taekwondo",
+    "universityId": "youngsan",
+    "admissionQuota": 96
+  },
+  {
+    "majorId": "technology-edu",
+    "universityId": "cbnu",
+    "admissionQuota": 107
+  },
+  {
+    "majorId": "technology-edu",
+    "universityId": "khu",
+    "admissionQuota": 55
+  },
+  {
+    "majorId": "technology-edu",
+    "universityId": "knu",
+    "admissionQuota": 64
+  },
+  {
+    "majorId": "technology-edu",
+    "universityId": "knue",
+    "admissionQuota": 48
+  },
+  {
+    "majorId": "technology-edu",
+    "universityId": "myongji",
+    "admissionQuota": 91
+  },
+  {
+    "majorId": "technology-edu",
+    "universityId": "sangmyung",
+    "admissionQuota": 113
+  },
+  {
+    "majorId": "technology-edu",
+    "universityId": "sookmyung",
+    "admissionQuota": 35
+  },
+  {
+    "majorId": "technology-edu",
+    "universityId": "sungshin",
+    "admissionQuota": 77
+  },
+  {
+    "majorId": "textile",
+    "universityId": "hanyang",
+    "admissionQuota": 113
+  },
+  {
+    "majorId": "textile",
+    "universityId": "kentech",
+    "admissionQuota": 96
+  },
+  {
+    "majorId": "textile",
+    "universityId": "khu",
+    "admissionQuota": 49
+  },
+  {
+    "majorId": "textile",
+    "universityId": "knu",
+    "admissionQuota": 97
+  },
+  {
+    "majorId": "textile",
+    "universityId": "korea",
+    "admissionQuota": 91
+  },
+  {
+    "majorId": "textile",
+    "universityId": "korea-univ-sejong",
+    "admissionQuota": 30
+  },
+  {
+    "majorId": "textile",
+    "universityId": "kpu",
+    "admissionQuota": 127
+  },
+  {
+    "majorId": "textile",
+    "universityId": "sejong",
+    "admissionQuota": 71
+  },
+  {
+    "majorId": "textile",
+    "universityId": "soongsil",
+    "admissionQuota": 86
+  },
+  {
+    "majorId": "textile",
+    "universityId": "suwon",
+    "admissionQuota": 125
+  },
+  {
+    "majorId": "theater-film",
+    "universityId": "cau",
+    "admissionQuota": 116
+  },
+  {
+    "majorId": "theater-film",
+    "universityId": "dankook-cheonan",
+    "admissionQuota": 58
+  },
+  {
+    "majorId": "theater-film",
+    "universityId": "hongik",
+    "admissionQuota": 44
+  },
+  {
+    "majorId": "theater-film",
+    "universityId": "kgu",
+    "admissionQuota": 107
+  },
+  {
+    "majorId": "theater-film",
+    "universityId": "kookmin",
+    "admissionQuota": 112
+  },
+  {
+    "majorId": "theater-film",
+    "universityId": "korea-univ-arts",
+    "admissionQuota": 94
+  },
+  {
+    "majorId": "theater-film",
+    "universityId": "myongji",
+    "admissionQuota": 107
+  },
+  {
+    "majorId": "theater-film",
+    "universityId": "seokyeong",
+    "admissionQuota": 58
+  },
+  {
+    "majorId": "theater-film",
+    "universityId": "seoul-women",
+    "admissionQuota": 35
+  },
+  {
+    "majorId": "theater-film",
+    "universityId": "sungshin",
+    "admissionQuota": 58
+  },
+  {
+    "majorId": "theology",
+    "universityId": "ewha",
+    "admissionQuota": 51
+  },
+  {
+    "majorId": "theology",
+    "universityId": "gachon",
+    "admissionQuota": 108
+  },
+  {
+    "majorId": "theology",
+    "universityId": "hongik",
+    "admissionQuota": 126
+  },
+  {
+    "majorId": "theology",
+    "universityId": "knu",
+    "admissionQuota": 117
+  },
+  {
+    "majorId": "theology",
+    "universityId": "kookmin",
+    "admissionQuota": 32
+  },
+  {
+    "majorId": "theology",
+    "universityId": "myongji",
+    "admissionQuota": 69
+  },
+  {
+    "majorId": "theology",
+    "universityId": "skku",
+    "admissionQuota": 127
+  },
+  {
+    "majorId": "theology",
+    "universityId": "snu",
+    "admissionQuota": 82
+  },
+  {
+    "majorId": "tourism",
+    "universityId": "cnu",
+    "admissionQuota": 100
+  },
+  {
+    "majorId": "tourism",
+    "universityId": "hufs",
+    "admissionQuota": 69
+  },
+  {
+    "majorId": "tourism",
+    "universityId": "kgu",
+    "admissionQuota": 30
+  },
+  {
+    "majorId": "tourism",
+    "universityId": "khu",
+    "admissionQuota": 92
+  },
+  {
+    "majorId": "tourism",
+    "universityId": "kookmin",
+    "admissionQuota": 96
+  },
+  {
+    "majorId": "tourism",
+    "universityId": "korea",
+    "admissionQuota": 97
+  },
+  {
+    "majorId": "tourism",
+    "universityId": "skku",
+    "admissionQuota": 100
+  },
+  {
+    "majorId": "tourism",
+    "universityId": "snue",
+    "admissionQuota": 37
+  },
+  {
+    "majorId": "tourism",
+    "universityId": "sookmyung",
+    "admissionQuota": 56
+  },
+  {
+    "majorId": "tourism",
+    "universityId": "uos",
+    "admissionQuota": 119
+  },
+  {
+    "majorId": "trade",
+    "universityId": "cau",
+    "admissionQuota": 72
+  },
+  {
+    "majorId": "trade",
+    "universityId": "dongguk",
+    "admissionQuota": 47
+  },
+  {
+    "majorId": "trade",
+    "universityId": "ewha",
+    "admissionQuota": 58
+  },
+  {
+    "majorId": "trade",
+    "universityId": "hanyang",
+    "admissionQuota": 87
+  },
+  {
+    "majorId": "trade",
+    "universityId": "myongji",
+    "admissionQuota": 62
+  },
+  {
+    "majorId": "trade",
+    "universityId": "seoul-women",
+    "admissionQuota": 54
+  },
+  {
+    "majorId": "trade",
+    "universityId": "skku",
+    "admissionQuota": 123
+  },
+  {
+    "majorId": "trade",
+    "universityId": "snu",
+    "admissionQuota": 61
+  },
+  {
+    "majorId": "trade",
+    "universityId": "snue",
+    "admissionQuota": 109
+  },
+  {
+    "majorId": "trade",
+    "universityId": "yonsei",
+    "admissionQuota": 67
+  },
+  {
+    "majorId": "transportation",
+    "universityId": "ewha",
+    "admissionQuota": 76
+  },
+  {
+    "majorId": "transportation",
+    "universityId": "inha",
+    "admissionQuota": 87
+  },
+  {
+    "majorId": "transportation",
+    "universityId": "jnu",
+    "admissionQuota": 84
+  },
+  {
+    "majorId": "transportation",
+    "universityId": "kentech",
+    "admissionQuota": 52
+  },
+  {
+    "majorId": "transportation",
+    "universityId": "kgu",
+    "admissionQuota": 127
+  },
+  {
+    "majorId": "transportation",
+    "universityId": "kookmin",
+    "admissionQuota": 109
+  },
+  {
+    "majorId": "transportation",
+    "universityId": "korea",
+    "admissionQuota": 30
+  },
+  {
+    "majorId": "transportation",
+    "universityId": "sogang",
+    "admissionQuota": 117
+  },
+  {
+    "majorId": "transportation",
+    "universityId": "soonchunhyang",
+    "admissionQuota": 38
+  },
+  {
+    "majorId": "transportation",
+    "universityId": "uos",
+    "admissionQuota": 76
+  },
+  {
+    "majorId": "urban-planning-eng",
+    "universityId": "ajou",
+    "admissionQuota": 128
+  },
+  {
+    "majorId": "urban-planning-eng",
+    "universityId": "dgist",
+    "admissionQuota": 36
+  },
+  {
+    "majorId": "urban-planning-eng",
+    "universityId": "hknu",
+    "admissionQuota": 106
+  },
+  {
+    "majorId": "urban-planning-eng",
+    "universityId": "hongik",
+    "admissionQuota": 87
+  },
+  {
+    "majorId": "urban-planning-eng",
+    "universityId": "kaist",
+    "admissionQuota": 60
+  },
+  {
+    "majorId": "urban-planning-eng",
+    "universityId": "kgu",
+    "admissionQuota": 61
+  },
+  {
+    "majorId": "urban-planning-eng",
+    "universityId": "korea",
+    "admissionQuota": 96
+  },
+  {
+    "majorId": "urban-planning-eng",
+    "universityId": "myongji",
+    "admissionQuota": 106
+  },
+  {
+    "majorId": "urban-planning-eng",
+    "universityId": "postech",
+    "admissionQuota": 73
+  },
+  {
+    "majorId": "urban-planning-eng",
+    "universityId": "soonchunhyang",
+    "admissionQuota": 73
+  },
+  {
+    "majorId": "urban-planning-social",
+    "universityId": "daejeon-univ",
+    "admissionQuota": 61
+  },
+  {
+    "majorId": "urban-planning-social",
+    "universityId": "ewha",
+    "admissionQuota": 120
+  },
+  {
+    "majorId": "urban-planning-social",
+    "universityId": "hongik",
+    "admissionQuota": 32
+  },
+  {
+    "majorId": "urban-planning-social",
+    "universityId": "inha",
+    "admissionQuota": 75
+  },
+  {
+    "majorId": "urban-planning-social",
+    "universityId": "kgu",
+    "admissionQuota": 128
+  },
+  {
+    "majorId": "urban-planning-social",
+    "universityId": "khu",
+    "admissionQuota": 74
+  },
+  {
+    "majorId": "urban-planning-social",
+    "universityId": "korea",
+    "admissionQuota": 93
+  },
+  {
+    "majorId": "urban-planning-social",
+    "universityId": "seoul-women",
+    "admissionQuota": 95
+  },
+  {
+    "majorId": "urban-planning-social",
+    "universityId": "sogang",
+    "admissionQuota": 105
+  },
+  {
+    "majorId": "urban-planning-social",
+    "universityId": "uos",
+    "admissionQuota": 76
+  },
+  {
+    "majorId": "veterinary",
+    "universityId": "cbnu",
+    "admissionQuota": 117
+  },
+  {
+    "majorId": "veterinary",
+    "universityId": "chonbuk",
+    "admissionQuota": 30
+  },
+  {
+    "majorId": "veterinary",
+    "universityId": "gnu-gyeongsang",
+    "admissionQuota": 30
+  },
+  {
+    "majorId": "veterinary",
+    "universityId": "jeju",
+    "admissionQuota": 52
+  },
+  {
+    "majorId": "veterinary",
+    "universityId": "knu",
+    "admissionQuota": 89
+  },
+  {
+    "majorId": "veterinary",
+    "universityId": "konkuk-glocal",
+    "admissionQuota": 64
+  },
+  {
+    "majorId": "veterinary",
+    "universityId": "pnu",
+    "admissionQuota": 125
+  },
+  {
+    "majorId": "veterinary",
+    "universityId": "snu",
+    "admissionQuota": 115
+  },
+  {
+    "majorId": "vietnamese-lit",
+    "universityId": "hongik",
+    "admissionQuota": 82
+  },
+  {
+    "majorId": "vietnamese-lit",
+    "universityId": "inha",
+    "admissionQuota": 42
+  },
+  {
+    "majorId": "vietnamese-lit",
+    "universityId": "jnu",
+    "admissionQuota": 61
+  },
+  {
+    "majorId": "vietnamese-lit",
+    "universityId": "sangmyung",
+    "admissionQuota": 99
+  },
+  {
+    "majorId": "vietnamese-lit",
+    "universityId": "snu",
+    "admissionQuota": 125
+  },
+  {
+    "majorId": "vietnamese-lit",
+    "universityId": "snue",
+    "admissionQuota": 120
+  },
+  {
+    "majorId": "vietnamese-lit",
+    "universityId": "sogang",
+    "admissionQuota": 122
+  },
+  {
+    "majorId": "vietnamese-lit",
+    "universityId": "sookmyung",
+    "admissionQuota": 51
+  },
+  {
+    "majorId": "visual-design",
+    "universityId": "cau",
+    "admissionQuota": 37
+  },
+  {
+    "majorId": "visual-design",
+    "universityId": "dongduk-women",
+    "admissionQuota": 105
+  },
+  {
+    "majorId": "visual-design",
+    "universityId": "hongik",
+    "admissionQuota": 124
+  },
+  {
+    "majorId": "visual-design",
+    "universityId": "kookmin",
+    "admissionQuota": 117
+  },
+  {
+    "majorId": "visual-design",
+    "universityId": "myongji",
+    "admissionQuota": 110
+  },
+  {
+    "majorId": "visual-design",
+    "universityId": "sangmyung",
+    "admissionQuota": 117
+  },
+  {
+    "majorId": "visual-design",
+    "universityId": "sejong",
+    "admissionQuota": 76
+  },
+  {
+    "majorId": "visual-design",
+    "universityId": "seoul-women",
+    "admissionQuota": 95
+  },
+  {
+    "majorId": "visual-design",
+    "universityId": "snu",
+    "admissionQuota": 106
+  },
+  {
+    "majorId": "visual-design",
+    "universityId": "sungshin",
+    "admissionQuota": 126
+  },
+  {
+    "majorId": "vocal",
+    "universityId": "cau",
+    "admissionQuota": 110
+  },
+  {
+    "majorId": "vocal",
+    "universityId": "dankook-cheonan",
+    "admissionQuota": 48
+  },
+  {
+    "majorId": "vocal",
+    "universityId": "ewha",
+    "admissionQuota": 93
+  },
+  {
+    "majorId": "vocal",
+    "universityId": "khu",
+    "admissionQuota": 91
+  },
+  {
+    "majorId": "vocal",
+    "universityId": "knu",
+    "admissionQuota": 116
+  },
+  {
+    "majorId": "vocal",
+    "universityId": "korea",
+    "admissionQuota": 43
+  },
+  {
+    "majorId": "vocal",
+    "universityId": "pnu",
+    "admissionQuota": 42
+  },
+  {
+    "majorId": "vocal",
+    "universityId": "sejong",
+    "admissionQuota": 78
+  },
+  {
+    "majorId": "vocal",
+    "universityId": "snu",
+    "admissionQuota": 50
+  },
+  {
+    "majorId": "vocal",
+    "universityId": "sungshin",
+    "admissionQuota": 60
+  },
+  {
+    "majorId": "western-history",
+    "universityId": "chonbuk",
+    "admissionQuota": 93
+  },
+  {
+    "majorId": "western-history",
+    "universityId": "dongguk",
+    "admissionQuota": 70
+  },
+  {
+    "majorId": "western-history",
+    "universityId": "hanyang",
+    "admissionQuota": 63
+  },
+  {
+    "majorId": "western-history",
+    "universityId": "kaist",
+    "admissionQuota": 70
+  },
+  {
+    "majorId": "western-history",
+    "universityId": "pnu",
+    "admissionQuota": 41
+  },
+  {
+    "majorId": "western-history",
+    "universityId": "postech",
+    "admissionQuota": 58
+  },
+  {
+    "majorId": "western-history",
+    "universityId": "sogang",
+    "admissionQuota": 44
+  },
+  {
+    "majorId": "western-history",
+    "universityId": "soongsil",
+    "admissionQuota": 123
+  },
+  {
+    "majorId": "youth-studies",
+    "universityId": "ajou",
+    "admissionQuota": 68
+  },
+  {
+    "majorId": "youth-studies",
+    "universityId": "cnu",
+    "admissionQuota": 55
+  },
+  {
+    "majorId": "youth-studies",
+    "universityId": "kaist",
+    "admissionQuota": 82
+  },
+  {
+    "majorId": "youth-studies",
+    "universityId": "khu",
+    "admissionQuota": 94
+  },
+  {
+    "majorId": "youth-studies",
+    "universityId": "kookmin",
+    "admissionQuota": 70
+  },
+  {
+    "majorId": "youth-studies",
+    "universityId": "korea",
+    "admissionQuota": 102
+  },
+  {
+    "majorId": "youth-studies",
+    "universityId": "pnu",
+    "admissionQuota": 79
+  },
+  {
+    "majorId": "youth-studies",
+    "universityId": "sejong",
+    "admissionQuota": 112
+  },
+  {
+    "majorId": "youth-studies",
+    "universityId": "sookmyung",
+    "admissionQuota": 108
+  },
+  {
+    "majorId": "youth-studies",
+    "universityId": "soongsil",
+    "admissionQuota": 80
+  }
 ]

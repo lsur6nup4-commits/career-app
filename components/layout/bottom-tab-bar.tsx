@@ -26,7 +26,8 @@ const TABS = [
     match: (p: string) =>
       p.startsWith("/majors") ||
       p.startsWith("/compare") ||
-      p.startsWith("/roadmap"),
+      p.startsWith("/roadmap") ||
+      p.startsWith("/universities"),
   },
   {
     href: "/chat",

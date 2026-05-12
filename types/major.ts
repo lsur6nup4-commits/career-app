@@ -15,6 +15,8 @@ export type Major = {
   averageGrade: number;
   jeongsiRatio: number;
   susiRatio: number;
+  /** Other majors a student might also consider. Major ids. */
+  relatedMajors?: string[];
 };
 
 export type University = {
@@ -28,7 +30,8 @@ export type University = {
 export type UniversityMajor = {
   majorId: string;
   universityId: string;
-  admissionQuota: number;
+  /** 입학 정원. 추후 공공 API 연동 시 채워질 placeholder. */
+  admissionQuota?: number;
 };
 
 export type Career = {
@@ -72,10 +75,34 @@ export type MajorExtras = {
 };
 
 export type MajorWithUniversities = Major & {
-  universities: Array<University & { admissionQuota: number }>;
+  universities: Array<University & { admissionQuota?: number }>;
+};
+
+/**
+ * Subject (커리큘럼 대표 과목) — 인터랙티브 모달용.
+ * id는 과목명 그대로 사용해도 OK(JSON 키로 활용).
+ */
+export type Subject = {
+  id: string;
+  name: string;
+  /** 일반적으로 배우는 학년 (1~4). 학과별로 다를 수 있으니 참고치. */
+  year: 1 | 2 | 3 | 4;
+  /** 한 줄 요약 (50자 이내). */
+  summary: string;
+  /** 상세 설명 (고등학생 눈높이, 200~400자). */
+  description: string;
+  /** 실생활·진로 연결 예시. */
+  realWorldExample: string;
+  /** 관련 고등학교 과목 (수학·정보·물리·국어 등). */
+  prerequisiteHS: string[];
+  /** 체감 난이도 1(쉬움) ~ 5(어려움). */
+  difficulty: 1 | 2 | 3 | 4 | 5;
 };
 
 export type FullMajor = MajorWithUniversities &
   Partial<MajorExtras> & {
+    /** 기존 호환용 (subject 미정의 시 폴백). */
     courseDescriptions: Record<string, string>;
+    /** 커리큘럼에 등장하는 과목명 → Subject 객체. */
+    subjects: Record<string, Subject>;
   };

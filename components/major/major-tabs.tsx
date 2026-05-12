@@ -15,6 +15,7 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { EmploymentPie } from "@/components/major/employment-pie";
+import { SubjectLink } from "@/components/major/subject-link";
 import { cn } from "@/lib/utils";
 import type { FullMajor, IndustryOutlook } from "@/types/major";
 
@@ -71,7 +72,7 @@ function CurriculumTab({ major }: { major: FullMajor }) {
           <CardTitle>학년별 대표 과목</CardTitle>
         </div>
         <p className="text-sm text-muted-foreground">
-          학교마다 차이가 있어요. 일반적으로 배우는 과목 위주로 정리했습니다.
+          학교마다 차이가 있어요. 과목을 누르면 자세한 설명을 볼 수 있습니다.
         </p>
       </CardHeader>
       <CardContent className="space-y-5">
@@ -86,22 +87,15 @@ function CurriculumTab({ major }: { major: FullMajor }) {
               </span>
             </div>
             <div className="space-y-2">
-              {year.courses.map((c) => {
-                const desc = major.courseDescriptions[c];
-                return (
-                  <div
-                    key={c}
-                    className="rounded-md border border-border bg-white px-3 py-2.5"
-                  >
-                    <div className="text-sm font-semibold">{c}</div>
-                    {desc && (
-                      <div className="mt-0.5 text-xs leading-relaxed text-muted-foreground">
-                        {desc}
-                      </div>
-                    )}
-                  </div>
-                );
-              })}
+              {year.courses.map((c) => (
+                <SubjectLink
+                  key={c}
+                  name={c}
+                  year={year.year}
+                  subject={major.subjects[c] ?? null}
+                  fallbackDescription={major.courseDescriptions[c]}
+                />
+              ))}
             </div>
           </div>
         ))}
