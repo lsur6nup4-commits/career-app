@@ -11,8 +11,16 @@ import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
 import { clearHistory, loadHistory, saveHistory } from "@/lib/chat/storage";
 import { loadResult } from "@/lib/diagnosis/storage";
+import {
+  loadProfile,
+  saveProfile,
+  trackKeyword,
+  getConfirmedInterests,
+} from "@/lib/interests/storage";
+import { extractKeywords } from "@/lib/interests/extractor";
 import type { ChatMessage, DiagnosisContext, SseEvent } from "@/types/chat";
 import type { DiagnosisResult } from "@/types/diagnosis";
+import type { InterestProfile } from "@/types/interests";
 
 function genId() {
   return `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
@@ -43,6 +51,7 @@ export function ChatView() {
   const [streaming, setStreaming] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [diagnosis, setDiagnosis] = useState<DiagnosisResult | null>(null);
+  const [interestProfile, setInterestProfile] = useState<InterestProfile | null>(null);
 
   const abortRef = useRef<AbortController | null>(null);
   const scrollRef = useRef<HTMLDivElement | null>(null);
@@ -51,6 +60,7 @@ export function ChatView() {
   useEffect(() => {
     setMessages(loadHistory());
     setDiagnosis(loadResult());
+    setInterestProfile(loadProfile());
     setHydrated(true);
   }, []);
 
@@ -86,10 +96,24 @@ export function ChatView() {
     setInput("");
     setStreaming(true);
 
+    // ── 관심사 키워드 추출 & 업데이트 ──────────────────────────────────
+    let currentProfile = interestProfile ?? loadProfile();
+    const extracted = extractKeywords(trimmed);
+    for (const kw of extracted) {
+      currentProfile = trackKeyword(currentProfile, kw);
+    }
+    if (extracted.length > 0) {
+      saveProfile(currentProfile);
+      setInterestProfile(currentProfile);
+    }
+
     const controller = new AbortController();
     abortRef.current = controller;
 
     try {
+      const confirmedInterests = getConfirmedInterests(currentProfile).map(
+        (i) => i.keyword,
+      );
       const response = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -99,6 +123,7 @@ export function ChatView() {
             content,
           })),
           diagnosisContext: toContext(diagnosis),
+          userInterests: confirmedInterests.length > 0 ? confirmedInterests : undefined,
         }),
         signal: controller.signal,
       });

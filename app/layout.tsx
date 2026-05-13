@@ -3,6 +3,7 @@ import Link from "next/link";
 import { CompareBar } from "@/components/major/compare-bar";
 import { BottomTabBar } from "@/components/layout/bottom-tab-bar";
 import { ThemeToggle } from "@/components/layout/theme-toggle";
+import { InterestBadge } from "@/components/interests/interest-badge";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -97,9 +98,11 @@ export default function RootLayout({
               >
                 내 노트
               </Link>
+              <InterestBadge />
               <ThemeToggle className="ml-1" />
             </nav>
-            <div className="flex items-center md:hidden">
+            <div className="flex items-center gap-2 md:hidden">
+              <InterestBadge />
               <ThemeToggle />
             </div>
           </div>

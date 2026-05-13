@@ -59,6 +59,25 @@ function formatDiagnosisContext(ctx: DiagnosisContext): string {
 이 정보를 알고 있는 티를 너무 내지 말고, 자연스럽게 답변에 녹여 활용하세요.`;
 }
 
-export function buildSystemPrompt(ctx?: DiagnosisContext): string {
-  return ctx ? `${BASE_PROMPT}\n${formatDiagnosisContext(ctx)}` : `${BASE_PROMPT}\n${NO_CONTEXT_NOTE}`;
+function formatInterests(interests: string[]): string {
+  if (!interests.length) return "";
+  return `
+[학습된 관심사 — 대화 패턴 분석으로 자동 감지됨]
+학생이 반복적으로 언급한 키워드: ${interests.join(", ")}
+이 관심사를 자연스럽게 대화에 활용하되, 너무 노골적으로 언급하지 마세요.`;
+}
+
+export function buildSystemPrompt(
+  ctx?: DiagnosisContext,
+  userInterests?: string[],
+): string {
+  const interestSection =
+    userInterests && userInterests.length > 0
+      ? formatInterests(userInterests)
+      : "";
+
+  if (ctx) {
+    return `${BASE_PROMPT}\n${formatDiagnosisContext(ctx)}${interestSection}`;
+  }
+  return `${BASE_PROMPT}\n${NO_CONTEXT_NOTE}${interestSection}`;
 }

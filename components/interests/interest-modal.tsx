@@ -1,0 +1,320 @@
+"use client";
+
+import { useEffect, useRef, useState } from "react";
+import Link from "next/link";
+import { X, Plus, GraduationCap, Briefcase, Sparkles, Trash2 } from "lucide-react";
+import {
+  loadProfile,
+  saveProfile,
+  addInterestManually,
+  removeInterest,
+  getConfirmedInterests,
+  clearProfile,
+} from "@/lib/interests/storage";
+import { MAJOR_KEYWORDS, JOB_KEYWORDS } from "@/lib/interests/keywords-data";
+import type { DetectedInterest, InterestProfile } from "@/types/interests";
+import { CONFIRM_THRESHOLD } from "@/types/interests";
+import { cn } from "@/lib/utils";
+
+// ── 카테고리 배지 ─────────────────────────────────────────────────────────
+const CATEGORY_STYLE: Record<string, string> = {
+  major: "bg-primary-soft/60 text-primary",
+  job: "bg-accent/20 text-accent-foreground",
+  concept: "bg-emerald-100 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-300",
+  field: "bg-orange-100 text-orange-700 dark:bg-orange-900/30 dark:text-orange-300",
+};
+const CATEGORY_LABEL: Record<string, string> = {
+  major: "학과",
+  job: "직업",
+  concept: "개념",
+  field: "분야",
+};
+
+function CategoryBadge({ category }: { category: string }) {
+  return (
+    <span
+      className={cn(
+        "rounded-full px-2 py-0.5 text-[10px] font-semibold",
+        CATEGORY_STYLE[category] ?? "bg-muted text-muted-foreground",
+      )}
+    >
+      {CATEGORY_LABEL[category] ?? category}
+    </span>
+  );
+}
+
+// ── 관심사 카드 ───────────────────────────────────────────────────────────
+function InterestChip({
+  item,
+  onRemove,
+}: {
+  item: DetectedInterest;
+  onRemove: (kw: string) => void;
+}) {
+  return (
+    <div className="flex items-center gap-1.5 rounded-full border border-border bg-card px-3 py-1.5 text-sm">
+      <CategoryBadge category={item.category} />
+      <span className="font-medium">{item.keyword}</span>
+      <span className="text-[11px] text-muted-foreground">×{item.count}</span>
+      <button
+        type="button"
+        onClick={() => onRemove(item.keyword)}
+        className="ml-1 rounded-full p-0.5 text-muted-foreground hover:bg-muted hover:text-foreground"
+        aria-label={`${item.keyword} 제거`}
+      >
+        <X className="h-3 w-3" />
+      </button>
+    </div>
+  );
+}
+
+// ── 관련 추천 카드 ────────────────────────────────────────────────────────
+function RecommendSection({ confirmed }: { confirmed: DetectedInterest[] }) {
+  const majorInterests = confirmed.filter(
+    (i) => i.category === "major" && i.majorId,
+  );
+  const jobInterests = confirmed.filter(
+    (i) => i.category === "job" && i.jobId,
+  );
+
+  if (majorInterests.length === 0 && jobInterests.length === 0) return null;
+
+  return (
+    <div className="border-t border-border pt-4">
+      <p className="mb-2 text-xs font-semibold text-muted-foreground">
+        관심사 기반 추천
+      </p>
+      <div className="space-y-2">
+        {majorInterests.slice(0, 3).map((i) => (
+          <Link
+            key={i.majorId}
+            href={`/majors/${i.majorId}`}
+            className="flex items-center gap-2 rounded-lg border border-border bg-card px-3 py-2 text-sm hover:border-primary/40 hover:bg-primary-soft/20"
+          >
+            <GraduationCap className="h-4 w-4 flex-shrink-0 text-primary" />
+            <span className="font-medium">{i.keyword}</span>
+            <span className="ml-auto text-[11px] text-muted-foreground">학과 보기 →</span>
+          </Link>
+        ))}
+        {jobInterests.slice(0, 3).map((i) => (
+          <Link
+            key={i.jobId}
+            href={`/jobs/${i.jobId}`}
+            className="flex items-center gap-2 rounded-lg border border-border bg-card px-3 py-2 text-sm hover:border-accent/40 hover:bg-accent/10"
+          >
+            <Briefcase className="h-4 w-4 flex-shrink-0 text-accent-foreground" />
+            <span className="font-medium">{i.keyword}</span>
+            <span className="ml-auto text-[11px] text-muted-foreground">직업 보기 →</span>
+          </Link>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// ── 메인 모달 ─────────────────────────────────────────────────────────────
+export function InterestModal({
+  open,
+  onClose,
+  onProfileChange,
+}: {
+  open: boolean;
+  onClose: () => void;
+  onProfileChange?: (profile: InterestProfile) => void;
+}) {
+  const [profile, setProfile] = useState<InterestProfile | null>(null);
+  const [addInput, setAddInput] = useState("");
+  const [tab, setTab] = useState<"confirmed" | "all">("confirmed");
+  const overlayRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (open) setProfile(loadProfile());
+  }, [open]);
+
+  function update(next: InterestProfile) {
+    saveProfile(next);
+    setProfile(next);
+    onProfileChange?.(next);
+  }
+
+  function handleRemove(kw: string) {
+    if (!profile) return;
+    update(removeInterest(profile, kw));
+  }
+
+  function handleAdd() {
+    const kw = addInput.trim();
+    if (!kw || !profile) return;
+
+    // 카테고리 자동 감지
+    const majorMatch = MAJOR_KEYWORDS.find(
+      (m) => m.keyword === kw || m.id === kw,
+    );
+    const jobMatch = JOB_KEYWORDS.find((j) => j.keyword === kw);
+    const category = majorMatch ? "major" : jobMatch ? "job" : "field";
+
+    update(
+      addInterestManually(profile, {
+        keyword: kw,
+        category,
+        majorId: majorMatch?.id,
+        majorCategory: majorMatch?.category,
+        jobId: jobMatch?.id,
+      }),
+    );
+    setAddInput("");
+  }
+
+  function handleClearAll() {
+    if (!confirm("모든 학습된 관심사를 초기화할까요?")) return;
+    clearProfile();
+    const fresh = loadProfile();
+    setProfile(fresh);
+    onProfileChange?.(fresh);
+  }
+
+  if (!open || !profile) return null;
+
+  const confirmed = getConfirmedInterests(profile);
+  const pending = profile.detectedInterests
+    .filter((d) => d.count < CONFIRM_THRESHOLD)
+    .sort((a, b) => b.count - a.count);
+
+  const displayList = tab === "confirmed" ? confirmed : profile.detectedInterests;
+
+  return (
+    <>
+      {/* 오버레이 */}
+      <div
+        ref={overlayRef}
+        className="fixed inset-0 z-40 bg-black/40 backdrop-blur-sm"
+        onClick={(e) => e.target === overlayRef.current && onClose()}
+        aria-hidden="true"
+      />
+
+      {/* 슬라이드업 패널 */}
+      <div
+        role="dialog"
+        aria-modal="true"
+        aria-label="내 관심사"
+        className="fixed inset-x-0 bottom-0 z-50 rounded-t-2xl border-t border-border bg-background shadow-2xl"
+        style={{ maxHeight: "85dvh" }}
+      >
+        {/* 핸들 */}
+        <div className="flex justify-center pt-3 pb-1">
+          <div className="h-1 w-10 rounded-full bg-muted-foreground/30" />
+        </div>
+
+        <div className="overflow-y-auto px-4 pb-8" style={{ maxHeight: "calc(85dvh - 2rem)" }}>
+          {/* 헤더 */}
+          <div className="flex items-center justify-between py-3">
+            <div>
+              <h2 className="text-base font-bold">내 관심사</h2>
+              <p className="text-xs text-muted-foreground">
+                챗봇 대화에서 자동 학습됩니다 · 확정 기준 {CONFIRM_THRESHOLD}회 이상
+              </p>
+            </div>
+            <div className="flex items-center gap-2">
+              {profile.detectedInterests.length > 0 && (
+                <button
+                  type="button"
+                  onClick={handleClearAll}
+                  className="text-xs text-muted-foreground hover:text-destructive"
+                  title="전체 초기화"
+                >
+                  <Trash2 className="h-4 w-4" />
+                </button>
+              )}
+              <button
+                type="button"
+                onClick={onClose}
+                className="rounded-full p-1.5 text-muted-foreground hover:bg-muted hover:text-foreground"
+                aria-label="닫기"
+              >
+                <X className="h-5 w-5" />
+              </button>
+            </div>
+          </div>
+
+          {/* 탭 */}
+          <div className="mb-4 flex gap-1 rounded-lg border border-border bg-muted/40 p-1">
+            {(["confirmed", "all"] as const).map((t) => (
+              <button
+                key={t}
+                type="button"
+                onClick={() => setTab(t)}
+                className={cn(
+                  "flex-1 rounded-md py-1.5 text-xs font-medium transition-colors",
+                  tab === t
+                    ? "bg-background text-foreground shadow-sm"
+                    : "text-muted-foreground hover:text-foreground",
+                )}
+              >
+                {t === "confirmed"
+                  ? `확정 관심사 (${confirmed.length})`
+                  : `전체 감지 (${profile.detectedInterests.length})`}
+              </button>
+            ))}
+          </div>
+
+          {/* 관심사 목록 */}
+          {displayList.length === 0 ? (
+            <div className="rounded-xl border border-dashed border-border py-10 text-center">
+              <Sparkles className="mx-auto mb-2 h-8 w-8 text-muted-foreground/40" />
+              <p className="text-sm text-muted-foreground">
+                {tab === "confirmed"
+                  ? "아직 확정된 관심사가 없어요"
+                  : "아직 감지된 키워드가 없어요"}
+              </p>
+              <p className="mt-1 text-xs text-muted-foreground">
+                AI 상담사와 대화하면 자동으로 학습됩니다
+              </p>
+            </div>
+          ) : (
+            <div className="flex flex-wrap gap-2">
+              {displayList.map((item) => (
+                <InterestChip
+                  key={item.keyword}
+                  item={item}
+                  onRemove={handleRemove}
+                />
+              ))}
+            </div>
+          )}
+
+          {/* 미확정 안내 */}
+          {tab === "all" && pending.length > 0 && (
+            <p className="mt-3 text-xs text-muted-foreground">
+              회색 항목은 아직 {CONFIRM_THRESHOLD}회 미만 ({pending.length}개). 더 대화하면 확정돼요.
+            </p>
+          )}
+
+          {/* 직접 추가 */}
+          <div className="mt-4 flex gap-2">
+            <input
+              type="text"
+              value={addInput}
+              onChange={(e) => setAddInput(e.target.value)}
+              onKeyDown={(e) => e.key === "Enter" && handleAdd()}
+              placeholder="관심사 직접 추가..."
+              className="h-9 flex-1 rounded-lg border border-border bg-card px-3 text-sm outline-none focus:border-primary/60 focus:ring-2 focus:ring-primary/20"
+            />
+            <button
+              type="button"
+              onClick={handleAdd}
+              disabled={!addInput.trim()}
+              className="flex h-9 items-center gap-1 rounded-lg bg-primary px-3 text-sm font-medium text-primary-foreground disabled:opacity-40"
+            >
+              <Plus className="h-4 w-4" /> 추가
+            </button>
+          </div>
+
+          {/* 추천 섹션 */}
+          <div className="mt-4">
+            <RecommendSection confirmed={confirmed} />
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}

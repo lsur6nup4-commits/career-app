@@ -44,7 +44,7 @@ export async function POST(request: Request) {
     });
   }
 
-  const system = buildSystemPrompt(body.diagnosisContext);
+  const system = buildSystemPrompt(body.diagnosisContext, body.userInterests);
   const client = new Anthropic({ apiKey });
 
   const stream = new ReadableStream({

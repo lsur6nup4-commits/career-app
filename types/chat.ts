@@ -9,6 +9,8 @@ export type ChatMessage = {
 export type ChatRequestBody = {
   messages: Array<{ role: ChatRole; content: string }>;
   diagnosisContext?: DiagnosisContext;
+  /** 확정된 관심사 키워드 목록 (localStorage → 서버 시스템 프롬프트 반영) */
+  userInterests?: string[];
 };
 
 export type DiagnosisContext = {
