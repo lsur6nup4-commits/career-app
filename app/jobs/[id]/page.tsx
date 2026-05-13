@@ -9,6 +9,8 @@ import {
   ExternalLink,
 } from "lucide-react";
 import { getAllJobs, getJobById, getRelatedMajors } from "@/lib/jobs";
+import { getAiRisk } from "@/lib/ai-risk";
+import { AiRiskCard } from "@/components/jobs/ai-risk-card";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
 import { EmptyState } from "@/components/ui/empty-state";
@@ -54,6 +56,7 @@ export default async function JobDetailPage({ params }: Props) {
   const job = getJobById(id);
   if (!job) notFound();
 
+  const aiRisk = getAiRisk(job.job_cd);
   const relMajors = getRelatedMajors(job);
   const relJobNames = job.rel_job_nm
     ? job.rel_job_nm
@@ -137,6 +140,9 @@ export default async function JobDetailPage({ params }: Props) {
           </a>
         </div>
       </header>
+
+      {/* ── AI 자동화 위험도 ──────────────────────────────────────────── */}
+      {aiRisk && <AiRiskCard risk={aiRisk} />}
 
       {/* ── 직업 설명 ─────────────────────────────────────────────────── */}
       {job.work && (

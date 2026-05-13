@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { GraduationCap } from "lucide-react";
 import { getAllJobs, getJobCategories } from "@/lib/jobs";
+import { getAllAiRisk } from "@/lib/ai-risk";
 import { JobSearch } from "@/components/jobs/job-search";
 
 export const metadata = {
@@ -10,6 +11,9 @@ export const metadata = {
 export default function JobsPage() {
   const jobs = getAllJobs();
   const categories = getJobCategories();
+  const riskData = Object.fromEntries(
+    getAllAiRisk().map((r) => [r.job_cd, { risk_2024: r.risk_2024, rate_2024: r.rate_2024 }]),
+  );
 
   const mappedCount = jobs.filter((j) => j.relatedMajors.length > 0).length;
 
@@ -35,7 +39,7 @@ export default function JobsPage() {
         <strong className="text-foreground">커리어넷</strong> 직업정보 + 대입정보포털 CSV 데이터 교차 분석
       </div>
 
-      <JobSearch jobs={jobs} categories={categories} />
+      <JobSearch jobs={jobs} categories={categories} riskData={riskData} />
     </div>
   );
 }

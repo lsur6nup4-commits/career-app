@@ -1,0 +1,4418 @@
+[
+  {
+    "job_cd": 1,
+    "rate_2024": 35,
+    "rate_2027": 49,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 5,
+    "rate_2024": 41,
+    "rate_2027": 59,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 6,
+    "rate_2024": 51.5,
+    "rate_2027": 75.7,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 8,
+    "rate_2024": 51.6,
+    "rate_2027": 74,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 10,
+    "rate_2024": 57.8,
+    "rate_2027": 85.9,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 13,
+    "rate_2024": 43.8,
+    "rate_2027": 67.9,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 15,
+    "rate_2024": 37.5,
+    "rate_2027": 71.6,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 17,
+    "rate_2024": 37,
+    "rate_2027": 54,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 19,
+    "rate_2024": 42,
+    "rate_2027": 60,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 20,
+    "rate_2024": 37.2,
+    "rate_2027": 63.6,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 21,
+    "rate_2024": 43.1,
+    "rate_2027": 74.4,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 23,
+    "rate_2024": 41,
+    "rate_2027": 57,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 24,
+    "rate_2024": 41,
+    "rate_2027": 58,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 25,
+    "rate_2024": 39,
+    "rate_2027": 55,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 29,
+    "rate_2024": 36,
+    "rate_2027": 53,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 30,
+    "rate_2024": 34.4,
+    "rate_2027": 60.1,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 31,
+    "rate_2024": 34,
+    "rate_2027": 51,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 32,
+    "rate_2024": 29.6,
+    "rate_2027": 68.3,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 33,
+    "rate_2024": 50,
+    "rate_2027": 82.4,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 34,
+    "rate_2024": 18.9,
+    "rate_2027": 48.1,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 36,
+    "rate_2024": 46,
+    "rate_2027": 67,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 37,
+    "rate_2024": 31.9,
+    "rate_2027": 62.3,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 38,
+    "rate_2024": 38,
+    "rate_2027": 55,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 39,
+    "rate_2024": 37,
+    "rate_2027": 54,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 40,
+    "rate_2024": 52.5,
+    "rate_2027": 81.5,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 41,
+    "rate_2024": 42,
+    "rate_2027": 60,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 42,
+    "rate_2024": 45,
+    "rate_2027": 65,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 46,
+    "rate_2024": 36.3,
+    "rate_2027": 64.4,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 47,
+    "rate_2024": 47,
+    "rate_2027": 65,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 48,
+    "rate_2024": 36.5,
+    "rate_2027": 71.3,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 49,
+    "rate_2024": 28.1,
+    "rate_2027": 55.8,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 50,
+    "rate_2024": 44.6,
+    "rate_2027": 70.2,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 52,
+    "rate_2024": 42,
+    "rate_2027": 60,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 53,
+    "rate_2024": 37,
+    "rate_2027": 55,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 54,
+    "rate_2024": 36.6,
+    "rate_2027": 71.7,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 56,
+    "rate_2024": 42,
+    "rate_2027": 59,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 57,
+    "rate_2024": 43,
+    "rate_2027": 78.8,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 58,
+    "rate_2024": 47,
+    "rate_2027": 65,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 59,
+    "rate_2024": 60.9,
+    "rate_2027": 87.2,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 61,
+    "rate_2024": 38.5,
+    "rate_2027": 62.7,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 63,
+    "rate_2024": 37.2,
+    "rate_2027": 63.7,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 64,
+    "rate_2024": 41,
+    "rate_2027": 59,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 65,
+    "rate_2024": 29.7,
+    "rate_2027": 53.9,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 66,
+    "rate_2024": 35,
+    "rate_2027": 68.4,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 68,
+    "rate_2024": 28,
+    "rate_2027": 40,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 69,
+    "rate_2024": 47,
+    "rate_2027": 65,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 70,
+    "rate_2024": 26,
+    "rate_2027": 38,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 72,
+    "rate_2024": 51.5,
+    "rate_2027": 70.8,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 73,
+    "rate_2024": 43,
+    "rate_2027": 61,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 74,
+    "rate_2024": 22.9,
+    "rate_2027": 57.5,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 75,
+    "rate_2024": 36.2,
+    "rate_2027": 76.2,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 76,
+    "rate_2024": 46,
+    "rate_2027": 64,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 77,
+    "rate_2024": 24,
+    "rate_2027": 39,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 81,
+    "rate_2024": 46.5,
+    "rate_2027": 86.8,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 83,
+    "rate_2024": 40,
+    "rate_2027": 58,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 84,
+    "rate_2024": 47,
+    "rate_2027": 67,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 85,
+    "rate_2024": 50,
+    "rate_2027": 70,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 86,
+    "rate_2024": 43.8,
+    "rate_2027": 67.9,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 87,
+    "rate_2024": 31.8,
+    "rate_2027": 56.6,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 88,
+    "rate_2024": 35,
+    "rate_2027": 53,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 90,
+    "rate_2024": 44,
+    "rate_2027": 62,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 92,
+    "rate_2024": 27.5,
+    "rate_2027": 50.4,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 97,
+    "rate_2024": 28,
+    "rate_2027": 59.9,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 98,
+    "rate_2024": 33,
+    "rate_2027": 50,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 100,
+    "rate_2024": 49,
+    "rate_2027": 67,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 101,
+    "rate_2024": 49.7,
+    "rate_2027": 81.6,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 102,
+    "rate_2024": 16.6,
+    "rate_2027": 50.4,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 104,
+    "rate_2024": 35.4,
+    "rate_2027": 70,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 106,
+    "rate_2024": 43,
+    "rate_2027": 61,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 107,
+    "rate_2024": 35,
+    "rate_2027": 52,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 108,
+    "rate_2024": 41,
+    "rate_2027": 59,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 109,
+    "rate_2024": 35.4,
+    "rate_2027": 60.2,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 110,
+    "rate_2024": 46.7,
+    "rate_2027": 78.5,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 112,
+    "rate_2024": 67.6,
+    "rate_2027": 90.3,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 113,
+    "rate_2024": 47,
+    "rate_2027": 65,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 114,
+    "rate_2024": 64.3,
+    "rate_2027": 86.9,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 119,
+    "rate_2024": 57.8,
+    "rate_2027": 83.2,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 120,
+    "rate_2024": 40,
+    "rate_2027": 58,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 121,
+    "rate_2024": 39,
+    "rate_2027": 57,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 122,
+    "rate_2024": 45,
+    "rate_2027": 63,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 125,
+    "rate_2024": 41.1,
+    "rate_2027": 77.6,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 126,
+    "rate_2024": 31.6,
+    "rate_2027": 49.9,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 127,
+    "rate_2024": 35.3,
+    "rate_2027": 62,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 129,
+    "rate_2024": 21.2,
+    "rate_2027": 49.3,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 131,
+    "rate_2024": 35.6,
+    "rate_2027": 68,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 132,
+    "rate_2024": 37,
+    "rate_2027": 55,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 133,
+    "rate_2024": 49,
+    "rate_2027": 67,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 137,
+    "rate_2024": 36.3,
+    "rate_2027": 64.4,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 138,
+    "rate_2024": 37,
+    "rate_2027": 54,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 139,
+    "rate_2024": 43,
+    "rate_2027": 61,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 140,
+    "rate_2024": 35.7,
+    "rate_2027": 60.3,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 142,
+    "rate_2024": 43,
+    "rate_2027": 64,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 143,
+    "rate_2024": 27.4,
+    "rate_2027": 61.5,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 144,
+    "rate_2024": 49,
+    "rate_2027": 67,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 145,
+    "rate_2024": 56,
+    "rate_2027": 76,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 147,
+    "rate_2024": 46,
+    "rate_2027": 64,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 148,
+    "rate_2024": 25.3,
+    "rate_2027": 43,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 149,
+    "rate_2024": 32.1,
+    "rate_2027": 61.5,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 150,
+    "rate_2024": 39.8,
+    "rate_2027": 72.6,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 151,
+    "rate_2024": 36.3,
+    "rate_2027": 70.4,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 153,
+    "rate_2024": 34.8,
+    "rate_2027": 59.3,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 155,
+    "rate_2024": 29,
+    "rate_2027": 41,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 157,
+    "rate_2024": 57.8,
+    "rate_2027": 83.2,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 159,
+    "rate_2024": 45,
+    "rate_2027": 63,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 162,
+    "rate_2024": 45.1,
+    "rate_2027": 76.8,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 163,
+    "rate_2024": 41,
+    "rate_2027": 59,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 164,
+    "rate_2024": 40,
+    "rate_2027": 58,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 165,
+    "rate_2024": 21.1,
+    "rate_2027": 62.7,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 166,
+    "rate_2024": 58.2,
+    "rate_2027": 76.4,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 167,
+    "rate_2024": 34,
+    "rate_2027": 48,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 169,
+    "rate_2024": 46.2,
+    "rate_2027": 78.2,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 171,
+    "rate_2024": 52.4,
+    "rate_2027": 70.6,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 172,
+    "rate_2024": 52.4,
+    "rate_2027": 70.6,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 173,
+    "rate_2024": 34.3,
+    "rate_2027": 67.3,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 174,
+    "rate_2024": 40,
+    "rate_2027": 53.3,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 175,
+    "rate_2024": 43.6,
+    "rate_2027": 80.7,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 176,
+    "rate_2024": 37.6,
+    "rate_2027": 75,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 177,
+    "rate_2024": 35,
+    "rate_2027": 49,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 178,
+    "rate_2024": 30,
+    "rate_2027": 46,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 179,
+    "rate_2024": 38.9,
+    "rate_2027": 65.4,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 180,
+    "rate_2024": 41.2,
+    "rate_2027": 72.6,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 182,
+    "rate_2024": 56.7,
+    "rate_2027": 80,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 183,
+    "rate_2024": 19,
+    "rate_2027": 29,
+    "risk_2024": "low",
+    "risk_2027": "low",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 186,
+    "rate_2024": 22,
+    "rate_2027": 38,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 187,
+    "rate_2024": 50.1,
+    "rate_2027": 86.3,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 189,
+    "rate_2024": 22.5,
+    "rate_2027": 32,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 190,
+    "rate_2024": 47,
+    "rate_2027": 65,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 192,
+    "rate_2024": 38.3,
+    "rate_2027": 52.9,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 193,
+    "rate_2024": 36,
+    "rate_2027": 65.7,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 195,
+    "rate_2024": 38,
+    "rate_2027": 56,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 198,
+    "rate_2024": 31.5,
+    "rate_2027": 69.2,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 199,
+    "rate_2024": 24.3,
+    "rate_2027": 51.2,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 201,
+    "rate_2024": 50.9,
+    "rate_2027": 75.7,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 202,
+    "rate_2024": 52,
+    "rate_2027": 70,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 203,
+    "rate_2024": 55,
+    "rate_2027": 74.6,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 205,
+    "rate_2024": 35.4,
+    "rate_2027": 69.1,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 206,
+    "rate_2024": 15.1,
+    "rate_2027": 45.9,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 207,
+    "rate_2024": 29.3,
+    "rate_2027": 62.9,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 208,
+    "rate_2024": 29.4,
+    "rate_2027": 68.8,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 209,
+    "rate_2024": 45,
+    "rate_2027": 63,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 211,
+    "rate_2024": 46,
+    "rate_2027": 64,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 212,
+    "rate_2024": 40,
+    "rate_2027": 57,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 214,
+    "rate_2024": 24.6,
+    "rate_2027": 64.2,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 215,
+    "rate_2024": 66.5,
+    "rate_2027": 94.2,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 217,
+    "rate_2024": 30.4,
+    "rate_2027": 60.8,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 219,
+    "rate_2024": 56.5,
+    "rate_2027": 81.1,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 222,
+    "rate_2024": 51,
+    "rate_2027": 80,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 223,
+    "rate_2024": 53,
+    "rate_2027": 71,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 224,
+    "rate_2024": 31.6,
+    "rate_2027": 55.4,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 226,
+    "rate_2024": 41.5,
+    "rate_2027": 72.3,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 230,
+    "rate_2024": 32,
+    "rate_2027": 59.7,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 231,
+    "rate_2024": 29.6,
+    "rate_2027": 63,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 232,
+    "rate_2024": 32,
+    "rate_2027": 63.2,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 233,
+    "rate_2024": 54,
+    "rate_2027": 72,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 234,
+    "rate_2024": 53,
+    "rate_2027": 71,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 236,
+    "rate_2024": 33.3,
+    "rate_2027": 59.5,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 238,
+    "rate_2024": 18,
+    "rate_2027": 41.7,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 239,
+    "rate_2024": 54,
+    "rate_2027": 76,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 240,
+    "rate_2024": 36.3,
+    "rate_2027": 72,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 242,
+    "rate_2024": 49.2,
+    "rate_2027": 76.2,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 243,
+    "rate_2024": 17.8,
+    "rate_2027": 37.2,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 244,
+    "rate_2024": 37.3,
+    "rate_2027": 71.7,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 247,
+    "rate_2024": 27,
+    "rate_2027": 43,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 252,
+    "rate_2024": 36,
+    "rate_2027": 54,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 253,
+    "rate_2024": 41.2,
+    "rate_2027": 64.7,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 255,
+    "rate_2024": 37.9,
+    "rate_2027": 73.4,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 256,
+    "rate_2024": 43.8,
+    "rate_2027": 74.6,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 258,
+    "rate_2024": 33.4,
+    "rate_2027": 60.1,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 260,
+    "rate_2024": 46.4,
+    "rate_2027": 78.1,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 261,
+    "rate_2024": 62.5,
+    "rate_2027": 80,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 262,
+    "rate_2024": 47.6,
+    "rate_2027": 80.3,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 264,
+    "rate_2024": 35.7,
+    "rate_2027": 65.5,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 265,
+    "rate_2024": 50.5,
+    "rate_2027": 82,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 266,
+    "rate_2024": 43.2,
+    "rate_2027": 78.3,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 267,
+    "rate_2024": 50.7,
+    "rate_2027": 79.1,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 268,
+    "rate_2024": 23.3,
+    "rate_2027": 51,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 269,
+    "rate_2024": 47.5,
+    "rate_2027": 75.3,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 270,
+    "rate_2024": 61,
+    "rate_2027": 78.7,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 271,
+    "rate_2024": 35.3,
+    "rate_2027": 70.5,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 272,
+    "rate_2024": 51.7,
+    "rate_2027": 66.2,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 273,
+    "rate_2024": 28.5,
+    "rate_2027": 49.8,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 278,
+    "rate_2024": 29,
+    "rate_2027": 45,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 280,
+    "rate_2024": 43.8,
+    "rate_2027": 70.3,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 281,
+    "rate_2024": 26,
+    "rate_2027": 42,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 283,
+    "rate_2024": 45,
+    "rate_2027": 62,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 284,
+    "rate_2024": 41,
+    "rate_2027": 59,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 285,
+    "rate_2024": 22,
+    "rate_2027": 38,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 286,
+    "rate_2024": 21,
+    "rate_2027": 37,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 288,
+    "rate_2024": 33,
+    "rate_2027": 56.1,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 291,
+    "rate_2024": 39.8,
+    "rate_2027": 68.4,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 293,
+    "rate_2024": 33.1,
+    "rate_2027": 61.4,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 294,
+    "rate_2024": 37.9,
+    "rate_2027": 70.9,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 295,
+    "rate_2024": 71.6,
+    "rate_2027": 86.7,
+    "risk_2024": "high",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 296,
+    "rate_2024": 22,
+    "rate_2027": 38,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 298,
+    "rate_2024": 21.9,
+    "rate_2027": 40.4,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 299,
+    "rate_2024": 55.2,
+    "rate_2027": 82.8,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 301,
+    "rate_2024": 45.9,
+    "rate_2027": 73.6,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 303,
+    "rate_2024": 40,
+    "rate_2027": 72.9,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 304,
+    "rate_2024": 25,
+    "rate_2027": 41,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 305,
+    "rate_2024": 24,
+    "rate_2027": 40,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 306,
+    "rate_2024": 47.4,
+    "rate_2027": 67.1,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 309,
+    "rate_2024": 31,
+    "rate_2027": 47,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 310,
+    "rate_2024": 52.6,
+    "rate_2027": 82.8,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 311,
+    "rate_2024": 47,
+    "rate_2027": 65,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 313,
+    "rate_2024": 44.2,
+    "rate_2027": 68.8,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 314,
+    "rate_2024": 26,
+    "rate_2027": 42,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 316,
+    "rate_2024": 42,
+    "rate_2027": 60,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 317,
+    "rate_2024": 32.3,
+    "rate_2027": 59.3,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 318,
+    "rate_2024": 40,
+    "rate_2027": 58,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 319,
+    "rate_2024": 25.9,
+    "rate_2027": 54.1,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 320,
+    "rate_2024": 20.4,
+    "rate_2027": 50.3,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 321,
+    "rate_2024": 46.2,
+    "rate_2027": 69.7,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 322,
+    "rate_2024": 35.1,
+    "rate_2027": 62.8,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 323,
+    "rate_2024": 49,
+    "rate_2027": 66,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 325,
+    "rate_2024": 30,
+    "rate_2027": 44,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 326,
+    "rate_2024": 33.2,
+    "rate_2027": 71.9,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 327,
+    "rate_2024": 24,
+    "rate_2027": 40,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 328,
+    "rate_2024": 35.2,
+    "rate_2027": 60.2,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 332,
+    "rate_2024": 57.3,
+    "rate_2027": 82.7,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 333,
+    "rate_2024": 31.3,
+    "rate_2027": 66.9,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 334,
+    "rate_2024": 52,
+    "rate_2027": 70,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 335,
+    "rate_2024": 7.5,
+    "rate_2027": 24.9,
+    "risk_2024": "low",
+    "risk_2027": "low",
+    "source": "actual"
+  },
+  {
+    "job_cd": 336,
+    "rate_2024": 3.2,
+    "rate_2027": 3.2,
+    "risk_2024": "low",
+    "risk_2027": "low",
+    "source": "actual"
+  },
+  {
+    "job_cd": 337,
+    "rate_2024": 39.9,
+    "rate_2027": 68.8,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 338,
+    "rate_2024": 21,
+    "rate_2027": 36,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 339,
+    "rate_2024": 23,
+    "rate_2027": 39,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 340,
+    "rate_2024": 22,
+    "rate_2027": 38,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 344,
+    "rate_2024": 32.1,
+    "rate_2027": 61.7,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 345,
+    "rate_2024": 32,
+    "rate_2027": 46,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 346,
+    "rate_2024": 49.7,
+    "rate_2027": 81.6,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 347,
+    "rate_2024": 44,
+    "rate_2027": 62,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 348,
+    "rate_2024": 38.4,
+    "rate_2027": 75.6,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 349,
+    "rate_2024": 56.2,
+    "rate_2027": 76.2,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 352,
+    "rate_2024": 40.6,
+    "rate_2027": 54.8,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 353,
+    "rate_2024": 29.6,
+    "rate_2027": 44,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 354,
+    "rate_2024": 58.9,
+    "rate_2027": 80.2,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 355,
+    "rate_2024": 30.5,
+    "rate_2027": 74.5,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 356,
+    "rate_2024": 48.2,
+    "rate_2027": 61.2,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 358,
+    "rate_2024": 42.7,
+    "rate_2027": 75,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 359,
+    "rate_2024": 44.7,
+    "rate_2027": 72.3,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 360,
+    "rate_2024": 36.3,
+    "rate_2027": 61,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 362,
+    "rate_2024": 33.8,
+    "rate_2027": 78.4,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 363,
+    "rate_2024": 37.4,
+    "rate_2027": 75.2,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 364,
+    "rate_2024": 36.1,
+    "rate_2027": 57.1,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 365,
+    "rate_2024": 36,
+    "rate_2027": 52,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 366,
+    "rate_2024": 32.3,
+    "rate_2027": 60.5,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 369,
+    "rate_2024": 35.6,
+    "rate_2027": 65.6,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 370,
+    "rate_2024": 29,
+    "rate_2027": 43,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 371,
+    "rate_2024": 32.9,
+    "rate_2027": 66.6,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 372,
+    "rate_2024": 30.7,
+    "rate_2027": 52.5,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 373,
+    "rate_2024": 28,
+    "rate_2027": 44,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 374,
+    "rate_2024": 37.6,
+    "rate_2027": 62,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 375,
+    "rate_2024": 31.6,
+    "rate_2027": 60.5,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 376,
+    "rate_2024": 45.8,
+    "rate_2027": 71.3,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 378,
+    "rate_2024": 52,
+    "rate_2027": 70,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 379,
+    "rate_2024": 39.6,
+    "rate_2027": 68.8,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 380,
+    "rate_2024": 25.4,
+    "rate_2027": 61.8,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 383,
+    "rate_2024": 50,
+    "rate_2027": 78.2,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 384,
+    "rate_2024": 28,
+    "rate_2027": 44,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 385,
+    "rate_2024": 34,
+    "rate_2027": 54.5,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 386,
+    "rate_2024": 36.6,
+    "rate_2027": 67.3,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 388,
+    "rate_2024": 49.4,
+    "rate_2027": 78.4,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 390,
+    "rate_2024": 38.9,
+    "rate_2027": 70.5,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 391,
+    "rate_2024": 56.6,
+    "rate_2027": 70.7,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 392,
+    "rate_2024": 38.9,
+    "rate_2027": 59.5,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 395,
+    "rate_2024": 51.2,
+    "rate_2027": 76.6,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 396,
+    "rate_2024": 21,
+    "rate_2027": 39,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 397,
+    "rate_2024": 21.2,
+    "rate_2027": 55.1,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 398,
+    "rate_2024": 37.9,
+    "rate_2027": 68.4,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 400,
+    "rate_2024": 34.5,
+    "rate_2027": 57.1,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 401,
+    "rate_2024": 36.5,
+    "rate_2027": 70.6,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 403,
+    "rate_2024": 50.3,
+    "rate_2027": 75.3,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 404,
+    "rate_2024": 48,
+    "rate_2027": 66,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 405,
+    "rate_2024": 35,
+    "rate_2027": 51,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 406,
+    "rate_2024": 30.8,
+    "rate_2027": 58.3,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 407,
+    "rate_2024": 42.4,
+    "rate_2027": 65,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 408,
+    "rate_2024": 39.8,
+    "rate_2027": 65,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 409,
+    "rate_2024": 27,
+    "rate_2027": 44,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 410,
+    "rate_2024": 53.7,
+    "rate_2027": 76,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 411,
+    "rate_2024": 38,
+    "rate_2027": 54,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 412,
+    "rate_2024": 27,
+    "rate_2027": 43,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 413,
+    "rate_2024": 44.9,
+    "rate_2027": 73.9,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 414,
+    "rate_2024": 33.5,
+    "rate_2027": 53.4,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 415,
+    "rate_2024": 24,
+    "rate_2027": 40,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 416,
+    "rate_2024": 33.1,
+    "rate_2027": 61.4,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 417,
+    "rate_2024": 36.1,
+    "rate_2027": 61,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 418,
+    "rate_2024": 28.3,
+    "rate_2027": 54.6,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 419,
+    "rate_2024": 36.5,
+    "rate_2027": 62.3,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 421,
+    "rate_2024": 36,
+    "rate_2027": 62.8,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 426,
+    "rate_2024": 45,
+    "rate_2027": 66,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 427,
+    "rate_2024": 33.2,
+    "rate_2027": 66.1,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 428,
+    "rate_2024": 22,
+    "rate_2027": 40,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 429,
+    "rate_2024": 35,
+    "rate_2027": 53,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 430,
+    "rate_2024": 45,
+    "rate_2027": 63,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 431,
+    "rate_2024": 58,
+    "rate_2027": 82,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 435,
+    "rate_2024": 40,
+    "rate_2027": 58,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 440,
+    "rate_2024": 43.4,
+    "rate_2027": 77,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 441,
+    "rate_2024": 50.4,
+    "rate_2027": 77.7,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 443,
+    "rate_2024": 34.5,
+    "rate_2027": 68.5,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 444,
+    "rate_2024": 47.6,
+    "rate_2027": 73.4,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 450,
+    "rate_2024": 41.4,
+    "rate_2027": 69.9,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 452,
+    "rate_2024": 45,
+    "rate_2027": 63,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 457,
+    "rate_2024": 18,
+    "rate_2027": 36,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 458,
+    "rate_2024": 34.5,
+    "rate_2027": 68.5,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 459,
+    "rate_2024": 49.2,
+    "rate_2027": 76.8,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 462,
+    "rate_2024": 47.6,
+    "rate_2027": 73.4,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 465,
+    "rate_2024": 51.3,
+    "rate_2027": 72.1,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 466,
+    "rate_2024": 35.8,
+    "rate_2027": 63,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 467,
+    "rate_2024": 34,
+    "rate_2027": 67.9,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 469,
+    "rate_2024": 34,
+    "rate_2027": 67.9,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 470,
+    "rate_2024": 47.6,
+    "rate_2027": 73.4,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 474,
+    "rate_2024": 28,
+    "rate_2027": 54.2,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 475,
+    "rate_2024": 30,
+    "rate_2027": 48,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 476,
+    "rate_2024": 43,
+    "rate_2027": 61,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 481,
+    "rate_2024": 51.2,
+    "rate_2027": 76.6,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 539,
+    "rate_2024": 61.7,
+    "rate_2027": 86.6,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 592,
+    "rate_2024": 30,
+    "rate_2027": 65.7,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 626,
+    "rate_2024": 49.4,
+    "rate_2027": 78.4,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 740,
+    "rate_2024": 52.7,
+    "rate_2027": 80.6,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 795,
+    "rate_2024": 38.1,
+    "rate_2027": 76.7,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 834,
+    "rate_2024": 34,
+    "rate_2027": 67.9,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 911,
+    "rate_2024": 46.3,
+    "rate_2027": 80,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 914,
+    "rate_2024": 43.2,
+    "rate_2027": 78.3,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 915,
+    "rate_2024": 60.9,
+    "rate_2027": 87.2,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 916,
+    "rate_2024": 47.8,
+    "rate_2027": 71.6,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 917,
+    "rate_2024": 46.3,
+    "rate_2027": 67.6,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 920,
+    "rate_2024": 50.4,
+    "rate_2027": 77.7,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 922,
+    "rate_2024": 15,
+    "rate_2027": 33,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 923,
+    "rate_2024": 33,
+    "rate_2027": 50,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 926,
+    "rate_2024": 30,
+    "rate_2027": 46,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 927,
+    "rate_2024": 42.8,
+    "rate_2027": 78.2,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 928,
+    "rate_2024": 34.7,
+    "rate_2027": 73.5,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 929,
+    "rate_2024": 52.7,
+    "rate_2027": 80.6,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 933,
+    "rate_2024": 48.6,
+    "rate_2027": 78.8,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 934,
+    "rate_2024": 38.7,
+    "rate_2027": 70.9,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 937,
+    "rate_2024": 42.8,
+    "rate_2027": 78.2,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 938,
+    "rate_2024": 39.9,
+    "rate_2027": 70.3,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 941,
+    "rate_2024": 61.9,
+    "rate_2027": 83.4,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 946,
+    "rate_2024": 21,
+    "rate_2027": 37,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 948,
+    "rate_2024": 43.4,
+    "rate_2027": 77,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 950,
+    "rate_2024": 29.6,
+    "rate_2027": 63,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 951,
+    "rate_2024": 23.4,
+    "rate_2027": 49.4,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 952,
+    "rate_2024": 63.4,
+    "rate_2027": 93.5,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 954,
+    "rate_2024": 18,
+    "rate_2027": 28,
+    "risk_2024": "low",
+    "risk_2027": "low",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 957,
+    "rate_2024": 21,
+    "rate_2027": 37,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 963,
+    "rate_2024": 20,
+    "rate_2027": 30,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 966,
+    "rate_2024": 23,
+    "rate_2027": 39,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 968,
+    "rate_2024": 21,
+    "rate_2027": 37,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 973,
+    "rate_2024": 46.4,
+    "rate_2027": 78.1,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 975,
+    "rate_2024": 25,
+    "rate_2027": 41,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 976,
+    "rate_2024": 24,
+    "rate_2027": 40,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 978,
+    "rate_2024": 40,
+    "rate_2027": 58,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 985,
+    "rate_2024": 30,
+    "rate_2027": 50,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 988,
+    "rate_2024": 36.1,
+    "rate_2027": 57.1,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 994,
+    "rate_2024": 42,
+    "rate_2027": 60,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 995,
+    "rate_2024": 41,
+    "rate_2027": 59,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 997,
+    "rate_2024": 39,
+    "rate_2027": 57,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1004,
+    "rate_2024": 43,
+    "rate_2027": 61,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1006,
+    "rate_2024": 41,
+    "rate_2027": 59,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1007,
+    "rate_2024": 24,
+    "rate_2027": 36,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1009,
+    "rate_2024": 38,
+    "rate_2027": 56,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1010,
+    "rate_2024": 45,
+    "rate_2027": 65,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1061,
+    "rate_2024": 51,
+    "rate_2027": 69,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1068,
+    "rate_2024": 32,
+    "rate_2027": 63.2,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1076,
+    "rate_2024": 25.2,
+    "rate_2027": 56.2,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1078,
+    "rate_2024": 42,
+    "rate_2027": 63,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1080,
+    "rate_2024": 36.1,
+    "rate_2027": 57.1,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1081,
+    "rate_2024": 36.4,
+    "rate_2027": 64.9,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1087,
+    "rate_2024": 41,
+    "rate_2027": 59,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1088,
+    "rate_2024": 14,
+    "rate_2027": 32,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1089,
+    "rate_2024": 30.8,
+    "rate_2027": 58.3,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1090,
+    "rate_2024": 29.1,
+    "rate_2027": 59.4,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1092,
+    "rate_2024": 36.9,
+    "rate_2027": 78,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1093,
+    "rate_2024": 47.8,
+    "rate_2027": 71.6,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1096,
+    "rate_2024": 53.1,
+    "rate_2027": 85.8,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1097,
+    "rate_2024": 0,
+    "rate_2027": 3.3,
+    "risk_2024": "low",
+    "risk_2027": "low",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1100,
+    "rate_2024": 45,
+    "rate_2027": 63,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1101,
+    "rate_2024": 55,
+    "rate_2027": 73,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1102,
+    "rate_2024": 36,
+    "rate_2027": 52,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1103,
+    "rate_2024": 49.8,
+    "rate_2027": 81.6,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1104,
+    "rate_2024": 39,
+    "rate_2027": 56,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1105,
+    "rate_2024": 46,
+    "rate_2027": 65,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1106,
+    "rate_2024": 26,
+    "rate_2027": 44,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1107,
+    "rate_2024": 39.8,
+    "rate_2027": 64.1,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1108,
+    "rate_2024": 34,
+    "rate_2027": 50,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1109,
+    "rate_2024": 23,
+    "rate_2027": 39,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1110,
+    "rate_2024": 38,
+    "rate_2027": 56,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1111,
+    "rate_2024": 29.6,
+    "rate_2027": 47.7,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1112,
+    "rate_2024": 10.8,
+    "rate_2027": 28.2,
+    "risk_2024": "low",
+    "risk_2027": "low",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1113,
+    "rate_2024": 34.7,
+    "rate_2027": 73.5,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1114,
+    "rate_2024": 23.3,
+    "rate_2027": 70,
+    "risk_2024": "low",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1115,
+    "rate_2024": 58.3,
+    "rate_2027": 75,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1116,
+    "rate_2024": 43,
+    "rate_2027": 61,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1117,
+    "rate_2024": 42.9,
+    "rate_2027": 61.7,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1118,
+    "rate_2024": 27,
+    "rate_2027": 45,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1119,
+    "rate_2024": 28,
+    "rate_2027": 42,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1120,
+    "rate_2024": 35,
+    "rate_2027": 51,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1121,
+    "rate_2024": 20.8,
+    "rate_2027": 47.9,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1122,
+    "rate_2024": 40.7,
+    "rate_2027": 65.6,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1124,
+    "rate_2024": 39.9,
+    "rate_2027": 68.9,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1125,
+    "rate_2024": 24.5,
+    "rate_2027": 51.3,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1126,
+    "rate_2024": 28,
+    "rate_2027": 44,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1127,
+    "rate_2024": 26.5,
+    "rate_2027": 68.7,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1128,
+    "rate_2024": 30,
+    "rate_2027": 70,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1129,
+    "rate_2024": 22.5,
+    "rate_2027": 46.6,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1130,
+    "rate_2024": 38,
+    "rate_2027": 56,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1131,
+    "rate_2024": 37.1,
+    "rate_2027": 77.4,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1132,
+    "rate_2024": 35.2,
+    "rate_2027": 63,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1133,
+    "rate_2024": 25.9,
+    "rate_2027": 52.6,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1134,
+    "rate_2024": 45,
+    "rate_2027": 63,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1135,
+    "rate_2024": 48,
+    "rate_2027": 66,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1136,
+    "rate_2024": 8.3,
+    "rate_2027": 40.5,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1137,
+    "rate_2024": 15.5,
+    "rate_2027": 50.2,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1138,
+    "rate_2024": 25,
+    "rate_2027": 37,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1139,
+    "rate_2024": 56.7,
+    "rate_2027": 70.7,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1140,
+    "rate_2024": 30,
+    "rate_2027": 54.5,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1141,
+    "rate_2024": 42,
+    "rate_2027": 60,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1142,
+    "rate_2024": 41,
+    "rate_2027": 59,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1143,
+    "rate_2024": 36,
+    "rate_2027": 54,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1144,
+    "rate_2024": 39,
+    "rate_2027": 57,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1145,
+    "rate_2024": 49,
+    "rate_2027": 67,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1146,
+    "rate_2024": 48,
+    "rate_2027": 66,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1147,
+    "rate_2024": 47,
+    "rate_2027": 65,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1148,
+    "rate_2024": 46,
+    "rate_2027": 64,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1149,
+    "rate_2024": 45,
+    "rate_2027": 63,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1150,
+    "rate_2024": 44,
+    "rate_2027": 62,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1151,
+    "rate_2024": 43,
+    "rate_2027": 61,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1152,
+    "rate_2024": 29.3,
+    "rate_2027": 46.3,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1153,
+    "rate_2024": 31.6,
+    "rate_2027": 49.9,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1154,
+    "rate_2024": 16,
+    "rate_2027": 26,
+    "risk_2024": "low",
+    "risk_2027": "low",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1155,
+    "rate_2024": 37.5,
+    "rate_2027": 68.6,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1156,
+    "rate_2024": 25,
+    "rate_2027": 35,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1157,
+    "rate_2024": 24,
+    "rate_2027": 34,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1158,
+    "rate_2024": 47,
+    "rate_2027": 65,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1255,
+    "rate_2024": 42,
+    "rate_2027": 59,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1256,
+    "rate_2024": 34,
+    "rate_2027": 48,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1257,
+    "rate_2024": 49.6,
+    "rate_2027": 78.2,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1259,
+    "rate_2024": 27,
+    "rate_2027": 43,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1276,
+    "rate_2024": 23.4,
+    "rate_2027": 49.4,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1277,
+    "rate_2024": 36.3,
+    "rate_2027": 64.4,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1278,
+    "rate_2024": 10.8,
+    "rate_2027": 29.4,
+    "risk_2024": "low",
+    "risk_2027": "low",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1279,
+    "rate_2024": 54.3,
+    "rate_2027": 81.9,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1281,
+    "rate_2024": 51.6,
+    "rate_2027": 82.9,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1282,
+    "rate_2024": 37,
+    "rate_2027": 54,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1431,
+    "rate_2024": 31,
+    "rate_2027": 49,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1432,
+    "rate_2024": 44,
+    "rate_2027": 62,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1433,
+    "rate_2024": 43,
+    "rate_2027": 61,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1436,
+    "rate_2024": 37,
+    "rate_2027": 54,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1437,
+    "rate_2024": 17,
+    "rate_2027": 35,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1438,
+    "rate_2024": 24,
+    "rate_2027": 40,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1439,
+    "rate_2024": 23,
+    "rate_2027": 39,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 1440,
+    "rate_2024": 39.5,
+    "rate_2027": 75.3,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1441,
+    "rate_2024": 46.4,
+    "rate_2027": 78.1,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 1541,
+    "rate_2024": 51.6,
+    "rate_2027": 74,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 10001,
+    "rate_2024": 44,
+    "rate_2027": 62,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10002,
+    "rate_2024": 43,
+    "rate_2027": 61,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10003,
+    "rate_2024": 20,
+    "rate_2027": 38,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10004,
+    "rate_2024": 41,
+    "rate_2027": 59,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10005,
+    "rate_2024": 40,
+    "rate_2027": 58,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10006,
+    "rate_2024": 32,
+    "rate_2027": 51,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10007,
+    "rate_2024": 38,
+    "rate_2027": 56,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10008,
+    "rate_2024": 47,
+    "rate_2027": 65,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10009,
+    "rate_2024": 43,
+    "rate_2027": 78.8,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 10010,
+    "rate_2024": 58.9,
+    "rate_2027": 80.2,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 10011,
+    "rate_2024": 35,
+    "rate_2027": 49,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10012,
+    "rate_2024": 49.6,
+    "rate_2027": 78.2,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 10013,
+    "rate_2024": 58.9,
+    "rate_2027": 80.2,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 10014,
+    "rate_2024": 39,
+    "rate_2027": 56,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10015,
+    "rate_2024": 15,
+    "rate_2027": 35,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10016,
+    "rate_2024": 41.9,
+    "rate_2027": 69.4,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 10017,
+    "rate_2024": 25,
+    "rate_2027": 41,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10018,
+    "rate_2024": 20,
+    "rate_2027": 38,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10019,
+    "rate_2024": 37,
+    "rate_2027": 55,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10020,
+    "rate_2024": 45.9,
+    "rate_2027": 73.6,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 10021,
+    "rate_2024": 21,
+    "rate_2027": 37,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10022,
+    "rate_2024": 45.9,
+    "rate_2027": 73.6,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 10023,
+    "rate_2024": 45.9,
+    "rate_2027": 73.6,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 10024,
+    "rate_2024": 43,
+    "rate_2027": 61,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10025,
+    "rate_2024": 49.3,
+    "rate_2027": 74,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 10026,
+    "rate_2024": 51.5,
+    "rate_2027": 75.7,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 10027,
+    "rate_2024": 45.2,
+    "rate_2027": 72.8,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 10028,
+    "rate_2024": 34,
+    "rate_2027": 54.5,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 10029,
+    "rate_2024": 38,
+    "rate_2027": 56,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10030,
+    "rate_2024": 37,
+    "rate_2027": 55,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10031,
+    "rate_2024": 36,
+    "rate_2027": 54,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10032,
+    "rate_2024": 34,
+    "rate_2027": 67.9,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 10033,
+    "rate_2024": 37.3,
+    "rate_2027": 71.7,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 10034,
+    "rate_2024": 62,
+    "rate_2027": 82,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10035,
+    "rate_2024": 43,
+    "rate_2027": 61,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10036,
+    "rate_2024": 42,
+    "rate_2027": 60,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10037,
+    "rate_2024": 47,
+    "rate_2027": 69,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10038,
+    "rate_2024": 40,
+    "rate_2027": 58,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10039,
+    "rate_2024": 39.9,
+    "rate_2027": 68.8,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 10040,
+    "rate_2024": 48,
+    "rate_2027": 66,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10041,
+    "rate_2024": 47,
+    "rate_2027": 65,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10042,
+    "rate_2024": 22,
+    "rate_2027": 38,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10043,
+    "rate_2024": 45,
+    "rate_2027": 63,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10044,
+    "rate_2024": 63,
+    "rate_2027": 83,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10045,
+    "rate_2024": 44,
+    "rate_2027": 62,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10046,
+    "rate_2024": 33,
+    "rate_2027": 53,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10047,
+    "rate_2024": 45.1,
+    "rate_2027": 76.8,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 10048,
+    "rate_2024": 31,
+    "rate_2027": 45,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10049,
+    "rate_2024": 37,
+    "rate_2027": 54,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10050,
+    "rate_2024": 36.9,
+    "rate_2027": 78,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 10051,
+    "rate_2024": 43.9,
+    "rate_2027": 72.9,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 10052,
+    "rate_2024": 41.4,
+    "rate_2027": 69.9,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 10053,
+    "rate_2024": 25.4,
+    "rate_2027": 61.8,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 10054,
+    "rate_2024": 27,
+    "rate_2027": 43,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10055,
+    "rate_2024": 37,
+    "rate_2027": 53,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10056,
+    "rate_2024": 30,
+    "rate_2027": 48,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10057,
+    "rate_2024": 33,
+    "rate_2027": 53,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10058,
+    "rate_2024": 34,
+    "rate_2027": 50,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10059,
+    "rate_2024": 41,
+    "rate_2027": 59,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10060,
+    "rate_2024": 30,
+    "rate_2027": 44,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10061,
+    "rate_2024": 25,
+    "rate_2027": 43,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10062,
+    "rate_2024": 24,
+    "rate_2027": 42,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10063,
+    "rate_2024": 27,
+    "rate_2027": 41,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10064,
+    "rate_2024": 28,
+    "rate_2027": 44,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10065,
+    "rate_2024": 21,
+    "rate_2027": 37,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10066,
+    "rate_2024": 34,
+    "rate_2027": 57,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10067,
+    "rate_2024": 44,
+    "rate_2027": 62,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10068,
+    "rate_2024": 33,
+    "rate_2027": 47,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10069,
+    "rate_2024": 28,
+    "rate_2027": 46,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10070,
+    "rate_2024": 19,
+    "rate_2027": 37,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10071,
+    "rate_2024": 26,
+    "rate_2027": 42,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10072,
+    "rate_2024": 39.8,
+    "rate_2027": 68.4,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 10073,
+    "rate_2024": 24,
+    "rate_2027": 40,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10074,
+    "rate_2024": 35,
+    "rate_2027": 55,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10075,
+    "rate_2024": 28,
+    "rate_2027": 44,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10076,
+    "rate_2024": 49.4,
+    "rate_2027": 80.3,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 10077,
+    "rate_2024": 55,
+    "rate_2027": 73,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10078,
+    "rate_2024": 51,
+    "rate_2027": 68,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10079,
+    "rate_2024": 53,
+    "rate_2027": 71,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10080,
+    "rate_2024": 29.4,
+    "rate_2027": 68.8,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 10101,
+    "rate_2024": 29,
+    "rate_2027": 45,
+    "risk_2024": "low",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10102,
+    "rate_2024": 35,
+    "rate_2027": 68.4,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 10103,
+    "rate_2024": 38,
+    "rate_2027": 55,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10104,
+    "rate_2024": 45.1,
+    "rate_2027": 76.8,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 10105,
+    "rate_2024": 40.3,
+    "rate_2027": 71.1,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 10106,
+    "rate_2024": 18,
+    "rate_2027": 28,
+    "risk_2024": "low",
+    "risk_2027": "low",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10107,
+    "rate_2024": 34,
+    "rate_2027": 51,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10108,
+    "rate_2024": 36,
+    "rate_2027": 54,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10109,
+    "rate_2024": 35,
+    "rate_2027": 53,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10110,
+    "rate_2024": 45,
+    "rate_2027": 63,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10111,
+    "rate_2024": 44,
+    "rate_2027": 62,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10112,
+    "rate_2024": 43,
+    "rate_2027": 61,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "estimated"
+  },
+  {
+    "job_cd": 10113,
+    "rate_2024": 35,
+    "rate_2027": 68.4,
+    "risk_2024": "medium",
+    "risk_2027": "medium",
+    "source": "actual"
+  },
+  {
+    "job_cd": 10114,
+    "rate_2024": 51.5,
+    "rate_2027": 75.7,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 10115,
+    "rate_2024": 47.5,
+    "rate_2027": 79.1,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 10116,
+    "rate_2024": 67.6,
+    "rate_2027": 90.3,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 10117,
+    "rate_2024": 32.4,
+    "rate_2027": 71.7,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "actual"
+  },
+  {
+    "job_cd": 10118,
+    "rate_2024": 53,
+    "rate_2027": 75,
+    "risk_2024": "medium",
+    "risk_2027": "high",
+    "source": "estimated"
+  }
+]
