@@ -8,6 +8,7 @@ import {
   Home,
   MessageCircle,
   User,
+  Briefcase,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -30,6 +31,12 @@ const TABS = [
       p.startsWith("/universities"),
   },
   {
+    href: "/jobs",
+    label: "직업",
+    icon: Briefcase,
+    match: (p: string) => p.startsWith("/jobs"),
+  },
+  {
     href: "/chat",
     label: "상담",
     icon: MessageCircle,
@@ -47,7 +54,7 @@ export function BottomTabBar() {
       className="fixed inset-x-0 bottom-0 z-30 border-t border-border bg-card/95 backdrop-blur md:hidden"
       style={{ paddingBottom: "env(safe-area-inset-bottom, 0px)" }}
     >
-      <ul className="grid grid-cols-5">
+      <ul className="grid grid-cols-6">
         {TABS.map((t) => {
           const active = t.match(pathname);
           const Icon = t.icon;

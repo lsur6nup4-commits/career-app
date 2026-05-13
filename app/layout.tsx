@@ -74,6 +74,12 @@ export default function RootLayout({
                 학과 탐색
               </Link>
               <Link
+                href="/jobs"
+                className="rounded-md px-3 py-2 text-foreground/75 hover:bg-muted hover:text-foreground"
+              >
+                직업 탐색
+              </Link>
+              <Link
                 href="/universities"
                 className="rounded-md px-3 py-2 text-foreground/75 hover:bg-muted hover:text-foreground"
               >
