@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, MapPin } from "lucide-react";
+import { ArrowLeft, ExternalLink, MapPin } from "lucide-react";
 import {
   UNIVERSITY_TYPE_LABEL,
   getAllUniversities,
@@ -24,6 +24,11 @@ export async function generateMetadata({ params }: Props) {
   return { title: `${u.name} — 진로나침반` };
 }
 
+// ── 숫자 포맷 헬퍼 ────────────────────────────────────────────────────────
+function fmt(n: number, unit = "") {
+  return n.toLocaleString("ko-KR") + unit;
+}
+
 export default async function UniversityDetailPage({ params }: Props) {
   const { id } = await params;
   const u = getUniversityById(id);
@@ -34,6 +39,13 @@ export default async function UniversityDetailPage({ params }: Props) {
     return acc;
   }, {});
 
+  // 대학알리미 실데이터 보유 여부
+  const hasRealData =
+    u.tuitionAvg !== undefined ||
+    u.totalStudents !== undefined ||
+    u.admissionQuotaTotal !== undefined ||
+    u.homepageUrl !== undefined;
+
   return (
     <div className="space-y-6">
       <Link
@@ -43,6 +55,7 @@ export default async function UniversityDetailPage({ params }: Props) {
         <ArrowLeft className="h-4 w-4" /> 대학 목록으로
       </Link>
 
+      {/* ── 헤더 ───────────────────────────────────────────────────────── */}
       <header className="rounded-2xl border border-border bg-card p-6 shadow-soft">
         <div className="flex flex-wrap items-center gap-2">
           <Badge variant="secondary">{UNIVERSITY_TYPE_LABEL[u.type]}</Badge>
@@ -50,16 +63,62 @@ export default async function UniversityDetailPage({ params }: Props) {
             <MapPin className="h-3.5 w-3.5" aria-hidden="true" />
             {u.region}
           </span>
+          {u.establishedYear && (
+            <span className="text-sm text-muted-foreground">
+              설립 {u.establishedYear}년
+            </span>
+          )}
         </div>
-        <h1 className="mt-2 text-2xl font-bold tracking-tight sm:text-3xl">
-          {u.name}
-        </h1>
-        <p className="mt-2 text-sm text-muted-foreground">
-          학과 데이터는 추후 공공 API와 연동되어 실제 입학 정원·전형 정보로 업데이트될 예정이에요.
-        </p>
+
+        <div className="mt-2 flex flex-wrap items-start justify-between gap-3">
+          <h1 className="text-2xl font-bold tracking-tight sm:text-3xl">
+            {u.name}
+          </h1>
+          {u.homepageUrl && (
+            <a
+              href={u.homepageUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1 rounded-md border border-border bg-card px-3 py-1.5 text-xs font-medium text-muted-foreground hover:border-primary/40 hover:text-foreground"
+            >
+              홈페이지
+              <ExternalLink className="h-3 w-3" aria-hidden="true" />
+            </a>
+          )}
+        </div>
+
+        {!hasRealData && (
+          <p className="mt-2 text-sm text-muted-foreground">
+            학과 데이터는 추후 공공 API와 연동되어 실제 입학 정원·전형 정보로
+            업데이트될 예정이에요.
+          </p>
+        )}
+
+        {/* ── 대학알리미 실데이터 스탯 카드 ─────────────────────────────── */}
+        {hasRealData && (
+          <dl className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-4">
+            {u.totalStudents !== undefined && (
+              <StatCard label="재학생" value={fmt(u.totalStudents, "명")} />
+            )}
+            {u.admissionQuotaTotal !== undefined && (
+              <StatCard
+                label="입학정원"
+                value={fmt(u.admissionQuotaTotal, "명")}
+              />
+            )}
+            {u.tuitionAvg !== undefined && (
+              <StatCard
+                label="평균 등록금"
+                value={fmt(u.tuitionAvg, "만원")}
+                sub="연간"
+              />
+            )}
+            <StatCard label="개설 학과" value={fmt(u.majors.length, "개")} />
+          </dl>
+        )}
       </header>
 
-      {/* ── 정시·수시 비율 ────────────────────────────────────────────── */}
+      {/* ── 정시·수시 비율 ─────────────────────────────────────────────── */}
       <section aria-labelledby="admission-heading">
         <h2 id="admission-heading" className="mb-3 text-lg font-semibold">
           전형 비율
@@ -74,6 +133,7 @@ export default async function UniversityDetailPage({ params }: Props) {
         </Card>
       </section>
 
+      {/* ── 개설 학과 ──────────────────────────────────────────────────── */}
       <section aria-labelledby="majors-heading">
         <h2 id="majors-heading" className="mb-3 text-lg font-semibold">
           개설 학과 ({u.majors.length})
@@ -128,6 +188,42 @@ export default async function UniversityDetailPage({ params }: Props) {
           </div>
         )}
       </section>
+
+      {/* ── 데이터 출처 ────────────────────────────────────────────────── */}
+      {hasRealData && (
+        <p className="text-center text-xs text-muted-foreground">
+          재학생·입학정원·등록금 출처:{" "}
+          <a
+            href="https://www.academyinfo.go.kr"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline underline-offset-2 hover:text-foreground"
+          >
+            대학알리미
+          </a>
+        </p>
+      )}
+    </div>
+  );
+}
+
+// ── 스탯 카드 (내부 컴포넌트) ────────────────────────────────────────────
+function StatCard({
+  label,
+  value,
+  sub,
+}: {
+  label: string;
+  value: string;
+  sub?: string;
+}) {
+  return (
+    <div className="rounded-xl border border-border bg-card/60 p-3 text-center">
+      <dt className="text-xs text-muted-foreground">{label}</dt>
+      <dd className="mt-0.5 text-lg font-bold tabular-nums leading-tight">
+        {value}
+      </dd>
+      {sub && <dd className="text-[10px] text-muted-foreground">{sub}</dd>}
     </div>
   );
 }

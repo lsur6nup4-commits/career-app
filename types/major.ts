@@ -17,6 +17,8 @@ export type Major = {
   susiRatio: number;
   /** Other majors a student might also consider. Major ids. */
   relatedMajors?: string[];
+  /** CSV 기반 실제 평균 입학정원 (명). import-csv-data.mjs 로 갱신. */
+  averageAdmissionQuota?: number;
 };
 
 export type University = {
@@ -25,6 +27,19 @@ export type University = {
   shortName: string;
   region: string;
   type: "NATIONAL" | "PRIVATE" | "SPECIAL";
+  // ── 대학알리미 연동 필드 (scripts/fetch-academyinfo.ts 로 갱신) ────
+  /** 대학알리미 학교코드 */
+  schoolCode?: string;
+  /** 대학 홈페이지 URL */
+  homepageUrl?: string;
+  /** 설립연도 */
+  establishedYear?: number;
+  /** 재학생 수 */
+  totalStudents?: number;
+  /** 연간 평균 등록금 (만원). FinanceInfoService 기준. */
+  tuitionAvg?: number;
+  /** 학부 입학정원 (명). SchoolInfoService 기준. */
+  admissionQuotaTotal?: number;
 };
 
 export type UniversityMajor = {
@@ -72,6 +87,8 @@ export type MajorExtras = {
   industryKeywords: string[];
   activities: RecommendedActivity[];
   books: RecommendedBook[];
+  /** CSV 기반 관련 직업명 목록 (빈도순). import-csv-data.mjs 로 갱신. */
+  careerPaths?: string[];
 };
 
 export type MajorWithUniversities = Major & {
