@@ -69,6 +69,12 @@ export default function RootLayout({
                 진단
               </Link>
               <Link
+                href="/career-type"
+                className="rounded-md px-3 py-2 text-foreground/75 hover:bg-muted hover:text-foreground"
+              >
+                유형검사
+              </Link>
+              <Link
                 href="/majors"
                 className="rounded-md px-3 py-2 text-foreground/75 hover:bg-muted hover:text-foreground"
               >

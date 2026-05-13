@@ -1,0 +1,529 @@
+{
+  "version": "1.0",
+  "axes": {
+    "thinking": {
+      "key": "thinking",
+      "labelA": "T",
+      "labelB": "I",
+      "nameA": "논리형",
+      "nameB": "직관형",
+      "descA": "데이터와 근거로 분석하는 사고",
+      "descB": "직감과 큰 그림으로 파악하는 사고"
+    },
+    "activity": {
+      "key": "activity",
+      "labelA": "P",
+      "labelB": "O",
+      "nameA": "실천형",
+      "nameB": "탐구형",
+      "descA": "직접 만들고 경험하며 배우는 활동",
+      "descB": "깊이 연구하고 원리를 파악하는 활동"
+    },
+    "drive": {
+      "key": "drive",
+      "labelA": "S",
+      "labelB": "C",
+      "nameA": "독립형",
+      "nameB": "협력형",
+      "descA": "스스로 판단하고 주도하는 추진",
+      "descB": "함께 의논하고 지지하는 추진"
+    },
+    "expression": {
+      "key": "expression",
+      "labelA": "E",
+      "labelB": "M",
+      "nameA": "표현형",
+      "nameB": "몰입형",
+      "descA": "소통하고 표현하며 에너지를 얻는 유형",
+      "descB": "집중하고 탐구하며 에너지를 얻는 유형"
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "axis": "thinking",
+      "text": "문제가 생겼을 때, 나는 더...",
+      "options": [
+        { "label": "데이터와 근거를 찾아 원인부터 논리적으로 분석한다", "value": "T" },
+        { "label": "직감을 믿고 전체적인 흐름과 패턴으로 파악한다", "value": "I" }
+      ]
+    },
+    {
+      "id": 2,
+      "axis": "thinking",
+      "text": "중요한 선택을 해야 할 때 가장 믿는 것은?",
+      "options": [
+        { "label": "수집한 정보와 논리적 분석 결과", "value": "T" },
+        { "label": "내 마음이 당기는 방향과 직관적인 느낌", "value": "I" }
+      ]
+    },
+    {
+      "id": 3,
+      "axis": "thinking",
+      "text": "수업 중 더 즐거운 순간은?",
+      "options": [
+        { "label": "복잡한 문제를 단계별로 분해하고 풀어낼 때", "value": "T" },
+        { "label": "배운 내용이 현실과 연결되는 큰 그림이 보일 때", "value": "I" }
+      ]
+    },
+    {
+      "id": 4,
+      "axis": "thinking",
+      "text": "친구가 고민을 털어놓을 때 나는...",
+      "options": [
+        { "label": "왜 그런 상황이 됐는지 분석하고 해결책을 제안한다", "value": "T" },
+        { "label": "일단 공감하고 함께 느끼면서 이야기한다", "value": "I" }
+      ]
+    },
+    {
+      "id": 5,
+      "axis": "thinking",
+      "text": "새로운 것을 배울 때 나는...",
+      "options": [
+        { "label": "원리와 구조를 정확히 이해해야 다음으로 넘어간다", "value": "T" },
+        { "label": "전체 느낌을 먼저 잡고 세부사항은 나중에 채운다", "value": "I" }
+      ]
+    },
+    {
+      "id": 6,
+      "axis": "activity",
+      "text": "주말에 나는 주로...",
+      "options": [
+        { "label": "밖에 나가서 뭔가를 직접 하거나 새로운 것을 경험한다", "value": "P" },
+        { "label": "책, 영상, 유튜브로 관심 분야를 깊이 파고든다", "value": "O" }
+      ]
+    },
+    {
+      "id": 7,
+      "axis": "activity",
+      "text": "성취감이 느껴질 때는?",
+      "options": [
+        { "label": "내가 직접 만들거나 실행한 결과물이 완성됐을 때", "value": "P" },
+        { "label": "잘 몰랐던 것을 드디어 제대로 이해하게 됐을 때", "value": "O" }
+      ]
+    },
+    {
+      "id": 8,
+      "axis": "activity",
+      "text": "나에게 이상적인 공부 방식은?",
+      "options": [
+        { "label": "직접 해보면서 경험으로 익히는 것", "value": "P" },
+        { "label": "원리를 충분히 이해한 후 적용하는 것", "value": "O" }
+      ]
+    },
+    {
+      "id": 9,
+      "axis": "activity",
+      "text": "미래 직업에서 더 중요한 건?",
+      "options": [
+        { "label": "현장에서 직접 실행하고 눈에 보이는 결과를 만드는 것", "value": "P" },
+        { "label": "깊이 연구해서 전문 지식과 이론을 쌓는 것", "value": "O" }
+      ]
+    },
+    {
+      "id": 10,
+      "axis": "activity",
+      "text": "어려운 과제를 받으면 나는...",
+      "options": [
+        { "label": "일단 시작하면서 방향을 잡아간다", "value": "P" },
+        { "label": "충분히 조사하고 계획이 잡혔을 때 시작한다", "value": "O" }
+      ]
+    },
+    {
+      "id": 11,
+      "axis": "drive",
+      "text": "팀 프로젝트에서 나는...",
+      "options": [
+        { "label": "내 역할을 명확히 정하고 혼자 완성하는 게 편하다", "value": "S" },
+        { "label": "계속 의견을 나누며 함께 만들어가는 게 편하다", "value": "C" }
+      ]
+    },
+    {
+      "id": 12,
+      "axis": "drive",
+      "text": "뭔가 결정할 때 나는...",
+      "options": [
+        { "label": "내 판단을 믿고 스스로 결정한다", "value": "S" },
+        { "label": "주변 의견을 충분히 듣고 함께 결정한다", "value": "C" }
+      ]
+    },
+    {
+      "id": 13,
+      "axis": "drive",
+      "text": "새 아이디어가 떠오르면?",
+      "options": [
+        { "label": "나 혼자 먼저 실행해보고 결과를 가져간다", "value": "S" },
+        { "label": "바로 주변에 공유하고 함께 발전시킨다", "value": "C" }
+      ]
+    },
+    {
+      "id": 14,
+      "axis": "drive",
+      "text": "내가 에너지를 쏟는 방향은?",
+      "options": [
+        { "label": "나 자신의 성장과 목표 달성", "value": "S" },
+        { "label": "주변 사람들과의 관계와 팀의 성과", "value": "C" }
+      ]
+    },
+    {
+      "id": 15,
+      "axis": "drive",
+      "text": "어떤 업무 환경에서 더 잘할 것 같아?",
+      "options": [
+        { "label": "자유롭게 내 방식대로 일할 수 있는 환경", "value": "S" },
+        { "label": "팀원들과 긴밀하게 소통하며 함께하는 환경", "value": "C" }
+      ]
+    },
+    {
+      "id": 16,
+      "axis": "expression",
+      "text": "힘든 하루 후, 나는...",
+      "options": [
+        { "label": "친구나 가족과 이야기하면서 풀린다", "value": "E" },
+        { "label": "혼자 조용히 쉬면서 충전한다", "value": "M" }
+      ]
+    },
+    {
+      "id": 17,
+      "axis": "expression",
+      "text": "새로 배운 게 정말 재미있으면?",
+      "options": [
+        { "label": "바로 주변에 알리고 함께 이야기하고 싶다", "value": "E" },
+        { "label": "혼자 더 깊이 파고들며 음미하고 싶다", "value": "M" }
+      ]
+    },
+    {
+      "id": 18,
+      "axis": "expression",
+      "text": "발표나 토론이 있으면?",
+      "options": [
+        { "label": "내 생각을 전달할 기회라서 오히려 기대된다", "value": "E" },
+        { "label": "결과물이나 글로 보여주는 게 더 편하다", "value": "M" }
+      ]
+    },
+    {
+      "id": 19,
+      "axis": "expression",
+      "text": "나는 보통...",
+      "options": [
+        { "label": "다양한 주제에 두루두루 관심이 많다", "value": "E" },
+        { "label": "한 가지에 완전히 집중해서 깊이 파고든다", "value": "M" }
+      ]
+    },
+    {
+      "id": 20,
+      "axis": "expression",
+      "text": "직업에서 나는 어떤 역할이 잘 맞을까?",
+      "options": [
+        { "label": "사람들 앞에서 설명하고 소통하며 이끄는 역할", "value": "E" },
+        { "label": "조용히 혼자 집중해서 만들어내는 역할", "value": "M" }
+      ]
+    }
+  ],
+  "types": {
+    "TPSE": {
+      "code": "TPSE",
+      "nickname": "전략적 개척자",
+      "tagline": "논리와 행동, 그리고 강한 말로 세상을 바꾸는 리더",
+      "emoji": "🚀",
+      "description": "분석력과 실행력, 탁월한 소통력을 두루 갖춘 당신은 목표를 향해 논리적으로 계획하고 강력하게 실행합니다. 복잡한 상황도 데이터로 정리하고, 사람들을 설득해 함께 움직이게 만드는 타고난 리더입니다.",
+      "strengths": ["전략적 사고력", "강한 실행·추진력", "논리적 설득과 소통"],
+      "recommendedMajors": ["business", "law", "advertising", "industrial-engineering", "media-communication"],
+      "recommendedJobs": [
+        { "label": "경영컨설턴트", "jobCd": 202 },
+        { "label": "광고기획자", "jobCd": 283 },
+        { "label": "변호사", "jobCd": 375 },
+        { "label": "마케팅전문가", "jobCd": 1068 },
+        { "label": "투자분석가(애널리스트)", "jobCd": 950 }
+      ],
+      "famousPeople": ["일론 머스크", "스티브 잡스", "안철수"],
+      "color": "#4F46E5",
+      "colorBg": "#EEF2FF"
+    },
+    "TPSM": {
+      "code": "TPSM",
+      "nickname": "집중하는 발명가",
+      "tagline": "혼자 깊이 파고들어 세상에 없던 것을 만드는 엔지니어",
+      "emoji": "⚙️",
+      "description": "논리적 사고와 뛰어난 집중력으로 혼자 문제를 해결하는 것을 즐기는 당신. 복잡한 기술도 체계적으로 분해하고 정밀하게 완성합니다. 코드 한 줄, 설계 하나에 몰입하는 것이 진짜 즐거움인 유형입니다.",
+      "strengths": ["강한 집중력과 몰입", "정밀한 문제 해결", "자기주도적 실행"],
+      "recommendedMajors": ["computer-science", "software", "ai-engineering", "robotics", "data-science"],
+      "recommendedJobs": [
+        { "label": "시스템소프트웨어개발자", "jobCd": 834 },
+        { "label": "인공지능 엔지니어", "jobCd": 10117 },
+        { "label": "빅 데이터 전문가", "jobCd": 10032 },
+        { "label": "시스템엔지니어", "jobCd": 440 },
+        { "label": "로봇연구원", "jobCd": 66 }
+      ],
+      "famousPeople": ["빌 게이츠", "리누스 토발즈", "마크 저커버그"],
+      "color": "#0D9488",
+      "colorBg": "#F0FDFA"
+    },
+    "TPCE": {
+      "code": "TPCE",
+      "nickname": "논리적 팀리더",
+      "tagline": "팀을 이끌며 논리적으로 세상에 가치를 만드는 실행가",
+      "emoji": "🏆",
+      "description": "분석력과 협업 능력, 적극적 소통을 모두 갖춘 당신은 팀의 중심에서 방향을 잡고 성과를 만들어냅니다. 복잡한 문제도 팀원들과 함께 체계적으로 해결하는 조직형 리더입니다.",
+      "strengths": ["논리적 커뮤니케이션", "팀 조율과 협업", "실행 중심 문제 해결"],
+      "recommendedMajors": ["medicine", "business", "law", "education", "public-administration"],
+      "recommendedJobs": [
+        { "label": "전문의사", "jobCd": 25 },
+        { "label": "경영컨설턴트", "jobCd": 202 },
+        { "label": "변호사", "jobCd": 375 },
+        { "label": "인문계중등학교교사", "jobCd": 406 },
+        { "label": "행정부고위공무원", "jobCd": 1278 }
+      ],
+      "famousPeople": ["팀 쿡", "앙겔라 메르켈", "이재용"],
+      "color": "#2563EB",
+      "colorBg": "#EFF6FF"
+    },
+    "TPCM": {
+      "code": "TPCM",
+      "nickname": "신중한 전문가",
+      "tagline": "꼼꼼한 분석으로 사람의 생명과 안전을 지키는 전문가",
+      "emoji": "🩺",
+      "description": "철저한 분석력과 섬세한 협력으로 전문성을 쌓는 당신. 실수 없이 정확하게, 팀과 함께 최선의 결과를 만들어냅니다. 의료·법무·재무 등 높은 정확도가 요구되는 분야에서 빛나는 유형입니다.",
+      "strengths": ["꼼꼼한 정확성", "팀 내 신뢰 관계", "전문 지식 축적"],
+      "recommendedMajors": ["medicine", "pharmacy", "nursing", "accounting", "dentistry"],
+      "recommendedJobs": [
+        { "label": "전문의사", "jobCd": 25 },
+        { "label": "약사 및 한약사", "jobCd": 23 },
+        { "label": "간호사", "jobCd": 354 },
+        { "label": "회계사", "jobCd": 206 },
+        { "label": "치과의사", "jobCd": 34 }
+      ],
+      "famousPeople": ["마리 퀴리", "이국종", "앨버트 슈바이처"],
+      "color": "#0891B2",
+      "colorBg": "#ECFEFF"
+    },
+    "TOSE": {
+      "code": "TOSE",
+      "nickname": "탁월한 분석가",
+      "tagline": "깊이 연구하고 논리로 세상을 설명하는 독립적 지식인",
+      "emoji": "📊",
+      "description": "뛰어난 분석력과 연구력, 그리고 자신의 발견을 설득력 있게 전달하는 능력을 가진 당신. 데이터 속에서 패턴을 발견하고 이를 논리적으로 설명하는 것이 최대 강점입니다.",
+      "strengths": ["깊은 분석력", "독창적 연구", "논리적 발표·설득"],
+      "recommendedMajors": ["economics", "statistics", "mathematics", "data-science", "political-science"],
+      "recommendedJobs": [
+        { "label": "증권분석가", "jobCd": 239 },
+        { "label": "투자분석가(애널리스트)", "jobCd": 950 },
+        { "label": "이공학계열교수", "jobCd": 364 },
+        { "label": "빅 데이터 전문가", "jobCd": 10032 },
+        { "label": "정치학연구원", "jobCd": 269 }
+      ],
+      "famousPeople": ["장하준", "폴 크루그먼", "아인슈타인"],
+      "color": "#7C3AED",
+      "colorBg": "#F5F3FF"
+    },
+    "TOSM": {
+      "code": "TOSM",
+      "nickname": "깊은 탐구자",
+      "tagline": "세상의 근본 원리를 혼자 조용히 파고드는 순수 학자",
+      "emoji": "🔬",
+      "description": "한 분야에 완전히 몰입해 세상에서 가장 깊이 이해하는 것이 목표인 당신. 외부의 소음 없이 집중할 때 최고의 통찰이 탄생합니다. 역사를 바꾼 이론과 발견은 이런 유형에서 나왔습니다.",
+      "strengths": ["극도의 집중력", "순수한 탐구 열정", "논리적 이론 구성"],
+      "recommendedMajors": ["mathematics", "physics", "computer-science", "chemistry", "philosophy"],
+      "recommendedJobs": [
+        { "label": "물리학연구원", "jobCd": 8 },
+        { "label": "수학연구원", "jobCd": 17 },
+        { "label": "천문학연구원", "jobCd": 31 },
+        { "label": "철학연구원", "jobCd": 1104 },
+        { "label": "데이터마이너", "jobCd": 10051 }
+      ],
+      "famousPeople": ["앨런 튜링", "아이작 뉴턴", "존 내시"],
+      "color": "#1E3A8A",
+      "colorBg": "#EFF6FF"
+    },
+    "TOCE": {
+      "code": "TOCE",
+      "nickname": "소통하는 학자",
+      "tagline": "지식을 연구하고 세상과 함께 나누는 따뜻한 지식인",
+      "emoji": "📣",
+      "description": "깊이 연구하고 그 결과를 사람들과 함께 나누는 것을 즐기는 당신. 학문의 엄밀함과 사람들과의 소통 모두를 소중히 여깁니다. 교육·저널리즘·정책 분야에서 사회에 지식을 환원하는 역할이 잘 맞습니다.",
+      "strengths": ["지식 전달·교육 능력", "협력 연구", "사회적 설득력"],
+      "recommendedMajors": ["education", "sociology", "political-science", "media-communication", "psychology"],
+      "recommendedJobs": [
+        { "label": "인문사회계열교수", "jobCd": 988 },
+        { "label": "기자", "jobCd": 262 },
+        { "label": "교육학연구원", "jobCd": 1103 },
+        { "label": "외교관", "jobCd": 233 },
+        { "label": "정치학연구원", "jobCd": 269 }
+      ],
+      "famousPeople": ["리처드 파인만", "유발 하라리", "신영복"],
+      "color": "#0369A1",
+      "colorBg": "#F0F9FF"
+    },
+    "TOCM": {
+      "code": "TOCM",
+      "nickname": "조용한 연구자",
+      "tagline": "팀과 함께 조용히 세상을 바꾸는 과학자",
+      "emoji": "🧬",
+      "description": "혼자가 아닌 팀과 함께, 그리고 조용히 집중하며 연구하는 당신. 실험실과 연구소에서 빛나는 유형으로, 공동 연구를 통해 생명과학·의학 분야에 큰 발견을 이뤄냅니다.",
+      "strengths": ["협력적 연구 능력", "꼼꼼한 실험·분석", "장기 프로젝트 인내심"],
+      "recommendedMajors": ["biology", "chemistry", "pharmacy", "medicine", "statistics"],
+      "recommendedJobs": [
+        { "label": "생물학연구원", "jobCd": 13 },
+        { "label": "유전공학연구원", "jobCd": 24 },
+        { "label": "약사 및 한약사", "jobCd": 23 },
+        { "label": "임상병리사", "jobCd": 941 },
+        { "label": "물리학연구원", "jobCd": 8 }
+      ],
+      "famousPeople": ["마리 퀴리", "왓슨·크릭", "바바라 매클린톡"],
+      "color": "#065F46",
+      "colorBg": "#ECFDF5"
+    },
+    "IPSE": {
+      "code": "IPSE",
+      "nickname": "창의적 개척자",
+      "tagline": "번뜩이는 아이디어를 세상에 강하게 터뜨리는 크리에이터",
+      "emoji": "✨",
+      "description": "직관적 아이디어와 강한 표현력, 실행력을 모두 갖춘 당신. '왜 이렇게 해야 해?'라는 질문으로 새로운 길을 개척합니다. 광고·미디어·창업 등 창의성과 소통이 중요한 분야에서 폭발적인 역량을 발휘합니다.",
+      "strengths": ["독창적 아이디어", "강한 표현·전달력", "빠른 실행력"],
+      "recommendedMajors": ["advertising", "media-communication", "film-tv", "design", "business"],
+      "recommendedJobs": [
+        { "label": "광고기획자", "jobCd": 283 },
+        { "label": "광고 및 홍보전문가", "jobCd": 232 },
+        { "label": "방송연출가", "jobCd": 301 },
+        { "label": "마케팅전문가", "jobCd": 1068 },
+        { "label": "창업컨설턴트", "jobCd": 10079 }
+      ],
+      "famousPeople": ["스티브 잡스", "봉준호", "방탄소년단 RM"],
+      "color": "#DC2626",
+      "colorBg": "#FEF2F2"
+    },
+    "IPSM": {
+      "code": "IPSM",
+      "nickname": "몰입하는 창작자",
+      "tagline": "자신만의 세계를 깊이 파고들어 독창적 작품을 만드는 예술가",
+      "emoji": "🎨",
+      "description": "직관적 감성과 강한 집중력으로 자신만의 세계를 만들어내는 당신. 외부의 평가보다 내면의 기준에 따라 작업하며, 시간이 지나도 빛나는 독창적 결과물을 만들어냅니다.",
+      "strengths": ["독창적 창의성", "극도의 몰입력", "자신만의 미적 감각"],
+      "recommendedMajors": ["game-engineering", "animation", "film-tv", "composition", "visual-design"],
+      "recommendedJobs": [
+        { "label": "게임기획자", "jobCd": 923 },
+        { "label": "작곡가", "jobCd": 328 },
+        { "label": "소설가", "jobCd": 973 },
+        { "label": "영화감독", "jobCd": 322 },
+        { "label": "애니메이션기획자", "jobCd": 920 }
+      ],
+      "famousPeople": ["미야자키 하야오", "크리스토퍼 놀란", "방시혁"],
+      "color": "#9333EA",
+      "colorBg": "#FAF5FF"
+    },
+    "IPCE": {
+      "code": "IPCE",
+      "nickname": "따뜻한 활동가",
+      "tagline": "공감과 소통으로 사람들 곁에서 함께 세상을 바꾸는 활동가",
+      "emoji": "🌸",
+      "description": "사람에 대한 진심 어린 공감과 따뜻한 소통으로 주변에 긍정적 영향을 미치는 당신. 직접 현장에서 사람들과 함께하며 변화를 만드는 것이 가장 큰 보람입니다.",
+      "strengths": ["깊은 공감 능력", "팀 동기부여", "현장 중심 실행력"],
+      "recommendedMajors": ["social-welfare", "education", "psychology", "early-childhood-edu", "youth-studies"],
+      "recommendedJobs": [
+        { "label": "상담전문가", "jobCd": 380 },
+        { "label": "사회복지사", "jobCd": 379 },
+        { "label": "인문계중등학교교사", "jobCd": 406 },
+        { "label": "보육교사", "jobCd": 376 },
+        { "label": "사회단체활동가", "jobCd": 934 }
+      ],
+      "famousPeople": ["오프라 윈프리", "유재석", "테레사 수녀"],
+      "color": "#EA580C",
+      "colorBg": "#FFF7ED"
+    },
+    "IPCM": {
+      "code": "IPCM",
+      "nickname": "섬세한 조력자",
+      "tagline": "세심한 관찰과 조용한 헌신으로 사람을 치유하는 손길",
+      "emoji": "💚",
+      "description": "섬세한 관찰력과 조용한 헌신으로 사람들을 돕는 당신. 화려하지 않아도 꾸준히 곁에서 실질적인 변화를 만들어냅니다. 치료·돌봄 분야에서 없어서는 안 될 소중한 존재입니다.",
+      "strengths": ["섬세한 관찰력", "진심 어린 배려", "꼼꼼한 실무 능력"],
+      "recommendedMajors": ["nursing", "occupational-therapy", "physical-therapy", "early-childhood-edu", "social-welfare"],
+      "recommendedJobs": [
+        { "label": "간호사", "jobCd": 354 },
+        { "label": "작업치료사", "jobCd": 401 },
+        { "label": "물리치료사", "jobCd": 369 },
+        { "label": "상담전문가", "jobCd": 380 },
+        { "label": "유치원교사", "jobCd": 395 }
+      ],
+      "famousPeople": ["플로렌스 나이팅게일", "헬렌 켈러", "한경희(발명가)"],
+      "color": "#16A34A",
+      "colorBg": "#F0FDF4"
+    },
+    "IOSE": {
+      "code": "IOSE",
+      "nickname": "비전가",
+      "tagline": "아무도 가지 않은 길을 상상하고 새로운 미래를 설계하는 선각자",
+      "emoji": "🌟",
+      "description": "번뜩이는 직관과 독창적 통찰로 아무도 생각 못한 아이디어를 제시하는 당신. 현재보다 미래를, 세부보다 큰 그림을 봅니다. 건축·철학·AI 등 혁신이 필요한 분야에서 새로운 패러다임을 만들어냅니다.",
+      "strengths": ["혁신적 비전 제시", "창의적 개념 설계", "독창적 사고"],
+      "recommendedMajors": ["civil-engineering", "philosophy", "psychology", "anthropology", "design"],
+      "recommendedJobs": [
+        { "label": "건축사", "jobCd": 1277 },
+        { "label": "철학연구원", "jobCd": 1104 },
+        { "label": "심리학연구원", "jobCd": 20 },
+        { "label": "로봇연구원", "jobCd": 66 },
+        { "label": "창업컨설턴트", "jobCd": 10079 }
+      ],
+      "famousPeople": ["레오나르도 다빈치", "자하 하디드", "프로이트"],
+      "color": "#D97706",
+      "colorBg": "#FFFBEB"
+    },
+    "IOSM": {
+      "code": "IOSM",
+      "nickname": "내면 탐구자",
+      "tagline": "존재의 의미를 조용히 파고드는 깊이 있는 사색가",
+      "emoji": "🌙",
+      "description": "인간과 세상의 본질에 대해 끊임없이 질문하고 탐구하는 당신. 조용한 공간에서 혼자 깊이 생각할 때 가장 빛납니다. 철학·심리·문학 등 인간 내면을 다루는 분야에서 독보적인 깊이를 보여줍니다.",
+      "strengths": ["깊은 통찰력", "창의적 내면 탐구", "강한 자아성찰"],
+      "recommendedMajors": ["philosophy", "psychology", "korean-language-lit", "history", "mathematics"],
+      "recommendedJobs": [
+        { "label": "철학연구원", "jobCd": 1104 },
+        { "label": "소설가", "jobCd": 973 },
+        { "label": "심리학연구원", "jobCd": 20 },
+        { "label": "역사학연구원", "jobCd": 273 },
+        { "label": "수학연구원", "jobCd": 17 }
+      ],
+      "famousPeople": ["니체", "카프카", "이상(시인)"],
+      "color": "#6D28D9",
+      "colorBg": "#F5F3FF"
+    },
+    "IOCE": {
+      "code": "IOCE",
+      "nickname": "따뜻한 지식인",
+      "tagline": "공감과 지식을 결합해 사람과 사회를 치유하는 인문주의자",
+      "emoji": "🕊️",
+      "description": "지식 탐구와 사람에 대한 깊은 공감을 모두 가진 당신. 연구를 통해 세상을 이해하고, 그 이해를 사람들과 나눕니다. 심리학·사회학·교육 등 사람의 삶과 직결된 분야에서 따뜻한 변화를 만들어냅니다.",
+      "strengths": ["공감적 사고", "사람 중심 연구", "부드러운 리더십"],
+      "recommendedMajors": ["psychology", "sociology", "education", "social-welfare", "anthropology"],
+      "recommendedJobs": [
+        { "label": "심리학연구원", "jobCd": 20 },
+        { "label": "상담전문가", "jobCd": 380 },
+        { "label": "인문사회계열교수", "jobCd": 988 },
+        { "label": "사회단체활동가", "jobCd": 934 },
+        { "label": "외교관", "jobCd": 233 }
+      ],
+      "famousPeople": ["칼 융", "마틴 루터 킹", "아시시의 프란치스코"],
+      "color": "#BE185D",
+      "colorBg": "#FDF2F8"
+    },
+    "IOCM": {
+      "code": "IOCM",
+      "nickname": "조용한 몽상가",
+      "tagline": "세밀한 관찰과 깊은 통찰로 조용히 세상의 기록을 남기는 인문학자",
+      "emoji": "📚",
+      "description": "풍부한 내면세계와 세심한 관찰력으로 인류의 이야기를 기록하고 해석하는 당신. 화려하지 않지만 깊이 있는 작업을 통해 시간이 지나도 빛나는 가치를 만들어냅니다.",
+      "strengths": ["섬세한 관찰력", "깊은 인문학적 통찰", "지속적인 인내심"],
+      "recommendedMajors": ["korean-language-lit", "history", "philosophy", "archaeology", "english-language-lit"],
+      "recommendedJobs": [
+        { "label": "소설가", "jobCd": 973 },
+        { "label": "역사학연구원", "jobCd": 273 },
+        { "label": "사서", "jobCd": 268 },
+        { "label": "학예사(큐레이터)", "jobCd": 348 },
+        { "label": "번역가", "jobCd": 267 }
+      ],
+      "famousPeople": ["J.R.R. 톨킨", "무라카미 하루키", "박경리"],
+      "color": "#0891B2",
+      "colorBg": "#F0F9FF"
+    }
+  }
+}

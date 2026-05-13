@@ -87,9 +87,29 @@ const config: Config = {
           "0%": { opacity: "0", transform: "translateY(4px)" },
           "100%": { opacity: "1", transform: "translateY(0)" },
         },
+        "slide-in-right": {
+          "0%": { opacity: "0", transform: "translateX(1.25rem)" },
+          "100%": { opacity: "1", transform: "translateX(0)" },
+        },
+        "slide-out-left": {
+          "0%": { opacity: "1", transform: "translateX(0)" },
+          "100%": { opacity: "0", transform: "translateX(-1.25rem)" },
+        },
+        "scale-in": {
+          "0%": { opacity: "0", transform: "scale(0.94)" },
+          "100%": { opacity: "1", transform: "scale(1)" },
+        },
+        "slide-in-bottom": {
+          "0%": { opacity: "0", transform: "translateY(100%)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
       },
       animation: {
         "fade-in": "fade-in 0.25s ease-out",
+        "slide-in-right": "slide-in-right 0.22s ease-out",
+        "slide-out-left": "slide-out-left 0.18s ease-in forwards",
+        "scale-in": "scale-in 0.2s ease-out",
+        "slide-in-bottom": "slide-in-bottom 0.28s cubic-bezier(0.32,0.72,0,1)",
       },
     },
   },

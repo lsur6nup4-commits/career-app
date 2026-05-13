@@ -18,7 +18,8 @@ const TABS = [
     href: "/diagnosis",
     label: "진단",
     icon: Compass,
-    match: (p: string) => p.startsWith("/diagnosis"),
+    match: (p: string) =>
+      p.startsWith("/diagnosis") || p.startsWith("/career-type"),
   },
   {
     href: "/majors",

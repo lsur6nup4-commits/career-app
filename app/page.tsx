@@ -77,6 +77,30 @@ export default function HomePage() {
         </ul>
       </section>
 
+      {/* 진로 유형 검사 진입 카드 */}
+      <section aria-labelledby="career-type-heading">
+        <Link
+          href="/career-type"
+          className="group flex items-center gap-4 rounded-2xl border border-border bg-card p-5 transition-all hover:border-primary/40 hover:shadow-card"
+        >
+          <div className="flex h-14 w-14 flex-shrink-0 items-center justify-center rounded-2xl bg-primary-soft text-3xl">
+            🧭
+          </div>
+          <div className="flex-1 min-w-0">
+            <h2
+              id="career-type-heading"
+              className="text-base font-bold group-hover:text-primary"
+            >
+              진로 유형 검사
+            </h2>
+            <p className="mt-0.5 text-sm text-muted-foreground">
+              20문항으로 알아보는 나만의 진로 코드 · 16가지 유형
+            </p>
+          </div>
+          <ArrowRight className="h-5 w-5 flex-shrink-0 text-muted-foreground transition-transform group-hover:translate-x-0.5" />
+        </Link>
+      </section>
+
       {/* 추천 학과 캐러셀 */}
       <RecommendationCarousel />
 
