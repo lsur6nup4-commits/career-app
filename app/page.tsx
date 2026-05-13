@@ -5,9 +5,18 @@ import {
   GraduationCap,
   MessageCircle,
   Sparkles,
+  Briefcase,
+  Building2,
 } from "lucide-react";
 import { RecommendationCarousel } from "@/components/home/recommendation-carousel";
 import { PopularQuestions } from "@/components/home/popular-questions";
+import majorsJson from "@/seed/majors.json";
+import jobsJson from "@/seed/jobs.json";
+import universitiesJson from "@/seed/universities.json";
+
+const MAJOR_COUNT = majorsJson.length;   // 152
+const JOB_COUNT = jobsJson.length;       // 552
+const UNIV_COUNT = universitiesJson.length; // 207
 
 export default function HomePage() {
   return (
@@ -55,18 +64,25 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 3 핵심 기능 */}
+      {/* 핵심 기능 — 2×3 그리드 */}
       <section aria-labelledby="features-heading">
         <h2 id="features-heading" className="sr-only">
           핵심 기능
         </h2>
+
+        {/* 상단 3: 진단 도구 */}
         <ul className="grid grid-cols-3 gap-3">
-          <FeatureLink href="/diagnosis" Icon={Compass} title="진단" sub="5분 32문항" />
           <FeatureLink
-            href="/majors"
-            Icon={GraduationCap}
-            title="학과 백과"
-            sub="30개 학과"
+            href="/diagnosis"
+            Icon={Compass}
+            title="진단"
+            sub="5분 32문항"
+          />
+          <FeatureLink
+            href="/career-type"
+            emoji="🧭"
+            title="유형검사"
+            sub="16가지 유형"
           />
           <FeatureLink
             href="/chat"
@@ -75,30 +91,28 @@ export default function HomePage() {
             sub="실시간"
           />
         </ul>
-      </section>
 
-      {/* 진로 유형 검사 진입 카드 */}
-      <section aria-labelledby="career-type-heading">
-        <Link
-          href="/career-type"
-          className="group flex items-center gap-4 rounded-2xl border border-border bg-card p-5 transition-all hover:border-primary/40 hover:shadow-card"
-        >
-          <div className="flex h-14 w-14 flex-shrink-0 items-center justify-center rounded-2xl bg-primary-soft text-3xl">
-            🧭
-          </div>
-          <div className="flex-1 min-w-0">
-            <h2
-              id="career-type-heading"
-              className="text-base font-bold group-hover:text-primary"
-            >
-              진로 유형 검사
-            </h2>
-            <p className="mt-0.5 text-sm text-muted-foreground">
-              20문항으로 알아보는 나만의 진로 코드 · 16가지 유형
-            </p>
-          </div>
-          <ArrowRight className="h-5 w-5 flex-shrink-0 text-muted-foreground transition-transform group-hover:translate-x-0.5" />
-        </Link>
+        {/* 하단 3: 탐색 도구 (실제 개수) */}
+        <ul className="mt-3 grid grid-cols-3 gap-3">
+          <FeatureLink
+            href="/majors"
+            Icon={GraduationCap}
+            title="학과 백과"
+            sub={`${MAJOR_COUNT}개 학과`}
+          />
+          <FeatureLink
+            href="/jobs"
+            Icon={Briefcase}
+            title="직업 탐색"
+            sub={`${JOB_COUNT}개 직업`}
+          />
+          <FeatureLink
+            href="/universities"
+            Icon={Building2}
+            title="대학 탐색"
+            sub={`${UNIV_COUNT}개 대학`}
+          />
+        </ul>
       </section>
 
       {/* 추천 학과 캐러셀 */}
@@ -113,11 +127,13 @@ export default function HomePage() {
 function FeatureLink({
   href,
   Icon,
+  emoji,
   title,
   sub,
 }: {
   href: string;
-  Icon: React.ComponentType<{ className?: string; "aria-hidden"?: boolean }>;
+  Icon?: React.ComponentType<{ className?: string; "aria-hidden"?: boolean }>;
+  emoji?: string;
   title: string;
   sub: string;
 }) {
@@ -128,7 +144,13 @@ function FeatureLink({
         className="flex h-full flex-col items-center gap-1.5 rounded-xl border border-border bg-card p-4 text-center transition-colors hover:border-primary/40 hover:bg-primary-soft/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
       >
         <span className="flex h-10 w-10 items-center justify-center rounded-full bg-primary-soft text-primary">
-          <Icon className="h-5 w-5" aria-hidden />
+          {emoji ? (
+            <span className="text-xl leading-none" aria-hidden>
+              {emoji}
+            </span>
+          ) : Icon ? (
+            <Icon className="h-5 w-5" aria-hidden />
+          ) : null}
         </span>
         <span className="text-sm font-semibold">{title}</span>
         <span className="text-xs text-muted-foreground">{sub}</span>
