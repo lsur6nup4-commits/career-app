@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import Link from "next/link";
 import { X, Plus, GraduationCap, Briefcase, Sparkles, Trash2 } from "lucide-react";
 import {
@@ -43,7 +44,7 @@ function CategoryBadge({ category }: { category: string }) {
   );
 }
 
-// ── 관심사 카드 ───────────────────────────────────────────────────────────
+// ── 관심사 칩 ─────────────────────────────────────────────────────────────
 function InterestChip({
   item,
   onRemove,
@@ -70,20 +71,12 @@ function InterestChip({
 
 // ── 관련 추천 카드 ────────────────────────────────────────────────────────
 function RecommendSection({ confirmed }: { confirmed: DetectedInterest[] }) {
-  const majorInterests = confirmed.filter(
-    (i) => i.category === "major" && i.majorId,
-  );
-  const jobInterests = confirmed.filter(
-    (i) => i.category === "job" && i.jobId,
-  );
-
+  const majorInterests = confirmed.filter((i) => i.category === "major" && i.majorId);
+  const jobInterests = confirmed.filter((i) => i.category === "job" && i.jobId);
   if (majorInterests.length === 0 && jobInterests.length === 0) return null;
-
   return (
     <div className="border-t border-border pt-4">
-      <p className="mb-2 text-xs font-semibold text-muted-foreground">
-        관심사 기반 추천
-      </p>
+      <p className="mb-2 text-xs font-semibold text-muted-foreground">관심사 기반 추천</p>
       <div className="space-y-2">
         {majorInterests.slice(0, 3).map((i) => (
           <Link
@@ -122,14 +115,35 @@ export function InterestModal({
   onClose: () => void;
   onProfileChange?: (profile: InterestProfile) => void;
 }) {
+  const [mounted, setMounted] = useState(false);
   const [profile, setProfile] = useState<InterestProfile | null>(null);
   const [addInput, setAddInput] = useState("");
   const [tab, setTab] = useState<"confirmed" | "all">("confirmed");
   const overlayRef = useRef<HTMLDivElement>(null);
 
+  // SSR 방지 — 클라이언트 마운트 후에만 portal 렌더링
+  useEffect(() => { setMounted(true); }, []);
+
   useEffect(() => {
-    if (open) setProfile(loadProfile());
+    if (open) {
+      setProfile(loadProfile());
+      // 모달 열릴 때 body 스크롤 잠금
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => { document.body.style.overflow = ""; };
   }, [open]);
+
+  // ESC 키로 닫기
+  useEffect(() => {
+    if (!open) return;
+    function onKey(e: KeyboardEvent) {
+      if (e.key === "Escape") onClose();
+    }
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [open, onClose]);
 
   function update(next: InterestProfile) {
     saveProfile(next);
@@ -145,14 +159,9 @@ export function InterestModal({
   function handleAdd() {
     const kw = addInput.trim();
     if (!kw || !profile) return;
-
-    // 카테고리 자동 감지
-    const majorMatch = MAJOR_KEYWORDS.find(
-      (m) => m.keyword === kw || m.id === kw,
-    );
+    const majorMatch = MAJOR_KEYWORDS.find((m) => m.keyword === kw || m.id === kw);
     const jobMatch = JOB_KEYWORDS.find((j) => j.keyword === kw);
     const category = majorMatch ? "major" : jobMatch ? "job" : "field";
-
     update(
       addInterestManually(profile, {
         keyword: kw,
@@ -173,45 +182,51 @@ export function InterestModal({
     onProfileChange?.(fresh);
   }
 
-  if (!open || !profile) return null;
+  // 마운트 전이거나 닫혀 있으면 렌더 안 함
+  if (!mounted || !open || !profile) return null;
 
   const confirmed = getConfirmedInterests(profile);
-  const pending = profile.detectedInterests
-    .filter((d) => d.count < CONFIRM_THRESHOLD)
-    .sort((a, b) => b.count - a.count);
-
+  const pending = profile.detectedInterests.filter((d) => d.count < CONFIRM_THRESHOLD);
   const displayList = tab === "confirmed" ? confirmed : profile.detectedInterests;
 
-  return (
+  // ── createPortal로 document.body에 직접 마운트 ──────────────────────────
+  // header의 backdrop-filter가 fixed 자식의 containing block을 바꾸는 브라우저 버그 회피
+  return createPortal(
     <>
-      {/* 오버레이 */}
+      {/* 배경 딤처리 — 클릭 시 닫기 */}
       <div
         ref={overlayRef}
-        className="fixed inset-0 z-40 bg-black/40 backdrop-blur-sm"
-        onClick={(e) => e.target === overlayRef.current && onClose()}
+        className="fixed inset-0 z-[200] bg-black/50 backdrop-blur-sm animate-fade-in"
+        onClick={(e) => {
+          if (e.target === overlayRef.current) onClose();
+        }}
         aria-hidden="true"
       />
 
-      {/* 슬라이드업 패널 */}
+      {/* 슬라이드업 패널 — fixed bottom-0 */}
       <div
         role="dialog"
         aria-modal="true"
         aria-label="내 관심사"
-        className="fixed inset-x-0 bottom-0 z-50 rounded-t-2xl border-t border-border bg-background shadow-2xl"
-        style={{ maxHeight: "85dvh" }}
+        className="fixed inset-x-0 bottom-0 z-[201] rounded-t-3xl border-t border-border bg-background shadow-lift animate-slide-in-bottom"
+        style={{ maxHeight: "80svh" }}
       >
-        {/* 핸들 */}
+        {/* 드래그 핸들 */}
         <div className="flex justify-center pt-3 pb-1">
-          <div className="h-1 w-10 rounded-full bg-muted-foreground/30" />
+          <div className="h-1.5 w-12 rounded-full bg-muted-foreground/30" />
         </div>
 
-        <div className="overflow-y-auto px-4 pb-8" style={{ maxHeight: "calc(85dvh - 2rem)" }}>
+        {/* 스크롤 영역 */}
+        <div
+          className="overflow-y-auto px-4 pb-10"
+          style={{ maxHeight: "calc(80svh - 2rem)" }}
+        >
           {/* 헤더 */}
           <div className="flex items-center justify-between py-3">
             <div>
               <h2 className="text-base font-bold">내 관심사</h2>
               <p className="text-xs text-muted-foreground">
-                챗봇 대화에서 자동 학습됩니다 · 확정 기준 {CONFIRM_THRESHOLD}회 이상
+                챗봇 대화에서 자동 학습 · 확정 기준 {CONFIRM_THRESHOLD}회 이상
               </p>
             </div>
             <div className="flex items-center gap-2">
@@ -273,11 +288,7 @@ export function InterestModal({
           ) : (
             <div className="flex flex-wrap gap-2">
               {displayList.map((item) => (
-                <InterestChip
-                  key={item.keyword}
-                  item={item}
-                  onRemove={handleRemove}
-                />
+                <InterestChip key={item.keyword} item={item} onRemove={handleRemove} />
               ))}
             </div>
           )}
@@ -315,6 +326,7 @@ export function InterestModal({
           </div>
         </div>
       </div>
-    </>
+    </>,
+    document.body,
   );
 }
