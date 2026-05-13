@@ -4,11 +4,10 @@ import { ArrowLeft, Map, Briefcase } from "lucide-react";
 import { getAllMajors, getFullMajorById } from "@/lib/majors";
 import { getJobsForMajor } from "@/lib/jobs";
 import { Badge } from "@/components/ui/badge";
-import { Card, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card } from "@/components/ui/card";
 import { MajorTabs } from "@/components/major/major-tabs";
 import { CompareButton } from "@/components/major/compare-button";
 import { BookmarkButton } from "@/components/major/bookmark-button";
-import { formatPercent } from "@/lib/utils";
 
 type Props = { params: Promise<{ id: string }> };
 
@@ -73,27 +72,6 @@ export default async function MajorDetailPage({ params }: Props) {
           </Link>
         </div>
       </header>
-
-      <div className="grid grid-cols-3 gap-3 sm:gap-4">
-        <Card>
-          <CardHeader>
-            <p className="text-xs text-muted-foreground">평균 입시 등급</p>
-            <CardTitle className="text-2xl">{major.averageGrade}</CardTitle>
-          </CardHeader>
-        </Card>
-        <Card>
-          <CardHeader>
-            <p className="text-xs text-muted-foreground">정시 비율</p>
-            <CardTitle className="text-2xl">{formatPercent(major.jeongsiRatio)}</CardTitle>
-          </CardHeader>
-        </Card>
-        <Card>
-          <CardHeader>
-            <p className="text-xs text-muted-foreground">수시 비율</p>
-            <CardTitle className="text-2xl">{formatPercent(major.susiRatio)}</CardTitle>
-          </CardHeader>
-        </Card>
-      </div>
 
       <MajorTabs major={major} />
 

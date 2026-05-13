@@ -2,7 +2,7 @@
 
 import { useState, useCallback } from "react";
 import Link from "next/link";
-import { X, GraduationCap, Briefcase, Star, ArrowRight } from "lucide-react";
+import { X, GraduationCap, Briefcase, ArrowRight } from "lucide-react";
 import { getAllCareerTypes, getRecommendedMajors } from "@/lib/career-types";
 import jobsJson from "@/seed/jobs.json";
 import type { CareerType } from "@/types/career-type";
@@ -128,25 +128,6 @@ function DetailPanel({
                 {s}
               </span>
             ))}
-          </div>
-
-          {/* 유명인 */}
-          <div>
-            <h4 className="mb-2 flex items-center gap-1.5 text-sm font-bold">
-              <Star className="h-4 w-4" style={{ color: type.color }} />
-              같은 유형의 유명인
-            </h4>
-            <div className="flex flex-wrap gap-2">
-              {type.famousPeople.map((name) => (
-                <span
-                  key={name}
-                  className="rounded-full border px-3 py-1 text-sm font-medium"
-                  style={{ borderColor: type.color + "50", color: type.color }}
-                >
-                  {name}
-                </span>
-              ))}
-            </div>
           </div>
 
           {/* 추천 학과 */}

@@ -8,7 +8,6 @@ import {
   GraduationCap,
   Briefcase,
   LayoutGrid,
-  Star,
   Loader2,
 } from "lucide-react";
 import { getCareerType, getRecommendedMajors } from "@/lib/career-types";
@@ -207,25 +206,6 @@ export function ResultScreen({
         <p className="text-sm leading-relaxed text-foreground/85">
           {type.description}
         </p>
-      </div>
-
-      {/* ── 유명인 ────────────────────────────────────────────────── */}
-      <div className="rounded-2xl border border-border bg-card p-5">
-        <h3 className="mb-3 flex items-center gap-1.5 text-sm font-bold">
-          <Star className="h-4 w-4" style={{ color: type.color }} />
-          같은 유형의 유명인
-        </h3>
-        <div className="flex flex-wrap gap-2">
-          {type.famousPeople.map((name) => (
-            <span
-              key={name}
-              className="rounded-full border px-3 py-1 text-sm font-medium"
-              style={{ borderColor: type.color + "40", color: type.color }}
-            >
-              {name}
-            </span>
-          ))}
-        </div>
       </div>
 
       {/* ── 추천 학과 ─────────────────────────────────────────────── */}

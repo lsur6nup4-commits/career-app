@@ -34,7 +34,6 @@ export type CareerType = {
   strengths: string[];
   recommendedMajors: string[];
   recommendedJobs: RecommendedJob[];
-  famousPeople: string[];
   color: string;
   colorBg: string;
 };

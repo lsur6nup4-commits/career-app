@@ -9,7 +9,6 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
 import { EmptyState } from "@/components/ui/empty-state";
-import { AdmissionDonut } from "@/components/university/admission-donut";
 
 type Props = { params: Promise<{ id: string }> };
 
@@ -42,7 +41,6 @@ export default async function UniversityDetailPage({ params }: Props) {
   // 대학알리미 실데이터 보유 여부
   const hasRealData =
     u.tuitionAvg !== undefined ||
-    u.totalStudents !== undefined ||
     u.admissionQuotaTotal !== undefined ||
     u.homepageUrl !== undefined;
 
@@ -96,10 +94,7 @@ export default async function UniversityDetailPage({ params }: Props) {
 
         {/* ── 대학알리미 실데이터 스탯 카드 ─────────────────────────────── */}
         {hasRealData && (
-          <dl className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-4">
-            {u.totalStudents !== undefined && (
-              <StatCard label="재학생" value={fmt(u.totalStudents, "명")} />
-            )}
+          <dl className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3">
             {u.admissionQuotaTotal !== undefined && (
               <StatCard
                 label="입학정원"
@@ -117,21 +112,6 @@ export default async function UniversityDetailPage({ params }: Props) {
           </dl>
         )}
       </header>
-
-      {/* ── 정시·수시 비율 ─────────────────────────────────────────────── */}
-      <section aria-labelledby="admission-heading">
-        <h2 id="admission-heading" className="mb-3 text-lg font-semibold">
-          전형 비율
-        </h2>
-        <Card className="p-5 sm:p-6">
-          <AdmissionDonut
-            majors={u.majors.map((m) => ({
-              jeongsiRatio: m.jeongsiRatio,
-              susiRatio: m.susiRatio,
-            }))}
-          />
-        </Card>
-      </section>
 
       {/* ── 개설 학과 ──────────────────────────────────────────────────── */}
       <section aria-labelledby="majors-heading">
@@ -192,7 +172,7 @@ export default async function UniversityDetailPage({ params }: Props) {
       {/* ── 데이터 출처 ────────────────────────────────────────────────── */}
       {hasRealData && (
         <p className="text-center text-xs text-muted-foreground">
-          재학생·입학정원·등록금 출처:{" "}
+          입학정원·등록금 출처:{" "}
           <a
             href="https://www.academyinfo.go.kr"
             target="_blank"
