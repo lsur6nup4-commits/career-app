@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from "react";
 import Link from "next/link";
-import { Search, TrendingUp, Heart } from "lucide-react";
+import { Search } from "lucide-react";
 import type { Job } from "@/types/job";
 import type { RiskLevel } from "@/lib/ai-risk";
 import { RISK_META } from "@/lib/ai-risk";
@@ -223,16 +223,6 @@ export function JobSearch({ jobs, categories, riskData = {} }: Props) {
                             )}
                           </div>
 
-                          <div className="mt-auto flex items-center gap-3 text-[11px] text-muted-foreground">
-                            <span className="flex items-center gap-0.5">
-                              <TrendingUp className="h-3 w-3" />
-                              {job.views.toLocaleString("ko-KR")}
-                            </span>
-                            <span className="flex items-center gap-0.5">
-                              <Heart className="h-3 w-3" />
-                              {job.likes.toLocaleString("ko-KR")}
-                            </span>
-                          </div>
                         </div>
                       </Link>
                     </li>

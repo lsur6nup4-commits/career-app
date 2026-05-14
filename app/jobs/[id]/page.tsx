@@ -3,8 +3,6 @@ import { notFound } from "next/navigation";
 import {
   ArrowLeft,
   Briefcase,
-  Heart,
-  TrendingUp,
   GraduationCap,
   ExternalLink,
 } from "lucide-react";
@@ -119,21 +117,12 @@ export default async function JobDetailPage({ params }: Props) {
           )}
         </div>
 
-        {/* ── 조회/좋아요 ──────────────────────────────────────────── */}
-        <div className="mt-3 flex items-center gap-4 text-xs text-muted-foreground">
-          <span className="flex items-center gap-1">
-            <TrendingUp className="h-3.5 w-3.5" />
-            조회 {job.views.toLocaleString("ko-KR")}
-          </span>
-          <span className="flex items-center gap-1">
-            <Heart className="h-3.5 w-3.5" />
-            관심 {job.likes.toLocaleString("ko-KR")}
-          </span>
+        <div className="mt-3 flex justify-end text-xs text-muted-foreground">
           <a
             href={`https://www.career.go.kr/cnet/front/base/job/jobView.do?SEQ=${job.job_cd}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="ml-auto inline-flex items-center gap-1 hover:text-foreground"
+            className="inline-flex items-center gap-1 hover:text-foreground"
           >
             커리어넷 상세보기
             <ExternalLink className="h-3 w-3" />

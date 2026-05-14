@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import {
   Award,
   BookOpen,
@@ -14,10 +15,10 @@ import {
 } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { EmploymentPie } from "@/components/major/employment-pie";
 import { SubjectLink } from "@/components/major/subject-link";
 import { cn } from "@/lib/utils";
 import type { FullMajor, IndustryOutlook } from "@/types/major";
+import type { Job } from "@/types/job";
 
 type TabKey = "curriculum" | "careers" | "industry" | "activities" | "universities";
 
@@ -29,7 +30,7 @@ const TABS: { key: TabKey; label: string }[] = [
   { key: "universities", label: "개설 대학" },
 ];
 
-export function MajorTabs({ major }: { major: FullMajor }) {
+export function MajorTabs({ major, relatedJobs = [] }: { major: FullMajor; relatedJobs?: Job[] }) {
   const [tab, setTab] = useState<TabKey>("curriculum");
 
   return (
@@ -55,7 +56,7 @@ export function MajorTabs({ major }: { major: FullMajor }) {
       </div>
 
       {tab === "curriculum" && <CurriculumTab major={major} />}
-      {tab === "careers" && <CareersTab major={major} />}
+      {tab === "careers" && <CareersTab major={major} relatedJobs={relatedJobs} />}
       {tab === "industry" && <IndustryTab major={major} />}
       {tab === "activities" && <ActivitiesTab major={major} />}
       {tab === "universities" && <UniversitiesTab major={major} />}
@@ -104,54 +105,49 @@ function CurriculumTab({ major }: { major: FullMajor }) {
   );
 }
 
-function CareersTab({ major }: { major: FullMajor }) {
-  if (!major.careers || major.careers.length === 0) {
-    return <EmptyState text="아직 보강 중인 데이터예요." />;
-  }
+function CareersTab({ major, relatedJobs }: { major: FullMajor; relatedJobs: Job[] }) {
   return (
     <div className="space-y-4">
+      {/* ── 커리어넷 관련 직업 ────────────────────────────────────── */}
       <Card>
         <CardHeader>
           <div className="flex items-center gap-2">
             <Briefcase className="h-5 w-5 text-accent" />
-            <CardTitle>대표 직업</CardTitle>
+            <CardTitle>관련 직업</CardTitle>
           </div>
-          <p className="text-xs text-muted-foreground">
-            연봉은 워크넷·커리어넷 기준의 참고 수치(만원/년)예요.
-          </p>
         </CardHeader>
         <CardContent>
-          <div className="grid grid-cols-1 gap-2.5 sm:grid-cols-2">
-            {major.careers.map((c) => (
-              <div
-                key={c.name}
-                className="rounded-lg border border-border bg-white p-3"
-              >
-                <div className="flex items-start justify-between gap-2">
-                  <div className="text-sm font-semibold">{c.name}</div>
-                  <div className="whitespace-nowrap text-xs font-bold text-primary">
-                    ~{c.averageSalary.toLocaleString()}만원
-                  </div>
-                </div>
-                <p className="mt-1 text-xs leading-relaxed text-muted-foreground">
-                  {c.summary}
+          {relatedJobs.length === 0 ? (
+            <p className="text-sm text-muted-foreground">연결된 직업 정보가 없어요.</p>
+          ) : (
+            <>
+              <ul className="grid grid-cols-2 gap-2 sm:grid-cols-3">
+                {relatedJobs.slice(0, 12).map((job) => (
+                  <li key={job.job_cd}>
+                    <Link
+                      href={`/jobs/${job.job_cd}`}
+                      className="group flex flex-col gap-1 rounded-lg border border-border bg-white p-3 transition-shadow hover:shadow-card focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                    >
+                      <p className="text-[13px] font-semibold leading-snug group-hover:text-primary">
+                        {job.job_nm}
+                      </p>
+                      {job.wage && (
+                        <p className="text-[11px] text-muted-foreground">{job.wage}</p>
+                      )}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+              {relatedJobs.length > 12 && (
+                <p className="mt-2 text-center text-xs text-muted-foreground">
+                  +{relatedJobs.length - 12}개 더 있어요
                 </p>
-              </div>
-            ))}
-          </div>
+              )}
+            </>
+          )}
+          <p className="mt-3 text-[11px] text-muted-foreground">출처: 커리어넷 직업정보</p>
         </CardContent>
       </Card>
-
-      {major.employmentDistribution && (
-        <Card>
-          <CardHeader>
-            <CardTitle className="text-base">취업 분야 분포</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <EmploymentPie data={major.employmentDistribution} />
-          </CardContent>
-        </Card>
-      )}
 
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
         {major.certifications && (

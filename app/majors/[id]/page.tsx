@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, Map, Briefcase } from "lucide-react";
+import { ArrowLeft, Map } from "lucide-react";
 import { getAllMajors, getFullMajorById } from "@/lib/majors";
 import { getJobsForMajor } from "@/lib/jobs";
 import { Badge } from "@/components/ui/badge";
@@ -73,51 +73,7 @@ export default async function MajorDetailPage({ params }: Props) {
         </div>
       </header>
 
-      <MajorTabs major={major} />
-
-      {/* ── 커리어넷 관련 직업 ─────────────────────────────────────── */}
-      {relatedJobs.length > 0 && (
-        <section aria-labelledby="jobs-heading">
-          <h2
-            id="jobs-heading"
-            className="mb-3 flex items-center gap-2 text-lg font-semibold"
-          >
-            <Briefcase className="h-5 w-5 text-primary" />
-            관련 직업 ({relatedJobs.length})
-          </h2>
-          <ul className="grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-4">
-            {relatedJobs.slice(0, 12).map((job) => (
-              <li key={job.job_cd}>
-                <Link
-                  href={`/jobs/${job.job_cd}`}
-                  className="group flex flex-col gap-1.5 rounded-xl border border-border bg-card p-3 transition-shadow hover:shadow-card focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
-                >
-                  <p className="text-[13px] font-semibold leading-snug group-hover:text-primary">
-                    {job.job_nm}
-                  </p>
-                  {job.wage && (
-                    <p className="text-[11px] text-muted-foreground">
-                      {job.wage}
-                    </p>
-                  )}
-                </Link>
-              </li>
-            ))}
-          </ul>
-          {relatedJobs.length > 12 && (
-            <p className="mt-2 text-center text-xs text-muted-foreground">
-              +{relatedJobs.length - 12}개 더 있어요 ·{" "}
-              <Link
-                href="/jobs"
-                className="text-primary underline underline-offset-2"
-              >
-                직업 탐색
-              </Link>
-              에서 확인하세요
-            </p>
-          )}
-        </section>
-      )}
+      <MajorTabs major={major} relatedJobs={relatedJobs} />
 
       {/* ── AI 콘텐츠 고지 ─────────────────────────────────────────────── */}
       <p className="rounded-lg bg-muted/60 px-4 py-3 text-center text-[11px] leading-relaxed text-muted-foreground">
