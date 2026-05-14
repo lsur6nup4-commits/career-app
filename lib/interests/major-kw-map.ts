@@ -7613,7 +7613,7 @@ export const MAJOR_KW_MAP: Record<string, MajorRef[]> = {
       "category": "예체능계열"
     }
   ],
-  "배우": [
+  "연기자": [
     {
       "id": "theater-film",
       "name": "연극영화학과",

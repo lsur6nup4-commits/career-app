@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
-import { Sparkles, TrendingUp } from "lucide-react";
+import { useEffect, useRef, useState } from "react";
+import { ChevronLeft, ChevronRight, Sparkles, TrendingUp } from "lucide-react";
 import majorsJson from "@/seed/majors.json";
 import { Badge } from "@/components/ui/badge";
 import { loadResult } from "@/lib/diagnosis/storage";
@@ -21,6 +21,8 @@ const POPULAR_FALLBACK = [
   "psychology",
   "design",
   "media-communication",
+  "electrical-engineering",
+  "mechanical-engineering",
 ];
 
 type Item = { major: Major; score?: number };
@@ -28,6 +30,9 @@ type Item = { major: Major; score?: number };
 export function RecommendationCarousel() {
   const hydrated = useHydrated();
   const [result, setResult] = useState<DiagnosisResult | null>(null);
+  const [canLeft, setCanLeft] = useState(false);
+  const [canRight, setCanRight] = useState(false);
+  const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     setResult(loadResult());
@@ -52,6 +57,26 @@ export function RecommendationCarousel() {
     mode = "popular";
   }
 
+  const syncArrows = () => {
+    const el = scrollRef.current;
+    if (!el) return;
+    setCanLeft(el.scrollLeft > 4);
+    setCanRight(el.scrollLeft + el.clientWidth < el.scrollWidth - 4);
+  };
+
+  useEffect(() => {
+    const id = requestAnimationFrame(syncArrows);
+    return () => cancelAnimationFrame(id);
+  }, [hydrated, result]);
+
+  const scrollBy = (dir: "left" | "right") => {
+    // sm:basis-72 = 288px + gap-3(12px) = 300px
+    scrollRef.current?.scrollBy({
+      left: dir === "right" ? 300 : -300,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <section aria-labelledby="recs-heading">
       <div className="mb-3 flex items-end justify-between">
@@ -73,15 +98,43 @@ export function RecommendationCarousel() {
               : "인기 학과 둘러보기"}
           </h2>
         </div>
-        <Link
-          href="/majors"
-          className="text-xs text-muted-foreground hover:text-foreground"
-        >
-          전체 보기 →
-        </Link>
+
+        {/* 전체 보기 + 화살표 */}
+        <div className="flex items-center gap-2">
+          <Link
+            href="/majors"
+            className="text-xs text-muted-foreground hover:text-foreground"
+          >
+            전체 보기 →
+          </Link>
+          <div className="flex gap-1">
+            <button
+              type="button"
+              onClick={() => scrollBy("left")}
+              disabled={!canLeft}
+              aria-label="이전 학과 보기"
+              className="flex h-7 w-7 items-center justify-center rounded-full border border-border bg-card text-muted-foreground transition-colors hover:border-primary/40 hover:text-primary disabled:cursor-default disabled:opacity-30"
+            >
+              <ChevronLeft className="h-4 w-4" />
+            </button>
+            <button
+              type="button"
+              onClick={() => scrollBy("right")}
+              disabled={!canRight}
+              aria-label="다음 학과 보기"
+              className="flex h-7 w-7 items-center justify-center rounded-full border border-border bg-card text-muted-foreground transition-colors hover:border-primary/40 hover:text-primary disabled:cursor-default disabled:opacity-30"
+            >
+              <ChevronRight className="h-4 w-4" />
+            </button>
+          </div>
+        </div>
       </div>
 
-      <div className="-mx-4 overflow-x-auto px-4 no-scrollbar">
+      <div
+        ref={scrollRef}
+        onScroll={syncArrows}
+        className="-mx-4 overflow-x-auto px-4 no-scrollbar"
+      >
         <ul className="flex snap-x snap-mandatory gap-3 pb-2">
           {items.map(({ major, score }) => (
             <li

@@ -105,6 +105,13 @@ function* candidates(text: string): Generator<string> {
   }
 }
 
+// ── 오매칭 방지 블랙리스트 ────────────────────────────────────────────────
+/**
+ * 동사·일반어와 혼동되어 오매칭이 발생하는 단어를 차단합니다.
+ * "배우" → 동사 '배우다'의 어간으로 쓰일 때 연극영화학과로 오매핑되는 경우 방지.
+ */
+const KEYWORD_BLACKLIST = new Set(["배우"]);
+
 // ── 메인 추출 함수 ────────────────────────────────────────────────────────
 /**
  * 단일 메시지 텍스트에서 DetectedInterest[] 를 추출합니다.
@@ -126,6 +133,7 @@ export function extractKeywords(text: string): DetectedInterest[] {
     const key = norm(candidate);
     if (key.length < 2) continue;
     if (processedKeys.has(key)) continue;
+    if (KEYWORD_BLACKLIST.has(key)) continue; // 오매칭 블랙리스트
 
     // ── 1. 학과명 정확 매칭 ──────────────────────────────────────────
     const majorInfo = mNameMap.get(key);
