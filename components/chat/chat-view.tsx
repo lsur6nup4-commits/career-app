@@ -98,13 +98,20 @@ export function ChatView() {
 
     // ── 관심사 키워드 추출 & 업데이트 ──────────────────────────────────
     let currentProfile = interestProfile ?? loadProfile();
+    console.log(`[관심사] 메시지 분석 시작: "${trimmed.slice(0, 60)}"`);
     const extracted = extractKeywords(trimmed);
+    console.log(`[관심사] 추출 결과: ${extracted.length}개`, extracted.map((k) => k.keyword));
     for (const kw of extracted) {
       currentProfile = trackKeyword(currentProfile, kw);
     }
     if (extracted.length > 0) {
       saveProfile(currentProfile);
       setInterestProfile(currentProfile);
+      console.log(`[관심사] localStorage 저장 완료. 전체 항목:`,
+        currentProfile.detectedInterests.map((d) => `${d.keyword}×${d.count}`)
+      );
+    } else {
+      console.log(`[관심사] 감지 없음 → localStorage 변경 없음`);
     }
 
     const controller = new AbortController();

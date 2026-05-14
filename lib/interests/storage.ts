@@ -80,12 +80,18 @@ export function trackKeyword(
       const prev = d.matchedKeywords ?? [];
       const merged = Array.from(new Set([...prev, ...incoming]));
 
+      const justConfirmed = newCount >= CONFIRM_THRESHOLD && !d.confirmedAt;
+      if (justConfirmed) {
+        console.log(`[관심사] ✅ 확정! "${d.keyword}" (count=${newCount}, 임계값=${CONFIRM_THRESHOLD})`);
+      } else {
+        console.log(`[관심사] 누적: "${d.keyword}" count ${d.count} → ${newCount}`);
+      }
+
       return {
         ...d,
         count: newCount,
         matchedKeywords: merged.length > 0 ? merged : undefined,
-        confirmedAt:
-          newCount >= CONFIRM_THRESHOLD && !d.confirmedAt ? now : d.confirmedAt,
+        confirmedAt: justConfirmed ? now : d.confirmedAt,
       };
     });
   } else {
@@ -95,6 +101,7 @@ export function trackKeyword(
       addedAt: now,
       confirmedAt: 1 >= CONFIRM_THRESHOLD ? now : undefined,
     };
+    console.log(`[관심사] 신규 등록: "${newEntry.keyword}" (majorId=${newEntry.majorId ?? "없음"})`);
     updated = [...profile.detectedInterests, newEntry];
   }
 

@@ -5,12 +5,13 @@
  * 클라이언트 전용 (localStorage 기반). SSR 불필요.
  *
  * 추출 전략:
- *  1. 학과명 정확 매칭 (MAJOR_KEYWORDS) → category: "major", majorId 포함
+ *  1. 학과명 정확 매칭 (MAJOR_KEYWORDS)
+ *     → 한국어 조사 1~3자 제거 후 재시도 (e.g. "신소재공학과에" → "신소재공학과")
  *  2. majors.json keywords 역방향 맵 (MAJOR_KW_MAP)
- *       → 개념 키워드("프로그래밍","AI" 등)를 학과 단위로 그룹핑
- *       → category: "major", keyword=학과명, matchedKeywords=[감지된 원본 키워드]
- *  3. 직업명 정확 매칭 (JOB_KEYWORDS) → category: "job"
- *  4. 분야 키워드 (FIELD_KEYWORDS) → category: "field" (학과 미매핑 경우만)
+ *     → 개념 키워드("프로그래밍", "AI" 등)를 학과 단위로 그룹핑
+ *     → 역시 조사 제거 후 재시도 (e.g. "프로그래밍을" → "프로그래밍")
+ *  3. 직업명 정확 매칭 (JOB_KEYWORDS)
+ *  4. 분야 키워드 (FIELD_KEYWORDS, 학과 미매핑 경우만)
  */
 
 import type { DetectedInterest } from "@/types/interests";
@@ -30,7 +31,6 @@ function norm(s: string): string {
 let majorNameMap: Map<string, { id: string; name: string; category: string }> | null = null;
 let jobMap: Map<string, string> | null = null;
 let fieldSet: Set<string> | null = null;
-// MAJOR_KW_MAP 정규화 버전 (lowercase key)
 let kwMapNorm: Map<string, { id: string; name: string; category: string }[]> | null = null;
 
 function getMajorNameMap() {
@@ -71,14 +71,19 @@ function getKwMapNorm() {
 // ── 텍스트 전처리 ─────────────────────────────────────────────────────────
 /**
  * 메시지에서 후보 n-gram 슬라이딩 윈도우를 생성합니다.
- * 공백/구두점으로 분리 후 1~4 토큰 조합.
+ *
+ * 핵심: 한국어 조사/어미 대응
+ *   각 n-gram에 대해 끝에서 1~3자를 제거한 버전도 함께 생성합니다.
+ *   예) "신소재공학과에"  → "신소재공학과에", "신소재공학과", "신소재공학"...
+ *       "프로그래밍을"   → "프로그래밍을",  "프로그래밍"
+ *       "컴퓨터공학과에서" → "컴퓨터공학과에서", "컴퓨터공학과에", "컴퓨터공학과" ← 매칭!
  */
 function* candidates(text: string): Generator<string> {
   // 전체 텍스트 (연속 문자열 매칭)
   const stripped = text.replace(/[\s\n\r\t]+/g, "");
   yield stripped;
 
-  // 토큰 분리
+  // 공백/구두점으로 토큰 분리
   const tokens = text
     .split(/[\s,。、!?！？.·\-·/\\()（）\[\]「」『』"']+/)
     .map((t) => t.trim())
@@ -86,7 +91,16 @@ function* candidates(text: string): Generator<string> {
 
   for (let len = 4; len >= 1; len--) {
     for (let i = 0; i <= tokens.length - len; i++) {
-      yield tokens.slice(i, i + len).join("");
+      const joined = tokens.slice(i, i + len).join("");
+
+      // 원본 n-gram
+      yield joined;
+
+      // 끝 1~3자 제거 버전 (한국어 조사/어미 대응)
+      for (let trim = 1; trim <= 3; trim++) {
+        const shorter = joined.slice(0, -trim);
+        if (shorter.length >= 2) yield shorter;
+      }
     }
   }
 }
@@ -94,41 +108,33 @@ function* candidates(text: string): Generator<string> {
 // ── 메인 추출 함수 ────────────────────────────────────────────────────────
 /**
  * 단일 메시지 텍스트에서 DetectedInterest[] 를 추출합니다.
- *
- * 학과 단위 그룹핑:
- *  - majors.json keywords에 해당하는 개념어("프로그래밍","AI" 등) 감지 시
- *    해당 학과 단위 Interest(keyword=학과명, majorId=...)로 변환
- *  - 동일 학과에 대한 여러 키워드 → 1개 Interest에 matchedKeywords 배열로 누적
- *
- * 한 메시지에서 같은 majorId/keyword는 1회만 카운트합니다.
  */
 export function extractKeywords(text: string): DetectedInterest[] {
   const now = new Date().toISOString();
 
-  // 결과 맵: majorId 또는 keyword → DetectedInterest
   const byMajorId = new Map<string, DetectedInterest>(); // majorId → entry
-  const byKeyword = new Map<string, DetectedInterest>();  // keyword(non-major) → entry
+  const byKeyword = new Map<string, DetectedInterest>();  // keyword → entry
 
   const mNameMap = getMajorNameMap();
   const jMap = getJobMap();
   const fSet = getFieldSet();
   const kwMap = getKwMapNorm();
 
-  // 이미 처리한 원본 키워드(중복 방지)
-  const processedRawKws = new Set<string>();
+  const processedKeys = new Set<string>(); // 같은 정규화 키 중복 방지
 
   for (const candidate of candidates(text)) {
     const key = norm(candidate);
     if (key.length < 2) continue;
-    if (processedRawKws.has(key)) continue;
+    if (processedKeys.has(key)) continue;
 
     // ── 1. 학과명 정확 매칭 ──────────────────────────────────────────
     const majorInfo = mNameMap.get(key);
     if (majorInfo) {
-      processedRawKws.add(key);
+      processedKeys.add(key);
+      console.log(`[관심사] 학과명 감지: "${candidate}" → ${majorInfo.name} (${majorInfo.id})`);
       if (!byMajorId.has(majorInfo.id)) {
         byMajorId.set(majorInfo.id, {
-          keyword: majorInfo.name,   // 학과 이름 (e.g. "컴퓨터공학과")
+          keyword: majorInfo.name,
           count: 0,
           category: "major",
           majorId: majorInfo.id,
@@ -148,11 +154,12 @@ export function extractKeywords(text: string): DetectedInterest[] {
     // ── 2. majors.json keywords 역방향 맵 (개념어 → 학과 그룹핑) ─────
     const linkedMajors = kwMap.get(key);
     if (linkedMajors && linkedMajors.length > 0) {
-      processedRawKws.add(key);
+      processedKeys.add(key);
+      console.log(`[관심사] 개념 키워드 감지: "${candidate}" → ${linkedMajors.map((m) => m.name).join(", ")}`);
       for (const maj of linkedMajors) {
         if (!byMajorId.has(maj.id)) {
           byMajorId.set(maj.id, {
-            keyword: maj.name,       // 학과 이름
+            keyword: maj.name,
             count: 0,
             category: "major",
             majorId: maj.id,
@@ -173,7 +180,8 @@ export function extractKeywords(text: string): DetectedInterest[] {
     // ── 3. 직업명 정확 매칭 ──────────────────────────────────────────
     const jobId = jMap.get(key);
     if (jobId) {
-      processedRawKws.add(key);
+      processedKeys.add(key);
+      console.log(`[관심사] 직업명 감지: "${candidate}" (id=${jobId})`);
       if (!byKeyword.has(key)) {
         byKeyword.set(key, {
           keyword: candidate,
@@ -188,7 +196,8 @@ export function extractKeywords(text: string): DetectedInterest[] {
 
     // ── 4. 분야 키워드 (학과 미매핑 경우만) ──────────────────────────
     if (fSet.has(key)) {
-      processedRawKws.add(key);
+      processedKeys.add(key);
+      console.log(`[관심사] 분야 키워드 감지: "${candidate}"`);
       if (!byKeyword.has(key)) {
         byKeyword.set(key, {
           keyword: candidate,
@@ -200,5 +209,9 @@ export function extractKeywords(text: string): DetectedInterest[] {
     }
   }
 
-  return [...byMajorId.values(), ...byKeyword.values()];
+  const result = [...byMajorId.values(), ...byKeyword.values()];
+  if (result.length === 0) {
+    console.log(`[관심사] 감지된 키워드 없음 (입력: "${text.slice(0, 50)}")`);
+  }
+  return result;
 }
