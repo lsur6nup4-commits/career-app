@@ -90,7 +90,7 @@ export function AiRiskCard({ risk }: { risk: JobAiRisk }) {
 
       {/* 2024 / 2027 나란히 */}
       <div className="flex gap-3">
-        <RiskCell year="2024년 현재" rate={risk.rate_2024} level={risk.risk_2024} />
+        <RiskCell year="2025년 보고서 기준" rate={risk.rate_2024} level={risk.risk_2024} />
         <RiskCell year="2027년 전망" rate={risk.rate_2027} level={risk.risk_2027} />
       </div>
 

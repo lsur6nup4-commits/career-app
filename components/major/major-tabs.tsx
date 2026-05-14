@@ -121,18 +121,25 @@ function CareersTab({ major, relatedJobs }: { major: FullMajor; relatedJobs: Job
             <p className="text-sm text-muted-foreground">연결된 직업 정보가 없어요.</p>
           ) : (
             <>
-              <ul className="grid grid-cols-2 gap-2 sm:grid-cols-3">
+              <ul className="grid grid-cols-1 gap-2 sm:grid-cols-2">
                 {relatedJobs.slice(0, 12).map((job) => (
                   <li key={job.job_cd}>
                     <Link
                       href={`/jobs/${job.job_cd}`}
-                      className="group flex flex-col gap-1 rounded-lg border border-border bg-white p-3 transition-shadow hover:shadow-card focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                      className="group flex flex-col gap-1.5 rounded-lg border border-border bg-white p-3 transition-shadow hover:shadow-card focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
                     >
-                      <p className="text-[13px] font-semibold leading-snug group-hover:text-primary">
-                        {job.job_nm}
-                      </p>
-                      {job.wage && (
-                        <p className="text-[11px] text-muted-foreground">{job.wage}</p>
+                      <div className="flex items-start justify-between gap-2">
+                        <p className="text-[13px] font-semibold leading-snug group-hover:text-primary">
+                          {job.job_nm}
+                        </p>
+                        {job.wage && (
+                          <span className="shrink-0 text-[11px] text-muted-foreground">{job.wage}</span>
+                        )}
+                      </div>
+                      {job.work && (
+                        <p className="line-clamp-1 text-[11px] leading-relaxed text-muted-foreground">
+                          {job.work}
+                        </p>
                       )}
                     </Link>
                   </li>
@@ -148,6 +155,30 @@ function CareersTab({ major, relatedJobs }: { major: FullMajor; relatedJobs: Job
           <p className="mt-3 text-[11px] text-muted-foreground">출처: 커리어넷 직업정보</p>
         </CardContent>
       </Card>
+
+      {/* ── 진출 분야 (industryKeywords 활용, AI 생성) ──────────────── */}
+      {major.industryKeywords && major.industryKeywords.length > 0 && (
+        <Card>
+          <CardHeader>
+            <div className="flex items-center gap-2">
+              <Sparkles className="h-4 w-4 text-accent" />
+              <CardTitle className="text-base">진출 분야</CardTitle>
+              <span className="rounded bg-amber-100 px-1.5 py-0.5 text-[10px] font-semibold text-amber-700 dark:bg-amber-900/40 dark:text-amber-300">
+                AI 생성
+              </span>
+            </div>
+          </CardHeader>
+          <CardContent>
+            <div className="flex flex-wrap gap-1.5">
+              {major.industryKeywords.map((k) => (
+                <Badge key={k} variant="secondary">
+                  #{k}
+                </Badge>
+              ))}
+            </div>
+          </CardContent>
+        </Card>
+      )}
 
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
         {major.certifications && (
@@ -237,17 +268,30 @@ function IndustryTab({ major }: { major: FullMajor }) {
       {major.industryTrends && (
         <Card>
           <CardHeader>
-            <CardTitle className="text-base">현재 트렌드</CardTitle>
+            <div className="flex items-center gap-2">
+              <CardTitle className="text-base">현재 트렌드</CardTitle>
+              <span className="rounded bg-amber-100 px-1.5 py-0.5 text-[10px] font-semibold text-amber-700 dark:bg-amber-900/40 dark:text-amber-300">
+                AI 생성
+              </span>
+            </div>
             <p className="text-xs text-muted-foreground">
               지금 이 산업에서 가장 주목받는 흐름들이에요.
             </p>
           </CardHeader>
           <CardContent>
-            <ul className="space-y-2 text-sm text-foreground/85">
+            <ul className="space-y-2.5 text-sm text-foreground/85">
               {major.industryTrends.map((t) => (
-                <li key={t} className="flex gap-2">
-                  <span className="mt-1 inline-block h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent" />
-                  <span className="leading-relaxed">{t}</span>
+                <li key={t} className="flex items-start gap-2">
+                  <span className="mt-1.5 inline-block h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent" />
+                  <span className="flex-1 leading-relaxed">{t}</span>
+                  <a
+                    href={`https://www.youtube.com/results?search_query=${encodeURIComponent(major.name + " " + t + " 최신")}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="shrink-0 rounded-md border border-border px-2 py-0.5 text-[11px] text-muted-foreground transition-colors hover:border-primary/40 hover:text-primary"
+                  >
+                    관련 영상 보기 ▶
+                  </a>
                 </li>
               ))}
             </ul>
@@ -258,7 +302,12 @@ function IndustryTab({ major }: { major: FullMajor }) {
       {major.industryKeywords && (
         <Card>
           <CardHeader>
-            <CardTitle className="text-base">주목할 키워드</CardTitle>
+            <div className="flex items-center gap-2">
+              <CardTitle className="text-base">주목할 키워드</CardTitle>
+              <span className="rounded bg-amber-100 px-1.5 py-0.5 text-[10px] font-semibold text-amber-700 dark:bg-amber-900/40 dark:text-amber-300">
+                AI 생성
+              </span>
+            </div>
           </CardHeader>
           <CardContent>
             <div className="flex flex-wrap gap-1.5">

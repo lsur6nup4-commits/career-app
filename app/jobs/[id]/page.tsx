@@ -112,7 +112,7 @@ export default async function JobDetailPage({ params }: Props) {
                 ratingCls(job.social),
               )}
             >
-              👥 사회인식 {job.social}
+              👥 사회공헌 {job.social}
             </span>
           )}
         </div>
