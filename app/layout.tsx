@@ -122,8 +122,25 @@ export default function RootLayout({
         <BottomTabBar />
 
         <footer className="hidden border-t border-border bg-card md:block">
-          <div className="container py-6 text-xs text-muted-foreground">
-            진로나침반 · MVP · 데이터는 학습용 샘플입니다
+          <div className="container space-y-2 py-5 text-xs text-muted-foreground">
+            <p className="leading-relaxed">
+              본 서비스의 일부 콘텐츠(학과 설명, 과목 정보, 입시 등급 등)는
+              AI가 생성한 참고용 정보입니다. 중요한 진로 결정 시 공식 기관의
+              정보를 함께 확인하세요.
+            </p>
+            <p className="text-[11px] text-muted-foreground/70">
+              진로나침반 · 공모전 출품작 ·{" "}
+              직업 데이터 출처:{" "}
+              <a
+                href="https://www.career.go.kr"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline underline-offset-2 hover:text-foreground"
+              >
+                커리어넷
+              </a>{" "}
+              · AI 자동화 위험도 303개 항목: 한국고용정보원 (2025.04)
+            </p>
           </div>
         </footer>
       </body>

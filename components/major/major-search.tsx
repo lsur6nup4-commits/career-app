@@ -133,7 +133,7 @@ export function MajorSearch({ majors, categories, initialQuery = "" }: Props) {
                         </span>
                       )}
                       <span className="ml-auto text-xs text-muted-foreground">
-                        평균 {major.averageGrade}등급
+                        약 {major.averageGrade}등급 (AI 추정)
                       </span>
                     </div>
                     <CardTitle className="mt-1 group-hover:text-primary">

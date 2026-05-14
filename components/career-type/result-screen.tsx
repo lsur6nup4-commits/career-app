@@ -287,6 +287,12 @@ export function ResultScreen({
         </ul>
       </section>
 
+      {/* ── AI 고지 ───────────────────────────────────────────────── */}
+      <p className="rounded-lg bg-muted/60 px-4 py-3 text-center text-[11px] leading-relaxed text-muted-foreground">
+        본 유형 분석은 AI 기반 참고용입니다.
+        전문 진로 상담사와 상담을 권장합니다.
+      </p>
+
       {/* ── 하단 버튼 ─────────────────────────────────────────────── */}
       <div className="flex gap-2 pb-4">
         <button

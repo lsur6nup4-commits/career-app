@@ -120,6 +120,18 @@ export default function HomePage() {
 
       {/* 인기 질문 */}
       <PopularQuestions />
+
+      {/* 서비스 안내 고지 */}
+      <section aria-label="서비스 안내" className="rounded-xl border border-border bg-muted/40 px-4 py-4">
+        <p className="text-[11px] leading-relaxed text-muted-foreground">
+          ⓘ{" "}본 서비스의 일부 콘텐츠(학과 설명, 과목 정보, 입시 등급 등)는
+          AI가 생성한 참고용 정보입니다. 중요한 진로 결정 시 공식 기관의
+          정보를 함께 확인하세요.
+        </p>
+        <p className="mt-1.5 text-[10px] text-muted-foreground/60">
+          직업 데이터: 커리어넷 · AI 자동화 위험도(303개 항목): 한국고용정보원 (2025.04) · 나머지: AI 추정
+        </p>
+      </section>
     </div>
   );
 }

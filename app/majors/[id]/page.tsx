@@ -118,6 +118,12 @@ export default async function MajorDetailPage({ params }: Props) {
           )}
         </section>
       )}
+
+      {/* ── AI 콘텐츠 고지 ─────────────────────────────────────────────── */}
+      <p className="rounded-lg bg-muted/60 px-4 py-3 text-center text-[11px] leading-relaxed text-muted-foreground">
+        학과 설명·과목 정보는 AI가 생성한 참고용 콘텐츠입니다.
+        실제 정보는 각 대학 홈페이지를 확인하세요.
+      </p>
     </div>
   );
 }

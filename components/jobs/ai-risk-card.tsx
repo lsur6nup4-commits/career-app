@@ -105,7 +105,12 @@ export function AiRiskCard({ risk }: { risk: JobAiRisk }) {
         {isActual ? (
           <>출처: <strong>한국고용정보원</strong> (2025.04 발표)</>
         ) : (
-          <>보고서 기준 AI 추정치 — 실제와 다를 수 있어요</>
+          <span className="inline-flex items-center gap-1">
+            <span className="rounded bg-amber-100 px-1 py-0.5 text-[10px] font-semibold text-amber-700 dark:bg-amber-900/40 dark:text-amber-300">
+              AI 추정
+            </span>
+            보고서 기반 추정치 — 실제와 다를 수 있어요
+          </span>
         )}
       </p>
     </section>
