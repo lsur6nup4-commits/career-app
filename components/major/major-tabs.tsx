@@ -19,6 +19,8 @@ import { SubjectLink } from "@/components/major/subject-link";
 import { cn } from "@/lib/utils";
 import type { FullMajor, IndustryOutlook } from "@/types/major";
 import type { Job } from "@/types/job";
+import { getAiRisk, RISK_META } from "@/lib/ai-risk";
+import type { RiskLevel } from "@/lib/ai-risk";
 
 type TabKey = "curriculum" | "careers" | "industry" | "activities" | "universities";
 
@@ -57,7 +59,7 @@ export function MajorTabs({ major, relatedJobs = [] }: { major: FullMajor; relat
 
       {tab === "curriculum" && <CurriculumTab major={major} />}
       {tab === "careers" && <CareersTab major={major} relatedJobs={relatedJobs} />}
-      {tab === "industry" && <IndustryTab major={major} />}
+      {tab === "industry" && <IndustryTab major={major} relatedJobs={relatedJobs} />}
       {tab === "activities" && <ActivitiesTab major={major} />}
       {tab === "universities" && <UniversitiesTab major={major} />}
     </div>
@@ -245,17 +247,91 @@ function OutlookBadge({ outlook }: { outlook: IndustryOutlook }) {
   );
 }
 
-function IndustryTab({ major }: { major: FullMajor }) {
-  if (!major.industryTrends && !major.outlook) {
+// ── AI 위험도 설명 ────────────────────────────────────────────────────────
+const RISK_DESC: Record<RiskLevel, string> = {
+  low: "AI 대체 가능성이 낮아 안정적인 수요 전망",
+  medium: "일부 업무 자동화 가능, 전문성 강화 필요",
+  high: "AI 자동화 영향이 클 것으로 예상, 차별화 역량 필요",
+};
+
+function IndustryTab({ major, relatedJobs }: { major: FullMajor; relatedJobs: Job[] }) {
+  // ── 관련 직업 AI 위험도 평균 계산 ──────────────────────────────────────
+  const riskEntries = relatedJobs
+    .map((j) => getAiRisk(j.job_cd))
+    .filter((r): r is NonNullable<ReturnType<typeof getAiRisk>> => r !== null);
+
+  const avgRate =
+    riskEntries.length > 0
+      ? riskEntries.reduce((s, r) => s + r.rate_2024, 0) / riskEntries.length
+      : null;
+
+  const overallLevel: RiskLevel | null =
+    avgRate === null ? null : avgRate < 30 ? "low" : avgRate < 70 ? "medium" : "high";
+
+  const hasRiskData = overallLevel !== null;
+
+  if (!major.industryTrends && !major.outlook && !hasRiskData) {
     return <EmptyState text="아직 보강 중인 데이터예요." />;
   }
+
   return (
     <div className="space-y-4">
+      {/* ── 관련 직업군 AI 대체 위험도 (실제 데이터) ─────────────────── */}
+      {hasRiskData && (() => {
+        const meta = RISK_META[overallLevel!];
+        return (
+          <Card className={cn("border", meta.border, meta.bg)}>
+            <CardHeader>
+              <div className="flex flex-wrap items-center gap-2">
+                <CardTitle className="text-base">관련 직업군 AI 대체 위험도</CardTitle>
+                <span
+                  className={cn(
+                    "inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-xs font-bold",
+                    meta.bg,
+                    meta.color,
+                    "border",
+                    meta.border,
+                  )}
+                >
+                  {meta.emoji} {meta.label}
+                </span>
+              </div>
+              <p className={cn("mt-1 text-sm font-medium", meta.color)}>
+                {RISK_DESC[overallLevel!]}
+              </p>
+            </CardHeader>
+            <CardContent>
+              <div className="flex items-center gap-3 text-sm text-muted-foreground">
+                <span>
+                  분석 직업 수:{" "}
+                  <strong className="text-foreground">{riskEntries.length}개</strong>
+                </span>
+                <span>
+                  평균 AI 대체율:{" "}
+                  <strong className="text-foreground">{Math.round(avgRate!)}%</strong>
+                </span>
+              </div>
+              <p className="mt-3 text-[11px] text-muted-foreground">
+                출처: 한국고용정보원 AI 대체율 보고서 (2025.04)
+              </p>
+            </CardContent>
+          </Card>
+        );
+      })()}
+
+      {/* ── AI 생성 참고 전망 (기존 outlook → 하향 배치) ─────────────── */}
       {major.outlook && (
         <Card>
           <CardHeader>
             <div className="flex flex-wrap items-center gap-2">
-              <CardTitle className="text-base">산업 전망</CardTitle>
+              <CardTitle className="text-base">
+                {hasRiskData ? "AI 생성 참고 전망" : "산업 전망"}
+              </CardTitle>
+              {hasRiskData && (
+                <span className="rounded bg-amber-100 px-1.5 py-0.5 text-[10px] font-semibold text-amber-700 dark:bg-amber-900/40 dark:text-amber-300">
+                  AI 생성
+                </span>
+              )}
               <OutlookBadge outlook={major.outlook} />
             </div>
             <p className="mt-2 text-sm leading-relaxed text-foreground/85">
