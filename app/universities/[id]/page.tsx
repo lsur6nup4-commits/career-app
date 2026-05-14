@@ -179,7 +179,7 @@ export default async function UniversityDetailPage({ params }: Props) {
             rel="noopener noreferrer"
             className="underline underline-offset-2 hover:text-foreground"
           >
-            대학알리미
+            교육부 대학알리미 (2026년)
           </a>
         </p>
       )}
