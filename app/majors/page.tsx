@@ -2,17 +2,22 @@ import Link from "next/link";
 import { Building2 } from "lucide-react";
 import { getAllMajors, getMajorCategories } from "@/lib/majors";
 import { MajorSearch } from "@/components/major/major-search";
+import { InterestRecommendations } from "@/components/major/interest-recommendations";
 
 export const metadata = {
   title: "학과 탐색 — 진로나침반",
 };
 
-export default function MajorsPage() {
+type Props = { searchParams: Promise<{ q?: string }> };
+
+export default async function MajorsPage({ searchParams }: Props) {
+  const { q } = await searchParams;
   const majors = getAllMajors();
   const categories = getMajorCategories();
 
   return (
     <div className="space-y-6">
+      {/* 헤더 */}
       <div className="flex flex-wrap items-end justify-between gap-3">
         <div>
           <h1 className="text-2xl font-bold tracking-tight">학과 탐색</h1>
@@ -27,7 +32,12 @@ export default function MajorsPage() {
           <Building2 className="h-4 w-4" aria-hidden="true" /> 대학 탐색
         </Link>
       </div>
-      <MajorSearch majors={majors} categories={categories} />
+
+      {/* 관심사 기반 추천 — 클라이언트에서 localStorage 읽기 */}
+      <InterestRecommendations majors={majors} />
+
+      {/* 전체 검색 + 필터 */}
+      <MajorSearch majors={majors} categories={categories} initialQuery={q} />
     </div>
   );
 }

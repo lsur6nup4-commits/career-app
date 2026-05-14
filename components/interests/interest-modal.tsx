@@ -48,14 +48,36 @@ function CategoryBadge({ category }: { category: string }) {
 function InterestChip({
   item,
   onRemove,
+  onNavigate,
 }: {
   item: DetectedInterest;
   onRemove: (kw: string) => void;
+  onNavigate: () => void;
 }) {
+  // 키워드 → 이동 대상 URL
+  const href =
+    item.category === "major" && item.majorId
+      ? `/majors/${item.majorId}`
+      : item.category === "job" && item.jobId
+        ? `/jobs/${item.jobId}`
+        : (item.category === "concept" || item.category === "field")
+          ? `/majors?q=${encodeURIComponent(item.keyword)}`
+          : null;
+
   return (
     <div className="flex items-center gap-1.5 rounded-full border border-border bg-card px-3 py-1.5 text-sm">
       <CategoryBadge category={item.category} />
-      <span className="font-medium">{item.keyword}</span>
+      {href ? (
+        <Link
+          href={href}
+          onClick={onNavigate}
+          className="font-medium hover:text-primary hover:underline underline-offset-2"
+        >
+          {item.keyword}
+        </Link>
+      ) : (
+        <span className="font-medium">{item.keyword}</span>
+      )}
       <span className="text-[11px] text-muted-foreground">×{item.count}</span>
       <button
         type="button"
@@ -70,34 +92,80 @@ function InterestChip({
 }
 
 // ── 관련 추천 카드 ────────────────────────────────────────────────────────
-function RecommendSection({ confirmed }: { confirmed: DetectedInterest[] }) {
+function RecommendSection({
+  confirmed,
+  onNavigate,
+}: {
+  confirmed: DetectedInterest[];
+  onNavigate: () => void;
+}) {
+  // 1. major 카테고리 → 직접 학과 링크
   const majorInterests = confirmed.filter((i) => i.category === "major" && i.majorId);
+  // 2. job 카테고리 → 직접 직업 링크
   const jobInterests = confirmed.filter((i) => i.category === "job" && i.jobId);
-  if (majorInterests.length === 0 && jobInterests.length === 0) return null;
+  // 3. concept/field 카테고리 → 학과 검색 링크
+  const conceptInterests = confirmed
+    .filter((i) => i.category === "concept" || i.category === "field")
+    .slice(0, 3);
+
+  const hasAny =
+    majorInterests.length > 0 ||
+    jobInterests.length > 0 ||
+    conceptInterests.length > 0;
+
+  if (!hasAny) return null;
+
   return (
     <div className="border-t border-border pt-4">
-      <p className="mb-2 text-xs font-semibold text-muted-foreground">관심사 기반 추천</p>
+      <p className="mb-2 text-xs font-semibold text-muted-foreground">
+        관심사 기반 추천
+      </p>
       <div className="space-y-2">
+        {/* 직접 학과 링크 */}
         {majorInterests.slice(0, 3).map((i) => (
           <Link
             key={i.majorId}
             href={`/majors/${i.majorId}`}
+            onClick={onNavigate}
             className="flex items-center gap-2 rounded-lg border border-border bg-card px-3 py-2 text-sm hover:border-primary/40 hover:bg-primary-soft/20"
           >
             <GraduationCap className="h-4 w-4 flex-shrink-0 text-primary" />
             <span className="font-medium">{i.keyword}</span>
-            <span className="ml-auto text-[11px] text-muted-foreground">학과 보기 →</span>
+            <span className="ml-auto text-[11px] text-muted-foreground">
+              학과 보기 →
+            </span>
           </Link>
         ))}
+
+        {/* 직접 직업 링크 */}
         {jobInterests.slice(0, 3).map((i) => (
           <Link
             key={i.jobId}
             href={`/jobs/${i.jobId}`}
+            onClick={onNavigate}
             className="flex items-center gap-2 rounded-lg border border-border bg-card px-3 py-2 text-sm hover:border-accent/40 hover:bg-accent/10"
           >
             <Briefcase className="h-4 w-4 flex-shrink-0 text-accent-foreground" />
             <span className="font-medium">{i.keyword}</span>
-            <span className="ml-auto text-[11px] text-muted-foreground">직업 보기 →</span>
+            <span className="ml-auto text-[11px] text-muted-foreground">
+              직업 보기 →
+            </span>
+          </Link>
+        ))}
+
+        {/* 개념/분야 → 학과 검색 */}
+        {conceptInterests.map((i) => (
+          <Link
+            key={i.keyword}
+            href={`/majors?q=${encodeURIComponent(i.keyword)}`}
+            onClick={onNavigate}
+            className="flex items-center gap-2 rounded-lg border border-border bg-card px-3 py-2 text-sm hover:border-primary/40 hover:bg-primary-soft/20"
+          >
+            <GraduationCap className="h-4 w-4 flex-shrink-0 text-primary" />
+            <span className="flex-1 font-medium">{i.keyword}</span>
+            <span className="text-[11px] text-muted-foreground">
+              관련 학과 검색 →
+            </span>
           </Link>
         ))}
       </div>
@@ -288,7 +356,12 @@ export function InterestModal({
           ) : (
             <div className="flex flex-wrap gap-2">
               {displayList.map((item) => (
-                <InterestChip key={item.keyword} item={item} onRemove={handleRemove} />
+                <InterestChip
+                  key={item.keyword}
+                  item={item}
+                  onRemove={handleRemove}
+                  onNavigate={onClose}
+                />
               ))}
             </div>
           )}
@@ -322,7 +395,7 @@ export function InterestModal({
 
           {/* 추천 섹션 */}
           <div className="mt-4">
-            <RecommendSection confirmed={confirmed} />
+            <RecommendSection confirmed={confirmed} onNavigate={onClose} />
           </div>
         </div>
       </div>

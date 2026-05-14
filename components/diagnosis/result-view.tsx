@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { ArrowRight, RotateCcw, Sparkles } from "lucide-react";
+import { ArrowRight, RotateCcw, Sparkles, Flame } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -12,16 +12,60 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { HollandRadar } from "@/components/diagnosis/holland-radar";
 import { HOLLAND_DESCRIPTIONS, HOLLAND_LABELS } from "@/lib/diagnosis/mappings";
 import { loadResult, clearResult } from "@/lib/diagnosis/storage";
+import { loadProfile, getConfirmedInterests } from "@/lib/interests/storage";
+import { matchInterestsToMajor } from "@/lib/interests/matcher";
+// lib/majors.ts는 6개 JSON을 import해 번들이 커지므로 majors.json만 직접 사용
+import majorsJson from "@/seed/majors.json";
+import type { Major } from "@/types/major";
 import type { DiagnosisResult } from "@/types/diagnosis";
+
+type DoubleMatch = {
+  majorId: string;
+  name: string;
+  category: string;
+  summary: string;
+  hollandScore: number;
+  matched: string[];
+};
 
 export function ResultView() {
   const router = useRouter();
   const [result, setResult] = useState<DiagnosisResult | null | "loading">(
     "loading",
   );
+  const [doubleMatches, setDoubleMatches] = useState<DoubleMatch[]>([]);
 
   useEffect(() => {
-    setResult(loadResult());
+    const r = loadResult();
+    setResult(r);
+
+    // 관심사 × Holland 더블 매칭 계산
+    if (!r) return;
+    const profile = loadProfile();
+    const confirmed = getConfirmedInterests(profile);
+    if (confirmed.length === 0) return;
+
+    const allMajors = majorsJson as Major[];
+    const majorMap = new Map(allMajors.map((m) => [m.id, m]));
+
+    const doubles: DoubleMatch[] = r.topMajors
+      .map((tm) => {
+        const full = majorMap.get(tm.majorId);
+        if (!full) return null;
+        const matched = matchInterestsToMajor(full, confirmed);
+        if (matched.length === 0) return null;
+        return {
+          majorId: tm.majorId,
+          name: tm.name,
+          category: full.category,
+          summary: full.summary,
+          hollandScore: tm.score,
+          matched,
+        };
+      })
+      .filter(Boolean) as DoubleMatch[];
+
+    setDoubleMatches(doubles);
   }, []);
 
   if (result === "loading") {
@@ -127,6 +171,64 @@ export function ResultView() {
         </Card>
       )}
 
+      {/* ── 더블 매칭 섹션 (진단 + 관심사 동시 일치) ─────────────────── */}
+      {doubleMatches.length > 0 && (
+        <section className="space-y-3" aria-labelledby="double-match-heading">
+          <div>
+            <h2
+              id="double-match-heading"
+              className="flex items-center gap-1.5 text-lg font-semibold"
+            >
+              <Flame className="h-5 w-5 text-orange-500" aria-hidden="true" />
+              진단 + 관심사 모두 일치
+            </h2>
+            <p className="text-xs text-muted-foreground">
+              Holland 진단 결과와 내 관심사가 동시에 매칭되는 학과예요.
+            </p>
+          </div>
+
+          <div className="space-y-2">
+            {doubleMatches.map((dm) => (
+              <Link
+                key={dm.majorId}
+                href={`/majors/${dm.majorId}`}
+                className="group block"
+              >
+                <div className="flex items-center gap-3 rounded-xl border border-orange-200 bg-orange-50 p-4 transition-shadow group-hover:shadow-card dark:border-orange-900/40 dark:bg-orange-950/20">
+                  <Flame
+                    className="h-5 w-5 flex-shrink-0 text-orange-500"
+                    aria-hidden="true"
+                  />
+                  <div className="min-w-0 flex-1">
+                    <div className="flex flex-wrap items-center gap-1.5">
+                      <span className="text-sm font-semibold group-hover:text-primary">
+                        {dm.name}
+                      </span>
+                      <Badge variant="secondary">{dm.category}</Badge>
+                    </div>
+                    <p className="mt-0.5 line-clamp-1 text-xs text-muted-foreground">
+                      {dm.summary}
+                    </p>
+                    <div className="mt-1 flex flex-wrap gap-1">
+                      {dm.matched.slice(0, 3).map((kw) => (
+                        <span
+                          key={kw}
+                          className="rounded-full bg-orange-100 px-2 py-0.5 text-[10px] font-semibold text-orange-700 dark:bg-orange-900/40 dark:text-orange-300"
+                        >
+                          🎯 {kw}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                  <span className="text-xs text-muted-foreground">→</span>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* ── Holland 추천 학과 ─────────────────────────────────────── */}
       <section className="space-y-3">
         <div>
           <h2 className="text-lg font-semibold">추천 학과 Top {result.topMajors.length}</h2>
