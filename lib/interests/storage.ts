@@ -40,23 +40,50 @@ export function saveProfile(profile: InterestProfile): void {
 }
 
 // ── 키워드 카운트 증가 + 자동 등록 ───────────────────────────────────────
+/**
+ * 키워드 하나를 프로필에 기록합니다.
+ *
+ * 학과 단위 그룹핑(category==="major" && majorId 존재):
+ *   - 동일 majorId의 기존 항목이 있으면 count+1, matchedKeywords 병합
+ *   - 없으면 신규 추가
+ * 그 외(job, field, concept):
+ *   - 동일 keyword의 기존 항목이 있으면 count+1
+ */
 export function trackKeyword(
   profile: InterestProfile,
   keyword: DetectedInterest,
 ): InterestProfile {
   const now = new Date().toISOString();
-  const existing = profile.detectedInterests.find(
-    (d) => d.keyword === keyword.keyword,
-  );
+
+  // 매칭 키: 학과 단위는 majorId 기준, 나머지는 keyword 문자열 기준
+  const isMajorGrouped = keyword.category === "major" && !!keyword.majorId;
+
+  const existing = isMajorGrouped
+    ? profile.detectedInterests.find(
+        (d) => d.category === "major" && d.majorId === keyword.majorId,
+      )
+    : profile.detectedInterests.find((d) => d.keyword === keyword.keyword);
 
   let updated: DetectedInterest[];
+
   if (existing) {
     updated = profile.detectedInterests.map((d) => {
-      if (d.keyword !== keyword.keyword) return d;
+      const isTarget = isMajorGrouped
+        ? d.category === "major" && d.majorId === keyword.majorId
+        : d.keyword === keyword.keyword;
+      if (!isTarget) return d;
+
       const newCount = d.count + 1;
+
+      // matchedKeywords 병합 (중복 제거)
+      const incoming = keyword.matchedKeywords ?? [];
+      const prev = d.matchedKeywords ?? [];
+      const merged = Array.from(new Set([...prev, ...incoming]));
+
       return {
         ...d,
         count: newCount,
+        matchedKeywords: merged.length > 0 ? merged : undefined,
         confirmedAt:
           newCount >= CONFIRM_THRESHOLD && !d.confirmedAt ? now : d.confirmedAt,
       };

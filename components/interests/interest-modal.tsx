@@ -54,16 +54,65 @@ function InterestChip({
   onRemove: (kw: string) => void;
   onNavigate: () => void;
 }) {
-  // 키워드 → 이동 대상 URL
   const href =
     item.category === "major" && item.majorId
       ? `/majors/${item.majorId}`
       : item.category === "job" && item.jobId
         ? `/jobs/${item.jobId}`
-        : (item.category === "concept" || item.category === "field")
+        : item.category === "concept" || item.category === "field"
           ? `/majors?q=${encodeURIComponent(item.keyword)}`
           : null;
 
+  // 학과 단위 그룹 칩 (matchedKeywords 있을 때 카드형)
+  const hasMeta =
+    item.category === "major" &&
+    item.matchedKeywords &&
+    item.matchedKeywords.length > 0;
+
+  if (hasMeta) {
+    return (
+      <div className="w-full rounded-xl border border-border bg-card px-3 py-2.5">
+        <div className="flex items-center gap-1.5">
+          <CategoryBadge category={item.category} />
+          {href ? (
+            <Link
+              href={href}
+              onClick={onNavigate}
+              className="flex-1 text-sm font-semibold hover:text-primary hover:underline underline-offset-2"
+            >
+              {item.keyword}
+            </Link>
+          ) : (
+            <span className="flex-1 text-sm font-semibold">{item.keyword}</span>
+          )}
+          <span className="rounded-full bg-primary/10 px-1.5 py-0.5 text-[10px] font-bold text-primary">
+            ×{item.count}
+          </span>
+          <button
+            type="button"
+            onClick={() => onRemove(item.keyword)}
+            className="rounded-full p-0.5 text-muted-foreground hover:bg-muted hover:text-foreground"
+            aria-label={`${item.keyword} 제거`}
+          >
+            <X className="h-3 w-3" />
+          </button>
+        </div>
+        {/* 감지된 원본 키워드 */}
+        <div className="mt-1.5 flex flex-wrap gap-1">
+          {item.matchedKeywords!.slice(0, 5).map((kw) => (
+            <span
+              key={kw}
+              className="rounded-full bg-muted px-2 py-0.5 text-[10px] text-muted-foreground"
+            >
+              {kw}
+            </span>
+          ))}
+        </div>
+      </div>
+    );
+  }
+
+  // 기본 pill 칩 (직업 · 분야 등)
   return (
     <div className="flex items-center gap-1.5 rounded-full border border-border bg-card px-3 py-1.5 text-sm">
       <CategoryBadge category={item.category} />
@@ -294,7 +343,7 @@ export function InterestModal({
             <div>
               <h2 className="text-base font-bold">내 관심사</h2>
               <p className="text-xs text-muted-foreground">
-                챗봇 대화에서 자동 학습 · 확정 기준 {CONFIRM_THRESHOLD}회 이상
+                챗봇 대화에서 자동 학습 · 학과 단위 집계 · {CONFIRM_THRESHOLD}회 이상 확정
               </p>
             </div>
             <div className="flex items-center gap-2">
@@ -356,12 +405,20 @@ export function InterestModal({
           ) : (
             <div className="flex flex-wrap gap-2">
               {displayList.map((item) => (
-                <InterestChip
-                  key={item.keyword}
-                  item={item}
-                  onRemove={handleRemove}
-                  onNavigate={onClose}
-                />
+                <div
+                  key={item.majorId ?? item.keyword}
+                  className={
+                    item.category === "major" && item.matchedKeywords?.length
+                      ? "w-full"
+                      : ""
+                  }
+                >
+                  <InterestChip
+                    item={item}
+                    onRemove={handleRemove}
+                    onNavigate={onClose}
+                  />
+                </div>
               ))}
             </div>
           )}
@@ -369,7 +426,7 @@ export function InterestModal({
           {/* 미확정 안내 */}
           {tab === "all" && pending.length > 0 && (
             <p className="mt-3 text-xs text-muted-foreground">
-              회색 항목은 아직 {CONFIRM_THRESHOLD}회 미만 ({pending.length}개). 더 대화하면 확정돼요.
+              아직 {CONFIRM_THRESHOLD}회 미달 학과 {pending.length}개 · 조금 더 대화하면 확정돼요.
             </p>
           )}
 
