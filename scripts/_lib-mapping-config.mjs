@@ -18,12 +18,30 @@ export function normUni(name) {
 }
 
 // ── 학과명 정규화 ────────────────────────────────────────────────────────
-/** 괄호 내용 제거, suffix 통일, 공백 제거 */
+/**
+ * 괄호 내용 제거, suffix 통일, 공백 제거.
+ *
+ * 케이스 처리:
+ *   "건축학전공"     → "건축학과"   ("학+전공" → "학과" 합치기)
+ *   "건축학부"       → "건축학과"
+ *   "건축학전문학부" → "건축학과"
+ *   "디자인전공"     → "디자인학과" ("학" 없는 경우 단순 변환)
+ *   "경영학"        → "경영학과"   ("X학"  → "X학과" 보완, 한신대 케이스)
+ *   "신학"          → "신학과"
+ *   "철학"          → "철학과"
+ *   "사회학"        → "사회학과"
+ *   "교직과"        → "교직과"     (이미 과)
+ */
 export function normMajor(name) {
   return name
     .replace(/\s*\([^)]*\)/g, "")
     .replace(/\s+/g, "")
-    .replace(/(학부|전공|전문학부)$/, "학과")
+    // 1) "X학(전공|학부|전문학부)" → "X학과"  ("학" 중복 방지)
+    .replace(/학(전공|학부|전문학부)$/, "학과")
+    // 2) "X(전공|학부|전문학부)" → "X학과"   (학 없는 경우)
+    .replace(/(전공|학부|전문학부)$/, "학과")
+    // 3) "X학" 단독 → "X학과"               (suffix 없이 학으로 끝)
+    .replace(/([가-힣]{2,})학$/, "$1학과")
     .trim();
 }
 
@@ -43,6 +61,13 @@ export const MAJOR_NAME_OVERRIDES = {
   "정보보호학과": "cybersecurity",
   "게임공학부": "game-engineering",
   "항공우주공학부": "aerospace",
+  // 한국항공대 학과
+  "항공운항학과": "aerospace",
+  "스마트드론공학과": "aerospace",
+  "항공·경영융합전공": "aerospace",
+  "AI자율주행시스템공학과": "automotive",
+  "AI융합전공": "ai-engineering",
+  "공학융합전공": "industrial-engineering",
   "자동차학과": "automotive",
   "스마트자동차학과": "automotive",
   "로봇시스템공학과": "robotics",
@@ -102,6 +127,14 @@ export const MAJOR_NAME_OVERRIDES = {
   "서양사학부": "western-history",
   "문화재보존학과": "cultural-heritage",
   "문화유산학과": "cultural-heritage",
+  // 한국전통문화대학교 학과
+  "국가유산관리학과": "cultural-heritage",
+  "무형유산학과": "cultural-heritage",
+  "보존과학과": "cultural-heritage",
+  "융합고고학과": "archaeology",
+  "전통건축학과": "civil-engineering",
+  "전통미술공예학과": "painting-eastern",
+  "전통조경학과": "horticulture",
   "인도어과": "indian-lit",
   "인도어학과": "indian-lit",
   "한국어문학과": "korean-language-lit",
