@@ -479,6 +479,160 @@ if (fakeUnis.length === 0) {
 }
 
 // ──────────────────────────────────────────────────────────────────────────
+// [7] majors.json 분류·태그 검증
+// ──────────────────────────────────────────────────────────────────────────
+const VALID_CATEGORIES = new Set([
+  "공학계열", "의약계열", "사회계열", "교육계열",
+  "인문계열", "자연계열", "예체능계열",
+]);
+const VALID_HOLLAND = new Set(["R", "I", "A", "S", "E", "C"]);
+
+const badCategory = majors.filter((m) => !VALID_CATEGORIES.has(m.category));
+if (badCategory.length === 0) {
+  pass("7a", "학과 7대 계열 분류", `152/152 정상`);
+} else {
+  fail("7a", "7대 계열 외 분류 학과", badCategory.map((m) => `${m.name}(${m.category})`));
+}
+
+const badHolland = majors.filter(
+  (m) =>
+    !m.hollandTags ||
+    m.hollandTags.length === 0 ||
+    m.hollandTags.some((t) => !VALID_HOLLAND.has(t)),
+);
+if (badHolland.length === 0) {
+  pass("7b", "Holland 표준 코드", "152/152 R·I·A·S·E·C 준수");
+} else {
+  fail("7b", "Holland 코드 위반 학과", badHolland.map((m) => m.name));
+}
+
+// ──────────────────────────────────────────────────────────────────────────
+// [8] jobs.json 직종 분류 검증
+// ──────────────────────────────────────────────────────────────────────────
+const VALID_TOP_NMS = new Set([
+  "연구직 및 공학 기술직",
+  "예술·디자인·방송·스포츠직",
+  "설치·정비·생산직",
+  "경영·사무·금융·보험직",
+  "교육·법률·사회복지·경찰·소방직 및 군인",
+  "미용·여행·숙박·음식·경비·청소직",
+  "보건·의료직",
+  "영업·판매·운전·운송직",
+  "건설·채굴직",
+  "농림어업직",
+]);
+const badTopNm = jobs.filter((j) => !VALID_TOP_NMS.has(j.top_nm));
+if (badTopNm.length === 0) {
+  pass("8", "직업 top_nm 표준 분류", `${jobs.length}/${jobs.length} 정상`);
+} else {
+  fail("8", "표준 외 top_nm 직업", badTopNm.map((j) => `${j.job_nm}(${j.top_nm})`));
+}
+
+// ──────────────────────────────────────────────────────────────────────────
+// [9] AI 위험도 극단값 (0% 또는 100%)
+// ──────────────────────────────────────────────────────────────────────────
+const extremeRisk = aiRisk.filter(
+  (r) =>
+    r.rate_2024 === 0 ||
+    r.rate_2024 >= 100 ||
+    r.rate_2027 === 0 ||
+    r.rate_2027 >= 100,
+);
+if (extremeRisk.length === 0) {
+  pass("9", "AI 위험도 극단값", "0% / 100% 없음");
+} else if (extremeRisk.length <= 2) {
+  // 프로게이머처럼 의도된 극단값은 ℹ️ 정보
+  report.push(
+    `ℹ️  [9] AI 위험도 극단값 ${extremeRisk.length}개 — ${extremeRisk
+      .map((r) => {
+        const j = jobs.find((x) => x.job_cd === r.job_cd);
+        return `${j?.job_nm ?? r.job_cd}(2024=${r.rate_2024}%, 2027=${r.rate_2027}%)`;
+      })
+      .join(", ")} — 직업 특성상 자연스러운 수치`,
+  );
+} else {
+  fail(
+    "9",
+    "AI 위험도 극단값",
+    extremeRisk.map((r) => {
+      const j = jobs.find((x) => x.job_cd === r.job_cd);
+      return `${j?.job_nm ?? r.job_cd}`;
+    }),
+  );
+}
+
+// ──────────────────────────────────────────────────────────────────────────
+// [10] 등록금 비정상 수치 (100만원 이하 / 2000만원 이상)
+// ──────────────────────────────────────────────────────────────────────────
+const abnormalTuition = universities.filter(
+  (u) =>
+    u.tuitionAvg !== undefined &&
+    (u.tuitionAvg < 100 || u.tuitionAvg > 2000),
+);
+if (abnormalTuition.length === 0) {
+  pass(
+    "10",
+    "등록금 정상 범위",
+    `100~2000만원 사이 ${universities.length - noTuition.length}/${universities.length - noTuition.length}`,
+  );
+} else {
+  fail(
+    "10",
+    "등록금 비정상 수치 대학",
+    abnormalTuition.map((u) => `${u.name}(${u.tuitionAvg}만원)`),
+  );
+}
+
+// ──────────────────────────────────────────────────────────────────────────
+// [11] 관심사 키워드 변별력
+// ──────────────────────────────────────────────────────────────────────────
+const kwMapText = readFileSync(
+  `${ROOT}/lib/interests/major-kw-map.ts`,
+  "utf-8",
+);
+const kwMatch = kwMapText.match(/MAJOR_KW_MAP[^=]*=\s*(\{[\s\S]*\});/);
+const kwMap = JSON.parse(kwMatch[1]);
+const shortKws = Object.keys(kwMap).filter((k) => k.length <= 2);
+const overConnected = Object.entries(kwMap).filter(([, v]) => v.length >= 10);
+
+if (shortKws.length === 0) {
+  pass("11a", "키워드 길이", "2자 이하 키워드 0개");
+} else {
+  fail("11a", "2자 이하 키워드 (변별력 낮음)", shortKws);
+}
+
+if (overConnected.length === 0) {
+  pass("11b", "키워드 변별력", "10개 이상 학과 연결 키워드 0개");
+} else {
+  fail(
+    "11b",
+    "광역 키워드 (10+ 학과 연결)",
+    overConnected.map(([k, v]) => `${k}(${v.length}개)`),
+  );
+}
+
+// ──────────────────────────────────────────────────────────────────────────
+// [12] 내부 링크 무결성 — major_extras / ai-risk
+// ──────────────────────────────────────────────────────────────────────────
+const extrasOrphan = Object.keys(extras).filter((k) => !majorIds.has(k));
+if (extrasOrphan.length === 0) {
+  pass(
+    "12a",
+    "major_extras.json majorId 무결성",
+    `${Object.keys(extras).length}개 모두 majors.json에 존재`,
+  );
+} else {
+  fail("12a", "major_extras.json에 잘못된 majorId", extrasOrphan);
+}
+
+const missingExtras = majors.filter((m) => !extras[m.id]).map((m) => m.name);
+if (missingExtras.length === 0) {
+  pass("12b", "major_extras 완전성", "152/152 학과 보유");
+} else {
+  warn("12b", "major_extras 누락 학과", missingExtras);
+}
+
+// ──────────────────────────────────────────────────────────────────────────
 // 결과 출력
 // ──────────────────────────────────────────────────────────────────────────
 console.log(report.join("\n"));

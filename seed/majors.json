@@ -130,7 +130,7 @@
       "automotive",
       "nano"
     ],
-    "averageAdmissionQuota": 108
+    "averageAdmissionQuota": 102
   },
   {
     "id": "mechanical-engineering",
@@ -196,7 +196,7 @@
       "mechatronics",
       "naval-architecture"
     ],
-    "averageAdmissionQuota": 103
+    "averageAdmissionQuota": 101
   },
   {
     "id": "chemical-engineering",
@@ -329,7 +329,7 @@
       "industrial-design",
       "design"
     ],
-    "averageAdmissionQuota": 48
+    "averageAdmissionQuota": 46
   },
   {
     "id": "industrial-engineering",
@@ -581,7 +581,7 @@
       "public-health",
       "emergency-medical"
     ],
-    "averageAdmissionQuota": 106
+    "averageAdmissionQuota": 110
   },
   {
     "id": "pharmacy",
@@ -705,7 +705,7 @@
       "international-business",
       "advertising"
     ],
-    "averageAdmissionQuota": 108
+    "averageAdmissionQuota": 101
   },
   {
     "id": "economics",
@@ -768,7 +768,7 @@
       "trade",
       "public-administration"
     ],
-    "averageAdmissionQuota": 69
+    "averageAdmissionQuota": 67
   },
   {
     "id": "accounting",
@@ -831,7 +831,7 @@
       "public-administration",
       "law"
     ],
-    "averageAdmissionQuota": 52
+    "averageAdmissionQuota": 50
   },
   {
     "id": "law",
@@ -894,7 +894,7 @@
       "sociology",
       "philosophy"
     ],
-    "averageAdmissionQuota": 56
+    "averageAdmissionQuota": 51
   },
   {
     "id": "political-science",
@@ -1019,7 +1019,7 @@
       "sociology",
       "consumer-studies"
     ],
-    "averageAdmissionQuota": 33
+    "averageAdmissionQuota": 34
   },
   {
     "id": "sociology",
@@ -1264,7 +1264,7 @@
       "japanese-lit",
       "global-studies"
     ],
-    "averageAdmissionQuota": 49
+    "averageAdmissionQuota": 48
   },
   {
     "id": "korean-language-lit",
@@ -1387,7 +1387,7 @@
       "cultural-heritage",
       "philosophy"
     ],
-    "averageAdmissionQuota": 29
+    "averageAdmissionQuota": 28
   },
   {
     "id": "philosophy",
@@ -1448,7 +1448,7 @@
       "theology",
       "psychology"
     ],
-    "averageAdmissionQuota": 25
+    "averageAdmissionQuota": 24
   },
   {
     "id": "biology",
@@ -1511,7 +1511,7 @@
       "agriculture",
       "pharmacy"
     ],
-    "averageAdmissionQuota": 45
+    "averageAdmissionQuota": 44
   },
   {
     "id": "chemistry",
@@ -1762,7 +1762,7 @@
       "animation",
       "interior-design"
     ],
-    "averageAdmissionQuota": 67
+    "averageAdmissionQuota": 65
   },
   {
     "id": "media-communication",
@@ -1823,7 +1823,7 @@
       "korean-language-lit",
       "design"
     ],
-    "averageAdmissionQuota": 37
+    "averageAdmissionQuota": 38
   },
   {
     "id": "physical-education",
@@ -1884,7 +1884,7 @@
       "education",
       "dance"
     ],
-    "averageAdmissionQuota": 30
+    "averageAdmissionQuota": 32
   },
   {
     "id": "french-lit",
@@ -2128,7 +2128,7 @@
       "global-studies",
       "trade"
     ],
-    "averageAdmissionQuota": 32
+    "averageAdmissionQuota": 31
   },
   {
     "id": "russian-lit",
@@ -2696,7 +2696,7 @@
       "ceramic-art",
       "anthropology"
     ],
-    "averageAdmissionQuota": 50
+    "averageAdmissionQuota": 33
   },
   {
     "id": "religion-studies",
@@ -2824,7 +2824,7 @@
       "social-welfare",
       "history"
     ],
-    "averageAdmissionQuota": 45
+    "averageAdmissionQuota": 44
   },
   {
     "id": "anthropology",
@@ -2954,7 +2954,7 @@
       "police-admin",
       "urban-planning-social"
     ],
-    "averageAdmissionQuota": 45
+    "averageAdmissionQuota": 44
   },
   {
     "id": "trade",
@@ -3020,7 +3020,7 @@
       "global-studies",
       "english-language-lit"
     ],
-    "averageAdmissionQuota": 61
+    "averageAdmissionQuota": 59
   },
   {
     "id": "international-business",
@@ -3086,7 +3086,7 @@
       "economics",
       "advertising"
     ],
-    "averageAdmissionQuota": 58
+    "averageAdmissionQuota": 53
   },
   {
     "id": "hotel-management",
@@ -3151,7 +3151,7 @@
       "consumer-studies",
       "advertising"
     ],
-    "averageAdmissionQuota": 50
+    "averageAdmissionQuota": 45
   },
   {
     "id": "tourism",
@@ -3216,7 +3216,7 @@
       "advertising",
       "consumer-studies"
     ],
-    "averageAdmissionQuota": 52
+    "averageAdmissionQuota": 51
   },
   {
     "id": "real-estate",
@@ -3347,7 +3347,7 @@
       "business",
       "consumer-studies"
     ],
-    "averageAdmissionQuota": 52
+    "averageAdmissionQuota": 48
   },
   {
     "id": "social-welfare",
@@ -3411,7 +3411,7 @@
       "nursing",
       "sociology"
     ],
-    "averageAdmissionQuota": 40
+    "averageAdmissionQuota": 41
   },
   {
     "id": "child-studies",
@@ -3475,7 +3475,7 @@
       "psychology",
       "family-studies"
     ],
-    "averageAdmissionQuota": 37
+    "averageAdmissionQuota": 36
   },
   {
     "id": "family-studies",
@@ -3861,7 +3861,7 @@
       "public-administration",
       "cybersecurity"
     ],
-    "averageAdmissionQuota": 35
+    "averageAdmissionQuota": 33
   },
   {
     "id": "health-admin",
@@ -3926,7 +3926,7 @@
       "business",
       "policy-studies"
     ],
-    "averageAdmissionQuota": 36
+    "averageAdmissionQuota": 34
   },
   {
     "id": "urban-planning-social",
@@ -4438,7 +4438,7 @@
       "education",
       "ethics-edu"
     ],
-    "averageAdmissionQuota": 19
+    "averageAdmissionQuota": 20
   },
   {
     "id": "science-edu",
@@ -4567,7 +4567,7 @@
       "social-welfare",
       "education"
     ],
-    "averageAdmissionQuota": 33
+    "averageAdmissionQuota": 32
   },
   {
     "id": "elementary-edu",
@@ -4695,7 +4695,7 @@
       "psychology",
       "elementary-edu"
     ],
-    "averageAdmissionQuota": 36
+    "averageAdmissionQuota": 34
   },
   {
     "id": "ethics-edu",
@@ -4823,7 +4823,7 @@
       "education",
       "music-edu"
     ],
-    "averageAdmissionQuota": 24
+    "averageAdmissionQuota": 26
   },
   {
     "id": "music-edu",
@@ -4888,7 +4888,7 @@
       "art-edu",
       "composition"
     ],
-    "averageAdmissionQuota": 23
+    "averageAdmissionQuota": 25
   },
   {
     "id": "technology-edu",
@@ -4953,7 +4953,7 @@
       "education",
       "industrial-design-eng"
     ],
-    "averageAdmissionQuota": 25
+    "averageAdmissionQuota": 23
   },
   {
     "id": "home-edu",
@@ -5018,7 +5018,7 @@
       "food-engineering",
       "education"
     ],
-    "averageAdmissionQuota": 23
+    "averageAdmissionQuota": 24
   },
   {
     "id": "history-edu",
@@ -5083,7 +5083,7 @@
       "education",
       "east-asian-history"
     ],
-    "averageAdmissionQuota": 21
+    "averageAdmissionQuota": 22
   },
   {
     "id": "information-communication",
@@ -5149,7 +5149,7 @@
       "cybersecurity",
       "ai-engineering"
     ],
-    "averageAdmissionQuota": 48
+    "averageAdmissionQuota": 46
   },
   {
     "id": "software",
@@ -5215,7 +5215,7 @@
       "data-science",
       "cybersecurity"
     ],
-    "averageAdmissionQuota": 65
+    "averageAdmissionQuota": 64
   },
   {
     "id": "ai-engineering",
@@ -5281,7 +5281,7 @@
       "mathematics",
       "software"
     ],
-    "averageAdmissionQuota": 42
+    "averageAdmissionQuota": 41
   },
   {
     "id": "data-science",
@@ -5347,7 +5347,7 @@
       "ai-engineering",
       "industrial-engineering"
     ],
-    "averageAdmissionQuota": 44
+    "averageAdmissionQuota": 42
   },
   {
     "id": "cybersecurity",
@@ -5545,7 +5545,7 @@
       "physics",
       "naval-architecture"
     ],
-    "averageAdmissionQuota": 52
+    "averageAdmissionQuota": 49
   },
   {
     "id": "naval-architecture",
@@ -5676,7 +5676,7 @@
       "energy",
       "industrial-design-eng"
     ],
-    "averageAdmissionQuota": 43
+    "averageAdmissionQuota": 41
   },
   {
     "id": "robotics",
@@ -6526,7 +6526,7 @@
       "environmental",
       "nuclear"
     ],
-    "averageAdmissionQuota": 38
+    "averageAdmissionQuota": 39
   },
   {
     "id": "nano",
@@ -7628,7 +7628,7 @@
       "oceanography",
       "ocean-engineering"
     ],
-    "averageAdmissionQuota": 32
+    "averageAdmissionQuota": 33
   },
   {
     "id": "dentistry",
@@ -7889,7 +7889,7 @@
       "biomedical-engineering",
       "public-health"
     ],
-    "averageAdmissionQuota": 49
+    "averageAdmissionQuota": 50
   },
   {
     "id": "radiology",
@@ -7954,7 +7954,7 @@
       "physics",
       "clinical-pathology"
     ],
-    "averageAdmissionQuota": 45
+    "averageAdmissionQuota": 46
   },
   {
     "id": "occupational-therapy",
@@ -8019,7 +8019,7 @@
       "social-welfare",
       "special-edu"
     ],
-    "averageAdmissionQuota": 45
+    "averageAdmissionQuota": 46
   },
   {
     "id": "physical-therapy",
@@ -8084,7 +8084,7 @@
       "sports-science",
       "physical-education"
     ],
-    "averageAdmissionQuota": 45
+    "averageAdmissionQuota": 46
   },
   {
     "id": "emergency-medical",
@@ -8344,7 +8344,7 @@
       "automotive",
       "visual-design"
     ],
-    "averageAdmissionQuota": 36
+    "averageAdmissionQuota": 35
   },
   {
     "id": "fashion-design",
@@ -8862,7 +8862,7 @@
       "photography",
       "media-communication"
     ],
-    "averageAdmissionQuota": 35
+    "averageAdmissionQuota": 32
   },
   {
     "id": "animation",
@@ -8926,7 +8926,7 @@
       "film-tv",
       "visual-design"
     ],
-    "averageAdmissionQuota": 42
+    "averageAdmissionQuota": 56
   },
   {
     "id": "game-graphics",
@@ -9055,7 +9055,7 @@
       "music-edu",
       "korean-music"
     ],
-    "averageAdmissionQuota": 40
+    "averageAdmissionQuota": 38
   },
   {
     "id": "composition",
@@ -9563,7 +9563,7 @@
       "dance",
       "media-communication"
     ],
-    "averageAdmissionQuota": 36
+    "averageAdmissionQuota": 35
   },
   {
     "id": "sports-science",
@@ -9757,6 +9757,6 @@
       "sports-science",
       "dance"
     ],
-    "averageAdmissionQuota": 50
+    "averageAdmissionQuota": 49
   }
 ]

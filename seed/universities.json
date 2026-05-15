@@ -1507,5 +1507,219 @@
     "region": "경기",
     "type": "PRIVATE",
     "tuitionAvg": 899
+  },
+  {
+    "id": "gaya-gimhae",
+    "name": "가야대학교(김해)",
+    "shortName": "가야대 김해",
+    "region": "경남",
+    "type": "PRIVATE",
+    "tuitionAvg": 745
+  },
+  {
+    "id": "catholic-gwandong",
+    "name": "가톨릭관동대학교",
+    "shortName": "관동대",
+    "region": "강원",
+    "type": "PRIVATE",
+    "tuitionAvg": 773
+  },
+  {
+    "id": "gangseo",
+    "name": "강서대학교",
+    "shortName": "강서대",
+    "region": "서울",
+    "type": "PRIVATE",
+    "tuitionAvg": 793
+  },
+  {
+    "id": "gntech",
+    "name": "경남과학기술대학교",
+    "shortName": "경남과기대",
+    "region": "경남",
+    "type": "NATIONAL"
+  },
+  {
+    "id": "kyungnam",
+    "name": "경남대학교",
+    "shortName": "경남대",
+    "region": "경남",
+    "type": "PRIVATE",
+    "tuitionAvg": 706
+  },
+  {
+    "id": "kiu",
+    "name": "경일대학교",
+    "shortName": "경일대",
+    "region": "경북",
+    "type": "PRIVATE",
+    "tuitionAvg": 800
+  },
+  {
+    "id": "gwnu",
+    "name": "국립강릉원주대학교",
+    "shortName": "강릉원주대",
+    "region": "강원",
+    "type": "NATIONAL"
+  },
+  {
+    "id": "gkun",
+    "name": "국립경국대학교",
+    "shortName": "경국대",
+    "region": "경북",
+    "type": "NATIONAL",
+    "tuitionAvg": 384
+  },
+  {
+    "id": "ggu",
+    "name": "금강대학교",
+    "shortName": "금강대",
+    "region": "충남",
+    "type": "PRIVATE",
+    "tuitionAvg": 660
+  },
+  {
+    "id": "gimcheon",
+    "name": "김천대학교",
+    "shortName": "김천대",
+    "region": "경북",
+    "type": "PRIVATE",
+    "tuitionAvg": 739
+  },
+  {
+    "id": "kornu",
+    "name": "나사렛대학교",
+    "shortName": "나사렛대",
+    "region": "충남",
+    "type": "PRIVATE",
+    "tuitionAvg": 791
+  },
+  {
+    "id": "nambu",
+    "name": "남부대학교",
+    "shortName": "남부대",
+    "region": "광주",
+    "type": "PRIVATE",
+    "tuitionAvg": 677
+  },
+  {
+    "id": "dau",
+    "name": "대구예술대학교",
+    "shortName": "대구예술대",
+    "region": "경북",
+    "type": "PRIVATE",
+    "tuitionAvg": 839
+  },
+  {
+    "id": "daejin",
+    "name": "대진대학교",
+    "shortName": "대진대",
+    "region": "경기",
+    "type": "PRIVATE",
+    "tuitionAvg": 825
+  },
+  {
+    "id": "dongseo",
+    "name": "동서대학교",
+    "shortName": "동서대",
+    "region": "부산",
+    "type": "PRIVATE",
+    "tuitionAvg": 754
+  },
+  {
+    "id": "seowon",
+    "name": "서원대학교",
+    "shortName": "서원대",
+    "region": "충북",
+    "type": "PRIVATE",
+    "tuitionAvg": 757
+  },
+  {
+    "id": "sungkonghoe",
+    "name": "성공회대학교",
+    "shortName": "성공회대",
+    "region": "서울",
+    "type": "PRIVATE",
+    "tuitionAvg": 763
+  },
+  {
+    "id": "semyung",
+    "name": "세명대학교",
+    "shortName": "세명대",
+    "region": "충북",
+    "type": "PRIVATE",
+    "tuitionAvg": 750
+  },
+  {
+    "id": "sehan",
+    "name": "세한대학교",
+    "shortName": "세한대",
+    "region": "전남",
+    "type": "PRIVATE",
+    "tuitionAvg": 801
+  },
+  {
+    "id": "songwon",
+    "name": "송원대학교",
+    "shortName": "송원대",
+    "region": "광주",
+    "type": "PRIVATE",
+    "tuitionAvg": 711
+  },
+  {
+    "id": "woosuk",
+    "name": "우석대학교",
+    "shortName": "우석대",
+    "region": "전북",
+    "type": "PRIVATE",
+    "tuitionAvg": 752
+  },
+  {
+    "id": "eulji",
+    "name": "을지대학교",
+    "shortName": "을지대",
+    "region": "대전",
+    "type": "PRIVATE",
+    "tuitionAvg": 978
+  },
+  {
+    "id": "inje",
+    "name": "인제대학교",
+    "shortName": "인제대",
+    "region": "경남",
+    "type": "PRIVATE",
+    "tuitionAvg": 793
+  },
+  {
+    "id": "changshin",
+    "name": "창신대학교",
+    "shortName": "창신대",
+    "region": "경남",
+    "type": "PRIVATE",
+    "tuitionAvg": 696
+  },
+  {
+    "id": "chodang",
+    "name": "초당대학교",
+    "shortName": "초당대",
+    "region": "전남",
+    "type": "PRIVATE",
+    "tuitionAvg": 723
+  },
+  {
+    "id": "hanseo",
+    "name": "한서대학교",
+    "shortName": "한서대",
+    "region": "충남",
+    "type": "PRIVATE",
+    "tuitionAvg": 853
+  },
+  {
+    "id": "hansung",
+    "name": "한성대학교",
+    "shortName": "한성대",
+    "region": "서울",
+    "type": "PRIVATE",
+    "tuitionAvg": 803
   }
 ]

@@ -36,6 +36,11 @@
     "majorId": "accounting"
   },
   {
+    "universityId": "gwnu",
+    "majorId": "accounting",
+    "admissionQuota": 32
+  },
+  {
     "universityId": "hannam",
     "majorId": "accounting",
     "admissionQuota": 89
@@ -60,12 +65,20 @@
     "admissionQuota": 36
   },
   {
+    "universityId": "kyungnam",
+    "majorId": "accounting"
+  },
+  {
     "universityId": "kyungsung",
     "majorId": "accounting",
     "admissionQuota": 81
   },
   {
     "universityId": "pusan-foreign",
+    "majorId": "accounting"
+  },
+  {
+    "universityId": "seowon",
     "majorId": "accounting"
   },
   {
@@ -77,6 +90,11 @@
     "universityId": "soongsil",
     "majorId": "accounting",
     "admissionQuota": 47
+  },
+  {
+    "universityId": "catholic-gwandong",
+    "majorId": "advertising",
+    "admissionQuota": 30
   },
   {
     "universityId": "cau",
@@ -100,6 +118,11 @@
     "universityId": "dongguk",
     "majorId": "advertising",
     "admissionQuota": 45
+  },
+  {
+    "universityId": "dongseo",
+    "majorId": "advertising",
+    "admissionQuota": 56
   },
   {
     "universityId": "hallym",
@@ -140,14 +163,34 @@
     "admissionQuota": 30
   },
   {
+    "universityId": "semyung",
+    "majorId": "advertising",
+    "admissionQuota": 30
+  },
+  {
+    "universityId": "seowon",
+    "majorId": "advertising",
+    "admissionQuota": 40
+  },
+  {
     "universityId": "tongmyong",
     "majorId": "advertising",
     "admissionQuota": 25
   },
   {
+    "universityId": "catholic-gwandong",
+    "majorId": "aerospace",
+    "admissionQuota": 30
+  },
+  {
     "universityId": "cheongju-univ",
     "majorId": "aerospace",
     "admissionQuota": 30
+  },
+  {
+    "universityId": "chodang",
+    "majorId": "aerospace",
+    "admissionQuota": 50
   },
   {
     "universityId": "chonbuk",
@@ -196,6 +239,11 @@
     "universityId": "pnu",
     "majorId": "aerospace",
     "admissionQuota": 46
+  },
+  {
+    "universityId": "sehan",
+    "majorId": "aerospace",
+    "admissionQuota": 30
   },
   {
     "universityId": "silla",
@@ -309,6 +357,11 @@
     "majorId": "ai-engineering"
   },
   {
+    "universityId": "kyungnam",
+    "majorId": "ai-engineering",
+    "admissionQuota": 25
+  },
+  {
     "universityId": "mokpo",
     "majorId": "ai-engineering",
     "admissionQuota": 20
@@ -331,6 +384,10 @@
     "universityId": "soongsil",
     "majorId": "ai-engineering",
     "admissionQuota": 48
+  },
+  {
+    "universityId": "sungkonghoe",
+    "majorId": "ai-engineering"
   },
   {
     "universityId": "uos",
@@ -391,6 +448,11 @@
     "admissionQuota": 26
   },
   {
+    "universityId": "kiu",
+    "majorId": "animation",
+    "admissionQuota": 140
+  },
+  {
     "universityId": "kyungsung",
     "majorId": "animation"
   },
@@ -424,8 +486,28 @@
     "admissionQuota": 32
   },
   {
+    "universityId": "catholic-gwandong",
+    "majorId": "applied-music",
+    "admissionQuota": 20
+  },
+  {
     "universityId": "daegu-cu",
     "majorId": "applied-music"
+  },
+  {
+    "universityId": "daejin",
+    "majorId": "applied-music",
+    "admissionQuota": 22
+  },
+  {
+    "universityId": "gangseo",
+    "majorId": "applied-music",
+    "admissionQuota": 30
+  },
+  {
+    "universityId": "hanseo",
+    "majorId": "applied-music",
+    "admissionQuota": 10
   },
   {
     "universityId": "hanyang",
@@ -451,6 +533,11 @@
     "universityId": "kgu",
     "majorId": "applied-music",
     "admissionQuota": 22
+  },
+  {
+    "universityId": "kornu",
+    "majorId": "applied-music",
+    "admissionQuota": 45
   },
   {
     "universityId": "mokwon",
@@ -523,6 +610,11 @@
     "admissionQuota": 19
   },
   {
+    "universityId": "kyungnam",
+    "majorId": "art-edu",
+    "admissionQuota": 37
+  },
+  {
     "universityId": "mokwon",
     "majorId": "art-edu",
     "admissionQuota": 29
@@ -551,6 +643,11 @@
     "universityId": "dong-eui",
     "majorId": "automotive",
     "admissionQuota": 40
+  },
+  {
+    "universityId": "gwnu",
+    "majorId": "automotive",
+    "admissionQuota": 28
   },
   {
     "universityId": "hankuk-univ-info",
@@ -726,6 +823,11 @@
     "admissionQuota": 85
   },
   {
+    "universityId": "gwnu",
+    "majorId": "biology",
+    "admissionQuota": 21
+  },
+  {
     "universityId": "hallym",
     "majorId": "biology",
     "admissionQuota": 34
@@ -885,9 +987,18 @@
     "majorId": "broadcasting"
   },
   {
+    "universityId": "sungkonghoe",
+    "majorId": "broadcasting"
+  },
+  {
     "universityId": "ajou",
     "majorId": "business",
     "admissionQuota": 90
+  },
+  {
+    "universityId": "catholic-gwandong",
+    "majorId": "business",
+    "admissionQuota": 40
   },
   {
     "universityId": "cau",
@@ -933,6 +1044,11 @@
     "admissionQuota": 80
   },
   {
+    "universityId": "daejin",
+    "majorId": "business",
+    "admissionQuota": 54
+  },
+  {
     "universityId": "dong-eui",
     "majorId": "business",
     "admissionQuota": 90
@@ -962,6 +1078,10 @@
     "admissionQuota": 150
   },
   {
+    "universityId": "ggu",
+    "majorId": "business"
+  },
+  {
     "universityId": "gnu",
     "majorId": "business"
   },
@@ -978,6 +1098,11 @@
   {
     "universityId": "gwangju-univ",
     "majorId": "business"
+  },
+  {
+    "universityId": "gwnu",
+    "majorId": "business",
+    "admissionQuota": 28
   },
   {
     "universityId": "gyeongju",
@@ -1044,6 +1169,11 @@
     "universityId": "inha",
     "majorId": "business",
     "admissionQuota": 107
+  },
+  {
+    "universityId": "inje",
+    "majorId": "business",
+    "admissionQuota": 36
   },
   {
     "universityId": "jeju",
@@ -1132,6 +1262,11 @@
     "admissionQuota": 165
   },
   {
+    "universityId": "kornu",
+    "majorId": "business",
+    "admissionQuota": 40
+  },
+  {
     "universityId": "kuksoo",
     "majorId": "business",
     "admissionQuota": 123
@@ -1140,6 +1275,11 @@
     "universityId": "kunsan",
     "majorId": "business",
     "admissionQuota": 54
+  },
+  {
+    "universityId": "kyungnam",
+    "majorId": "business",
+    "admissionQuota": 100
   },
   {
     "universityId": "kyungsung",
@@ -1190,6 +1330,11 @@
     "admissionQuota": 51
   },
   {
+    "universityId": "semyung",
+    "majorId": "business",
+    "admissionQuota": 40
+  },
+  {
     "universityId": "seoul-tech",
     "majorId": "business",
     "admissionQuota": 69
@@ -1198,6 +1343,11 @@
     "universityId": "seoul-women",
     "majorId": "business",
     "admissionQuota": 67
+  },
+  {
+    "universityId": "seowon",
+    "majorId": "business",
+    "admissionQuota": 90
   },
   {
     "universityId": "skku",
@@ -1246,6 +1396,11 @@
   {
     "universityId": "sun-moon",
     "majorId": "business"
+  },
+  {
+    "universityId": "sungkonghoe",
+    "majorId": "business",
+    "admissionQuota": 50
   },
   {
     "universityId": "sungkyul",
@@ -1325,6 +1480,10 @@
     "admissionQuota": 45
   },
   {
+    "universityId": "daejin",
+    "majorId": "chemical-engineering"
+  },
+  {
     "universityId": "dong-eui",
     "majorId": "chemical-engineering",
     "admissionQuota": 50
@@ -1347,6 +1506,10 @@
     "universityId": "hannam",
     "majorId": "chemical-engineering",
     "admissionQuota": 45
+  },
+  {
+    "universityId": "hanseo",
+    "majorId": "chemical-engineering"
   },
   {
     "universityId": "hanyang",
@@ -1672,6 +1835,11 @@
     "majorId": "child-studies"
   },
   {
+    "universityId": "daejin",
+    "majorId": "child-studies",
+    "admissionQuota": 33
+  },
+  {
     "universityId": "dong-eui",
     "majorId": "child-studies",
     "admissionQuota": 40
@@ -1719,6 +1887,11 @@
     "universityId": "seoul-women",
     "majorId": "child-studies",
     "admissionQuota": 56
+  },
+  {
+    "universityId": "seowon",
+    "majorId": "child-studies",
+    "admissionQuota": 30
   },
   {
     "universityId": "sookmyung",
@@ -1770,6 +1943,11 @@
     "universityId": "gnu-gyeongsang",
     "majorId": "chinese-lit",
     "admissionQuota": 38
+  },
+  {
+    "universityId": "gwnu",
+    "majorId": "chinese-lit",
+    "admissionQuota": 25
   },
   {
     "universityId": "hanyang",
@@ -1912,9 +2090,17 @@
     "majorId": "civil-construction"
   },
   {
+    "universityId": "gwnu",
+    "majorId": "civil-construction"
+  },
+  {
     "universityId": "hannam",
     "majorId": "civil-construction",
     "admissionQuota": 48
+  },
+  {
+    "universityId": "hanseo",
+    "majorId": "civil-construction"
   },
   {
     "universityId": "hanyang",
@@ -2051,6 +2237,10 @@
     "admissionQuota": 30
   },
   {
+    "universityId": "hanseo",
+    "majorId": "civil-engineering"
+  },
+  {
     "universityId": "honam",
     "majorId": "civil-engineering"
   },
@@ -2076,6 +2266,21 @@
     "universityId": "knu",
     "majorId": "civil-engineering",
     "admissionQuota": 35
+  },
+  {
+    "universityId": "kyungnam",
+    "majorId": "civil-engineering",
+    "admissionQuota": 50
+  },
+  {
+    "universityId": "semyung",
+    "majorId": "civil-engineering",
+    "admissionQuota": 35
+  },
+  {
+    "universityId": "seowon",
+    "majorId": "civil-engineering",
+    "admissionQuota": 40
   },
   {
     "universityId": "smit",
@@ -2121,6 +2326,11 @@
     "admissionQuota": 72
   },
   {
+    "universityId": "catholic-gwandong",
+    "majorId": "clinical-pathology",
+    "admissionQuota": 40
+  },
+  {
     "universityId": "cheongju-univ",
     "majorId": "clinical-pathology",
     "admissionQuota": 42
@@ -2139,6 +2349,21 @@
     "universityId": "dong-eui",
     "majorId": "clinical-pathology",
     "admissionQuota": 52
+  },
+  {
+    "universityId": "dongseo",
+    "majorId": "clinical-pathology",
+    "admissionQuota": 40
+  },
+  {
+    "universityId": "eulji",
+    "majorId": "clinical-pathology",
+    "admissionQuota": 107
+  },
+  {
+    "universityId": "gimcheon",
+    "majorId": "clinical-pathology",
+    "admissionQuota": 40
   },
   {
     "universityId": "honam",
@@ -2161,6 +2386,11 @@
     "admissionQuota": 53
   },
   {
+    "universityId": "kornu",
+    "majorId": "clinical-pathology",
+    "admissionQuota": 25
+  },
+  {
     "universityId": "kuksoo",
     "majorId": "clinical-pathology",
     "admissionQuota": 40
@@ -2179,6 +2409,11 @@
     "universityId": "sangji",
     "majorId": "clinical-pathology",
     "admissionQuota": 33
+  },
+  {
+    "universityId": "semyung",
+    "majorId": "clinical-pathology",
+    "admissionQuota": 70
   },
   {
     "universityId": "shin-han",
@@ -2259,6 +2494,11 @@
     "majorId": "computer-science"
   },
   {
+    "universityId": "dongseo",
+    "majorId": "computer-science",
+    "admissionQuota": 80
+  },
+  {
     "universityId": "ewha",
     "majorId": "computer-science",
     "admissionQuota": 69
@@ -2283,6 +2523,11 @@
     "majorId": "computer-science"
   },
   {
+    "universityId": "gwnu",
+    "majorId": "computer-science",
+    "admissionQuota": 69
+  },
+  {
     "universityId": "hanbat",
     "majorId": "computer-science",
     "admissionQuota": 47
@@ -2291,6 +2536,10 @@
     "universityId": "hannam",
     "majorId": "computer-science",
     "admissionQuota": 63
+  },
+  {
+    "universityId": "hansung",
+    "majorId": "computer-science"
   },
   {
     "universityId": "honam",
@@ -2380,6 +2629,11 @@
     "admissionQuota": 32
   },
   {
+    "universityId": "kyungnam",
+    "majorId": "computer-science",
+    "admissionQuota": 110
+  },
+  {
     "universityId": "kyungsung",
     "majorId": "computer-science",
     "admissionQuota": 50
@@ -2428,6 +2682,11 @@
     "universityId": "seoul-tech",
     "majorId": "computer-science",
     "admissionQuota": 53
+  },
+  {
+    "universityId": "seowon",
+    "majorId": "computer-science",
+    "admissionQuota": 40
   },
   {
     "universityId": "smit",
@@ -2504,6 +2763,11 @@
     "majorId": "consumer-studies"
   },
   {
+    "universityId": "hanseo",
+    "majorId": "cultural-heritage",
+    "admissionQuota": 15
+  },
+  {
     "universityId": "kfq",
     "majorId": "cultural-heritage",
     "admissionQuota": 50
@@ -2516,6 +2780,11 @@
   {
     "universityId": "daegu-cu",
     "majorId": "cybersecurity"
+  },
+  {
+    "universityId": "dongseo",
+    "majorId": "cybersecurity",
+    "admissionQuota": 25
   },
   {
     "universityId": "ewha",
@@ -2644,9 +2913,18 @@
     "majorId": "dance"
   },
   {
+    "universityId": "dongseo",
+    "majorId": "data-science"
+  },
+  {
     "universityId": "duksung",
     "majorId": "data-science",
     "admissionQuota": 40
+  },
+  {
+    "universityId": "gwnu",
+    "majorId": "data-science",
+    "admissionQuota": 22
   },
   {
     "universityId": "hallym",
@@ -2733,6 +3011,10 @@
   },
   {
     "universityId": "chosun",
+    "majorId": "dentistry"
+  },
+  {
+    "universityId": "gwnu",
     "majorId": "dentistry"
   },
   {
@@ -2833,6 +3115,11 @@
     "admissionQuota": 92
   },
   {
+    "universityId": "seowon",
+    "majorId": "design",
+    "admissionQuota": 40
+  },
+  {
     "universityId": "skku",
     "majorId": "design",
     "admissionQuota": 38
@@ -2869,6 +3156,11 @@
     "universityId": "cau",
     "majorId": "early-childhood-edu",
     "admissionQuota": 30
+  },
+  {
+    "universityId": "changshin",
+    "majorId": "early-childhood-edu",
+    "admissionQuota": 25
   },
   {
     "universityId": "changwon",
@@ -2921,6 +3213,11 @@
     "admissionQuota": 50
   },
   {
+    "universityId": "gimcheon",
+    "majorId": "early-childhood-edu",
+    "admissionQuota": 14
+  },
+  {
     "universityId": "gnu",
     "majorId": "early-childhood-edu",
     "admissionQuota": 14
@@ -2936,6 +3233,11 @@
     "admissionQuota": 56
   },
   {
+    "universityId": "gwnu",
+    "majorId": "early-childhood-edu",
+    "admissionQuota": 60
+  },
+  {
     "universityId": "gyeongju",
     "majorId": "early-childhood-edu",
     "admissionQuota": 25
@@ -2949,6 +3251,11 @@
     "universityId": "incheon-univ",
     "majorId": "early-childhood-edu",
     "admissionQuota": 20
+  },
+  {
+    "universityId": "inje",
+    "majorId": "early-childhood-edu",
+    "admissionQuota": 21
   },
   {
     "universityId": "jnu",
@@ -3016,6 +3323,11 @@
     "admissionQuota": 40
   },
   {
+    "universityId": "kyungnam",
+    "majorId": "early-childhood-edu",
+    "admissionQuota": 37
+  },
+  {
     "universityId": "mokpo-catholic",
     "majorId": "early-childhood-edu",
     "admissionQuota": 12
@@ -3024,6 +3336,11 @@
     "universityId": "mokwon",
     "majorId": "early-childhood-edu",
     "admissionQuota": 26
+  },
+  {
+    "universityId": "nambu",
+    "majorId": "early-childhood-edu",
+    "admissionQuota": 27
   },
   {
     "universityId": "pai-chai",
@@ -3046,6 +3363,16 @@
     "admissionQuota": 38
   },
   {
+    "universityId": "sehan",
+    "majorId": "early-childhood-edu",
+    "admissionQuota": 20
+  },
+  {
+    "universityId": "seowon",
+    "majorId": "early-childhood-edu",
+    "admissionQuota": 32
+  },
+  {
     "universityId": "shin-han",
     "majorId": "early-childhood-edu",
     "admissionQuota": 64
@@ -3059,6 +3386,11 @@
     "universityId": "smit",
     "majorId": "early-childhood-edu",
     "admissionQuota": 35
+  },
+  {
+    "universityId": "songwon",
+    "majorId": "early-childhood-edu",
+    "admissionQuota": 40
   },
   {
     "universityId": "soonchunhyang",
@@ -3193,6 +3525,11 @@
     "admissionQuota": 61
   },
   {
+    "universityId": "gwnu",
+    "majorId": "economics",
+    "admissionQuota": 22
+  },
+  {
     "universityId": "hallym",
     "majorId": "economics",
     "admissionQuota": 52
@@ -3318,6 +3655,10 @@
     "universityId": "soongsil",
     "majorId": "economics",
     "admissionQuota": 72
+  },
+  {
+    "universityId": "sungkonghoe",
+    "majorId": "economics"
   },
   {
     "universityId": "sungshin",
@@ -3463,6 +3804,11 @@
     "admissionQuota": 49
   },
   {
+    "universityId": "kyungnam",
+    "majorId": "education",
+    "admissionQuota": 30
+  },
+  {
     "universityId": "mokpo",
     "majorId": "education",
     "admissionQuota": 15
@@ -3481,6 +3827,11 @@
     "universityId": "sejong",
     "majorId": "education",
     "admissionQuota": 11
+  },
+  {
+    "universityId": "seowon",
+    "majorId": "education",
+    "admissionQuota": 22
   },
   {
     "universityId": "silla",
@@ -3560,6 +3911,10 @@
     "admissionQuota": 30
   },
   {
+    "universityId": "daejin",
+    "majorId": "electrical-engineering"
+  },
+  {
     "universityId": "dong-eui",
     "majorId": "electrical-engineering",
     "admissionQuota": 140
@@ -3597,6 +3952,11 @@
   {
     "universityId": "gwangju-univ",
     "majorId": "electrical-engineering"
+  },
+  {
+    "universityId": "gwnu",
+    "majorId": "electrical-engineering",
+    "admissionQuota": 30
   },
   {
     "universityId": "hanbat",
@@ -3695,6 +4055,11 @@
     "admissionQuota": 150
   },
   {
+    "universityId": "kyungnam",
+    "majorId": "electrical-engineering",
+    "admissionQuota": 40
+  },
+  {
     "universityId": "kyungsung",
     "majorId": "electrical-engineering",
     "admissionQuota": 89
@@ -3708,6 +4073,11 @@
     "universityId": "mokwon",
     "majorId": "electrical-engineering",
     "admissionQuota": 32
+  },
+  {
+    "universityId": "nambu",
+    "majorId": "electrical-engineering",
+    "admissionQuota": 20
   },
   {
     "universityId": "namseoul",
@@ -3736,6 +4106,11 @@
     "universityId": "sangmyung",
     "majorId": "electrical-engineering",
     "admissionQuota": 66
+  },
+  {
+    "universityId": "semyung",
+    "majorId": "electrical-engineering",
+    "admissionQuota": 40
   },
   {
     "universityId": "seoul-tech",
@@ -3811,6 +4186,11 @@
     "admissionQuota": 111
   },
   {
+    "universityId": "changshin",
+    "majorId": "emergency-medical",
+    "admissionQuota": 20
+  },
+  {
     "universityId": "cwnu",
     "majorId": "emergency-medical",
     "admissionQuota": 26
@@ -3824,6 +4204,11 @@
     "universityId": "dongshin",
     "majorId": "emergency-medical",
     "admissionQuota": 30
+  },
+  {
+    "universityId": "eulji",
+    "majorId": "emergency-medical",
+    "admissionQuota": 40
   },
   {
     "universityId": "gachon",
@@ -3849,6 +4234,11 @@
     "admissionQuota": 30
   },
   {
+    "universityId": "kiu",
+    "majorId": "emergency-medical",
+    "admissionQuota": 40
+  },
+  {
     "universityId": "konyang",
     "majorId": "emergency-medical",
     "admissionQuota": 50
@@ -3864,14 +4254,29 @@
     "admissionQuota": 34
   },
   {
+    "universityId": "kornu",
+    "majorId": "emergency-medical",
+    "admissionQuota": 40
+  },
+  {
     "universityId": "mokwon",
     "majorId": "emergency-medical",
     "admissionQuota": 26
   },
   {
+    "universityId": "nambu",
+    "majorId": "emergency-medical",
+    "admissionQuota": 25
+  },
+  {
     "universityId": "namseoul",
     "majorId": "emergency-medical",
     "admissionQuota": 60
+  },
+  {
+    "universityId": "seowon",
+    "majorId": "emergency-medical",
+    "admissionQuota": 50
   },
   {
     "universityId": "sun-moon",
@@ -3902,6 +4307,11 @@
     "universityId": "cnu",
     "majorId": "energy",
     "admissionQuota": 32
+  },
+  {
+    "universityId": "daejin",
+    "majorId": "energy",
+    "admissionQuota": 51
   },
   {
     "universityId": "gnu-gyeongsang",
@@ -3964,6 +4374,11 @@
     "admissionQuota": 40
   },
   {
+    "universityId": "catholic-gwandong",
+    "majorId": "english-edu",
+    "admissionQuota": 30
+  },
+  {
     "universityId": "cau",
     "majorId": "english-edu",
     "admissionQuota": 50
@@ -4012,6 +4427,11 @@
     "universityId": "ewha",
     "majorId": "english-edu",
     "admissionQuota": 37
+  },
+  {
+    "universityId": "gkun",
+    "majorId": "english-edu",
+    "admissionQuota": 22
   },
   {
     "universityId": "gnu",
@@ -4089,6 +4509,11 @@
     "admissionQuota": 58
   },
   {
+    "universityId": "kyungnam",
+    "majorId": "english-edu",
+    "admissionQuota": 37
+  },
+  {
     "universityId": "mokpo",
     "majorId": "english-edu",
     "admissionQuota": 15
@@ -4107,6 +4532,11 @@
     "universityId": "sangmyung",
     "majorId": "english-edu",
     "admissionQuota": 37
+  },
+  {
+    "universityId": "seowon",
+    "majorId": "english-edu",
+    "admissionQuota": 25
   },
   {
     "universityId": "silla",
@@ -4183,6 +4613,11 @@
     "admissionQuota": 24
   },
   {
+    "universityId": "daejin",
+    "majorId": "english-language-lit",
+    "admissionQuota": 43
+  },
+  {
     "universityId": "dong-eui",
     "majorId": "english-language-lit",
     "admissionQuota": 50
@@ -4204,6 +4639,11 @@
   {
     "universityId": "gnu",
     "majorId": "english-language-lit"
+  },
+  {
+    "universityId": "gwnu",
+    "majorId": "english-language-lit",
+    "admissionQuota": 30
   },
   {
     "universityId": "hallym",
@@ -4438,6 +4878,10 @@
     "majorId": "environmental"
   },
   {
+    "universityId": "hanseo",
+    "majorId": "environmental"
+  },
+  {
     "universityId": "hknu",
     "majorId": "environmental",
     "admissionQuota": 34
@@ -4511,6 +4955,11 @@
     "admissionQuota": 41
   },
   {
+    "universityId": "seowon",
+    "majorId": "environmental",
+    "admissionQuota": 25
+  },
+  {
     "universityId": "suwon",
     "majorId": "environmental"
   },
@@ -4541,6 +4990,11 @@
     "universityId": "cwnu",
     "majorId": "ethics-edu",
     "admissionQuota": 17
+  },
+  {
+    "universityId": "gkun",
+    "majorId": "ethics-edu",
+    "admissionQuota": 15
   },
   {
     "universityId": "gnu",
@@ -4588,6 +5042,11 @@
     "admissionQuota": 14
   },
   {
+    "universityId": "seowon",
+    "majorId": "ethics-edu",
+    "admissionQuota": 23
+  },
+  {
     "universityId": "snu",
     "majorId": "ethics-edu",
     "admissionQuota": 18
@@ -4617,8 +5076,18 @@
     "admissionQuota": 50
   },
   {
+    "universityId": "dongseo",
+    "majorId": "fashion-design",
+    "admissionQuota": 50
+  },
+  {
     "universityId": "ewha",
     "majorId": "fashion-design"
+  },
+  {
+    "universityId": "gwnu",
+    "majorId": "fashion-design",
+    "admissionQuota": 27
   },
   {
     "universityId": "hannam",
@@ -4659,6 +5128,11 @@
     "admissionQuota": 36
   },
   {
+    "universityId": "semyung",
+    "majorId": "fashion-design",
+    "admissionQuota": 27
+  },
+  {
     "universityId": "shin-han",
     "majorId": "fashion-design",
     "admissionQuota": 30
@@ -4679,9 +5153,19 @@
     "admissionQuota": 60
   },
   {
+    "universityId": "daejin",
+    "majorId": "film-tv",
+    "admissionQuota": 35
+  },
+  {
     "universityId": "dongguk",
     "majorId": "film-tv",
     "admissionQuota": 30
+  },
+  {
+    "universityId": "hanseo",
+    "majorId": "film-tv",
+    "admissionQuota": 15
   },
   {
     "universityId": "seokyeong",
@@ -4707,6 +5191,16 @@
     "universityId": "gnu-gyeongsang",
     "majorId": "fisheries",
     "admissionQuota": 28
+  },
+  {
+    "universityId": "gwnu",
+    "majorId": "fisheries",
+    "admissionQuota": 48
+  },
+  {
+    "universityId": "hanseo",
+    "majorId": "fisheries",
+    "admissionQuota": 20
   },
   {
     "universityId": "jeju",
@@ -4875,6 +5369,11 @@
     "universityId": "seoul-women",
     "majorId": "food-engineering",
     "admissionQuota": 40
+  },
+  {
+    "universityId": "seowon",
+    "majorId": "food-engineering",
+    "admissionQuota": 30
   },
   {
     "universityId": "skku",
@@ -5110,6 +5609,10 @@
     "majorId": "global-studies"
   },
   {
+    "universityId": "changshin",
+    "majorId": "global-studies"
+  },
+  {
     "universityId": "cnu",
     "majorId": "global-studies",
     "admissionQuota": 12
@@ -5118,6 +5621,11 @@
     "universityId": "cwnu",
     "majorId": "global-studies",
     "admissionQuota": 20
+  },
+  {
+    "universityId": "daejin",
+    "majorId": "global-studies",
+    "admissionQuota": 36
   },
   {
     "universityId": "ewha",
@@ -5208,11 +5716,20 @@
     "majorId": "global-studies"
   },
   {
+    "universityId": "sungkonghoe",
+    "majorId": "global-studies"
+  },
+  {
     "universityId": "yu",
     "majorId": "global-studies"
   },
   {
     "universityId": "cwnu",
+    "majorId": "health-admin",
+    "admissionQuota": 36
+  },
+  {
+    "universityId": "dongseo",
     "majorId": "health-admin",
     "admissionQuota": 36
   },
@@ -5224,6 +5741,11 @@
   {
     "universityId": "gwangju-univ",
     "majorId": "health-admin"
+  },
+  {
+    "universityId": "inje",
+    "majorId": "health-admin",
+    "admissionQuota": 20
   },
   {
     "universityId": "jung-bu",
@@ -5304,6 +5826,11 @@
     "universityId": "gnu-gyeongsang",
     "majorId": "history",
     "admissionQuota": 36
+  },
+  {
+    "universityId": "gwnu",
+    "majorId": "history",
+    "admissionQuota": 20
   },
   {
     "universityId": "hallym",
@@ -5416,6 +5943,11 @@
     "admissionQuota": 45
   },
   {
+    "universityId": "catholic-gwandong",
+    "majorId": "history-edu",
+    "admissionQuota": 30
+  },
+  {
     "universityId": "cbnu",
     "majorId": "history-edu",
     "admissionQuota": 15
@@ -5500,6 +6032,11 @@
     "admissionQuota": 20
   },
   {
+    "universityId": "seowon",
+    "majorId": "history-edu",
+    "admissionQuota": 25
+  },
+  {
     "universityId": "silla",
     "majorId": "history-edu",
     "admissionQuota": 30
@@ -5550,6 +6087,11 @@
     "admissionQuota": 35
   },
   {
+    "universityId": "kyungnam",
+    "majorId": "home-edu",
+    "admissionQuota": 30
+  },
+  {
     "universityId": "wonkwang",
     "majorId": "home-edu",
     "admissionQuota": 25
@@ -5596,6 +6138,11 @@
     "universityId": "namseoul",
     "majorId": "hotel-management",
     "admissionQuota": 55
+  },
+  {
+    "universityId": "semyung",
+    "majorId": "hotel-management",
+    "admissionQuota": 35
   },
   {
     "universityId": "cwnu",
@@ -5661,6 +6208,11 @@
     "majorId": "industrial-design"
   },
   {
+    "universityId": "daejin",
+    "majorId": "industrial-design",
+    "admissionQuota": 30
+  },
+  {
     "universityId": "donga",
     "majorId": "industrial-design",
     "admissionQuota": 70
@@ -5672,6 +6224,11 @@
   {
     "universityId": "gwangju-univ",
     "majorId": "industrial-design"
+  },
+  {
+    "universityId": "hanseo",
+    "majorId": "industrial-design",
+    "admissionQuota": 30
   },
   {
     "universityId": "hyupsung",
@@ -5731,6 +6288,11 @@
     "majorId": "industrial-design"
   },
   {
+    "universityId": "semyung",
+    "majorId": "industrial-design",
+    "admissionQuota": 30
+  },
+  {
     "universityId": "seoul-women",
     "majorId": "industrial-design",
     "admissionQuota": 40
@@ -5786,6 +6348,11 @@
   {
     "universityId": "gumi-natl",
     "majorId": "industrial-engineering"
+  },
+  {
+    "universityId": "gwnu",
+    "majorId": "industrial-engineering",
+    "admissionQuota": 30
   },
   {
     "universityId": "hanbat",
@@ -5922,6 +6489,11 @@
     "admissionQuota": 76
   },
   {
+    "universityId": "gwnu",
+    "majorId": "information-communication",
+    "admissionQuota": 27
+  },
+  {
     "universityId": "hanbat",
     "majorId": "information-communication",
     "admissionQuota": 28
@@ -6036,6 +6608,11 @@
     "majorId": "international-business"
   },
   {
+    "universityId": "daejin",
+    "majorId": "international-business",
+    "admissionQuota": 46
+  },
+  {
     "universityId": "donga",
     "majorId": "international-business",
     "admissionQuota": 70
@@ -6057,6 +6634,11 @@
     "universityId": "gnu-gyeongsang",
     "majorId": "international-business",
     "admissionQuota": 89
+  },
+  {
+    "universityId": "gwnu",
+    "majorId": "international-business",
+    "admissionQuota": 34
   },
   {
     "universityId": "hallym",
@@ -6099,6 +6681,11 @@
     "universityId": "kookmin",
     "majorId": "international-business",
     "admissionQuota": 38
+  },
+  {
+    "universityId": "kornu",
+    "majorId": "international-business",
+    "admissionQuota": 5
   },
   {
     "universityId": "kwangwoon",
@@ -6227,6 +6814,11 @@
     "admissionQuota": 33
   },
   {
+    "universityId": "catholic-gwandong",
+    "majorId": "korean-language-edu",
+    "admissionQuota": 30
+  },
+  {
     "universityId": "cbnu",
     "majorId": "korean-language-edu",
     "admissionQuota": 25
@@ -6275,6 +6867,11 @@
     "universityId": "ewha",
     "majorId": "korean-language-edu",
     "admissionQuota": 27
+  },
+  {
+    "universityId": "gkun",
+    "majorId": "korean-language-edu",
+    "admissionQuota": 15
   },
   {
     "universityId": "gnu",
@@ -6347,6 +6944,11 @@
     "admissionQuota": 47
   },
   {
+    "universityId": "kyungnam",
+    "majorId": "korean-language-edu",
+    "admissionQuota": 37
+  },
+  {
     "universityId": "mokwon",
     "majorId": "korean-language-edu",
     "admissionQuota": 31
@@ -6360,6 +6962,11 @@
     "universityId": "sangmyung",
     "majorId": "korean-language-edu",
     "admissionQuota": 43
+  },
+  {
+    "universityId": "seowon",
+    "majorId": "korean-language-edu",
+    "admissionQuota": 25
   },
   {
     "universityId": "silla",
@@ -6378,6 +6985,11 @@
   },
   {
     "universityId": "wonkwang",
+    "majorId": "korean-language-edu",
+    "admissionQuota": 25
+  },
+  {
+    "universityId": "woosuk",
     "majorId": "korean-language-edu",
     "admissionQuota": 25
   },
@@ -6459,6 +7071,11 @@
     "universityId": "gnu-gyeongsang",
     "majorId": "korean-language-lit",
     "admissionQuota": 42
+  },
+  {
+    "universityId": "gwnu",
+    "majorId": "korean-language-lit",
+    "admissionQuota": 28
   },
   {
     "universityId": "hallym",
@@ -6671,7 +7288,16 @@
     "majorId": "korean-medicine"
   },
   {
+    "universityId": "semyung",
+    "majorId": "korean-medicine"
+  },
+  {
     "universityId": "wonkwang",
+    "majorId": "korean-medicine",
+    "admissionQuota": 40
+  },
+  {
+    "universityId": "woosuk",
     "majorId": "korean-medicine",
     "admissionQuota": 40
   },
@@ -6753,6 +7379,11 @@
     "majorId": "law"
   },
   {
+    "universityId": "gwnu",
+    "majorId": "law",
+    "admissionQuota": 27
+  },
+  {
     "universityId": "hallym",
     "majorId": "law",
     "admissionQuota": 60
@@ -6776,6 +7407,11 @@
     "universityId": "incheon-univ",
     "majorId": "law",
     "admissionQuota": 54
+  },
+  {
+    "universityId": "inje",
+    "majorId": "law",
+    "admissionQuota": 20
   },
   {
     "universityId": "jeonju",
@@ -6811,6 +7447,11 @@
     "admissionQuota": 70
   },
   {
+    "universityId": "kyungnam",
+    "majorId": "law",
+    "admissionQuota": 30
+  },
+  {
     "universityId": "pufs",
     "majorId": "law",
     "admissionQuota": 31
@@ -6819,6 +7460,11 @@
     "universityId": "sejong",
     "majorId": "law",
     "admissionQuota": 14
+  },
+  {
+    "universityId": "semyung",
+    "majorId": "law",
+    "admissionQuota": 25
   },
   {
     "universityId": "sookmyung",
@@ -6839,6 +7485,11 @@
     "universityId": "sungshin",
     "majorId": "law",
     "admissionQuota": 65
+  },
+  {
+    "universityId": "catholic-gwandong",
+    "majorId": "math-edu",
+    "admissionQuota": 30
   },
   {
     "universityId": "cbnu",
@@ -6889,6 +7540,11 @@
     "universityId": "ewha",
     "majorId": "math-edu",
     "admissionQuota": 27
+  },
+  {
+    "universityId": "gkun",
+    "majorId": "math-edu",
+    "admissionQuota": 19
   },
   {
     "universityId": "gnu",
@@ -6961,6 +7617,11 @@
     "admissionQuota": 30
   },
   {
+    "universityId": "kyungnam",
+    "majorId": "math-edu",
+    "admissionQuota": 37
+  },
+  {
     "universityId": "mokpo",
     "majorId": "math-edu",
     "admissionQuota": 18
@@ -6979,6 +7640,11 @@
     "universityId": "sangmyung",
     "majorId": "math-edu",
     "admissionQuota": 33
+  },
+  {
+    "universityId": "seowon",
+    "majorId": "math-edu",
+    "admissionQuota": 25
   },
   {
     "universityId": "silla",
@@ -7007,6 +7673,11 @@
   },
   {
     "universityId": "wonkwang",
+    "majorId": "math-edu",
+    "admissionQuota": 25
+  },
+  {
+    "universityId": "woosuk",
     "majorId": "math-edu",
     "admissionQuota": 25
   },
@@ -7249,6 +7920,11 @@
     "admissionQuota": 146
   },
   {
+    "universityId": "gwnu",
+    "majorId": "mechanical-engineering",
+    "admissionQuota": 56
+  },
+  {
     "universityId": "hanbat",
     "majorId": "mechanical-engineering",
     "admissionQuota": 80
@@ -7341,6 +8017,11 @@
     "universityId": "kunsan",
     "majorId": "mechanical-engineering",
     "admissionQuota": 87
+  },
+  {
+    "universityId": "kyungnam",
+    "majorId": "mechanical-engineering",
+    "admissionQuota": 50
   },
   {
     "universityId": "mokpo",
@@ -7490,6 +8171,11 @@
     "admissionQuota": 49
   },
   {
+    "universityId": "daejin",
+    "majorId": "media-communication",
+    "admissionQuota": 54
+  },
+  {
     "universityId": "dgu",
     "majorId": "media-communication"
   },
@@ -7620,6 +8306,10 @@
     "majorId": "medicine"
   },
   {
+    "universityId": "catholic-gwandong",
+    "majorId": "medicine"
+  },
+  {
     "universityId": "cau",
     "majorId": "medicine"
   },
@@ -7652,6 +8342,10 @@
     "majorId": "medicine"
   },
   {
+    "universityId": "eulji",
+    "majorId": "medicine"
+  },
+  {
     "universityId": "ewha",
     "majorId": "medicine"
   },
@@ -7673,6 +8367,10 @@
   },
   {
     "universityId": "inha",
+    "majorId": "medicine"
+  },
+  {
+    "universityId": "inje",
     "majorId": "medicine"
   },
   {
@@ -7767,6 +8465,11 @@
     "admissionQuota": 40
   },
   {
+    "universityId": "chodang",
+    "majorId": "military-studies",
+    "admissionQuota": 20
+  },
+  {
     "universityId": "chosun",
     "majorId": "military-studies",
     "admissionQuota": 30
@@ -7794,6 +8497,11 @@
     "universityId": "konyang",
     "majorId": "military-studies",
     "admissionQuota": 40
+  },
+  {
+    "universityId": "kyungnam",
+    "majorId": "military-studies",
+    "admissionQuota": 30
   },
   {
     "universityId": "kyungwoon",
@@ -7845,9 +8553,19 @@
     "admissionQuota": 19
   },
   {
+    "universityId": "kyungnam",
+    "majorId": "music-edu",
+    "admissionQuota": 37
+  },
+  {
     "universityId": "mokwon",
     "majorId": "music-edu",
     "admissionQuota": 27
+  },
+  {
+    "universityId": "seowon",
+    "majorId": "music-edu",
+    "admissionQuota": 23
   },
   {
     "universityId": "snue",
@@ -7863,6 +8581,11 @@
     "universityId": "cau",
     "majorId": "music-theory",
     "admissionQuota": 86
+  },
+  {
+    "universityId": "changshin",
+    "majorId": "music-theory",
+    "admissionQuota": 5
   },
   {
     "universityId": "daegu-cu",
@@ -7892,6 +8615,11 @@
     "universityId": "gnu",
     "majorId": "music-theory",
     "admissionQuota": 29
+  },
+  {
+    "universityId": "gwnu",
+    "majorId": "music-theory",
+    "admissionQuota": 21
   },
   {
     "universityId": "hyupsung",
@@ -8078,6 +8806,10 @@
     "admissionQuota": 36
   },
   {
+    "universityId": "hanseo",
+    "majorId": "new-materials"
+  },
+  {
     "universityId": "hanyang",
     "majorId": "new-materials",
     "admissionQuota": 79
@@ -8195,6 +8927,10 @@
     "admissionQuota": 119
   },
   {
+    "universityId": "inje",
+    "majorId": "north-korea-studies"
+  },
+  {
     "universityId": "chosun",
     "majorId": "nuclear",
     "admissionQuota": 41
@@ -8228,9 +8964,19 @@
     "admissionQuota": 125
   },
   {
+    "universityId": "catholic-gwandong",
+    "majorId": "nursing",
+    "admissionQuota": 106
+  },
+  {
     "universityId": "cau",
     "majorId": "nursing",
     "admissionQuota": 200
+  },
+  {
+    "universityId": "changshin",
+    "majorId": "nursing",
+    "admissionQuota": 115
   },
   {
     "universityId": "changwon",
@@ -8241,6 +8987,11 @@
     "universityId": "cheongju-univ",
     "majorId": "nursing",
     "admissionQuota": 147
+  },
+  {
+    "universityId": "chodang",
+    "majorId": "nursing",
+    "admissionQuota": 225
   },
   {
     "universityId": "chonbuk",
@@ -8278,6 +9029,11 @@
     "admissionQuota": 85
   },
   {
+    "universityId": "daejin",
+    "majorId": "nursing",
+    "admissionQuota": 65
+  },
+  {
     "universityId": "dgu",
     "majorId": "nursing",
     "admissionQuota": 129
@@ -8293,9 +9049,19 @@
     "admissionQuota": 158
   },
   {
+    "universityId": "dongseo",
+    "majorId": "nursing",
+    "admissionQuota": 100
+  },
+  {
     "universityId": "dongshin",
     "majorId": "nursing",
     "admissionQuota": 178
+  },
+  {
+    "universityId": "eulji",
+    "majorId": "nursing",
+    "admissionQuota": 164
   },
   {
     "universityId": "ewha",
@@ -8306,6 +9072,16 @@
     "universityId": "gachon",
     "majorId": "nursing",
     "admissionQuota": 255
+  },
+  {
+    "universityId": "gangseo",
+    "majorId": "nursing",
+    "admissionQuota": 49
+  },
+  {
+    "universityId": "gaya-gimhae",
+    "majorId": "nursing",
+    "admissionQuota": 166
   },
   {
     "universityId": "gnu",
@@ -8323,6 +9099,11 @@
     "admissionQuota": 222
   },
   {
+    "universityId": "gwnu",
+    "majorId": "nursing",
+    "admissionQuota": 75
+  },
+  {
     "universityId": "gyeongju",
     "majorId": "nursing",
     "admissionQuota": 125
@@ -8336,6 +9117,11 @@
     "universityId": "hannam",
     "majorId": "nursing",
     "admissionQuota": 60
+  },
+  {
+    "universityId": "hanseo",
+    "majorId": "nursing",
+    "admissionQuota": 75
   },
   {
     "universityId": "hanyang",
@@ -8356,6 +9142,11 @@
     "universityId": "inha",
     "majorId": "nursing",
     "admissionQuota": 108
+  },
+  {
+    "universityId": "inje",
+    "majorId": "nursing",
+    "admissionQuota": 110
   },
   {
     "universityId": "jeju",
@@ -8408,6 +9199,11 @@
     "admissionQuota": 102
   },
   {
+    "universityId": "kiu",
+    "majorId": "nursing",
+    "admissionQuota": 147
+  },
+  {
     "universityId": "kkc",
     "majorId": "nursing",
     "admissionQuota": 78
@@ -8448,6 +9244,11 @@
     "admissionQuota": 58
   },
   {
+    "universityId": "kornu",
+    "majorId": "nursing",
+    "admissionQuota": 60
+  },
+  {
     "universityId": "kosin",
     "majorId": "nursing",
     "admissionQuota": 120
@@ -8468,6 +9269,11 @@
     "admissionQuota": 185
   },
   {
+    "universityId": "kyungnam",
+    "majorId": "nursing",
+    "admissionQuota": 165
+  },
+  {
     "universityId": "kyungsung",
     "majorId": "nursing",
     "admissionQuota": 71
@@ -8486,6 +9292,11 @@
     "universityId": "mokpo-catholic",
     "majorId": "nursing",
     "admissionQuota": 96
+  },
+  {
+    "universityId": "nambu",
+    "majorId": "nursing",
+    "admissionQuota": 220
   },
   {
     "universityId": "namseoul",
@@ -8518,6 +9329,16 @@
     "admissionQuota": 62
   },
   {
+    "universityId": "sehan",
+    "majorId": "nursing",
+    "admissionQuota": 128
+  },
+  {
+    "universityId": "semyung",
+    "majorId": "nursing",
+    "admissionQuota": 100
+  },
+  {
     "universityId": "shin-han",
     "majorId": "nursing",
     "admissionQuota": 90
@@ -8536,6 +9357,11 @@
     "universityId": "snu",
     "majorId": "nursing",
     "admissionQuota": 63
+  },
+  {
+    "universityId": "songwon",
+    "majorId": "nursing",
+    "admissionQuota": 128
   },
   {
     "universityId": "soonchunhyang",
@@ -8593,6 +9419,11 @@
     "admissionQuota": 65
   },
   {
+    "universityId": "woosuk",
+    "majorId": "nursing",
+    "admissionQuota": 160
+  },
+  {
     "universityId": "yonsei",
     "majorId": "nursing",
     "admissionQuota": 73
@@ -8618,6 +9449,11 @@
     "admissionQuota": 40
   },
   {
+    "universityId": "dongseo",
+    "majorId": "occupational-therapy",
+    "admissionQuota": 40
+  },
+  {
     "universityId": "dongshin",
     "majorId": "occupational-therapy",
     "admissionQuota": 25
@@ -8631,6 +9467,11 @@
     "universityId": "gwangju-univ",
     "majorId": "occupational-therapy",
     "admissionQuota": 45
+  },
+  {
+    "universityId": "hanseo",
+    "majorId": "occupational-therapy",
+    "admissionQuota": 40
   },
   {
     "universityId": "honam",
@@ -8668,6 +9509,11 @@
     "admissionQuota": 50
   },
   {
+    "universityId": "kyungnam",
+    "majorId": "occupational-therapy",
+    "admissionQuota": 40
+  },
+  {
     "universityId": "kyungwoon",
     "majorId": "occupational-therapy",
     "admissionQuota": 40
@@ -8676,6 +9522,11 @@
     "universityId": "sangji",
     "majorId": "occupational-therapy",
     "admissionQuota": 40
+  },
+  {
+    "universityId": "semyung",
+    "majorId": "occupational-therapy",
+    "admissionQuota": 80
   },
   {
     "universityId": "soonchunhyang",
@@ -8897,6 +9748,10 @@
     "majorId": "pharmacy"
   },
   {
+    "universityId": "woosuk",
+    "majorId": "pharmacy"
+  },
+  {
     "universityId": "yonsei",
     "majorId": "pharmacy"
   },
@@ -8949,6 +9804,11 @@
     "universityId": "gnu-gyeongsang",
     "majorId": "philosophy",
     "admissionQuota": 31
+  },
+  {
+    "universityId": "gwnu",
+    "majorId": "philosophy",
+    "admissionQuota": 21
   },
   {
     "universityId": "hallym",
@@ -9067,6 +9927,11 @@
     "admissionQuota": 30
   },
   {
+    "universityId": "catholic-gwandong",
+    "majorId": "physical-education",
+    "admissionQuota": 40
+  },
+  {
     "universityId": "cau",
     "majorId": "physical-education",
     "admissionQuota": 30
@@ -9147,9 +10012,19 @@
     "admissionQuota": 40
   },
   {
+    "universityId": "kyungnam",
+    "majorId": "physical-education",
+    "admissionQuota": 68
+  },
+  {
     "universityId": "pnu",
     "majorId": "physical-education",
     "admissionQuota": 23
+  },
+  {
+    "universityId": "seowon",
+    "majorId": "physical-education",
+    "admissionQuota": 42
   },
   {
     "universityId": "snu",
@@ -9217,9 +10092,24 @@
     "admissionQuota": 90
   },
   {
+    "universityId": "eulji",
+    "majorId": "physical-therapy",
+    "admissionQuota": 70
+  },
+  {
     "universityId": "gachon",
     "majorId": "physical-therapy",
     "admissionQuota": 40
+  },
+  {
+    "universityId": "gaya-gimhae",
+    "majorId": "physical-therapy",
+    "admissionQuota": 53
+  },
+  {
+    "universityId": "gimcheon",
+    "majorId": "physical-therapy",
+    "admissionQuota": 60
   },
   {
     "universityId": "gnu",
@@ -9230,6 +10120,11 @@
     "universityId": "gyeongju",
     "majorId": "physical-therapy",
     "admissionQuota": 36
+  },
+  {
+    "universityId": "hanseo",
+    "majorId": "physical-therapy",
+    "admissionQuota": 40
   },
   {
     "universityId": "honam",
@@ -9267,6 +10162,11 @@
     "admissionQuota": 36
   },
   {
+    "universityId": "kornu",
+    "majorId": "physical-therapy",
+    "admissionQuota": 20
+  },
+  {
     "universityId": "kuksoo",
     "majorId": "physical-therapy",
     "admissionQuota": 40
@@ -9275,6 +10175,11 @@
     "universityId": "kwangju-women",
     "majorId": "physical-therapy",
     "admissionQuota": 41
+  },
+  {
+    "universityId": "kyungnam",
+    "majorId": "physical-therapy",
+    "admissionQuota": 46
   },
   {
     "universityId": "kyungsung",
@@ -9287,6 +10192,11 @@
     "admissionQuota": 76
   },
   {
+    "universityId": "nambu",
+    "majorId": "physical-therapy",
+    "admissionQuota": 50
+  },
+  {
     "universityId": "namseoul",
     "majorId": "physical-therapy",
     "admissionQuota": 40
@@ -9295,6 +10205,11 @@
     "universityId": "sangji",
     "majorId": "physical-therapy",
     "admissionQuota": 30
+  },
+  {
+    "universityId": "sehan",
+    "majorId": "physical-therapy",
+    "admissionQuota": 60
   },
   {
     "universityId": "silla",
@@ -9527,6 +10442,10 @@
     "majorId": "piano"
   },
   {
+    "universityId": "catholic-gwandong",
+    "majorId": "police-admin"
+  },
+  {
     "universityId": "cheongju-univ",
     "majorId": "police-admin",
     "admissionQuota": 45
@@ -9582,6 +10501,11 @@
     "majorId": "police-admin"
   },
   {
+    "universityId": "kornu",
+    "majorId": "police-admin",
+    "admissionQuota": 75
+  },
+  {
     "universityId": "kwangju-women",
     "majorId": "police-admin"
   },
@@ -9595,8 +10519,18 @@
     "admissionQuota": 53
   },
   {
+    "universityId": "nambu",
+    "majorId": "police-admin",
+    "admissionQuota": 20
+  },
+  {
     "universityId": "pusan-foreign",
     "majorId": "police-admin"
+  },
+  {
+    "universityId": "seowon",
+    "majorId": "police-admin",
+    "admissionQuota": 90
   },
   {
     "universityId": "shin-han",
@@ -9606,6 +10540,11 @@
     "universityId": "silla",
     "majorId": "police-admin",
     "admissionQuota": 50
+  },
+  {
+    "universityId": "songwon",
+    "majorId": "police-admin",
+    "admissionQuota": 20
   },
   {
     "universityId": "soonchunhyang",
@@ -9747,6 +10686,10 @@
     "admissionQuota": 30
   },
   {
+    "universityId": "kyungnam",
+    "majorId": "political-science"
+  },
+  {
     "universityId": "pnu",
     "majorId": "political-science",
     "admissionQuota": 35
@@ -9783,6 +10726,10 @@
     "universityId": "soongsil",
     "majorId": "political-science",
     "admissionQuota": 31
+  },
+  {
+    "universityId": "sungkonghoe",
+    "majorId": "political-science"
   },
   {
     "universityId": "sungshin",
@@ -9892,6 +10839,11 @@
     "admissionQuota": 31
   },
   {
+    "universityId": "kyungnam",
+    "majorId": "psychology",
+    "admissionQuota": 40
+  },
+  {
     "universityId": "pnu",
     "majorId": "psychology",
     "admissionQuota": 41
@@ -9933,6 +10885,11 @@
     "universityId": "anyang",
     "majorId": "public-administration",
     "admissionQuota": 48
+  },
+  {
+    "universityId": "catholic-gwandong",
+    "majorId": "public-administration",
+    "admissionQuota": 30
   },
   {
     "universityId": "cbnu",
@@ -9978,6 +10935,10 @@
   },
   {
     "universityId": "gachon",
+    "majorId": "public-administration"
+  },
+  {
+    "universityId": "ggu",
     "majorId": "public-administration"
   },
   {
@@ -10087,6 +11048,11 @@
     "universityId": "kwangwoon",
     "majorId": "public-administration",
     "admissionQuota": 35
+  },
+  {
+    "universityId": "kyungnam",
+    "majorId": "public-administration",
+    "admissionQuota": 30
   },
   {
     "universityId": "mokpo",
@@ -10218,9 +11184,19 @@
     "admissionQuota": 27
   },
   {
+    "universityId": "dongseo",
+    "majorId": "radiology",
+    "admissionQuota": 40
+  },
+  {
     "universityId": "dongshin",
     "majorId": "radiology",
     "admissionQuota": 60
+  },
+  {
+    "universityId": "eulji",
+    "majorId": "radiology",
+    "admissionQuota": 65
   },
   {
     "universityId": "gachon",
@@ -10228,9 +11204,24 @@
     "admissionQuota": 40
   },
   {
+    "universityId": "gaya-gimhae",
+    "majorId": "radiology",
+    "admissionQuota": 45
+  },
+  {
+    "universityId": "gimcheon",
+    "majorId": "radiology",
+    "admissionQuota": 60
+  },
+  {
     "universityId": "gnu",
     "majorId": "radiology",
     "admissionQuota": 30
+  },
+  {
+    "universityId": "hanseo",
+    "majorId": "radiology",
+    "admissionQuota": 40
   },
   {
     "universityId": "jeonju",
@@ -10241,6 +11232,11 @@
     "universityId": "konyang",
     "majorId": "radiology",
     "admissionQuota": 44
+  },
+  {
+    "universityId": "nambu",
+    "majorId": "radiology",
+    "admissionQuota": 40
   },
   {
     "universityId": "shin-han",
@@ -10413,6 +11409,11 @@
     "admissionQuota": 13
   },
   {
+    "universityId": "seowon",
+    "majorId": "social-edu",
+    "admissionQuota": 25
+  },
+  {
     "universityId": "snu",
     "majorId": "social-edu",
     "admissionQuota": 18
@@ -10434,6 +11435,11 @@
   },
   {
     "universityId": "dongshin",
+    "majorId": "social-sports",
+    "admissionQuota": 40
+  },
+  {
+    "universityId": "gimcheon",
     "majorId": "social-sports",
     "admissionQuota": 40
   },
@@ -10466,6 +11472,15 @@
     "majorId": "social-sports"
   },
   {
+    "universityId": "semyung",
+    "majorId": "social-sports",
+    "admissionQuota": 50
+  },
+  {
+    "universityId": "seowon",
+    "majorId": "social-sports"
+  },
+  {
     "universityId": "soonchunhyang",
     "majorId": "social-sports",
     "admissionQuota": 39
@@ -10476,8 +11491,18 @@
     "admissionQuota": 35
   },
   {
+    "universityId": "catholic-gwandong",
+    "majorId": "social-welfare",
+    "admissionQuota": 65
+  },
+  {
     "universityId": "cau",
     "majorId": "social-welfare"
+  },
+  {
+    "universityId": "changshin",
+    "majorId": "social-welfare",
+    "admissionQuota": 20
   },
   {
     "universityId": "changwon",
@@ -10518,6 +11543,11 @@
     "admissionQuota": 55
   },
   {
+    "universityId": "daejin",
+    "majorId": "social-welfare",
+    "admissionQuota": 38
+  },
+  {
     "universityId": "dgu",
     "majorId": "social-welfare"
   },
@@ -10555,6 +11585,15 @@
     "admissionQuota": 40
   },
   {
+    "universityId": "gangseo",
+    "majorId": "social-welfare",
+    "admissionQuota": 60
+  },
+  {
+    "universityId": "ggu",
+    "majorId": "social-welfare"
+  },
+  {
     "universityId": "gnu",
     "majorId": "social-welfare",
     "admissionQuota": 34
@@ -10567,6 +11606,11 @@
   {
     "universityId": "gwangju-univ",
     "majorId": "social-welfare"
+  },
+  {
+    "universityId": "gwnu",
+    "majorId": "social-welfare",
+    "admissionQuota": 30
   },
   {
     "universityId": "gyeongju",
@@ -10582,6 +11626,11 @@
     "universityId": "hannam",
     "majorId": "social-welfare",
     "admissionQuota": 45
+  },
+  {
+    "universityId": "hanseo",
+    "majorId": "social-welfare",
+    "admissionQuota": 20
   },
   {
     "universityId": "hanshin",
@@ -10610,6 +11659,11 @@
     "universityId": "inha",
     "majorId": "social-welfare",
     "admissionQuota": 22
+  },
+  {
+    "universityId": "inje",
+    "majorId": "social-welfare",
+    "admissionQuota": 20
   },
   {
     "universityId": "jeju-intl",
@@ -10666,6 +11720,11 @@
     "admissionQuota": 25
   },
   {
+    "universityId": "kornu",
+    "majorId": "social-welfare",
+    "admissionQuota": 100
+  },
+  {
     "universityId": "kosin",
     "majorId": "social-welfare",
     "admissionQuota": 40
@@ -10683,6 +11742,11 @@
   {
     "universityId": "kwangju-women",
     "majorId": "social-welfare"
+  },
+  {
+    "universityId": "kyungnam",
+    "majorId": "social-welfare",
+    "admissionQuota": 60
   },
   {
     "universityId": "mokpo",
@@ -10703,6 +11767,11 @@
     "universityId": "myongji",
     "majorId": "social-welfare",
     "admissionQuota": 10
+  },
+  {
+    "universityId": "nambu",
+    "majorId": "social-welfare",
+    "admissionQuota": 20
   },
   {
     "universityId": "namseoul",
@@ -10733,9 +11802,19 @@
     "admissionQuota": 55
   },
   {
+    "universityId": "semyung",
+    "majorId": "social-welfare",
+    "admissionQuota": 40
+  },
+  {
     "universityId": "seoul-women",
     "majorId": "social-welfare",
     "admissionQuota": 40
+  },
+  {
+    "universityId": "seowon",
+    "majorId": "social-welfare",
+    "admissionQuota": 70
   },
   {
     "universityId": "shin-han",
@@ -10761,6 +11840,11 @@
     "admissionQuota": 20
   },
   {
+    "universityId": "songwon",
+    "majorId": "social-welfare",
+    "admissionQuota": 30
+  },
+  {
     "universityId": "soonchunhyang",
     "majorId": "social-welfare",
     "admissionQuota": 45
@@ -10777,6 +11861,10 @@
   },
   {
     "universityId": "sun-moon",
+    "majorId": "social-welfare"
+  },
+  {
+    "universityId": "sungkonghoe",
     "majorId": "social-welfare"
   },
   {
@@ -10952,6 +12040,10 @@
     "majorId": "sociology"
   },
   {
+    "universityId": "sungkonghoe",
+    "majorId": "sociology"
+  },
+  {
     "universityId": "yonsei",
     "majorId": "sociology",
     "admissionQuota": 39
@@ -10989,6 +12081,11 @@
     "universityId": "cwnu",
     "majorId": "software",
     "admissionQuota": 29
+  },
+  {
+    "universityId": "dongseo",
+    "majorId": "software",
+    "admissionQuota": 40
   },
   {
     "universityId": "gnu-gyeongsang",
@@ -11041,6 +12138,10 @@
     "universityId": "kwangwoon",
     "majorId": "software",
     "admissionQuota": 68
+  },
+  {
+    "universityId": "kyungnam",
+    "majorId": "software"
   },
   {
     "universityId": "kyungsung",
@@ -11124,8 +12225,18 @@
     "admissionQuota": 35
   },
   {
+    "universityId": "gaya-gimhae",
+    "majorId": "special-edu",
+    "admissionQuota": 26
+  },
+  {
     "universityId": "gyeongju",
     "majorId": "special-edu"
+  },
+  {
+    "universityId": "inje",
+    "majorId": "special-edu",
+    "admissionQuota": 25
   },
   {
     "universityId": "jnu",
@@ -11153,6 +12264,11 @@
     "admissionQuota": 30
   },
   {
+    "universityId": "kornu",
+    "majorId": "special-edu",
+    "admissionQuota": 40
+  },
+  {
     "universityId": "kuksoo",
     "majorId": "special-edu",
     "admissionQuota": 40
@@ -11163,9 +12279,19 @@
     "admissionQuota": 20
   },
   {
+    "universityId": "sehan",
+    "majorId": "special-edu",
+    "admissionQuota": 20
+  },
+  {
     "universityId": "soonchunhyang",
     "majorId": "special-edu",
     "admissionQuota": 30
+  },
+  {
+    "universityId": "woosuk",
+    "majorId": "special-edu",
+    "admissionQuota": 34
   },
   {
     "universityId": "anyang",
@@ -11213,6 +12339,11 @@
     "admissionQuota": 104
   },
   {
+    "universityId": "dongseo",
+    "majorId": "sports-science",
+    "admissionQuota": 50
+  },
+  {
     "universityId": "ewha",
     "majorId": "sports-science"
   },
@@ -11229,6 +12360,11 @@
   {
     "universityId": "gwangju-univ",
     "majorId": "sports-science"
+  },
+  {
+    "universityId": "gwnu",
+    "majorId": "sports-science",
+    "admissionQuota": 38
   },
   {
     "universityId": "hallym",
@@ -11542,9 +12678,19 @@
     "admissionQuota": 70
   },
   {
+    "universityId": "kiu",
+    "majorId": "taekwondo",
+    "admissionQuota": 40
+  },
+  {
     "universityId": "kookje",
     "majorId": "taekwondo",
     "admissionQuota": 30
+  },
+  {
+    "universityId": "kornu",
+    "majorId": "taekwondo",
+    "admissionQuota": 51
   },
   {
     "universityId": "sungkyul-y",
@@ -11564,6 +12710,16 @@
     "universityId": "knue",
     "majorId": "technology-edu",
     "admissionQuota": 20
+  },
+  {
+    "universityId": "sehan",
+    "majorId": "technology-edu",
+    "admissionQuota": 20
+  },
+  {
+    "universityId": "dongseo",
+    "majorId": "theater-film",
+    "admissionQuota": 30
   },
   {
     "universityId": "hanyang",
@@ -11608,6 +12764,11 @@
     "universityId": "daegu-cu",
     "majorId": "theology",
     "admissionQuota": 15
+  },
+  {
+    "universityId": "gangseo",
+    "majorId": "theology",
+    "admissionQuota": 20
   },
   {
     "universityId": "honam-theological",
@@ -11715,6 +12876,11 @@
     "admissionQuota": 30
   },
   {
+    "universityId": "gwnu",
+    "majorId": "tourism",
+    "admissionQuota": 41
+  },
+  {
     "universityId": "honam",
     "majorId": "tourism"
   },
@@ -11791,6 +12957,11 @@
     "admissionQuota": 49
   },
   {
+    "universityId": "gwnu",
+    "majorId": "trade",
+    "admissionQuota": 26
+  },
+  {
     "universityId": "honam",
     "majorId": "trade"
   },
@@ -11839,6 +13010,10 @@
   },
   {
     "universityId": "pusan-foreign",
+    "majorId": "trade"
+  },
+  {
+    "universityId": "seowon",
     "majorId": "trade"
   },
   {
@@ -12026,12 +13201,26 @@
     "admissionQuota": 32
   },
   {
+    "universityId": "daejin",
+    "majorId": "visual-design",
+    "admissionQuota": 30
+  },
+  {
+    "universityId": "dongseo",
+    "majorId": "visual-design"
+  },
+  {
     "universityId": "duksung",
     "majorId": "visual-design"
   },
   {
     "universityId": "ewha",
     "majorId": "visual-design"
+  },
+  {
+    "universityId": "hanseo",
+    "majorId": "visual-design",
+    "admissionQuota": 40
   },
   {
     "universityId": "hyupsung",
