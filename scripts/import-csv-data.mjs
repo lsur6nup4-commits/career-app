@@ -12,7 +12,12 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
-import { normUni, normMajor, MAJOR_NAME_OVERRIDES } from "./_lib-mapping-config.mjs";
+import {
+  normUni,
+  normMajor,
+  MAJOR_NAME_OVERRIDES,
+  UNI_NAME_OVERRIDES,
+} from "./_lib-mapping-config.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, "..");
@@ -100,7 +105,10 @@ let matchedMaj = 0, unmatchedMaj = 0;
 const unmatchedMajorNames = new Set();
 
 for (const row of filtered) {
-  const uniId = uniNameToId.get(normUni(row["학교명"]));
+  // 1차: 직접 학교명 매핑 (캠퍼스 분교 + 별칭)
+  // 2차: normUni 정규화 매핑
+  const uniId =
+    UNI_NAME_OVERRIDES[row["학교명"]] ?? uniNameToId.get(normUni(row["학교명"]));
   if (!uniId) { unmatchedUni++; continue; }
   matchedUni++;
 

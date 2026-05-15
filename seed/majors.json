@@ -196,7 +196,7 @@
       "mechatronics",
       "naval-architecture"
     ],
-    "averageAdmissionQuota": 105
+    "averageAdmissionQuota": 103
   },
   {
     "id": "chemical-engineering",
@@ -581,7 +581,7 @@
       "public-health",
       "emergency-medical"
     ],
-    "averageAdmissionQuota": 108
+    "averageAdmissionQuota": 106
   },
   {
     "id": "pharmacy",
@@ -705,7 +705,7 @@
       "international-business",
       "advertising"
     ],
-    "averageAdmissionQuota": 110
+    "averageAdmissionQuota": 108
   },
   {
     "id": "economics",
@@ -4117,7 +4117,7 @@
       "english-language-lit",
       "anthropology"
     ],
-    "averageAdmissionQuota": 49
+    "averageAdmissionQuota": 45
   },
   {
     "id": "north-korea-studies",
@@ -6070,7 +6070,7 @@
       "home-edu",
       "agriculture"
     ],
-    "averageAdmissionQuota": 41
+    "averageAdmissionQuota": 39
   },
   {
     "id": "environmental",
@@ -8344,7 +8344,7 @@
       "automotive",
       "visual-design"
     ],
-    "averageAdmissionQuota": 38
+    "averageAdmissionQuota": 36
   },
   {
     "id": "fashion-design",
@@ -9628,7 +9628,7 @@
       "social-sports",
       "data-science"
     ],
-    "averageAdmissionQuota": 54
+    "averageAdmissionQuota": 61
   },
   {
     "id": "social-sports",

@@ -45,6 +45,22 @@ export function normMajor(name) {
     .trim();
 }
 
+// ── 학교명 직접 매핑 사전 (CSV 학교명 → universities.json id) ───────────
+// 캠퍼스 분교(분교 표기가 CSV에 있는 경우) + 별칭 처리
+// normUni() 정규화 전에 직접 lookup. 매칭되면 그 ID 즉시 사용.
+export const UNI_NAME_OVERRIDES = {
+  // 캠퍼스 분교 (CSV에 별도 표기 존재)
+  "고려대학교(세종)":         "korea-univ-sejong",
+  "건국대학교(글로컬)":       "konkuk-glocal",
+  "연세대학교(미래)":         "yonsei-mirae",
+  "한양대학교(ERICA) _분교":  "hanyang-erica",
+  "동국대학교(WISE) _분교":   "dongguk-wise",
+  // 학교명 별칭 (CSV 측은 정식 명칭, universities.json은 줄임/구명)
+  "가톨릭꽃동네대학교":       "kkc",
+  "한국성서대학교":           "sungseo",
+  "한국기술교육대학교":       "korea-univ-tech",
+};
+
 // ── 학과명 매핑 사전 (CSV 학과명 변형 → seed major id) ────────────────
 export const MAJOR_NAME_OVERRIDES = {
   // ── 공학계열 ─────────────────────────────────────────────────────────
@@ -82,6 +98,12 @@ export const MAJOR_NAME_OVERRIDES = {
   "도시및지역계획학과": "urban-planning-eng",
   "건설환경공학과": "civil-construction",
   "토목환경공학과": "civil-construction",
+  // 제주국제대 학부
+  "건설공학과": "civil-construction",
+  "에너지기계공학과": "mechanical-engineering",
+  "융합경영학과": "business",
+  "복지상담학과": "social-welfare",
+  "체육학과": "sports-science",
   "해양시스템공학과": "ocean-engineering",
   "자원에너지학과": "mining",
   "광산자원공학과": "mining",

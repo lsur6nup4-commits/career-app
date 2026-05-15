@@ -20,7 +20,12 @@
 import { readFileSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
-import { normUni, normMajor, MAJOR_NAME_OVERRIDES } from "./_lib-mapping-config.mjs";
+import {
+  normUni,
+  normMajor,
+  MAJOR_NAME_OVERRIDES,
+  UNI_NAME_OVERRIDES,
+} from "./_lib-mapping-config.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, "..");
@@ -87,7 +92,8 @@ const rows = parseCsv(CSV_FILE).filter(
 
 const csvPairs = new Set();
 for (const r of rows) {
-  const uniId = uniNameToId.get(normUni(r["학교명"]));
+  const uniId =
+    UNI_NAME_OVERRIDES[r["학교명"]] ?? uniNameToId.get(normUni(r["학교명"]));
   const majorId = majorNameToId.get(normMajor(r["학과명"]));
   if (uniId && majorId) csvPairs.add(`${uniId}::${majorId}`);
 }
