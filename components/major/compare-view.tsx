@@ -149,32 +149,15 @@ export function CompareView() {
                   </div>
                 </Section>
 
-                <Section title="대표 직업">
-                  {e.extras?.careers?.length ? (
+                <Section title="대표 직업 (커리어넷)">
+                  {e.extras?.careerPaths?.length ? (
                     <ul className="space-y-1 text-sm">
-                      {e.extras.careers.slice(0, 3).map((c) => (
-                        <li key={c.name} className="flex justify-between gap-2">
-                          <span className="truncate">{c.name}</span>
-                          <span className="whitespace-nowrap text-xs font-semibold text-primary">
-                            {c.averageSalary.toLocaleString()}만
-                          </span>
+                      {e.extras.careerPaths.slice(0, 5).map((name) => (
+                        <li key={name} className="truncate">
+                          · {name}
                         </li>
                       ))}
                     </ul>
-                  ) : (
-                    <NoData>—</NoData>
-                  )}
-                </Section>
-
-                <Section title="평균 연봉(대표직 평균)">
-                  {e.extras?.careers?.length ? (
-                    <div className="text-sm font-semibold">
-                      약 {Math.round(
-                        e.extras.careers.reduce((s, c) => s + c.averageSalary, 0) /
-                          e.extras.careers.length,
-                      ).toLocaleString()}{" "}
-                      만원
-                    </div>
                   ) : (
                     <NoData>—</NoData>
                   )}

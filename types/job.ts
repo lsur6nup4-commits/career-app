@@ -19,6 +19,12 @@ export type Job = {
   rel_job_nm: string;
   /** careerPaths 교차 매핑으로 연결된 학과 ID 목록 */
   relatedMajors: string[];
+  /**
+   * 워크넷 원본에 누락된 필드를 카테고리(top_nm) 평균값으로 보강한 경우,
+   * 어느 필드가 AI/추정값인지 표시. UI는 이 배열에 포함된 필드 옆에
+   * "AI 추정" 뱃지를 표시해야 함.
+   */
+  estimatedFields?: ("wage" | "wlb" | "social")[];
 };
 
 export const JOB_CATEGORIES = [

@@ -84,38 +84,51 @@ export default async function JobDetailPage({ params }: Props) {
         </h1>
 
         {/* ── 지표 배지 ────────────────────────────────────────────── */}
-        <div className="mt-3 flex flex-wrap gap-2">
-          {job.wage && (
-            <span
-              className={cn(
-                "rounded-full border px-3 py-1 text-xs font-semibold",
-                wageCls(job.wage),
-              )}
-            >
-              💰 평균연봉 {job.wage}
+        {(() => {
+          const est = new Set(job.estimatedFields ?? []);
+          const EstBadge = () => (
+            <span className="ml-1 rounded bg-amber-100 px-1 py-0.5 text-[9px] font-bold text-amber-700 dark:bg-amber-900/40 dark:text-amber-300">
+              AI 추정
             </span>
-          )}
-          {job.wlb && (
-            <span
-              className={cn(
-                "rounded-full border px-3 py-1 text-xs font-semibold",
-                ratingCls(job.wlb),
+          );
+          return (
+            <div className="mt-3 flex flex-wrap gap-2">
+              {job.wage && (
+                <span
+                  className={cn(
+                    "inline-flex items-center rounded-full border px-3 py-1 text-xs font-semibold",
+                    wageCls(job.wage),
+                  )}
+                >
+                  💰 평균연봉 {job.wage}
+                  {est.has("wage") && <EstBadge />}
+                </span>
               )}
-            >
-              ⚖️ 워라밸 {job.wlb}
-            </span>
-          )}
-          {job.social && (
-            <span
-              className={cn(
-                "rounded-full border px-3 py-1 text-xs font-semibold",
-                ratingCls(job.social),
+              {job.wlb && (
+                <span
+                  className={cn(
+                    "inline-flex items-center rounded-full border px-3 py-1 text-xs font-semibold",
+                    ratingCls(job.wlb),
+                  )}
+                >
+                  ⚖️ 워라밸 {job.wlb}
+                  {est.has("wlb") && <EstBadge />}
+                </span>
               )}
-            >
-              👥 사회공헌 {job.social}
-            </span>
-          )}
-        </div>
+              {job.social && (
+                <span
+                  className={cn(
+                    "inline-flex items-center rounded-full border px-3 py-1 text-xs font-semibold",
+                    ratingCls(job.social),
+                  )}
+                >
+                  👥 사회공헌 {job.social}
+                  {est.has("social") && <EstBadge />}
+                </span>
+              )}
+            </div>
+          );
+        })()}
 
         <div className="mt-3 flex justify-end text-xs text-muted-foreground">
           <a
@@ -174,8 +187,8 @@ export default async function JobDetailPage({ params }: Props) {
 
         {relMajors.length === 0 ? (
           <EmptyState
-            title="연결된 학과가 없어요"
-            description="CSV 데이터 기반 매핑에 해당 직업이 포함되지 않았습니다."
+            title="관련 학과 정보 준비 중입니다"
+            description="이 직업과 매핑되는 학과 데이터를 곧 업데이트할 예정이에요. 학과 탐색 페이지에서 직접 찾아볼 수 있어요."
           />
         ) : (
           <ul className="grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3">

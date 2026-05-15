@@ -1,43 +1,6 @@
 {
   "_note": "데이터 출처: 커리어넷·워크넷 직업/학과 정보 기반의 학습용 시드 (2026년 5월 시점). 평균 연봉·취업률은 실제 통계와 다를 수 있는 placeholder 값이며 추후 공공 API로 대체 예정.",
   "computer-science": {
-    "careers": [
-      {
-        "name": "백엔드 개발자",
-        "averageSalary": 6000,
-        "summary": "서버·데이터베이스·API를 설계하고 운영합니다."
-      },
-      {
-        "name": "프론트엔드 개발자",
-        "averageSalary": 5500,
-        "summary": "사용자 인터페이스를 구현하고 사용성을 다듬습니다."
-      },
-      {
-        "name": "머신러닝 엔지니어",
-        "averageSalary": 7000,
-        "summary": "모델을 학습·배포해 데이터로부터 가치를 만듭니다."
-      },
-      {
-        "name": "데이터 엔지니어",
-        "averageSalary": 6500,
-        "summary": "대규모 데이터 수집·가공 파이프라인을 구축합니다."
-      },
-      {
-        "name": "보안 엔지니어",
-        "averageSalary": 6200,
-        "summary": "시스템 취약점을 점검하고 사이버 위협에 대응합니다."
-      },
-      {
-        "name": "게임 개발자",
-        "averageSalary": 5500,
-        "summary": "게임 엔진과 그래픽으로 인터랙티브 경험을 만듭니다."
-      },
-      {
-        "name": "테크 PM/PO",
-        "averageSalary": 7500,
-        "summary": "제품 방향을 정하고 개발팀과 비즈니스를 잇습니다."
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "IT/소프트웨어",
@@ -149,38 +112,6 @@
     ]
   },
   "electrical-engineering": {
-    "careers": [
-      {
-        "name": "반도체 공정 엔지니어",
-        "averageSalary": 6500,
-        "summary": "팹에서 칩 생산 공정을 설계·관리합니다."
-      },
-      {
-        "name": "회로 설계 엔지니어",
-        "averageSalary": 6800,
-        "summary": "아날로그·디지털 IC 회로를 설계합니다."
-      },
-      {
-        "name": "통신 시스템 엔지니어",
-        "averageSalary": 6000,
-        "summary": "5G·위성통신 등 통신 시스템을 개발합니다."
-      },
-      {
-        "name": "전력 시스템 엔지니어",
-        "averageSalary": 5800,
-        "summary": "발전·송배전 인프라를 설계·운영합니다."
-      },
-      {
-        "name": "임베디드 SW 엔지니어",
-        "averageSalary": 6000,
-        "summary": "자동차·로봇·가전의 펌웨어를 개발합니다."
-      },
-      {
-        "name": "디스플레이 엔지니어",
-        "averageSalary": 6300,
-        "summary": "OLED·마이크로LED 등 차세대 디스플레이를 다룹니다."
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "반도체",
@@ -282,38 +213,6 @@
     ]
   },
   "mechanical-engineering": {
-    "careers": [
-      {
-        "name": "자동차 설계 엔지니어",
-        "averageSalary": 5800,
-        "summary": "차체·파워트레인 등 자동차 부품을 설계합니다."
-      },
-      {
-        "name": "로봇 엔지니어",
-        "averageSalary": 6200,
-        "summary": "산업용·서비스용 로봇 시스템을 개발합니다."
-      },
-      {
-        "name": "항공·우주 엔지니어",
-        "averageSalary": 6000,
-        "summary": "항공기·인공위성·발사체를 설계·개발합니다."
-      },
-      {
-        "name": "플랜트 엔지니어",
-        "averageSalary": 6300,
-        "summary": "정유·화학 플랜트의 기계 시스템을 설계합니다."
-      },
-      {
-        "name": "에너지 시스템 엔지니어",
-        "averageSalary": 5800,
-        "summary": "원자력·신재생 에너지 설비를 다룹니다."
-      },
-      {
-        "name": "기계 R&D 연구원",
-        "averageSalary": 6500,
-        "summary": "대기업·연구소에서 차세대 기계 기술을 연구합니다."
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "자동차/모빌리티",
@@ -418,38 +317,6 @@
     ]
   },
   "chemical-engineering": {
-    "careers": [
-      {
-        "name": "공정 엔지니어",
-        "averageSalary": 6200,
-        "summary": "정유·석유화학·배터리 공정을 설계·운영합니다."
-      },
-      {
-        "name": "배터리 소재 연구원",
-        "averageSalary": 6500,
-        "summary": "양극재·음극재·전해질 등 차세대 배터리 소재를 개발합니다."
-      },
-      {
-        "name": "반도체 소재 엔지니어",
-        "averageSalary": 6500,
-        "summary": "포토레지스트·CMP 슬러리 등 반도체 화학 소재를 다룹니다."
-      },
-      {
-        "name": "신약 개발 연구원",
-        "averageSalary": 6000,
-        "summary": "제약·바이오 회사에서 신약 후보 물질을 연구합니다."
-      },
-      {
-        "name": "환경·안전 엔지니어",
-        "averageSalary": 5500,
-        "summary": "공정 안전과 환경 규제 대응을 담당합니다."
-      },
-      {
-        "name": "화장품/식품 R&D",
-        "averageSalary": 5200,
-        "summary": "기능성 화장품·식품 원료를 개발합니다."
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "정유/석유화학",
@@ -553,38 +420,6 @@
     ]
   },
   "civil-engineering": {
-    "careers": [
-      {
-        "name": "건축 설계자",
-        "averageSalary": 4800,
-        "summary": "건축사 사무소에서 주거·상업·공공 건축을 설계합니다."
-      },
-      {
-        "name": "도시 설계가",
-        "averageSalary": 5200,
-        "summary": "지구단위·도시재생 등 도시 공간을 설계합니다."
-      },
-      {
-        "name": "건설 PM",
-        "averageSalary": 6000,
-        "summary": "대형 건설사에서 프로젝트 일정·예산을 관리합니다."
-      },
-      {
-        "name": "인테리어 디자이너",
-        "averageSalary": 4500,
-        "summary": "주거·상업 공간의 인테리어를 기획·시공합니다."
-      },
-      {
-        "name": "건축 BIM 엔지니어",
-        "averageSalary": 5500,
-        "summary": "3D 모델 기반의 건축 설계·시공 데이터를 다룹니다."
-      },
-      {
-        "name": "공공/지자체 건축직",
-        "averageSalary": 5000,
-        "summary": "도시계획·심의 등 공공 건축 행정을 담당합니다."
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "건축사 사무소",
@@ -685,38 +520,6 @@
     ]
   },
   "industrial-engineering": {
-    "careers": [
-      {
-        "name": "데이터 분석가",
-        "averageSalary": 6000,
-        "summary": "데이터로 의사결정을 지원하는 분석 업무를 수행합니다."
-      },
-      {
-        "name": "공급망/물류 엔지니어",
-        "averageSalary": 5800,
-        "summary": "재고·운송·창고 운영을 최적화합니다."
-      },
-      {
-        "name": "운영 컨설턴트",
-        "averageSalary": 7000,
-        "summary": "기업의 프로세스를 진단·개선하는 컨설팅을 합니다."
-      },
-      {
-        "name": "프로세스 엔지니어",
-        "averageSalary": 5800,
-        "summary": "제조·서비스 공정을 분석해 효율을 끌어올립니다."
-      },
-      {
-        "name": "프로젝트 매니저",
-        "averageSalary": 6500,
-        "summary": "예산·일정·인력을 통합 관리합니다."
-      },
-      {
-        "name": "프로덕트 매니저",
-        "averageSalary": 7500,
-        "summary": "디지털 제품의 방향과 우선순위를 결정합니다."
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "IT/소프트웨어",
@@ -821,38 +624,6 @@
     ]
   },
   "biomedical-engineering": {
-    "careers": [
-      {
-        "name": "의료기기 R&D",
-        "averageSalary": 6000,
-        "summary": "진단·치료 의료기기를 설계·개발합니다."
-      },
-      {
-        "name": "의료영상 엔지니어",
-        "averageSalary": 6300,
-        "summary": "MRI·CT·초음파 영상의 알고리즘을 개발합니다."
-      },
-      {
-        "name": "디지털 헬스 개발자",
-        "averageSalary": 6200,
-        "summary": "헬스케어 앱·웨어러블 서비스를 만듭니다."
-      },
-      {
-        "name": "바이오 신호 분석가",
-        "averageSalary": 5800,
-        "summary": "ECG·EEG 등 생체 신호 데이터를 분석합니다."
-      },
-      {
-        "name": "재활 보조기기 엔지니어",
-        "averageSalary": 5500,
-        "summary": "외골격 로봇·보조기 등 재활 기기를 개발합니다."
-      },
-      {
-        "name": "임상시험·인허가 전문가",
-        "averageSalary": 5800,
-        "summary": "의료기기 인허가·임상시험 전반을 담당합니다."
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "의료기기/장비",
@@ -952,38 +723,6 @@
     ]
   },
   "medicine": {
-    "careers": [
-      {
-        "name": "임상의사",
-        "averageSalary": 12000,
-        "summary": "병원에서 환자 진료를 담당합니다."
-      },
-      {
-        "name": "전공의/전문의",
-        "averageSalary": 10000,
-        "summary": "특정 진료과의 전문 진료를 수행합니다."
-      },
-      {
-        "name": "공중보건의/군의관",
-        "averageSalary": 6000,
-        "summary": "병역을 의무 복무로 대체하며 공공의료를 담당합니다."
-      },
-      {
-        "name": "기초의학 연구자",
-        "averageSalary": 7000,
-        "summary": "대학·연구소에서 의학 연구를 수행합니다."
-      },
-      {
-        "name": "제약·바이오 의학자(MSL)",
-        "averageSalary": 9000,
-        "summary": "제약 회사에서 의학 자문·임상시험을 담당합니다."
-      },
-      {
-        "name": "디지털 헬스 의사",
-        "averageSalary": 9000,
-        "summary": "헬스케어 스타트업·플랫폼에서 임상 자문을 합니다."
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "병원/의원",
@@ -1082,38 +821,6 @@
     ]
   },
   "nursing": {
-    "careers": [
-      {
-        "name": "병원 간호사",
-        "averageSalary": 4800,
-        "summary": "종합병원·전문병원에서 환자 간호를 담당합니다."
-      },
-      {
-        "name": "전문간호사(중환자·응급 등)",
-        "averageSalary": 5800,
-        "summary": "특정 분야 전문 간호 자격을 취득해 활동합니다."
-      },
-      {
-        "name": "보건교사",
-        "averageSalary": 5000,
-        "summary": "초·중·고에서 학생 건강·보건을 담당합니다."
-      },
-      {
-        "name": "보건소·산업간호사",
-        "averageSalary": 5000,
-        "summary": "지역사회·기업의 건강 관리를 담당합니다."
-      },
-      {
-        "name": "간호장교/공중보건간호사",
-        "averageSalary": 4500,
-        "summary": "군·공공의료기관에서 복무합니다."
-      },
-      {
-        "name": "디지털 헬스/제약 간호사",
-        "averageSalary": 5500,
-        "summary": "헬스케어 기업·CRO에서 의학 정보·임상 업무를 합니다."
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "종합병원",
@@ -1213,38 +920,6 @@
     ]
   },
   "pharmacy": {
-    "careers": [
-      {
-        "name": "약국 약사",
-        "averageSalary": 6500,
-        "summary": "지역 약국에서 조제·복약지도를 담당합니다."
-      },
-      {
-        "name": "병원 약사",
-        "averageSalary": 5800,
-        "summary": "병원 약제부에서 임상 약학 업무를 수행합니다."
-      },
-      {
-        "name": "제약회사 R&D",
-        "averageSalary": 6500,
-        "summary": "신약·제네릭 개발과 임상시험을 담당합니다."
-      },
-      {
-        "name": "임상 시험 전문가(CRA)",
-        "averageSalary": 5800,
-        "summary": "임상시험 모니터링·관리 업무를 수행합니다."
-      },
-      {
-        "name": "식약처/공공기관 약사",
-        "averageSalary": 5500,
-        "summary": "의약품 인허가·정책 업무를 담당합니다."
-      },
-      {
-        "name": "MSL/제약 마케팅",
-        "averageSalary": 7000,
-        "summary": "의학 정보·제품 전략을 의료진과 소통합니다."
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "지역 약국",
@@ -1344,38 +1019,6 @@
     ]
   },
   "business": {
-    "careers": [
-      {
-        "name": "마케팅 매니저",
-        "averageSalary": 6000,
-        "summary": "브랜드·캠페인·디지털 마케팅을 기획·실행합니다."
-      },
-      {
-        "name": "전략 컨설턴트",
-        "averageSalary": 8500,
-        "summary": "기업의 전략·운영 문제를 분석하고 제안합니다."
-      },
-      {
-        "name": "재무·기획 매니저",
-        "averageSalary": 6500,
-        "summary": "재무 분석·예산 수립·M&A 등을 담당합니다."
-      },
-      {
-        "name": "프로덕트 매니저",
-        "averageSalary": 7500,
-        "summary": "디지털 제품의 방향·우선순위를 결정합니다."
-      },
-      {
-        "name": "HR 매니저",
-        "averageSalary": 5800,
-        "summary": "채용·교육·평가·조직문화를 담당합니다."
-      },
-      {
-        "name": "스타트업 창업자/초기 멤버",
-        "averageSalary": 5500,
-        "summary": "스스로 사업을 만들거나 초기 핵심 멤버로 합류합니다."
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "대기업 사무직",
@@ -1480,38 +1123,6 @@
     ]
   },
   "economics": {
-    "careers": [
-      {
-        "name": "은행/증권사 애널리스트",
-        "averageSalary": 7500,
-        "summary": "산업·기업·거시 분석으로 투자 판단을 지원합니다."
-      },
-      {
-        "name": "한국은행/금융감독원",
-        "averageSalary": 6500,
-        "summary": "통화·금융 정책 운영과 감독 업무를 담당합니다."
-      },
-      {
-        "name": "경제 연구원",
-        "averageSalary": 6000,
-        "summary": "민간·국책 연구원에서 경제 연구를 수행합니다."
-      },
-      {
-        "name": "행정고시(경제직)",
-        "averageSalary": 5800,
-        "summary": "기획재정부 등 정부의 경제 정책을 수립합니다."
-      },
-      {
-        "name": "데이터 분석가",
-        "averageSalary": 6200,
-        "summary": "기업에서 데이터로 의사결정을 지원합니다."
-      },
-      {
-        "name": "경제 저널리스트",
-        "averageSalary": 5000,
-        "summary": "경제 매체에서 산업·시장 기사를 씁니다."
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "금융/투자",
@@ -1616,38 +1227,6 @@
     ]
   },
   "accounting": {
-    "careers": [
-      {
-        "name": "공인회계사(CPA)",
-        "averageSalary": 8500,
-        "summary": "회계법인·기업에서 회계감사·자문을 수행합니다."
-      },
-      {
-        "name": "세무사",
-        "averageSalary": 7500,
-        "summary": "세무 신고·자문 업무를 담당합니다."
-      },
-      {
-        "name": "기업 재무·회계 직원",
-        "averageSalary": 5800,
-        "summary": "기업 내부 회계·세무·내부통제를 담당합니다."
-      },
-      {
-        "name": "내부감사 전문가",
-        "averageSalary": 6500,
-        "summary": "내부 통제와 부정 위험을 점검합니다."
-      },
-      {
-        "name": "M&A·재무자문",
-        "averageSalary": 8000,
-        "summary": "기업 인수·매각의 재무 분석을 담당합니다."
-      },
-      {
-        "name": "공공/공기업 회계직",
-        "averageSalary": 5500,
-        "summary": "정부·공공기관의 회계·재정 업무를 담당합니다."
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "회계법인",
@@ -1752,38 +1331,6 @@
     ]
   },
   "law": {
-    "careers": [
-      {
-        "name": "변호사(법무법인)",
-        "averageSalary": 9000,
-        "summary": "기업·개인 의뢰인을 대리해 분쟁·자문을 담당합니다."
-      },
-      {
-        "name": "사내 변호사",
-        "averageSalary": 9500,
-        "summary": "기업 내부에서 계약·규제 자문을 합니다."
-      },
-      {
-        "name": "검사·판사",
-        "averageSalary": 8000,
-        "summary": "공익을 대표하거나 분쟁을 판단합니다."
-      },
-      {
-        "name": "공무원(법무직)",
-        "averageSalary": 5500,
-        "summary": "정부 부처·지자체에서 법률 행정을 담당합니다."
-      },
-      {
-        "name": "법무팀·컴플라이언스",
-        "averageSalary": 7500,
-        "summary": "기업 규제 준수와 위험 관리를 담당합니다."
-      },
-      {
-        "name": "법률 스타트업·리걸테크",
-        "averageSalary": 7000,
-        "summary": "법률 IT 서비스 기획·운영에 참여합니다."
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "법무법인",
@@ -1883,38 +1430,6 @@
     ]
   },
   "political-science": {
-    "careers": [
-      {
-        "name": "외교관(외교부)",
-        "averageSalary": 6500,
-        "summary": "외교부·재외공관에서 외교 업무를 수행합니다."
-      },
-      {
-        "name": "국회의원 보좌진",
-        "averageSalary": 5500,
-        "summary": "국회의원의 정책·정무를 보좌합니다."
-      },
-      {
-        "name": "정책 연구원",
-        "averageSalary": 6000,
-        "summary": "국책·민간 연구소에서 정책을 분석·제안합니다."
-      },
-      {
-        "name": "기자·언론인",
-        "averageSalary": 5800,
-        "summary": "정치·국제 분야 보도를 담당합니다."
-      },
-      {
-        "name": "국제기구 직원",
-        "averageSalary": 7500,
-        "summary": "UN·OECD 등 국제기구에서 정책 업무를 수행합니다."
-      },
-      {
-        "name": "공무원(외무·일반행정)",
-        "averageSalary": 5500,
-        "summary": "중앙·지방 정부의 행정 업무를 담당합니다."
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "공공/공무원",
@@ -2018,38 +1533,6 @@
     ]
   },
   "psychology": {
-    "careers": [
-      {
-        "name": "임상심리사",
-        "averageSalary": 5500,
-        "summary": "병원·심리상담센터에서 심리 평가·치료를 담당합니다."
-      },
-      {
-        "name": "상담심리사",
-        "averageSalary": 4800,
-        "summary": "학교·기업·청소년상담센터에서 상담을 진행합니다."
-      },
-      {
-        "name": "산업/조직 심리 전문가",
-        "averageSalary": 6500,
-        "summary": "기업의 채용·평가·리더십을 심리적으로 진단합니다."
-      },
-      {
-        "name": "UX 리서처",
-        "averageSalary": 6500,
-        "summary": "사용자 행동을 조사·분석해 제품을 개선합니다."
-      },
-      {
-        "name": "HR/조직개발 전문가",
-        "averageSalary": 6000,
-        "summary": "조직문화·교육·리더십 프로그램을 설계합니다."
-      },
-      {
-        "name": "데이터 분석가/시장조사",
-        "averageSalary": 5800,
-        "summary": "정량·정성 데이터로 마케팅·정책을 지원합니다."
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "교육/상담기관",
@@ -2154,38 +1637,6 @@
     ]
   },
   "sociology": {
-    "careers": [
-      {
-        "name": "정책 연구원",
-        "averageSalary": 5800,
-        "summary": "복지·노동·교육 등 사회 정책을 연구합니다."
-      },
-      {
-        "name": "공공/지자체 공무원",
-        "averageSalary": 5300,
-        "summary": "사회조사·복지·여성가족 등 행정 업무를 담당합니다."
-      },
-      {
-        "name": "시장조사·리서치 전문가",
-        "averageSalary": 5800,
-        "summary": "기업·정책의 의사결정을 위한 조사를 수행합니다."
-      },
-      {
-        "name": "기자·언론인",
-        "averageSalary": 5500,
-        "summary": "사회·문화·노동 분야 기사를 씁니다."
-      },
-      {
-        "name": "NGO·시민사회 활동가",
-        "averageSalary": 4500,
-        "summary": "인권·환경·복지 단체에서 활동합니다."
-      },
-      {
-        "name": "데이터 분석가(사회 영역)",
-        "averageSalary": 5800,
-        "summary": "공공·민간의 사회 데이터를 분석합니다."
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "공공/연구소",
@@ -2289,38 +1740,6 @@
     ]
   },
   "education": {
-    "careers": [
-      {
-        "name": "교육 연구원",
-        "averageSalary": 5500,
-        "summary": "한국교육개발원·시도교육청 등에서 교육 정책을 연구합니다."
-      },
-      {
-        "name": "공교육 행정직",
-        "averageSalary": 5000,
-        "summary": "교육부·교육청에서 교육 행정 업무를 담당합니다."
-      },
-      {
-        "name": "에듀테크 PM/기획자",
-        "averageSalary": 6500,
-        "summary": "에듀테크 스타트업에서 학습 서비스를 기획합니다."
-      },
-      {
-        "name": "평생교육사·HRD 전문가",
-        "averageSalary": 5500,
-        "summary": "기업·기관의 교육 프로그램을 설계·운영합니다."
-      },
-      {
-        "name": "교육 콘텐츠 기획자",
-        "averageSalary": 5500,
-        "summary": "출판·미디어에서 학습 콘텐츠를 기획합니다."
-      },
-      {
-        "name": "학원/입시 컨설팅",
-        "averageSalary": 6000,
-        "summary": "사교육 시장에서 강의·컨설팅을 담당합니다."
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "공공/교육 행정",
@@ -2424,38 +1843,6 @@
     ]
   },
   "korean-language-edu": {
-    "careers": [
-      {
-        "name": "중·고등학교 국어 교사",
-        "averageSalary": 5200,
-        "summary": "임용시험에 합격해 공립학교에서 수업합니다."
-      },
-      {
-        "name": "사립학교/대안학교 교사",
-        "averageSalary": 4800,
-        "summary": "사립·대안학교에서 국어 수업을 담당합니다."
-      },
-      {
-        "name": "국어 교과 출판 기획자",
-        "averageSalary": 5000,
-        "summary": "교과서·문제집·학습지를 기획·제작합니다."
-      },
-      {
-        "name": "국어/논술 강사",
-        "averageSalary": 5500,
-        "summary": "사교육 시장에서 국어·논술을 강의합니다."
-      },
-      {
-        "name": "한국어 교원(외국인 대상)",
-        "averageSalary": 4800,
-        "summary": "세종학당·국내외 기관에서 한국어를 가르칩니다."
-      },
-      {
-        "name": "교육 콘텐츠 기획자",
-        "averageSalary": 5500,
-        "summary": "에듀테크·미디어에서 국어 콘텐츠를 만듭니다."
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "공교육 교사",
@@ -2555,38 +1942,6 @@
     ]
   },
   "english-language-lit": {
-    "careers": [
-      {
-        "name": "통·번역가",
-        "averageSalary": 5500,
-        "summary": "기업·정부·미디어의 통번역 업무를 담당합니다."
-      },
-      {
-        "name": "외국계 기업 사무직",
-        "averageSalary": 6000,
-        "summary": "외국계 기업의 영업·기획·마케팅 업무를 합니다."
-      },
-      {
-        "name": "글로벌 콘텐츠 기획자",
-        "averageSalary": 5800,
-        "summary": "해외 진출 콘텐츠·마케팅을 기획합니다."
-      },
-      {
-        "name": "영어 교사/강사",
-        "averageSalary": 5200,
-        "summary": "공교육·사교육에서 영어를 가르칩니다."
-      },
-      {
-        "name": "외교부/국제기구 직원",
-        "averageSalary": 6500,
-        "summary": "외교부·국제기구에서 행정·정책 업무를 합니다."
-      },
-      {
-        "name": "출판·언론 에디터",
-        "averageSalary": 5000,
-        "summary": "외서 기획·번역 출판·국제 부문 기자 등으로 활동합니다."
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "외국계 기업",
@@ -2690,38 +2045,6 @@
     ]
   },
   "korean-language-lit": {
-    "careers": [
-      {
-        "name": "출판 편집자",
-        "averageSalary": 4800,
-        "summary": "단행본·문학 출판물을 기획·편집합니다."
-      },
-      {
-        "name": "콘텐츠 작가/카피라이터",
-        "averageSalary": 5200,
-        "summary": "방송·웹·광고용 글을 기획·작성합니다."
-      },
-      {
-        "name": "기자·언론인",
-        "averageSalary": 5500,
-        "summary": "신문·방송·디지털 매체에서 기사를 씁니다."
-      },
-      {
-        "name": "드라마/웹툰 스토리 작가",
-        "averageSalary": 5500,
-        "summary": "OTT·웹툰 플랫폼의 시나리오를 씁니다."
-      },
-      {
-        "name": "마케팅·브랜드 콘텐츠 기획자",
-        "averageSalary": 5500,
-        "summary": "기업의 브랜드 콘텐츠와 카피를 만듭니다."
-      },
-      {
-        "name": "국어 강사·논술 지도",
-        "averageSalary": 5500,
-        "summary": "사교육 시장에서 국어·논술을 강의합니다."
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "출판/언론",
@@ -2825,38 +2148,6 @@
     ]
   },
   "history": {
-    "careers": [
-      {
-        "name": "박물관·기록관 학예사",
-        "averageSalary": 4800,
-        "summary": "박물관·기록관에서 유물·기록을 관리·전시합니다."
-      },
-      {
-        "name": "역사 교사·강사",
-        "averageSalary": 5200,
-        "summary": "공교육·사교육에서 역사를 가르칩니다."
-      },
-      {
-        "name": "출판·언론 에디터",
-        "averageSalary": 5000,
-        "summary": "역사·인문 분야 출판·기사를 담당합니다."
-      },
-      {
-        "name": "문화재 행정직",
-        "averageSalary": 5300,
-        "summary": "국가유산청·지자체에서 문화재 행정을 담당합니다."
-      },
-      {
-        "name": "역사 콘텐츠 기획자",
-        "averageSalary": 5500,
-        "summary": "다큐멘터리·게임·웹툰의 역사 콘텐츠를 기획합니다."
-      },
-      {
-        "name": "연구원(국책·민간)",
-        "averageSalary": 5500,
-        "summary": "역사·문화 연구소에서 연구·기획 업무를 담당합니다."
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "교육(공·사교육)",
@@ -2960,38 +2251,6 @@
     ]
   },
   "philosophy": {
-    "careers": [
-      {
-        "name": "출판 편집자",
-        "averageSalary": 4800,
-        "summary": "인문·교양서적을 기획·편집합니다."
-      },
-      {
-        "name": "기자·논설위원",
-        "averageSalary": 5500,
-        "summary": "사회 이슈를 깊이 있게 분석하는 글을 씁니다."
-      },
-      {
-        "name": "교육 콘텐츠 기획자",
-        "averageSalary": 5500,
-        "summary": "철학·인문 강의·도서 콘텐츠를 기획합니다."
-      },
-      {
-        "name": "AI 윤리 전문가",
-        "averageSalary": 7000,
-        "summary": "기업·기관에서 AI 윤리 정책을 자문합니다."
-      },
-      {
-        "name": "정책·싱크탱크 연구원",
-        "averageSalary": 5800,
-        "summary": "정책 연구소에서 가치·윤리 영역을 분석합니다."
-      },
-      {
-        "name": "기획·전략 컨설턴트",
-        "averageSalary": 7500,
-        "summary": "프레임워크 기반의 사고력으로 컨설팅에 진출합니다."
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "출판/언론",
@@ -3095,38 +2354,6 @@
     ]
   },
   "biology": {
-    "careers": [
-      {
-        "name": "바이오 R&D 연구원",
-        "averageSalary": 5500,
-        "summary": "제약·바이오 회사에서 신약·진단 기술을 연구합니다."
-      },
-      {
-        "name": "유전체·바이오 정보학자",
-        "averageSalary": 6500,
-        "summary": "유전체 데이터를 분석해 의학 연구를 지원합니다."
-      },
-      {
-        "name": "임상 시험 전문가(CRA)",
-        "averageSalary": 5800,
-        "summary": "신약 임상시험의 모니터링을 담당합니다."
-      },
-      {
-        "name": "환경·생태 연구원",
-        "averageSalary": 5000,
-        "summary": "환경부·국립공원·연구소에서 생태 연구를 수행합니다."
-      },
-      {
-        "name": "식약처/공공기관 연구직",
-        "averageSalary": 5500,
-        "summary": "공공 연구기관에서 보건·식품 정책을 지원합니다."
-      },
-      {
-        "name": "과학 커뮤니케이터/콘텐츠",
-        "averageSalary": 5000,
-        "summary": "과학 매체에서 콘텐츠를 기획·전달합니다."
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "제약/바이오",
@@ -3230,38 +2457,6 @@
     ]
   },
   "chemistry": {
-    "careers": [
-      {
-        "name": "화학 R&D 연구원",
-        "averageSalary": 5800,
-        "summary": "화학·소재 기업에서 신소재·촉매를 연구합니다."
-      },
-      {
-        "name": "분석화학 전문가",
-        "averageSalary": 5500,
-        "summary": "기기 분석으로 품질·환경·보건 데이터를 다룹니다."
-      },
-      {
-        "name": "신약·바이오 연구원",
-        "averageSalary": 6000,
-        "summary": "제약회사에서 신약 후보물질을 합성·평가합니다."
-      },
-      {
-        "name": "화장품/식품 R&D",
-        "averageSalary": 5200,
-        "summary": "기능성 화장품·식품의 원료를 연구합니다."
-      },
-      {
-        "name": "환경·안전 전문가",
-        "averageSalary": 5300,
-        "summary": "공정 안전·환경 영향을 평가·관리합니다."
-      },
-      {
-        "name": "특허·기술 컨설턴트",
-        "averageSalary": 6500,
-        "summary": "화학 기술 특허·라이선싱을 담당합니다."
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "화학/소재",
@@ -3365,38 +2560,6 @@
     ]
   },
   "mathematics": {
-    "careers": [
-      {
-        "name": "데이터 사이언티스트",
-        "averageSalary": 7500,
-        "summary": "통계·머신러닝으로 데이터의 가치를 끌어냅니다."
-      },
-      {
-        "name": "퀀트(금융 수학)",
-        "averageSalary": 9000,
-        "summary": "투자은행·헤지펀드에서 수학 모델을 만듭니다."
-      },
-      {
-        "name": "보험 계리사(액추어리)",
-        "averageSalary": 8500,
-        "summary": "보험·연금의 위험과 가격을 수학적으로 평가합니다."
-      },
-      {
-        "name": "AI 리서처",
-        "averageSalary": 8500,
-        "summary": "수학·통계 기반으로 AI 알고리즘을 연구합니다."
-      },
-      {
-        "name": "수학 교사·강사",
-        "averageSalary": 5200,
-        "summary": "공교육·사교육에서 수학을 가르칩니다."
-      },
-      {
-        "name": "공공/연구소 수리과학자",
-        "averageSalary": 6500,
-        "summary": "정부·국책 연구소에서 수리·통계 연구를 수행합니다."
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "IT/데이터",
@@ -3500,38 +2663,6 @@
     ]
   },
   "physics": {
-    "careers": [
-      {
-        "name": "반도체 R&D",
-        "averageSalary": 6800,
-        "summary": "반도체 소자·공정의 물리를 연구합니다."
-      },
-      {
-        "name": "기초과학 연구원",
-        "averageSalary": 6500,
-        "summary": "국가핵융합연·KIST·기초과학연 등에서 연구합니다."
-      },
-      {
-        "name": "AI 리서처",
-        "averageSalary": 8500,
-        "summary": "물리적 사고를 기반으로 AI 알고리즘을 연구합니다."
-      },
-      {
-        "name": "데이터 사이언티스트",
-        "averageSalary": 7500,
-        "summary": "물리 모델링 경험을 살려 데이터 직무로 진출합니다."
-      },
-      {
-        "name": "퀀트(금융 물리)",
-        "averageSalary": 9000,
-        "summary": "금융 시장 모델링·트레이딩을 담당합니다."
-      },
-      {
-        "name": "물리 교사·과학 콘텐츠",
-        "averageSalary": 5200,
-        "summary": "공교육·과학 콘텐츠 분야에서 활동합니다."
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "반도체/디스플레이",
@@ -3635,38 +2766,6 @@
     ]
   },
   "design": {
-    "careers": [
-      {
-        "name": "UX/프로덕트 디자이너",
-        "averageSalary": 6500,
-        "summary": "디지털 제품의 사용자 경험을 설계합니다."
-      },
-      {
-        "name": "그래픽/브랜드 디자이너",
-        "averageSalary": 5500,
-        "summary": "브랜드·캠페인의 시각 자산을 만듭니다."
-      },
-      {
-        "name": "산업 디자이너",
-        "averageSalary": 5800,
-        "summary": "제품의 형태·구조·UX를 설계합니다."
-      },
-      {
-        "name": "모션·그래픽 디자이너",
-        "averageSalary": 5500,
-        "summary": "영상·인터랙션의 모션을 디자인합니다."
-      },
-      {
-        "name": "패션·텍스타일 디자이너",
-        "averageSalary": 5000,
-        "summary": "패션·소재 분야 디자인을 담당합니다."
-      },
-      {
-        "name": "디자인 디렉터/창업",
-        "averageSalary": 7500,
-        "summary": "팀을 이끌거나 자기 스튜디오를 운영합니다."
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "IT/디지털 프로덕트",
@@ -3770,38 +2869,6 @@
     ]
   },
   "media-communication": {
-    "careers": [
-      {
-        "name": "방송 PD/기자",
-        "averageSalary": 5800,
-        "summary": "방송사에서 콘텐츠 기획·제작·취재를 합니다."
-      },
-      {
-        "name": "디지털 콘텐츠 PD",
-        "averageSalary": 5500,
-        "summary": "유튜브·OTT용 콘텐츠를 기획·제작합니다."
-      },
-      {
-        "name": "광고 AE/기획자",
-        "averageSalary": 5500,
-        "summary": "광고 캠페인을 기획·운영합니다."
-      },
-      {
-        "name": "PR·홍보 매니저",
-        "averageSalary": 5800,
-        "summary": "기업·기관의 대외 커뮤니케이션을 담당합니다."
-      },
-      {
-        "name": "디지털 마케터",
-        "averageSalary": 6000,
-        "summary": "퍼포먼스·콘텐츠 마케팅을 담당합니다."
-      },
-      {
-        "name": "콘텐츠 IP 기획자",
-        "averageSalary": 6500,
-        "summary": "OTT·웹툰·웹소설 IP의 기획·제작을 담당합니다."
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "방송/언론",
@@ -3905,38 +2972,6 @@
     ]
   },
   "physical-education": {
-    "careers": [
-      {
-        "name": "체육 교사",
-        "averageSalary": 5200,
-        "summary": "임용시험 합격 후 공립 학교에서 수업합니다."
-      },
-      {
-        "name": "스포츠 트레이너",
-        "averageSalary": 4800,
-        "summary": "프로팀·일반인 대상 운동 지도를 합니다."
-      },
-      {
-        "name": "스포츠 마케터/매니저",
-        "averageSalary": 5500,
-        "summary": "프로구단·스포츠 단체의 마케팅·운영을 담당합니다."
-      },
-      {
-        "name": "스포츠 분석가",
-        "averageSalary": 5500,
-        "summary": "데이터 기반의 경기 분석·스카우팅을 합니다."
-      },
-      {
-        "name": "체육·레저 사업 운영",
-        "averageSalary": 5000,
-        "summary": "피트니스·아웃도어 사업을 기획·운영합니다."
-      },
-      {
-        "name": "공공/지자체 체육직",
-        "averageSalary": 5000,
-        "summary": "체육 진흥·생활체육 행정을 담당합니다."
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "공교육 교사",
@@ -4037,43 +3072,6 @@
     ]
   },
   "aerospace": {
-    "careers": [
-      {
-        "name": "항공기 구조 설계자",
-        "averageSalary": 6500,
-        "summary": "항공기 동체, 날개 등 구조 설계 및 안전성 검증"
-      },
-      {
-        "name": "로켓 엔진 개발자",
-        "averageSalary": 7000,
-        "summary": "우주 발사체 엔진 성능 및 추진 시스템 개발"
-      },
-      {
-        "name": "항공 시스템 엔지니어",
-        "averageSalary": 6200,
-        "summary": "항공기 전자 제어 및 통신 시스템 개발"
-      },
-      {
-        "name": "우주선 설계 엔지니어",
-        "averageSalary": 7500,
-        "summary": "인공위성, 우주선 설계 및 궤도역학 분석"
-      },
-      {
-        "name": "항공우주 품질보증 엔지니어",
-        "averageSalary": 5800,
-        "summary": "항공우주 부품의 품질 관리 및 인증 담당"
-      },
-      {
-        "name": "무인항공기(드론) 개발자",
-        "averageSalary": 5500,
-        "summary": "드론 설계, 제어 알고리즘 및 응용 기술 개발"
-      },
-      {
-        "name": "항공우주 연구원",
-        "averageSalary": 6800,
-        "summary": "항공역학, 재료, 추진 등 기초 연구 수행"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "방위산업체",
@@ -4178,43 +3176,6 @@
     ]
   },
   "agricultural-engineering": {
-    "careers": [
-      {
-        "name": "식품공학자",
-        "averageSalary": 4500,
-        "summary": "식품의 생산, 가공, 저장 기술 개발 및 품질 관리"
-      },
-      {
-        "name": "육종가",
-        "averageSalary": 4200,
-        "summary": "우수한 형질의 신품종 작물 및 축산물 개발"
-      },
-      {
-        "name": "농업 연구원",
-        "averageSalary": 4800,
-        "summary": "농업 기술, 병해충 관리, 토양 개선 등 연구 수행"
-      },
-      {
-        "name": "환경 컨설턴트",
-        "averageSalary": 5200,
-        "summary": "농업 환경 오염 방지 및 지속가능 농업 시스템 설계"
-      },
-      {
-        "name": "바이오 기술자",
-        "averageSalary": 5500,
-        "summary": "유전자 편집, 미생물 활용 기술 등 생명공학 응용"
-      },
-      {
-        "name": "품질관리 전문가",
-        "averageSalary": 4300,
-        "summary": "농산물 및 식품의 안전성, 영양가 기준 관리"
-      },
-      {
-        "name": "농산물 수출입 담당자",
-        "averageSalary": 4600,
-        "summary": "국제 규격 충족 농산물 수출입 업무 관리"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "국공립 연구기관",
@@ -4320,43 +3281,6 @@
     ]
   },
   "ai-engineering": {
-    "careers": [
-      {
-        "name": "AI 엔지니어",
-        "averageSalary": 7500,
-        "summary": "머신러닝 모델 개발 및 최적화 담당"
-      },
-      {
-        "name": "데이터 사이언티스트",
-        "averageSalary": 6800,
-        "summary": "빅데이터 분석 및 인사이트 도출"
-      },
-      {
-        "name": "컴퓨터 비전 개발자",
-        "averageSalary": 7200,
-        "summary": "이미지/영상 분석 AI 모델 구현"
-      },
-      {
-        "name": "자연언어처리(NLP) 전문가",
-        "averageSalary": 7400,
-        "summary": "언어 기반 AI 솔루션 개발"
-      },
-      {
-        "name": "AI 연구원",
-        "averageSalary": 6500,
-        "summary": "대학/연구기관에서 AI 알고리즘 연구"
-      },
-      {
-        "name": "AI 제품 매니저",
-        "averageSalary": 7100,
-        "summary": "AI 기반 상품 기획 및 전략 수립"
-      },
-      {
-        "name": "로봇공학자",
-        "averageSalary": 6900,
-        "summary": "AI를 활용한 로봇 시스템 개발"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "IT/소프트웨어 기업",
@@ -4468,43 +3392,6 @@
     ]
   },
   "automotive": {
-    "careers": [
-      {
-        "name": "자동차 엔진 설계 엔지니어",
-        "averageSalary": 5200,
-        "summary": "엔진 성능 최적화 및 신기술 개발"
-      },
-      {
-        "name": "전기자동차 개발 엔지니어",
-        "averageSalary": 5500,
-        "summary": "배터리·모터 시스템 설계 및 검증"
-      },
-      {
-        "name": "자동차 구조·안전 설계사",
-        "averageSalary": 5000,
-        "summary": "차체 구조 및 충돌 안전성 개발"
-      },
-      {
-        "name": "자동차 제어 시스템 개발자",
-        "averageSalary": 5400,
-        "summary": "자율주행·전자제어장치(ECU) 개발"
-      },
-      {
-        "name": "자동차 품질 관리(QA) 엔지니어",
-        "averageSalary": 4800,
-        "summary": "생산 품질 검증 및 결함 분석"
-      },
-      {
-        "name": "자동차 부품 개발 엔지니어",
-        "averageSalary": 4600,
-        "summary": "변속기·현가장치 등 부품 설계"
-      },
-      {
-        "name": "자동차 생산 기술 엔지니어",
-        "averageSalary": 4900,
-        "summary": "생산공정 설계 및 자동화 시스템 구축"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "완성차 제조업체",
@@ -4609,43 +3496,6 @@
     ]
   },
   "bio-engineering": {
-    "careers": [
-      {
-        "name": "생명공학자",
-        "averageSalary": 5500,
-        "summary": "유전자, 단백질 등을 연구하여 신약 개발"
-      },
-      {
-        "name": "제약 연구원",
-        "averageSalary": 5200,
-        "summary": "신약 개발 및 임상시험 진행 담당"
-      },
-      {
-        "name": "식품 공학자",
-        "averageSalary": 4800,
-        "summary": "식품 품질 개선 및 새로운 식품 개발"
-      },
-      {
-        "name": "환경 미생물학자",
-        "averageSalary": 4600,
-        "summary": "미생물을 이용한 환경 오염 정화 연구"
-      },
-      {
-        "name": "바이오 공정 엔지니어",
-        "averageSalary": 5400,
-        "summary": "바이오 의약품 대량 생산 공정 설계"
-      },
-      {
-        "name": "임상 데이터 관리자",
-        "averageSalary": 4500,
-        "summary": "임상시험 데이터 수집 및 품질 관리"
-      },
-      {
-        "name": "유전자 상담사",
-        "averageSalary": 4700,
-        "summary": "유전질환 환자에게 상담 및 정보 제공"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "제약·바이오 기업",
@@ -4754,43 +3604,6 @@
     ]
   },
   "civil-construction": {
-    "careers": [
-      {
-        "name": "토목공학기술자",
-        "averageSalary": 5200,
-        "summary": "도로, 교량, 터널 등 기반시설 설계 및 시공 감리"
-      },
-      {
-        "name": "구조설계엔지니어",
-        "averageSalary": 5800,
-        "summary": "건물 및 대형 구조물의 안전성 검증 및 설계"
-      },
-      {
-        "name": "지반공학기술자",
-        "averageSalary": 5100,
-        "summary": "토양·지하수 조사 및 기초공사 계획 수립"
-      },
-      {
-        "name": "공사관리자",
-        "averageSalary": 5500,
-        "summary": "건설 프로젝트의 비용, 공정, 품질 관리"
-      },
-      {
-        "name": "수자원공학기술자",
-        "averageSalary": 4900,
-        "summary": "댐, 수도, 하수도 시스템 설계 및 관리"
-      },
-      {
-        "name": "건설컨설턴트",
-        "averageSalary": 6200,
-        "summary": "대형 인프라 프로젝트의 타당성 조사 및 자문"
-      },
-      {
-        "name": "환경영향평가사",
-        "averageSalary": 5000,
-        "summary": "건설사업의 환경 영향 분석 및 보고서 작성"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "건설회사",
@@ -4893,43 +3706,6 @@
     ]
   },
   "cybersecurity": {
-    "careers": [
-      {
-        "name": "보안 컨설턴트",
-        "averageSalary": 6500,
-        "summary": "기업의 보안 체계 설계 및 개선 방안 제시"
-      },
-      {
-        "name": "침투 테스터",
-        "averageSalary": 7200,
-        "summary": "시스템 취약점을 찾아 보안 강화하는 전문가"
-      },
-      {
-        "name": "정보보안 관리자",
-        "averageSalary": 5800,
-        "summary": "기업 IT 인프라 보안 운영 및 관리"
-      },
-      {
-        "name": "악성코드 분석가",
-        "averageSalary": 6800,
-        "summary": "바이러스, 랜섬웨어 등 악성코드 분석 및 대응"
-      },
-      {
-        "name": "보안 연구원",
-        "averageSalary": 7500,
-        "summary": "사이버 위협 연구 및 신기술 개발"
-      },
-      {
-        "name": "사이버 수사 전문가",
-        "averageSalary": 5500,
-        "summary": "사이버 범죄 수사 및 디지털 포렌식"
-      },
-      {
-        "name": "클라우드 보안 전문가",
-        "averageSalary": 6900,
-        "summary": "클라우드 환경 보안 구축 및 운영"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "보안 전문 기업",
@@ -5038,43 +3814,6 @@
     ]
   },
   "data-science": {
-    "careers": [
-      {
-        "name": "데이터 분석가",
-        "averageSalary": 5500,
-        "summary": "빅데이터를 분석하여 비즈니스 인사이트 도출"
-      },
-      {
-        "name": "머신러닝 엔지니어",
-        "averageSalary": 6800,
-        "summary": "AI 모델 개발 및 최적화를 담당하는 전문가"
-      },
-      {
-        "name": "데이터 엔지니어",
-        "averageSalary": 6200,
-        "summary": "데이터 수집, 처리, 저장 시스템 구축"
-      },
-      {
-        "name": "AI 연구원",
-        "averageSalary": 6500,
-        "summary": "인공지능 알고리즘 개발 및 학술 연구 진행"
-      },
-      {
-        "name": "비즈니스 인텔리전스 분석가",
-        "averageSalary": 5200,
-        "summary": "기업 경영진 의사결정 지원 데이터 분석"
-      },
-      {
-        "name": "통계 컨설턴트",
-        "averageSalary": 5800,
-        "summary": "통계 기법으로 기업 문제 해결 컨설팅"
-      },
-      {
-        "name": "이미지 처리 전문가",
-        "averageSalary": 6300,
-        "summary": "컴퓨터 비전 기술로 이미지 분석 및 인식"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "IT/소프트웨어",
@@ -5183,43 +3922,6 @@
     ]
   },
   "energy": {
-    "careers": [
-      {
-        "name": "발전소 엔지니어",
-        "averageSalary": 5200,
-        "summary": "화력, 원자력, 수력 발전소의 설계 및 운영 담당"
-      },
-      {
-        "name": "신재생에너지 개발자",
-        "averageSalary": 4800,
-        "summary": "태양광, 풍력 등 청정에너지 기술 개발 및 실무"
-      },
-      {
-        "name": "전력망 운영자",
-        "averageSalary": 4600,
-        "summary": "전국 송배전망 안정성과 효율성 관리"
-      },
-      {
-        "name": "에너지 효율 컨설턴트",
-        "averageSalary": 4400,
-        "summary": "기업·건물의 에너지 소비 최적화 방안 제시"
-      },
-      {
-        "name": "에너지저장시스템(ESS) 엔지니어",
-        "averageSalary": 5000,
-        "summary": "배터리 및 에너지 저장 기술 개발·관리"
-      },
-      {
-        "name": "스마트그리드 기술자",
-        "averageSalary": 5100,
-        "summary": "IoT 기반 지능형 전력망 구축 및 운영"
-      },
-      {
-        "name": "에너지정책 분석가",
-        "averageSalary": 4500,
-        "summary": "정부·국제기구의 에너지 정책 수립 지원"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "전력공급기업(한전 등)",
@@ -5334,43 +4036,6 @@
     ]
   },
   "environmental": {
-    "careers": [
-      {
-        "name": "환경공학기술자",
-        "averageSalary": 4500,
-        "summary": "수질·대기·토양 오염 방지 기술 개발 및 관리"
-      },
-      {
-        "name": "환경컨설턴트",
-        "averageSalary": 5200,
-        "summary": "기업·정부 환경영향평가 및 개선방안 제시"
-      },
-      {
-        "name": "폐기물 처리 전문가",
-        "averageSalary": 4200,
-        "summary": "폐기물 수거·처리·재활용 시스템 운영 및 개선"
-      },
-      {
-        "name": "환경공무원",
-        "averageSalary": 4800,
-        "summary": "환경정책 수립 및 환경기준 감시·단속"
-      },
-      {
-        "name": "수질 관리 엔지니어",
-        "averageSalary": 4600,
-        "summary": "정수장·하수처리장 운영 및 수질 모니터링"
-      },
-      {
-        "name": "환경영향평가사",
-        "averageSalary": 5100,
-        "summary": "개발사업의 환경영향 조사·분석·평가"
-      },
-      {
-        "name": "대기환경 전문가",
-        "averageSalary": 4700,
-        "summary": "대기오염 저감 기술 개발 및 배출원 관리"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "정부·공공기관",
@@ -5481,43 +4146,6 @@
     ]
   },
   "food-engineering": {
-    "careers": [
-      {
-        "name": "식품공학자",
-        "averageSalary": 4500,
-        "summary": "식품 제조 공정 개선 및 신제품 개발"
-      },
-      {
-        "name": "품질관리(QC) 전문가",
-        "averageSalary": 4200,
-        "summary": "식품 안전성 및 품질 기준 관리"
-      },
-      {
-        "name": "식품 연구개발자",
-        "averageSalary": 4800,
-        "summary": "신규 식품 소재 및 공법 연구"
-      },
-      {
-        "name": "식품안전 컨설턴트",
-        "averageSalary": 5200,
-        "summary": "식품 안전 시스템 구축 및 컨설팅"
-      },
-      {
-        "name": "HACCP 관리자",
-        "averageSalary": 4100,
-        "summary": "식품 위해요소 분석 및 관리"
-      },
-      {
-        "name": "식품 생산 관리자",
-        "averageSalary": 4600,
-        "summary": "공장 생산 공정 최적화 및 효율화"
-      },
-      {
-        "name": "식품 영양 전문가",
-        "averageSalary": 3800,
-        "summary": "제품 영양가 분석 및 건강기능식품 개발"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "식품 제조업체",
@@ -5625,43 +4253,6 @@
     ]
   },
   "game-engineering": {
-    "careers": [
-      {
-        "name": "게임 프로그래머",
-        "averageSalary": 4500,
-        "summary": "게임 엔진을 활용해 게임 시스템과 기능을 개발하는 직업"
-      },
-      {
-        "name": "게임 그래픽 프로그래머",
-        "averageSalary": 5000,
-        "summary": "렌더링 및 비주얼 이펙트 구현으로 게임의 시각적 품질을 담당"
-      },
-      {
-        "name": "게임 클라이언트 개발자",
-        "averageSalary": 4800,
-        "summary": "사용자 인터페이스와 게임플레이 메카닉스 개발"
-      },
-      {
-        "name": "게임 서버 개발자",
-        "averageSalary": 5200,
-        "summary": "멀티플레이 게임의 백엔드 서버 아키텍처 설계 및 구축"
-      },
-      {
-        "name": "게임 QA 엔지니어",
-        "averageSalary": 3500,
-        "summary": "게임의 버그를 발견하고 품질 관리를 담당하는 직업"
-      },
-      {
-        "name": "게임 AI 개발자",
-        "averageSalary": 5500,
-        "summary": "머신러닝과 알고리즘으로 게임의 인공지능 구현"
-      },
-      {
-        "name": "엔진 개발자",
-        "averageSalary": 5800,
-        "summary": "Unreal, Unity 등 게임 엔진의 핵심 기능 개발"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "게임사",
@@ -5769,43 +4360,6 @@
     ]
   },
   "industrial-design-eng": {
-    "careers": [
-      {
-        "name": "제품디자이너",
-        "averageSalary": 4500,
-        "summary": "소비자 수요에 맞는 혁신적인 제품 설계 및 개발"
-      },
-      {
-        "name": "UX/UI디자이너",
-        "averageSalary": 4200,
-        "summary": "디지털 제품의 사용자 경험 및 인터페이스 설계"
-      },
-      {
-        "name": "산업디자인 컨설턴트",
-        "averageSalary": 5500,
-        "summary": "기업의 제품 전략 및 브랜드 이미지 개선 자문"
-      },
-      {
-        "name": "자동차 디자이너",
-        "averageSalary": 5200,
-        "summary": "자동차 외관 및 인테리어 디자인 개발"
-      },
-      {
-        "name": "가구/인테리어 디자이너",
-        "averageSalary": 3800,
-        "summary": "생활용품 및 실내공간 디자인 기획 및 제작"
-      },
-      {
-        "name": "디자인 엔지니어",
-        "averageSalary": 4800,
-        "summary": "설계와 제조 과정을 통합하는 기술 전문가"
-      },
-      {
-        "name": "패키징 디자이너",
-        "averageSalary": 3600,
-        "summary": "제품 포장재 디자인으로 브랜드 가치 극대화"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "제조업체/대기업",
@@ -5898,43 +4452,6 @@
     ]
   },
   "information-communication": {
-    "careers": [
-      {
-        "name": "네트워크 엔지니어",
-        "averageSalary": 5200,
-        "summary": "통신망 설계, 구축, 운영 및 최적화 전문가"
-      },
-      {
-        "name": "소프트웨어 개발자",
-        "averageSalary": 5500,
-        "summary": "애플리케이션 및 시스템 소프트웨어 개발자"
-      },
-      {
-        "name": "사이버 보안 전문가",
-        "averageSalary": 5800,
-        "summary": "정보보안 및 침해사고 대응 전문가"
-      },
-      {
-        "name": "데이터 통신 기술자",
-        "averageSalary": 4800,
-        "summary": "데이터 전송 기술 개발 및 관리 담당자"
-      },
-      {
-        "name": "IoT 시스템 엔지니어",
-        "averageSalary": 5400,
-        "summary": "사물인터넷 기반 스마트 시스템 개발자"
-      },
-      {
-        "name": "통신장비 개발자",
-        "averageSalary": 5600,
-        "summary": "5G/6G 등 통신 인프라 장비 개발 전문가"
-      },
-      {
-        "name": "IT 컨설턴트",
-        "averageSalary": 6000,
-        "summary": "기업의 정보통신 전략 및 혁신 자문"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "통신사/인프라",
@@ -6047,43 +4564,6 @@
     ]
   },
   "mechatronics": {
-    "careers": [
-      {
-        "name": "로봇공학자",
-        "averageSalary": 5500,
-        "summary": "산업용·서비스 로봇 설계 및 개발"
-      },
-      {
-        "name": "자동화 엔지니어",
-        "averageSalary": 5200,
-        "summary": "제조 자동화 시스템 구축 및 최적화"
-      },
-      {
-        "name": "제어시스템 엔지니어",
-        "averageSalary": 5400,
-        "summary": "기계-전기 통합 제어 시스템 개발"
-      },
-      {
-        "name": "반도체 장비 엔지니어",
-        "averageSalary": 6000,
-        "summary": "반도체 제조 장비 설계 및 유지보수"
-      },
-      {
-        "name": "드론 개발 엔지니어",
-        "averageSalary": 5300,
-        "summary": "드론 기체 및 제어 알고리즘 개발"
-      },
-      {
-        "name": "자동차 전자화 엔지니어",
-        "averageSalary": 5600,
-        "summary": "전기·자율주행차 시스템 개발"
-      },
-      {
-        "name": "생산관리 엔지니어",
-        "averageSalary": 4800,
-        "summary": "스마트팩토리 생산 공정 관리"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "제조업",
@@ -6193,43 +4673,6 @@
     ]
   },
   "metallurgy": {
-    "careers": [
-      {
-        "name": "야금공학자",
-        "averageSalary": 5500,
-        "summary": "금속의 성질 개선 및 신소재 개발 연구"
-      },
-      {
-        "name": "소재공학자",
-        "averageSalary": 5200,
-        "summary": "자동차·항공우주용 고성능 소재 설계 및 개발"
-      },
-      {
-        "name": "품질관리 엔지니어",
-        "averageSalary": 4800,
-        "summary": "금속제품 품질 검사 및 공정 최적화"
-      },
-      {
-        "name": "반도체 소재 연구원",
-        "averageSalary": 5800,
-        "summary": "반도체 제조용 금속 소재 개발 및 평가"
-      },
-      {
-        "name": "자동차 소재 개발자",
-        "averageSalary": 5400,
-        "summary": "경량화·고강도 자동차 부품 소재 연구"
-      },
-      {
-        "name": "공정 엔지니어",
-        "averageSalary": 5100,
-        "summary": "제조 공정 설계 및 생산성 향상 관리"
-      },
-      {
-        "name": "부식방지 기술자",
-        "averageSalary": 4900,
-        "summary": "금속 부식 방지 및 표면처리 기술 개발"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "철강/금속 제조업",
@@ -6342,43 +4785,6 @@
     ]
   },
   "mining": {
-    "careers": [
-      {
-        "name": "광산 기술자",
-        "averageSalary": 4500,
-        "summary": "광물 채취 및 채광 공정 관리"
-      },
-      {
-        "name": "자원탐사 엔지니어",
-        "averageSalary": 5200,
-        "summary": "지하자원 탐사 및 평가"
-      },
-      {
-        "name": "제련 엔지니어",
-        "averageSalary": 4800,
-        "summary": "광물을 유용한 금속으로 변환"
-      },
-      {
-        "name": "환경 컨설턴트",
-        "averageSalary": 5000,
-        "summary": "자원개발 환경영향 평가 및 관리"
-      },
-      {
-        "name": "품질관리 전문가",
-        "averageSalary": 4600,
-        "summary": "광물 및 금속 품질 검사"
-      },
-      {
-        "name": "자원정책 분석가",
-        "averageSalary": 5300,
-        "summary": "국가 자원 정책 개발 및 분석"
-      },
-      {
-        "name": "안전 관리자",
-        "averageSalary": 4400,
-        "summary": "광산 및 제련소 안전관리"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "광산/채광업",
@@ -6480,43 +4886,6 @@
     ]
   },
   "nano": {
-    "careers": [
-      {
-        "name": "나노소재 연구원",
-        "averageSalary": 5200,
-        "summary": "나노 수준의 신소재 개발 및 특성 연구"
-      },
-      {
-        "name": "반도체 공정 엔지니어",
-        "averageSalary": 5800,
-        "summary": "반도체 칩 제조 공정 설계 및 최적화"
-      },
-      {
-        "name": "디스플레이 개발 기술자",
-        "averageSalary": 5500,
-        "summary": "LCD, OLED 등 차세대 디스플레이 기술 개발"
-      },
-      {
-        "name": "나노의약 연구자",
-        "averageSalary": 5300,
-        "summary": "약물 전달 및 바이오 의료용 나노 입자 개발"
-      },
-      {
-        "name": "에너지 소재 개발자",
-        "averageSalary": 5400,
-        "summary": "배터리, 태양전지 등 차세대 에너지 소재 연구"
-      },
-      {
-        "name": "품질관리(QA) 엔지니어",
-        "averageSalary": 4900,
-        "summary": "나노 수준의 제품 품질 검증 및 공정 관리"
-      },
-      {
-        "name": "특허/기술 컨설턴트",
-        "averageSalary": 5600,
-        "summary": "나노기술 분야 기술 이전 및 사업화 지원"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "반도체/디스플레이 기업",
@@ -6625,43 +4994,6 @@
     ]
   },
   "naval-architecture": {
-    "careers": [
-      {
-        "name": "조선공학 설계자",
-        "averageSalary": 6500,
-        "summary": "선박의 구조 및 성능 설계를 담당하는 전문가"
-      },
-      {
-        "name": "해양플랜트 엔지니어",
-        "averageSalary": 7200,
-        "summary": "석유/가스 시추 및 해상 구조물 설계·건설"
-      },
-      {
-        "name": "조선소 생산관리자",
-        "averageSalary": 6800,
-        "summary": "선박 건조 과정의 생산 계획 및 품질 관리"
-      },
-      {
-        "name": "선박 보증 검사관",
-        "averageSalary": 5800,
-        "summary": "선박의 안전 기준 충족 여부 검증 및 인증"
-      },
-      {
-        "name": "조선 관련 소프트웨어 개발자",
-        "averageSalary": 6200,
-        "summary": "선박 설계 및 시뮬레이션 프로그램 개발"
-      },
-      {
-        "name": "해양 안전 엔지니어",
-        "averageSalary": 5900,
-        "summary": "선박 및 해양 시설의 안전 시스템 구축"
-      },
-      {
-        "name": "조선 기술 영업",
-        "averageSalary": 5500,
-        "summary": "선박 건조 계약 및 기술 제안 담당"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "조선업체/조선소",
@@ -6771,43 +5103,6 @@
     ]
   },
   "new-materials": {
-    "careers": [
-      {
-        "name": "소재공학자",
-        "averageSalary": 5500,
-        "summary": "신소재 개발 및 성능 개선 연구를 담당하는 핵심 직무"
-      },
-      {
-        "name": "반도체 공정엔지니어",
-        "averageSalary": 6200,
-        "summary": "반도체 제조 공정 최적화 및 품질 관리"
-      },
-      {
-        "name": "배터리 개발자",
-        "averageSalary": 5800,
-        "summary": "차세대 배터리 소재 및 성능 개선 연구"
-      },
-      {
-        "name": "재료시험기사",
-        "averageSalary": 4200,
-        "summary": "신소재 물성 측정 및 품질 검사 수행"
-      },
-      {
-        "name": "디스플레이 개발엔지니어",
-        "averageSalary": 5900,
-        "summary": "LCD, OLED 등 디스플레이 소재 및 공정 개발"
-      },
-      {
-        "name": "제약 소재 연구원",
-        "averageSalary": 5300,
-        "summary": "의약품 제조용 신소재 및 나노입자 개발"
-      },
-      {
-        "name": "환경소재 엔지니어",
-        "averageSalary": 4800,
-        "summary": "환경 오염 제거용 기능성 소재 개발"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "반도체·전자",
@@ -6915,43 +5210,6 @@
     ]
   },
   "nuclear": {
-    "careers": [
-      {
-        "name": "원자력발전소 운영·관리자",
-        "averageSalary": 6500,
-        "summary": "원전 운영 및 안전관리 전담"
-      },
-      {
-        "name": "원자력 안전 전문가",
-        "averageSalary": 6800,
-        "summary": "원전 안전성 평가 및 규제 업무"
-      },
-      {
-        "name": "핵융합 연구원",
-        "averageSalary": 6200,
-        "summary": "차세대 에너지 융합 기술 연구"
-      },
-      {
-        "name": "방사선 의료 전문가",
-        "averageSalary": 5800,
-        "summary": "의료용 방사선 치료 및 진단"
-      },
-      {
-        "name": "방사성폐기물 처리 전문가",
-        "averageSalary": 5500,
-        "summary": "핵폐기물 처리 및 환경관리"
-      },
-      {
-        "name": "원자력 규제 공무원",
-        "averageSalary": 5200,
-        "summary": "원전 인허가 및 감시·감독"
-      },
-      {
-        "name": "원자력 설계 엔지니어",
-        "averageSalary": 6400,
-        "summary": "원전 시스템 설계 및 개발"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "발전·에너지",
@@ -7056,43 +5314,6 @@
     ]
   },
   "ocean-engineering": {
-    "careers": [
-      {
-        "name": "해양구조물 설계 엔지니어",
-        "averageSalary": 5500,
-        "summary": "선박, 해양플랫폼 등 구조물 설계 및 개발"
-      },
-      {
-        "name": "조선소 생산기술자",
-        "averageSalary": 5200,
-        "summary": "선박 건조 공정 관리 및 생산 최적화"
-      },
-      {
-        "name": "해양환경 컨설턴트",
-        "averageSalary": 4800,
-        "summary": "해양 생태계 보전 및 환경 영향 평가"
-      },
-      {
-        "name": "항만시설 관리 엔지니어",
-        "averageSalary": 4600,
-        "summary": "항만 인프라 운영 및 유지보수 담당"
-      },
-      {
-        "name": "해양 에너지 개발 연구원",
-        "averageSalary": 5300,
-        "summary": "풍력, 파력 등 신재생 에너지 개발"
-      },
-      {
-        "name": "해양 빅데이터 분석가",
-        "averageSalary": 5400,
-        "summary": "해양 정보 수집·분석 및 예측 모델 개발"
-      },
-      {
-        "name": "선박 기관사",
-        "averageSalary": 6500,
-        "summary": "선박 엔진 및 기계 장치 운영·정비"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "조선·해양플랜트 업체",
@@ -7202,43 +5423,6 @@
     ]
   },
   "robotics": {
-    "careers": [
-      {
-        "name": "로봇 설계 엔지니어",
-        "averageSalary": 5200,
-        "summary": "산업용 로봇의 기구 및 시스템을 설계하는 전문가"
-      },
-      {
-        "name": "자동화 시스템 엔지니어",
-        "averageSalary": 4800,
-        "summary": "제조업체의 자동화 라인을 구축하고 최적화하는 업무"
-      },
-      {
-        "name": "로봇 소프트웨어 개발자",
-        "averageSalary": 5500,
-        "summary": "로봇 제어 알고리즘 및 AI 프로그래밍 개발"
-      },
-      {
-        "name": "드론 개발 엔지니어",
-        "averageSalary": 5100,
-        "summary": "무인항공기 설계 및 제어 시스템 개발"
-      },
-      {
-        "name": "의료 로봇 개발자",
-        "averageSalary": 5400,
-        "summary": "수술 보조 및 재활용 의료 로봇 연구개발"
-      },
-      {
-        "name": "로봇 시스템 통합자",
-        "averageSalary": 4900,
-        "summary": "다양한 로봇 부품을 통합하여 시스템 구축"
-      },
-      {
-        "name": "AI 로봇 연구원",
-        "averageSalary": 5600,
-        "summary": "머신러닝을 활용한 지능형 로봇 연구"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "제조업체",
@@ -7342,43 +5526,6 @@
     ]
   },
   "software": {
-    "careers": [
-      {
-        "name": "소프트웨어 개발자",
-        "averageSalary": 5500,
-        "summary": "웹, 모바일, 데스크톱 등 다양한 플랫폼 소프트웨어 개발"
-      },
-      {
-        "name": "게임 프로그래머",
-        "averageSalary": 5200,
-        "summary": "게임 엔진을 활용한 게임 로직 및 그래픽 프로그래밍"
-      },
-      {
-        "name": "AI/머신러닝 엔지니어",
-        "averageSalary": 6500,
-        "summary": "머신러닝 모델 개발 및 AI 솔루션 구현"
-      },
-      {
-        "name": "클라우드 시스템 엔지니어",
-        "averageSalary": 5800,
-        "summary": "AWS, Azure 등 클라우드 인프라 구축 및 운영"
-      },
-      {
-        "name": "보안 엔지니어",
-        "averageSalary": 6000,
-        "summary": "시스템 및 네트워크 보안 취약점 분석 및 대응"
-      },
-      {
-        "name": "소프트웨어 아키텍트",
-        "averageSalary": 7200,
-        "summary": "대규모 시스템 설계 및 기술 의사결정 주도"
-      },
-      {
-        "name": "QA 엔지니어",
-        "averageSalary": 4800,
-        "summary": "소프트웨어 품질 보증 및 자동화 테스트 개발"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "IT/소프트웨어 회사",
@@ -7486,43 +5633,6 @@
     ]
   },
   "systems": {
-    "careers": [
-      {
-        "name": "시스템 엔지니어",
-        "averageSalary": 5500,
-        "summary": "복잡한 시스템 설계, 개발, 통합 및 관리"
-      },
-      {
-        "name": "프로젝트 매니저",
-        "averageSalary": 6200,
-        "summary": "대규모 기술 프로젝트의 일정, 예산, 품질 관리"
-      },
-      {
-        "name": "품질보증(QA) 엔지니어",
-        "averageSalary": 4800,
-        "summary": "시스템 및 소프트웨어 품질 검증 및 테스트"
-      },
-      {
-        "name": "시스템 통합(SI) 컨설턴트",
-        "averageSalary": 6800,
-        "summary": "기업 IT 시스템 구축 및 최적화 전략 수립"
-      },
-      {
-        "name": "데이터 분석가",
-        "averageSalary": 5200,
-        "summary": "대규모 시스템 데이터 수집, 분석, 인사이트 도출"
-      },
-      {
-        "name": "인프라 아키텍트",
-        "averageSalary": 6500,
-        "summary": "클라우드 및 네트워크 인프라 설계 및 구축"
-      },
-      {
-        "name": "시스템 안정성 엔지니어(SRE)",
-        "averageSalary": 6000,
-        "summary": "시스템 가용성, 신뢰성, 성능 최적화 담당"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "정보통신(IT) 서비스업",
@@ -7622,43 +5732,6 @@
     ]
   },
   "textile": {
-    "careers": [
-      {
-        "name": "섬유 엔지니어",
-        "averageSalary": 4500,
-        "summary": "신소재 섬유 개발 및 생산 공정 최적화"
-      },
-      {
-        "name": "패션 테크 개발자",
-        "averageSalary": 5200,
-        "summary": "스마트 섬유, 웨어러블 기술 개발"
-      },
-      {
-        "name": "품질관리(QC) 엔지니어",
-        "averageSalary": 4000,
-        "summary": "섬유 제품 품질 검사 및 표준화 관리"
-      },
-      {
-        "name": "염색·가공 기술자",
-        "averageSalary": 3800,
-        "summary": "친환경 염색 공정 개발 및 섬유 가공"
-      },
-      {
-        "name": "연구원(섬유/신소재)",
-        "averageSalary": 5800,
-        "summary": "고기능성 섬유 소재 연구개발"
-      },
-      {
-        "name": "생산관리(PM) 담당자",
-        "averageSalary": 4600,
-        "summary": "섬유 공장 생산 계획 및 효율성 관리"
-      },
-      {
-        "name": "환경 컨설턴트",
-        "averageSalary": 5400,
-        "summary": "섬유산업 환경오염 저감 솔루션 제시"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "섬유·의류 제조업",
@@ -7764,43 +5837,6 @@
     ]
   },
   "transportation": {
-    "careers": [
-      {
-        "name": "도로설계 엔지니어",
-        "averageSalary": 5200,
-        "summary": "도로 및 고속도로 설계, 건설 관리"
-      },
-      {
-        "name": "교통계획가",
-        "averageSalary": 5000,
-        "summary": "지역 교통체계 계획 및 정책 수립"
-      },
-      {
-        "name": "대중교통 운영 관리자",
-        "averageSalary": 4800,
-        "summary": "지하철, 버스 등 대중교통 운영 및 최적화"
-      },
-      {
-        "name": "교통 데이터 분석가",
-        "averageSalary": 5400,
-        "summary": "빅데이터 활용한 교통 흐름 분석"
-      },
-      {
-        "name": "ITS 시스템 개발자",
-        "averageSalary": 5600,
-        "summary": "지능형 교통시스템 소프트웨어 개발"
-      },
-      {
-        "name": "철도공학 엔지니어",
-        "averageSalary": 5300,
-        "summary": "철도 노선 설계 및 안전 관리"
-      },
-      {
-        "name": "도시계획 전문가",
-        "averageSalary": 5100,
-        "summary": "도시 공간과 교통을 통합한 계획 수립"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "정부·공공기관",
@@ -7910,43 +5946,6 @@
     ]
   },
   "urban-planning-eng": {
-    "careers": [
-      {
-        "name": "도시계획가",
-        "averageSalary": 4500,
-        "summary": "지속 가능한 도시 개발 및 공간 계획 전문가"
-      },
-      {
-        "name": "토목공학기사",
-        "averageSalary": 5200,
-        "summary": "도로, 교량, 인프라 설계 및 시공 관리 전문가"
-      },
-      {
-        "name": "건설회사 프로젝트 매니저",
-        "averageSalary": 5800,
-        "summary": "대규모 건설 프로젝트의 계획 및 진행 관리"
-      },
-      {
-        "name": "교통공학자",
-        "averageSalary": 4800,
-        "summary": "교통 시스템 설계 및 교통량 분석 전문가"
-      },
-      {
-        "name": "부동산개발 전문가",
-        "averageSalary": 5500,
-        "summary": "도시 재개발 및 부동산 개발 사업 기획"
-      },
-      {
-        "name": "공무원 (도시/건설)",
-        "averageSalary": 4200,
-        "summary": "정부 도시계획 및 건설 정책 담당 공무원"
-      },
-      {
-        "name": "GIS 데이터 분석가",
-        "averageSalary": 4600,
-        "summary": "지리정보시스템을 활용한 도시 공간 분석"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "건설사/부동산개발",
@@ -8051,43 +6050,6 @@
     ]
   },
   "advertising": {
-    "careers": [
-      {
-        "name": "광고 크리에이티브 디렉터",
-        "averageSalary": 5500,
-        "summary": "광고 캠페인의 창의적 방향을 총괄하는 리더"
-      },
-      {
-        "name": "마케팅 매니저",
-        "averageSalary": 4800,
-        "summary": "제품과 브랜드의 시장 전략을 수립하고 실행"
-      },
-      {
-        "name": "PR 전문가",
-        "averageSalary": 4200,
-        "summary": "기업 이미지 관리 및 미디어 관계 담당"
-      },
-      {
-        "name": "소셜미디어 마케터",
-        "averageSalary": 3800,
-        "summary": "SNS 채널을 통한 브랜드 홍보 및 고객 소통"
-      },
-      {
-        "name": "브랜드 전략가",
-        "averageSalary": 5200,
-        "summary": "장기 브랜드 가치 구축 및 포지셔닝 전담"
-      },
-      {
-        "name": "콘텐츠 디렉터",
-        "averageSalary": 4500,
-        "summary": "영상·웹·출판 콘텐츠의 기획과 제작 총괄"
-      },
-      {
-        "name": "광고 기획자",
-        "averageSalary": 4100,
-        "summary": "광고주 요청에 맞는 캠페인 기획 및 제안"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "광고대행사",
@@ -8200,43 +6162,6 @@
     ]
   },
   "broadcasting": {
-    "careers": [
-      {
-        "name": "기자",
-        "averageSalary": 4500,
-        "summary": "신문, 방송, 온라인 매체에서 뉴스를 취재하고 보도합니다."
-      },
-      {
-        "name": "방송PD",
-        "averageSalary": 5200,
-        "summary": "TV, 라디오, 유튜브 등 방송 프로그램을 기획하고 제작합니다."
-      },
-      {
-        "name": "광고기획자",
-        "averageSalary": 4800,
-        "summary": "기업의 마케팅 목표에 맞는 광고 캠페인을 기획합니다."
-      },
-      {
-        "name": "방송작가",
-        "averageSalary": 4200,
-        "summary": "드라마, 예능, 다큐멘터리 등 방송 콘텐츠의 대본을 작성합니다."
-      },
-      {
-        "name": "PR전문가",
-        "averageSalary": 5000,
-        "summary": "기업이나 조직의 이미지 관리와 홍보 전략을 수립합니다."
-      },
-      {
-        "name": "콘텐츠크리에이터",
-        "averageSalary": 4600,
-        "summary": "SNS, 유튜브 등 디지털 플랫폼을 위한 창의적 콘텐츠를 제작합니다."
-      },
-      {
-        "name": "미디어분석가",
-        "averageSalary": 4700,
-        "summary": "미디어 트렌드와 시청률을 분석하여 전략을 수립합니다."
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "방송국(KBS, MBC, SBS 등)",
@@ -8343,43 +6268,6 @@
     ]
   },
   "child-studies": {
-    "careers": [
-      {
-        "name": "보육교사",
-        "averageSalary": 2800,
-        "summary": "어린이집에서 영유아 보육 및 교육을 담당합니다."
-      },
-      {
-        "name": "유치원교사",
-        "averageSalary": 3200,
-        "summary": "유치원에서 유아 교육과정을 지도합니다."
-      },
-      {
-        "name": "아동심리상담사",
-        "averageSalary": 3500,
-        "summary": "아동의 심리 문제 진단 및 상담 치료를 제공합니다."
-      },
-      {
-        "name": "아동발달평가사",
-        "averageSalary": 3300,
-        "summary": "아동의 발달 수준을 평가하고 개입 계획을 수립합니다."
-      },
-      {
-        "name": "아동복지전담공무원",
-        "averageSalary": 4000,
-        "summary": "정부 기관에서 아동 복지 정책 추진 및 사례 관리합니다."
-      },
-      {
-        "name": "유아교육연구원",
-        "averageSalary": 3800,
-        "summary": "대학 및 연구기관에서 유아교육 정책 연구를 수행합니다."
-      },
-      {
-        "name": "아동교육콘텐츠개발자",
-        "averageSalary": 3600,
-        "summary": "교육용 앱·영상 등 아동 대상 콘텐츠를 기획·제작합니다."
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "교육기관(어린이집·유치원)",
@@ -8489,43 +6377,6 @@
     ]
   },
   "consumer-studies": {
-    "careers": [
-      {
-        "name": "소비자상담사",
-        "averageSalary": 3200,
-        "summary": "소비자 피해 및 민원을 처리하고 상담하는 전문가"
-      },
-      {
-        "name": "마켓팅 리서처",
-        "averageSalary": 4500,
-        "summary": "소비자 행동 분석으로 마케팅 전략 수립"
-      },
-      {
-        "name": "소비자정책 담당자",
-        "averageSalary": 4000,
-        "summary": "정부 및 공공기관에서 소비자 정책 개발"
-      },
-      {
-        "name": "브랜드 매니저",
-        "averageSalary": 4800,
-        "summary": "브랜드 가치 관리 및 소비자 관계 구축"
-      },
-      {
-        "name": "시장조사 분석가",
-        "averageSalary": 4200,
-        "summary": "소비 시장 트렌드 조사 및 데이터 분석"
-      },
-      {
-        "name": "제품개발 매니저",
-        "averageSalary": 5200,
-        "summary": "소비자 니즈 반영한 신제품 개발"
-      },
-      {
-        "name": "CSR 담당자",
-        "averageSalary": 4100,
-        "summary": "기업의 사회적 책임 및 소비자 만족 활동"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "제조업·유통업",
@@ -8637,43 +6488,6 @@
     ]
   },
   "family-studies": {
-    "careers": [
-      {
-        "name": "가족상담사",
-        "averageSalary": 3500,
-        "summary": "가족 문제 해결을 위한 심리 상담 및 치료 제공"
-      },
-      {
-        "name": "사회복지사",
-        "averageSalary": 3200,
-        "summary": "취약계층 지원 및 사회복지 서비스 기획·실행"
-      },
-      {
-        "name": "가정관리사",
-        "averageSalary": 2800,
-        "summary": "가정 경제·생활관리 상담 및 교육 전문가"
-      },
-      {
-        "name": "아동심리 전문가",
-        "averageSalary": 3800,
-        "summary": "아동 발달 및 심리 평가·치료 수행"
-      },
-      {
-        "name": "노인복지 전문가",
-        "averageSalary": 3300,
-        "summary": "노인 정책 개발 및 복지 프로그램 운영"
-      },
-      {
-        "name": "학교상담교사",
-        "averageSalary": 4200,
-        "summary": "학생 심리·진로상담 및 생활지도"
-      },
-      {
-        "name": "정책연구원",
-        "averageSalary": 4500,
-        "summary": "가족·사회정책 연구 및 제안"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "사회복지기관",
@@ -8787,43 +6601,6 @@
     ]
   },
   "global-studies": {
-    "careers": [
-      {
-        "name": "국제관계 전문가",
-        "averageSalary": 5500,
-        "summary": "정부·기구에서 국제협력 및 외교정책 담당"
-      },
-      {
-        "name": "국제무역사",
-        "averageSalary": 5200,
-        "summary": "수출입 업체에서 글로벌 무역 거래 중개"
-      },
-      {
-        "name": "다국적기업 임직원",
-        "averageSalary": 6000,
-        "summary": "글로벌 기업에서 국제사업 확장 및 운영"
-      },
-      {
-        "name": "국제개발협력 전문가",
-        "averageSalary": 4800,
-        "summary": "KOICA 등 기구에서 개발도상국 지원사업 수행"
-      },
-      {
-        "name": "외교관",
-        "averageSalary": 5800,
-        "summary": "외교부에서 국가 간 외교관계 담당"
-      },
-      {
-        "name": "국제 마케팅 매니저",
-        "averageSalary": 5400,
-        "summary": "글로벌 브랜드의 해외 시장진출 전략 수립"
-      },
-      {
-        "name": "통역·번역사",
-        "averageSalary": 4500,
-        "summary": "국제회의·비즈니스 현장에서 언어 중개 역할"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "정부·공공기관",
@@ -8936,43 +6713,6 @@
     ]
   },
   "health-admin": {
-    "careers": [
-      {
-        "name": "보건행정관",
-        "averageSalary": 4200,
-        "summary": "보건의료기관의 행정업무 및 정책 수립 담당"
-      },
-      {
-        "name": "병원행정사",
-        "averageSalary": 3800,
-        "summary": "병원의 인사, 재무, 운영 관리 전문가"
-      },
-      {
-        "name": "보건소장",
-        "averageSalary": 5100,
-        "summary": "지역 보건소 운영 및 공중보건 정책 수행"
-      },
-      {
-        "name": "의료보험심사원",
-        "averageSalary": 4500,
-        "summary": "건강보험 청구 심사 및 급여 관리 담당"
-      },
-      {
-        "name": "보건정책분석가",
-        "averageSalary": 4800,
-        "summary": "정부 보건정책 기획 및 평가 분석"
-      },
-      {
-        "name": "의료기관 컨설턴트",
-        "averageSalary": 5500,
-        "summary": "병원 경영 효율화 및 조직 개선 컨설팅"
-      },
-      {
-        "name": "건강보험공단 직원",
-        "averageSalary": 4600,
-        "summary": "보험급여, 수가, 징수 관련 업무 수행"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "병원 및 의료기관",
@@ -9085,43 +6825,6 @@
     ]
   },
   "hotel-management": {
-    "careers": [
-      {
-        "name": "호텔 매니저",
-        "averageSalary": 4500,
-        "summary": "호텔 운영 전반을 관리하고 고객 만족도를 책임지는 직책"
-      },
-      {
-        "name": "식음료 매니저",
-        "averageSalary": 3800,
-        "summary": "레스토랑, 바 등 식음료 부서 운영 및 품질 관리"
-      },
-      {
-        "name": "컨벤션 플래너",
-        "averageSalary": 4200,
-        "summary": "학술대회, 결혼식 등 이벤트 기획 및 진행 담당"
-      },
-      {
-        "name": "하우스키핑 매니저",
-        "averageSalary": 3500,
-        "summary": "객실 청소, 시설 유지 등 하우스키핑 부서 관리"
-      },
-      {
-        "name": "프론트 오피스 매니저",
-        "averageSalary": 3700,
-        "summary": "예약, 체크인 등 고객 접점 서비스 총괄"
-      },
-      {
-        "name": "마케팅 디렉터",
-        "averageSalary": 4800,
-        "summary": "호텔 브랜드 마케팅 및 수익 극대화 전략 수립"
-      },
-      {
-        "name": "호텔 컨설턴트",
-        "averageSalary": 5200,
-        "summary": "호텔 운영 개선 및 경영 혁신 자문 제공"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "특급 호텔·리조트",
@@ -9231,43 +6934,6 @@
     ]
   },
   "human-geography": {
-    "careers": [
-      {
-        "name": "도시계획가",
-        "averageSalary": 4500,
-        "summary": "도시의 공간구조와 발전방향을 설계하는 전문가"
-      },
-      {
-        "name": "지역개발 전문가",
-        "averageSalary": 4200,
-        "summary": "지역 경제 활성화와 균형발전을 추진하는 전문가"
-      },
-      {
-        "name": "환경영향평가 전문가",
-        "averageSalary": 4300,
-        "summary": "개발사업의 환경 영향을 분석하고 평가"
-      },
-      {
-        "name": "지리정보시스템(GIS) 전문가",
-        "averageSalary": 5000,
-        "summary": "공간데이터를 분석하여 의사결정 지원"
-      },
-      {
-        "name": "관광개발 담당자",
-        "averageSalary": 3800,
-        "summary": "지역 관광자원을 발굴하고 상품화"
-      },
-      {
-        "name": "부동산 개발 컨설턴트",
-        "averageSalary": 5200,
-        "summary": "지역분석을 통한 부동산 개발 전략 수립"
-      },
-      {
-        "name": "지리교사",
-        "averageSalary": 4000,
-        "summary": "중·고등학교에서 지리 교육 담당"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "정부·지자체",
@@ -9376,43 +7042,6 @@
     ]
   },
   "international-business": {
-    "careers": [
-      {
-        "name": "무역업체 수출입 관리자",
-        "averageSalary": 4500,
-        "summary": "수출입 절차 관리 및 국제 거래 담당"
-      },
-      {
-        "name": "관세사",
-        "averageSalary": 5200,
-        "summary": "관세 신고 및 통관 업무 전문가"
-      },
-      {
-        "name": "외교관/국제기구 직원",
-        "averageSalary": 5800,
-        "summary": "국가 간 외교 협상 및 국제 정책 수립"
-      },
-      {
-        "name": "국제 비즈니스 컨설턴트",
-        "averageSalary": 6500,
-        "summary": "기업의 국제 진출 전략 수립 지원"
-      },
-      {
-        "name": "FTA 협상 전문가",
-        "averageSalary": 5900,
-        "summary": "자유무역협정 협상 및 정책 개발"
-      },
-      {
-        "name": "국제마케팅 매니저",
-        "averageSalary": 4800,
-        "summary": "글로벌 시장 진출 및 브랜드 전략"
-      },
-      {
-        "name": "무역금융 전문가",
-        "averageSalary": 5400,
-        "summary": "국제 결제 및 무역 금융 상품 개발"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "무역회사/수출입업체",
@@ -9525,43 +7154,6 @@
     ]
   },
   "military-studies": {
-    "careers": [
-      {
-        "name": "군 장교",
-        "averageSalary": 4500,
-        "summary": "국방력 강화를 위한 군대 지휘 및 운영 담당"
-      },
-      {
-        "name": "국방정책 분석가",
-        "averageSalary": 5200,
-        "summary": "국방 관련 정책 수립 및 분석하는 전문가"
-      },
-      {
-        "name": "방위사업청 공무원",
-        "averageSalary": 4800,
-        "summary": "국방력 강화를 위한 무기체계 개발 업무 담당"
-      },
-      {
-        "name": "국제관계 전문가",
-        "averageSalary": 5500,
-        "summary": "국제 안보 및 외교 관계 분석 및 자문"
-      },
-      {
-        "name": "국가정보원 분석관",
-        "averageSalary": 5100,
-        "summary": "국가 안보를 위한 정보 수집 및 분석"
-      },
-      {
-        "name": "싱크탱크 연구원",
-        "averageSalary": 4900,
-        "summary": "국방·안보 관련 정책 연구 및 제안"
-      },
-      {
-        "name": "국제안보 컨설턴트",
-        "averageSalary": 6200,
-        "summary": "기업 및 정부기관에 국제안보 전략 자문"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "정부 및 국방부",
@@ -9665,43 +7257,6 @@
     ]
   },
   "north-korea-studies": {
-    "careers": [
-      {
-        "name": "외교관",
-        "averageSalary": 6500,
-        "summary": "외교부에서 북한 관련 정책 수립 및 국제 협상 담당"
-      },
-      {
-        "name": "통일 정책 전문가",
-        "averageSalary": 5800,
-        "summary": "정부 통일 부처에서 남북 관계 정책 개발 및 분석"
-      },
-      {
-        "name": "북한 연구원",
-        "averageSalary": 4500,
-        "summary": "싱크탱크에서 북한 정치, 경제, 사회 현황 조사 분석"
-      },
-      {
-        "name": "언론인/기자",
-        "averageSalary": 4200,
-        "summary": "방송국, 신문사에서 북한 뉴스 취재 및 보도"
-      },
-      {
-        "name": "국정원 정보분석관",
-        "averageSalary": 5500,
-        "summary": "정보기관에서 북한 정보 수집 및 전략 분석"
-      },
-      {
-        "name": "국제NGO 활동가",
-        "averageSalary": 4000,
-        "summary": "국제인권단체에서 북한 인권 개선 활동"
-      },
-      {
-        "name": "대학 교수/연구자",
-        "averageSalary": 6000,
-        "summary": "대학에서 북한학 강의 및 학술 연구 수행"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "정부/공공기관",
@@ -9812,43 +7367,6 @@
     ]
   },
   "police-admin": {
-    "careers": [
-      {
-        "name": "경찰관",
-        "averageSalary": 4500,
-        "summary": "치안과 질서 유지를 위해 범죄를 예방하고 단속하는 업무 수행"
-      },
-      {
-        "name": "검사",
-        "averageSalary": 5800,
-        "summary": "범죄 수사 및 기소를 담당하는 법조인으로 공공의 이익 대변"
-      },
-      {
-        "name": "변호사",
-        "averageSalary": 6200,
-        "summary": "의뢰인의 법적 권리를 보호하고 법적 분쟁 해결을 지원"
-      },
-      {
-        "name": "법원공무원",
-        "averageSalary": 4200,
-        "summary": "법원 운영 및 사건 관리 업무를 담당하는 공무원"
-      },
-      {
-        "name": "교정공무원",
-        "averageSalary": 4400,
-        "summary": "교도소 운영 및 수용자 관리, 사회 복귀 지원 담당"
-      },
-      {
-        "name": "보안전문가",
-        "averageSalary": 5100,
-        "summary": "기업·정부의 정보보안 및 위험 관리 업무 수행"
-      },
-      {
-        "name": "경찰대학 교수",
-        "averageSalary": 5500,
-        "summary": "경찰행정 이론 및 실무 교육을 담당하는 대학 강사"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "공공기관(경찰청·검찰청·법원)",
@@ -9960,43 +7478,6 @@
     ]
   },
   "policy-studies": {
-    "careers": [
-      {
-        "name": "정책 분석가",
-        "averageSalary": 4500,
-        "summary": "정부 정책 수립 및 평가 전문가"
-      },
-      {
-        "name": "공무원(행정직)",
-        "averageSalary": 4200,
-        "summary": "중앙/지방정부 정책 집행 담당자"
-      },
-      {
-        "name": "정책 컨설턴트",
-        "averageSalary": 5800,
-        "summary": "정부/기업의 정책 자문 및 전략 제시"
-      },
-      {
-        "name": "입법 보좌관",
-        "averageSalary": 4000,
-        "summary": "국회의원 보좌로 법안 입안 지원"
-      },
-      {
-        "name": "사회정책 연구원",
-        "averageSalary": 4800,
-        "summary": "싱크탱크에서 정책 연구 및 보고서 작성"
-      },
-      {
-        "name": "국제기구 전문가",
-        "averageSalary": 6200,
-        "summary": "UN, OECD 등 국제기구의 정책 담당"
-      },
-      {
-        "name": "언론사 정치부 기자",
-        "averageSalary": 4300,
-        "summary": "정부 정책 취재 및 분석 보도"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "정부/공공기관",
@@ -10110,43 +7591,6 @@
     ]
   },
   "public-administration": {
-    "careers": [
-      {
-        "name": "공무원(행정직)",
-        "averageSalary": 4500,
-        "summary": "중앙/지방정부에서 정책 수립 및 행정 업무 담당"
-      },
-      {
-        "name": "정책분석가",
-        "averageSalary": 5200,
-        "summary": "정부 정책의 효과성 분석 및 개선안 제시"
-      },
-      {
-        "name": "지방자치행정가",
-        "averageSalary": 4800,
-        "summary": "지방자치단체에서 지역 정책 및 예산 관리"
-      },
-      {
-        "name": "행정고등고시 합격자",
-        "averageSalary": 6500,
-        "summary": "정부 고위직으로 국가 정책 결정에 참여"
-      },
-      {
-        "name": "NGO/시민단체 실무자",
-        "averageSalary": 3500,
-        "summary": "시민사회단체에서 사회 공익 사업 추진"
-      },
-      {
-        "name": "기업 행정관리사",
-        "averageSalary": 4200,
-        "summary": "기업의 행정, 법무, 인사 업무 총괄"
-      },
-      {
-        "name": "국제기구 직원",
-        "averageSalary": 5800,
-        "summary": "UN, OECD 등 국제기구에서 글로벌 정책 담당"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "공공부문(공무원)",
@@ -10259,43 +7703,6 @@
     ]
   },
   "real-estate": {
-    "careers": [
-      {
-        "name": "부동산중개인",
-        "averageSalary": 4500,
-        "summary": "주택·상업용 부동산 거래 중개 및 컨설팅"
-      },
-      {
-        "name": "감정평가사",
-        "averageSalary": 6500,
-        "summary": "부동산 가치 평가 및 감정서 작성"
-      },
-      {
-        "name": "부동산개발전문가",
-        "averageSalary": 7000,
-        "summary": "토지·건물 개발 프로젝트 기획 및 관리"
-      },
-      {
-        "name": "공인중개사",
-        "averageSalary": 5200,
-        "summary": "부동산 거래 중개업 운영"
-      },
-      {
-        "name": "도시계획가",
-        "averageSalary": 5800,
-        "summary": "도시·지역 개발 계획 수립 및 운영"
-      },
-      {
-        "name": "부동산 컨설턴트",
-        "averageSalary": 6000,
-        "summary": "투자·매매 관련 부동산 전략 제시"
-      },
-      {
-        "name": "주택정책전문가",
-        "averageSalary": 5500,
-        "summary": "주택정책 수립 및 부동산 행정"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "부동산중개업소",
@@ -10399,43 +7806,6 @@
     ]
   },
   "social-welfare": {
-    "careers": [
-      {
-        "name": "사회복지사",
-        "averageSalary": 3200,
-        "summary": "복지 시설에서 클라이언트 상담 및 지원 서비스 제공"
-      },
-      {
-        "name": "임상사회복지사",
-        "averageSalary": 3800,
-        "summary": "병원·정신건강센터에서 환자 심리사회적 개입"
-      },
-      {
-        "name": "학교사회복지사",
-        "averageSalary": 3400,
-        "summary": "학생 적응 문제 해결 및 가정·학교 연계 지원"
-      },
-      {
-        "name": "정책 입안가",
-        "averageSalary": 4200,
-        "summary": "정부 부처에서 사회복지정책 개발 및 시행"
-      },
-      {
-        "name": "노인요양보호사",
-        "averageSalary": 2800,
-        "summary": "요양시설에서 고령자 일상생활 지원 및 돌봄"
-      },
-      {
-        "name": "아동보호전문가",
-        "averageSalary": 3500,
-        "summary": "학대 피해 아동 상담 및 가정복귀 지원"
-      },
-      {
-        "name": "지역사회복지전문가",
-        "averageSalary": 3600,
-        "summary": "주민센터에서 지역 기반 복지 프로그램 운영"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "사회복지시설",
@@ -10539,43 +7909,6 @@
     ]
   },
   "tourism": {
-    "careers": [
-      {
-        "name": "호텔 매니저",
-        "averageSalary": 4500,
-        "summary": "호텔 운영 및 고객 서비스 총괄 관리"
-      },
-      {
-        "name": "관광지 기획자",
-        "averageSalary": 3800,
-        "summary": "관광 상품 개발 및 마케팅 전략 수립"
-      },
-      {
-        "name": "여행사 경영자",
-        "averageSalary": 4200,
-        "summary": "패키지 여행 상품 기획 및 운영 관리"
-      },
-      {
-        "name": "컨벤션 플래너",
-        "averageSalary": 4000,
-        "summary": "국제 회의 및 행사 기획·운영"
-      },
-      {
-        "name": "관광 마케팅 매니저",
-        "averageSalary": 4100,
-        "summary": "관광 상품 홍보 및 판매 전략 수립"
-      },
-      {
-        "name": "리조트 운영 관리자",
-        "averageSalary": 3900,
-        "summary": "휴양시설 시설 관리 및 서비스 운영"
-      },
-      {
-        "name": "관광청 공무원",
-        "averageSalary": 5200,
-        "summary": "지역 관광 정책 수립 및 산업 진흥"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "호텔·숙박업",
@@ -10674,38 +8007,6 @@
     ]
   },
   "trade": {
-    "careers": [
-      {
-        "name": "무역 실무자",
-        "averageSalary": 4500,
-        "summary": "수출입 계약, 통관, 물류 등 무역 업무 담당"
-      },
-      {
-        "name": "수출입 관리사",
-        "averageSalary": 5200,
-        "summary": "기업의 국제 거래 전략 수립 및 실행 관리"
-      },
-      {
-        "name": "통관사",
-        "averageSalary": 5800,
-        "summary": "수출입 물품의 관세 신고 및 통관 절차 처리"
-      },
-      {
-        "name": "국제 마케팅 담당자",
-        "averageSalary": 5100,
-        "summary": "해외 시장 분석 및 상품 판매 전략 수립"
-      },
-      {
-        "name": "무역금융 전문가",
-        "averageSalary": 5900,
-        "summary": "신용장, 무역보험 등 국제 거래 금융 지원"
-      },
-      {
-        "name": "공무원(관세청, 해양수산부)",
-        "averageSalary": 4700,
-        "summary": "무역 정책 수립 및 통관 감시 업무"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "무역회사/종합상사",
@@ -10813,43 +8114,6 @@
     ]
   },
   "urban-planning-social": {
-    "careers": [
-      {
-        "name": "도시계획가",
-        "averageSalary": 4500,
-        "summary": "도시 개발 및 정책 수립을 통한 미래 도시 설계"
-      },
-      {
-        "name": "공무원(도시행정)",
-        "averageSalary": 4200,
-        "summary": "지방자치단체에서 도시정책 및 행정업무 담당"
-      },
-      {
-        "name": "부동산개발 전문가",
-        "averageSalary": 5800,
-        "summary": "도시개발 프로젝트 기획 및 실행 관리"
-      },
-      {
-        "name": "도시설계사",
-        "averageSalary": 4800,
-        "summary": "친환경 도시공간 설계 및 컨설팅"
-      },
-      {
-        "name": "지역개발 컨설턴트",
-        "averageSalary": 5200,
-        "summary": "도시재생 및 지역활성화 전략 수립"
-      },
-      {
-        "name": "도시정책 연구원",
-        "averageSalary": 4600,
-        "summary": "도시 현안 분석 및 정책 개발 연구"
-      },
-      {
-        "name": "건축·도시 감리원",
-        "averageSalary": 4400,
-        "summary": "도시개발 사업의 품질관리 및 감시"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "정부·공공기관",
@@ -10958,43 +8222,6 @@
     ]
   },
   "youth-studies": {
-    "careers": [
-      {
-        "name": "청소년상담사",
-        "averageSalary": 3500,
-        "summary": "청소년의 심리·정서 문제를 상담하고 지도하는 전문가"
-      },
-      {
-        "name": "청소년지도사",
-        "averageSalary": 3200,
-        "summary": "청소년수련관·시설에서 청소년 프로그램을 기획·운영"
-      },
-      {
-        "name": "학교사회복지사",
-        "averageSalary": 3800,
-        "summary": "학교 내 학생의 사회·정서적 문제해결을 지원"
-      },
-      {
-        "name": "아동청소년심리치료사",
-        "averageSalary": 4000,
-        "summary": "심리·행동 문제 청소년에게 치료적 개입 제공"
-      },
-      {
-        "name": "청소년보호전문가",
-        "averageSalary": 3600,
-        "summary": "학대·방임·비행청소년 보호 및 재사회화 업무"
-      },
-      {
-        "name": "공무원(청소년정책담당)",
-        "averageSalary": 4200,
-        "summary": "중앙·지방정부의 청소년정책 수립·집행"
-      },
-      {
-        "name": "청소년진로직업상담사",
-        "averageSalary": 3400,
-        "summary": "청소년의 진로탐색 및 직업선택을 지원하는 전문가"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "청소년 관련 기관(수련관·센터)",
@@ -11101,43 +8328,6 @@
     ]
   },
   "animation": {
-    "careers": [
-      {
-        "name": "애니메이션 감독",
-        "averageSalary": 4500,
-        "summary": "애니메이션 제작 전체를 감독하고 창의적 방향 결정"
-      },
-      {
-        "name": "만화가",
-        "averageSalary": 3800,
-        "summary": "웹툰, 출판 만화 등 다양한 플랫폼에서 창작"
-      },
-      {
-        "name": "애니메이션 프로듀서",
-        "averageSalary": 4200,
-        "summary": "애니메이션 프로젝트 기획, 제작 관리 및 투자 유치"
-      },
-      {
-        "name": "캐릭터 디자이너",
-        "averageSalary": 3600,
-        "summary": "영상, 게임, 광고의 캐릭터 시각 표현 설계"
-      },
-      {
-        "name": "스토리보드 작가",
-        "averageSalary": 3400,
-        "summary": "애니메이션 제작 전 장면 구성 및 시각화"
-      },
-      {
-        "name": "VFX 아티스트",
-        "averageSalary": 4100,
-        "summary": "영상 특수효과 기술 활용한 시각 표현"
-      },
-      {
-        "name": "웹툰 플랫폼 PM",
-        "averageSalary": 4800,
-        "summary": "웹툰 서비스 전략 수립 및 콘텐츠 관리"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "애니메이션 제작사",
@@ -11244,43 +8434,6 @@
     ]
   },
   "applied-music": {
-    "careers": [
-      {
-        "name": "음악프로듀서",
-        "averageSalary": 4500,
-        "summary": "음반 제작부터 마스터링까지 전 과정을 기획하고 총괄"
-      },
-      {
-        "name": "사운드엔지니어",
-        "averageSalary": 3800,
-        "summary": "녹음, 믹싱, 편집 등 음향 기술 전문가"
-      },
-      {
-        "name": "작곡가",
-        "averageSalary": 4200,
-        "summary": "영화, 드라마, 게임, 광고 등의 음악 작곡"
-      },
-      {
-        "name": "연주자(뮤지션)",
-        "averageSalary": 3500,
-        "summary": "공연, 녹음, 방송 등에서 악기 연주"
-      },
-      {
-        "name": "음악교육자",
-        "averageSalary": 3200,
-        "summary": "학원, 대학 등에서 음악 실기 및 이론 교육"
-      },
-      {
-        "name": "음악PD",
-        "averageSalary": 4800,
-        "summary": "방송국의 음악 프로그램 기획 및 제작 담당"
-      },
-      {
-        "name": "정음향설계사",
-        "averageSalary": 4100,
-        "summary": "콘서트홀, 스튜디오 등의 음향환경 설계"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "엔터테인먼트/음반사",
@@ -11394,43 +8547,6 @@
     ]
   },
   "ceramic-art": {
-    "careers": [
-      {
-        "name": "도자기 아티스트",
-        "averageSalary": 3500,
-        "summary": "창작 도자 작품을 제작하고 전시하는 예술가"
-      },
-      {
-        "name": "도예 교육자",
-        "averageSalary": 4200,
-        "summary": "학교, 문화센터에서 도예 기술을 가르치는 강사"
-      },
-      {
-        "name": "공예품 디자이너",
-        "averageSalary": 3800,
-        "summary": "상품화 가능한 도자 공예품을 디자인·개발"
-      },
-      {
-        "name": "도자기 복원사",
-        "averageSalary": 4500,
-        "summary": "문화유산 도자기를 복원·보존하는 전문가"
-      },
-      {
-        "name": "갤러리 큐레이터",
-        "averageSalary": 3600,
-        "summary": "도자 전시 기획 및 운영하는 미술관 전문가"
-      },
-      {
-        "name": "도자기 공방 운영자",
-        "averageSalary": 4000,
-        "summary": "개인 공방을 운영하며 창작·판매하는 사업가"
-      },
-      {
-        "name": "산업 도자 엔지니어",
-        "averageSalary": 5000,
-        "summary": "타일, 위생도기 등 산업용 도자 제품 개발"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "자영업 (공방 운영)",
@@ -11543,43 +8659,6 @@
     ]
   },
   "composition": {
-    "careers": [
-      {
-        "name": "영화/드라마 음악감독",
-        "averageSalary": 4500,
-        "summary": "영화, 드라마, 광고의 배경음악 및 사운드트랙 제작"
-      },
-      {
-        "name": "게임음악 작곡가",
-        "averageSalary": 4200,
-        "summary": "게임의 배경음악, 효과음, BGM 제작 및 음향설계"
-      },
-      {
-        "name": "클래식 작곡가",
-        "averageSalary": 3800,
-        "summary": "교향곡, 협주곡 등 순수음악 창작 및 연주회 개최"
-      },
-      {
-        "name": "K-POP 프로듀서",
-        "averageSalary": 5000,
-        "summary": "아이돌 음악 제작, 편곡, 프로듀싱 및 음악 기획"
-      },
-      {
-        "name": "뮤지컬 작곡가",
-        "averageSalary": 4300,
-        "summary": "뮤지컬 및 공연 음악 제작, 편곡, 음악 감독"
-      },
-      {
-        "name": "광고음악 크리에이터",
-        "averageSalary": 4100,
-        "summary": "CF, 광고 음악 및 브랜드 사운드 개발"
-      },
-      {
-        "name": "음악 교육자/강사",
-        "averageSalary": 3500,
-        "summary": "대학, 학원, 온라인에서 작곡 및 음악 이론 교육"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "엔터테인먼트/미디어",
@@ -11692,43 +8771,6 @@
     ]
   },
   "dance": {
-    "careers": [
-      {
-        "name": "전문무용수",
-        "averageSalary": 3500,
-        "summary": "무용단에서 공연하는 전문 무용 인력"
-      },
-      {
-        "name": "무용교사",
-        "averageSalary": 4200,
-        "summary": "학교, 학원에서 무용을 가르치는 교육자"
-      },
-      {
-        "name": "안무가",
-        "averageSalary": 4800,
-        "summary": "공연과 영상을 위한 안무 창작 전문가"
-      },
-      {
-        "name": "무용치료사",
-        "averageSalary": 3800,
-        "summary": "무용을 통해 신체·정신 건강을 치료하는 전문가"
-      },
-      {
-        "name": "뮤지컬배우",
-        "averageSalary": 4500,
-        "summary": "뮤지컬, 연극 무대에서 공연하는 배우"
-      },
-      {
-        "name": "방송댄서",
-        "averageSalary": 3600,
-        "summary": "TV, 뮤직비디오 등 영상 매체에서 활동하는 댄서"
-      },
-      {
-        "name": "예술행정가",
-        "averageSalary": 4000,
-        "summary": "무용단, 공연장의 기획·운영을 담당하는 전문가"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "공연예술",
@@ -11841,43 +8883,6 @@
     ]
   },
   "fashion-design": {
-    "careers": [
-      {
-        "name": "패션디자이너",
-        "averageSalary": 3500,
-        "summary": "의류 및 액세서리 디자인을 통해 트렌드를 선도하는 전문가"
-      },
-      {
-        "name": "의류 제품개발자",
-        "averageSalary": 3800,
-        "summary": "소비자 니즈를 반영한 의류 상품을 기획하고 개발"
-      },
-      {
-        "name": "패턴사",
-        "averageSalary": 3200,
-        "summary": "디자인을 실제 의류 제작 가능한 패턴으로 변환하는 기술자"
-      },
-      {
-        "name": "패션스타일리스트",
-        "averageSalary": 3400,
-        "summary": "개인 또는 브랜드의 이미지에 맞는 스타일링 제안"
-      },
-      {
-        "name": "패션 큐레이터/바이어",
-        "averageSalary": 3600,
-        "summary": "백화점 및 마케팅에서 트렌드 분석 및 상품 선정"
-      },
-      {
-        "name": "텍스타일 디자이너",
-        "averageSalary": 3300,
-        "summary": "원단 패턴 및 색상 개발로 의류의 기초 창조"
-      },
-      {
-        "name": "패션 브랜드 매니저",
-        "averageSalary": 4200,
-        "summary": "브랜드 가치 향상 및 마케팅 전략 수립 및 실행"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "패션 기업/의류업체",
@@ -11986,43 +8991,6 @@
     ]
   },
   "film-tv": {
-    "careers": [
-      {
-        "name": "영화감독",
-        "averageSalary": 4500,
-        "summary": "스토리텔링과 시각적 표현으로 영화 전체를 창조하는 직업"
-      },
-      {
-        "name": "촬영감독(Cinematographer)",
-        "averageSalary": 3800,
-        "summary": "영화의 영상미를 담당하는 카메라 및 조명 전문가"
-      },
-      {
-        "name": "영상편집자",
-        "averageSalary": 3200,
-        "summary": "촬영 영상을 편집하여 완성도 높은 작품을 만드는 기술자"
-      },
-      {
-        "name": "영상제작자(프로듀서)",
-        "averageSalary": 4200,
-        "summary": "영화·드라마·광고 제작 전 과정을 기획하고 관리하는 직업"
-      },
-      {
-        "name": "미술감독",
-        "averageSalary": 3500,
-        "summary": "영화 세트 디자인과 미술적 표현을 총괄하는 전문가"
-      },
-      {
-        "name": "애니메이션 감독",
-        "averageSalary": 3600,
-        "summary": "애니메이션 작품의 전체 방향성과 내용을 지휘하는 직업"
-      },
-      {
-        "name": "음향디자이너",
-        "averageSalary": 3300,
-        "summary": "영상 작품의 음향 효과와 배경음악을 담당하는 전문가"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "영화·영상제작사",
@@ -12130,43 +9098,6 @@
     ]
   },
   "game-graphics": {
-    "careers": [
-      {
-        "name": "게임 그래픽 디자이너",
-        "averageSalary": 4200,
-        "summary": "게임의 캐릭터, 배경, UI/UX 등 모든 시각 요소 담당"
-      },
-      {
-        "name": "3D 모델러",
-        "averageSalary": 4500,
-        "summary": "3D 소프트웨어를 이용한 캐릭터 및 환경 모델링 전문가"
-      },
-      {
-        "name": "VFX 아티스트",
-        "averageSalary": 4800,
-        "summary": "게임 및 영상의 특수효과 연출 및 제작"
-      },
-      {
-        "name": "UI/UX 디자이너",
-        "averageSalary": 4100,
-        "summary": "게임 인터페이스와 사용자 경험 디자인 설계"
-      },
-      {
-        "name": "콘셉트 아티스트",
-        "averageSalary": 4600,
-        "summary": "게임 개발 초기 단계 비주얼 방향성 결정 및 스케치"
-      },
-      {
-        "name": "영상 편집 디자이너",
-        "averageSalary": 3800,
-        "summary": "게임 트레일러, 시네마틱 영상 편집 및 제작"
-      },
-      {
-        "name": "웹 디자이너",
-        "averageSalary": 3600,
-        "summary": "게임사 홈페이지, 게임 로비 등 웹 기반 디자인"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "게임 개발사",
@@ -12278,43 +9209,6 @@
     ]
   },
   "industrial-design": {
-    "careers": [
-      {
-        "name": "산업디자이너",
-        "averageSalary": 4500,
-        "summary": "제품의 기능성과 미적 가치를 동시에 고려한 디자인 개발"
-      },
-      {
-        "name": "UX/UI디자이너",
-        "averageSalary": 4800,
-        "summary": "디지털 제품의 사용자 경험과 인터페이스 설계"
-      },
-      {
-        "name": "자동차디자이너",
-        "averageSalary": 5200,
-        "summary": "자동차의 외형과 내부 공간 디자인 개발"
-      },
-      {
-        "name": "가구디자이너",
-        "averageSalary": 4200,
-        "summary": "기능적이고 아름다운 가구 및 인테리어 제품 설계"
-      },
-      {
-        "name": "포장디자이너",
-        "averageSalary": 3800,
-        "summary": "제품 패키징의 시각적 디자인과 구조 개발"
-      },
-      {
-        "name": "디자인 컨설턴트",
-        "averageSalary": 5500,
-        "summary": "기업의 브랜드와 제품 디자인 전략 자문"
-      },
-      {
-        "name": "제품개발매니저",
-        "averageSalary": 5100,
-        "summary": "디자인에서 양산까지 제품 개발 전반 관리"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "대기업 및 중견기업",
@@ -12416,43 +9310,6 @@
     ]
   },
   "interior-design": {
-    "careers": [
-      {
-        "name": "실내건축디자이너",
-        "averageSalary": 4500,
-        "summary": "주거, 상업공간의 실내환경 설계 및 구현"
-      },
-      {
-        "name": "공간디자이너",
-        "averageSalary": 4200,
-        "summary": "카페, 전시장, 매장 등 특화된 공간 설계"
-      },
-      {
-        "name": "건축시각화 전문가",
-        "averageSalary": 4800,
-        "summary": "3D 렌더링으로 설계안을 시각화하는 업무"
-      },
-      {
-        "name": "인테리어 코디네이터",
-        "averageSalary": 3800,
-        "summary": "클라이언트 상담 및 공간 코디네이션 담당"
-      },
-      {
-        "name": "전시디자이너",
-        "averageSalary": 4000,
-        "summary": "박물관, 갤러리 전시공간 기획 및 설계"
-      },
-      {
-        "name": "상품공간 컨설턴트",
-        "averageSalary": 5200,
-        "summary": "대형 프로젝트 기획 및 자문 역할 수행"
-      },
-      {
-        "name": "프리랜스 디자이너",
-        "averageSalary": 4600,
-        "summary": "개인 프로젝트 수주로 독립적 활동"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "설계사무소",
@@ -12562,43 +9419,6 @@
     ]
   },
   "korean-music": {
-    "careers": [
-      {
-        "name": "성악가",
-        "averageSalary": 4500,
-        "summary": "오페라, 성악곡 등을 공연하는 전문 성악 아티스트"
-      },
-      {
-        "name": "기악연주자",
-        "averageSalary": 4200,
-        "summary": "피아노, 바이올린 등 악기로 연주하는 음악인"
-      },
-      {
-        "name": "작곡가",
-        "averageSalary": 5000,
-        "summary": "영화, 드라마, 게임 등 다양한 매체의 음악을 창작"
-      },
-      {
-        "name": "음악교사",
-        "averageSalary": 4800,
-        "summary": "초중고 및 음악학원에서 음악을 가르치는 교육자"
-      },
-      {
-        "name": "음악프로듀서",
-        "averageSalary": 5500,
-        "summary": "음악 제작 과정을 총괄하는 전문가"
-      },
-      {
-        "name": "성악 강사",
-        "averageSalary": 3800,
-        "summary": "성악 기법과 이론을 학생에게 지도하는 강사"
-      },
-      {
-        "name": "음악학자",
-        "averageSalary": 4000,
-        "summary": "음악사, 음악이론 등을 연구하고 강의하는 학자"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "교육기관(학교/학원)",
@@ -12711,43 +9531,6 @@
     ]
   },
   "music-theory": {
-    "careers": [
-      {
-        "name": "음악 교사",
-        "averageSalary": 4500,
-        "summary": "중고등학교에서 음악을 가르치며 학생 음악 능력 개발"
-      },
-      {
-        "name": "성악가/연주자",
-        "averageSalary": 5000,
-        "summary": "콘서트, 공연, 앨범 제작을 통해 음악 활동 수행"
-      },
-      {
-        "name": "음악 프로듀서",
-        "averageSalary": 5500,
-        "summary": "음악 제작, 녹음, 편곡 등 음반 제작 총괄"
-      },
-      {
-        "name": "음악 치료사",
-        "averageSalary": 4000,
-        "summary": "음악을 활용한 심리 치료 및 재활 프로그램 진행"
-      },
-      {
-        "name": "작곡가",
-        "averageSalary": 5200,
-        "summary": "영화, 드라마, 게임 등 다양한 매체의 음악 창작"
-      },
-      {
-        "name": "음악 기획자",
-        "averageSalary": 4800,
-        "summary": "공연 기획, 아티스트 관리, 음악 이벤트 기획 운영"
-      },
-      {
-        "name": "음향 엔지니어",
-        "averageSalary": 5100,
-        "summary": "스튜디오, 공연장의 음향 기술 및 음질 관리"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "교육 기관",
@@ -12858,43 +9641,6 @@
     ]
   },
   "orchestra": {
-    "careers": [
-      {
-        "name": "오케스트라 단원",
-        "averageSalary": 4500,
-        "summary": "예술의전당, 국립오케스트라 등에서 악기 연주"
-      },
-      {
-        "name": "실내악 연주자",
-        "averageSalary": 3800,
-        "summary": "실내악단 구성원으로 소규모 공연 및 녹음"
-      },
-      {
-        "name": "음악 교사",
-        "averageSalary": 4200,
-        "summary": "학교 음악 교육 및 악기 지도"
-      },
-      {
-        "name": "개인 레슨 강사",
-        "averageSalary": 3500,
-        "summary": "악기 개인 레슨을 통한 자영업 운영"
-      },
-      {
-        "name": "영화/드라마 음악 감독",
-        "averageSalary": 5200,
-        "summary": "영상 매체의 배경음악 작곡 및 편성"
-      },
-      {
-        "name": "악기 제조/복원 전문가",
-        "averageSalary": 4800,
-        "summary": "악기 제작, 수리, 조율 기술 전문가"
-      },
-      {
-        "name": "음악 프로듀서",
-        "averageSalary": 5500,
-        "summary": "앨범 제작, 녹음 기술 및 음향 감독"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "공연단체 (오케스트라/악단)",
@@ -13003,43 +9749,6 @@
     ]
   },
   "painting-eastern": {
-    "careers": [
-      {
-        "name": "동양화가",
-        "averageSalary": 3500,
-        "summary": "전통 및 현대 동양화 작품 창작 및 전시"
-      },
-      {
-        "name": "미술관 큐레이터",
-        "averageSalary": 4200,
-        "summary": "전시 기획 및 미술작품 수집·관리"
-      },
-      {
-        "name": "미술교사",
-        "averageSalary": 4800,
-        "summary": "초중고 미술 교육 및 동양화 지도"
-      },
-      {
-        "name": "문화재 복원가",
-        "averageSalary": 4500,
-        "summary": "역사 문화재 보존 및 복원"
-      },
-      {
-        "name": "일러스트레이터",
-        "averageSalary": 3800,
-        "summary": "출판·광고·디지털 콘텐츠 일러스트 제작"
-      },
-      {
-        "name": "미술사 연구원",
-        "averageSalary": 4100,
-        "summary": "동양미술사 학술 연구 및 저술"
-      },
-      {
-        "name": "미술학원 강사",
-        "averageSalary": 3200,
-        "summary": "미술 학원에서 회화 및 표현기법 지도"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "미술관·박물관",
@@ -13153,43 +9862,6 @@
     ]
   },
   "painting-western": {
-    "careers": [
-      {
-        "name": "미술관 큐레이터",
-        "averageSalary": 3800,
-        "summary": "전시 기획 및 작품 수집으로 문화 발전에 기여"
-      },
-      {
-        "name": "미술 교육자",
-        "averageSalary": 4200,
-        "summary": "학교 및 미술학원에서 창의성 교육 담당"
-      },
-      {
-        "name": "프리랜서 화가",
-        "averageSalary": 3500,
-        "summary": "개인 작품 판매 및 의뢰 작업으로 독립 활동"
-      },
-      {
-        "name": "미술 평론가/컨설턴트",
-        "averageSalary": 4100,
-        "summary": "작품 분석 및 미술 시장 트렌드 분석 전문"
-      },
-      {
-        "name": "갤러리 운영자",
-        "averageSalary": 4500,
-        "summary": "작품 전시 및 판매 공간 기획·운영"
-      },
-      {
-        "name": "일러스트레이터",
-        "averageSalary": 3900,
-        "summary": "출판·광고·디지털 매체용 작품 제작"
-      },
-      {
-        "name": "무대미술 디자이너",
-        "averageSalary": 4300,
-        "summary": "공연 무대 시각화 및 작품 제작"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "미술관·박물관",
@@ -13298,43 +9970,6 @@
     ]
   },
   "photography": {
-    "careers": [
-      {
-        "name": "사진작가",
-        "averageSalary": 4200,
-        "summary": "예술 표현으로 사회 이슈 담아내는 전문가"
-      },
-      {
-        "name": "광고 사진가",
-        "averageSalary": 5100,
-        "summary": "상품과 브랜드를 시각적으로 표현하는 전문가"
-      },
-      {
-        "name": "영화/드라마 촬영감독",
-        "averageSalary": 6800,
-        "summary": "영상미를 구현하는 촬영 총괄 책임자"
-      },
-      {
-        "name": "언론사 사진기자",
-        "averageSalary": 4500,
-        "summary": "뉴스의 현장을 포착하고 기록하는 기자"
-      },
-      {
-        "name": "결혼식 사진가",
-        "averageSalary": 3800,
-        "summary": "인생의 특별한 순간을 영구히 남기는 전문가"
-      },
-      {
-        "name": "패션 포토그래퍼",
-        "averageSalary": 4800,
-        "summary": "의류와 뷰티 브랜드 시각화 전문가"
-      },
-      {
-        "name": "영상 편집 및 컬러리스트",
-        "averageSalary": 5500,
-        "summary": "촬영 후 영상 색감과 톤 조정 전문가"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "프리랜서/개인사업",
@@ -13437,43 +10072,6 @@
     ]
   },
   "piano": {
-    "careers": [
-      {
-        "name": "음악교사",
-        "averageSalary": 4500,
-        "summary": "학교에서 음악을 가르치는 교육 전문가"
-      },
-      {
-        "name": "성악/기악 연주자",
-        "averageSalary": 3500,
-        "summary": "콘서트홀에서 관객을 위해 공연하는 전문 연주자"
-      },
-      {
-        "name": "음악 프로듀서",
-        "averageSalary": 5000,
-        "summary": "음악 제작 및 녹음 과정을 총괄하는 전문가"
-      },
-      {
-        "name": "피아노 강사",
-        "averageSalary": 3800,
-        "summary": "개인 또는 학원에서 피아노를 가르치는 교육자"
-      },
-      {
-        "name": "영화/드라마 음악감독",
-        "averageSalary": 5500,
-        "summary": "영화·드라마의 배경음악을 작곡·편곡하는 전문가"
-      },
-      {
-        "name": "음악치료사",
-        "averageSalary": 4200,
-        "summary": "음악을 통해 신체·심리 건강을 돕는 치료 전문가"
-      },
-      {
-        "name": "예술 기획자",
-        "averageSalary": 4000,
-        "summary": "음악회·공연 기획 및 매니지먼트를 담당하는 직업"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "교육 기관",
@@ -13580,43 +10178,6 @@
     ]
   },
   "sculpture": {
-    "careers": [
-      {
-        "name": "조각가",
-        "averageSalary": 3500,
-        "summary": "예술적 표현을 통해 조각 작품 창작 및 전시"
-      },
-      {
-        "name": "공예가",
-        "averageSalary": 3200,
-        "summary": "도자, 금속, 목공 등 다양한 재료로 공예품 제작"
-      },
-      {
-        "name": "박물관 큐레이터",
-        "averageSalary": 4200,
-        "summary": "미술 작품 수집, 전시 기획 및 관리"
-      },
-      {
-        "name": "미술교사",
-        "averageSalary": 4500,
-        "summary": "학교에서 미술 교육 및 창의성 지도"
-      },
-      {
-        "name": "조각 강사",
-        "averageSalary": 3800,
-        "summary": "미술학원, 문화센터에서 조소 기술 교육"
-      },
-      {
-        "name": "디지털 아티스트",
-        "averageSalary": 4300,
-        "summary": "3D 모델링, 디지털 조각 등 현대 미술 창작"
-      },
-      {
-        "name": "전시 디렉터",
-        "averageSalary": 4100,
-        "summary": "갤러리·박물관의 전시 공간 기획 및 연출"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "미술관·갤러리",
@@ -13731,43 +10292,6 @@
     ]
   },
   "social-sports": {
-    "careers": [
-      {
-        "name": "생활체육지도자",
-        "averageSalary": 3200,
-        "summary": "지역사회에서 주민을 위한 체육 프로그램 운영 및 지도"
-      },
-      {
-        "name": "스포츠경영자",
-        "averageSalary": 4500,
-        "summary": "체육시설, 구단, 스포츠 이벤트 경영 및 운영"
-      },
-      {
-        "name": "체육교사",
-        "averageSalary": 5100,
-        "summary": "학교에서 학생들에게 체육 교육 실시"
-      },
-      {
-        "name": "운동처방사",
-        "averageSalary": 3800,
-        "summary": "개인의 건강 상태에 맞는 맞춤형 운동 프로그램 개발"
-      },
-      {
-        "name": "스포츠마케팅전문가",
-        "averageSalary": 4200,
-        "summary": "스포츠 브랜드 및 이벤트 홍보, 마케팅 전략 수립"
-      },
-      {
-        "name": "피트니스강사",
-        "averageSalary": 3000,
-        "summary": "헬스장, 요가원 등에서 회원 대상 운동 지도"
-      },
-      {
-        "name": "스포츠심리상담사",
-        "averageSalary": 4000,
-        "summary": "운동선수의 심리 상태 분석 및 성능 향상 지원"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "공공기관/지자체",
@@ -13880,43 +10404,6 @@
     ]
   },
   "sports-science": {
-    "careers": [
-      {
-        "name": "스포츠 트레이너",
-        "averageSalary": 3500,
-        "summary": "선수 부상 예방 및 재활 관리 전문가"
-      },
-      {
-        "name": "운동 생리학자",
-        "averageSalary": 4200,
-        "summary": "인체 운동 메커니즘 연구 및 성능 향상 연구"
-      },
-      {
-        "name": "스포츠 의학 전문의",
-        "averageSalary": 7500,
-        "summary": "선수 부상 치료 및 스포츠 의료 관리"
-      },
-      {
-        "name": "체육 교사",
-        "averageSalary": 4800,
-        "summary": "초중고 체육교육 및 학생 건강 증진"
-      },
-      {
-        "name": "스포츠 매니저",
-        "averageSalary": 4500,
-        "summary": "선수/팀 관리 및 스포츠 이벤트 기획"
-      },
-      {
-        "name": "피트니스 전문가",
-        "averageSalary": 3200,
-        "summary": "개인 트레이닝 및 체력 관리 프로그램 설계"
-      },
-      {
-        "name": "스포츠 과학 연구원",
-        "averageSalary": 5000,
-        "summary": "대학·연구소에서 스포츠 성능 과학 연구"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "프로스포츠/실업팀",
@@ -14030,43 +10517,6 @@
     ]
   },
   "taekwondo": {
-    "careers": [
-      {
-        "name": "태권도 선수",
-        "averageSalary": 4500,
-        "summary": "국내외 대회에 출전하여 메달 획득을 목표로 하는 직업"
-      },
-      {
-        "name": "태권도 지도자",
-        "averageSalary": 3200,
-        "summary": "도장 및 체육관에서 일반인과 선수를 교육하는 전문가"
-      },
-      {
-        "name": "체육 교사",
-        "averageSalary": 4200,
-        "summary": "학교에서 태권도를 포함한 체육 교육을 담당하는 교사"
-      },
-      {
-        "name": "태권도 관장",
-        "averageSalary": 5000,
-        "summary": "도장을 운영하고 경영하는 사업가"
-      },
-      {
-        "name": "스포츠 매니저",
-        "averageSalary": 4800,
-        "summary": "선수의 경력 관리 및 대회 참가를 총괄하는 전문가"
-      },
-      {
-        "name": "태권도 심판위원",
-        "averageSalary": 3500,
-        "summary": "국내외 대회에서 경기 규칙을 적용하고 판정하는 전문가"
-      },
-      {
-        "name": "스포츠 과학 연구원",
-        "averageSalary": 4600,
-        "summary": "태권도 선수의 훈련과 경기력 향상을 과학적으로 연구하는 직업"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "도장 및 체육시설",
@@ -14175,43 +10625,6 @@
     ]
   },
   "theater-film": {
-    "careers": [
-      {
-        "name": "영화배우",
-        "averageSalary": 4500,
-        "summary": "영화 및 드라마 제작에 출연하여 역할을 연기하는 전문가"
-      },
-      {
-        "name": "연극배우",
-        "averageSalary": 3200,
-        "summary": "무대에서 작품을 공연하며 관객과 소통하는 공연예술인"
-      },
-      {
-        "name": "영화감독",
-        "averageSalary": 5800,
-        "summary": "영화 제작 전반을 총괄하고 창작 비전을 구현하는 제작자"
-      },
-      {
-        "name": "연극연출가",
-        "averageSalary": 4200,
-        "summary": "무대 공연의 전체적 방향성을 결정하고 배우를 지도하는 예술가"
-      },
-      {
-        "name": "영상제작자",
-        "averageSalary": 4000,
-        "summary": "광고, 다큐멘터리, 뮤직비디오 등 다양한 영상 콘텐츠를 제작"
-      },
-      {
-        "name": "극본작가",
-        "averageSalary": 3800,
-        "summary": "영화와 연극을 위한 창작 대본을 집필하는 저술가"
-      },
-      {
-        "name": "방송국 PD",
-        "averageSalary": 5200,
-        "summary": "텔레비전 프로그램 기획, 제작, 편성을 담당하는 방송국 직원"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "영화산업",
@@ -14320,43 +10733,6 @@
     ]
   },
   "visual-design": {
-    "careers": [
-      {
-        "name": "그래픽 디자이너",
-        "averageSalary": 3500,
-        "summary": "브랜드 아이덴티티, 광고, 포장재 등 시각 이미지 제작"
-      },
-      {
-        "name": "UI/UX 디자이너",
-        "averageSalary": 4200,
-        "summary": "앱, 웹사이트 등 사용자 인터페이스 및 경험 설계"
-      },
-      {
-        "name": "웹 디자이너",
-        "averageSalary": 3800,
-        "summary": "웹사이트의 레이아웃, 색상, 타이포그래피 등 시각 요소 설계"
-      },
-      {
-        "name": "영상 디자이너",
-        "averageSalary": 3600,
-        "summary": "동영상 편집, 모션그래픽, 애니메이션 제작 및 시각화"
-      },
-      {
-        "name": "브랜드 컨설턴트",
-        "averageSalary": 4500,
-        "summary": "기업 브랜드 전략 수립 및 시각적 아이덴티티 개발"
-      },
-      {
-        "name": "디자인 디렉터",
-        "averageSalary": 5000,
-        "summary": "디자인팀 총괄, 프로젝트 방향성 결정 및 컨설팅"
-      },
-      {
-        "name": "프리랜스 디자이너",
-        "averageSalary": 3200,
-        "summary": "개인 사업으로 다양한 클라이언트의 디자인 프로젝트 수행"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "광고·마케팅 회사",
@@ -14462,43 +10838,6 @@
     ]
   },
   "vocal": {
-    "careers": [
-      {
-        "name": "성악가",
-        "averageSalary": 4500,
-        "summary": "콘서트, 오페라, 뮤지컬 등에서 성악 공연"
-      },
-      {
-        "name": "음악 교사",
-        "averageSalary": 4000,
-        "summary": "중·고등학교에서 음악 교육 담당"
-      },
-      {
-        "name": "성악 강사",
-        "averageSalary": 3500,
-        "summary": "음악학원, 개인레슨에서 성악 개인지도"
-      },
-      {
-        "name": "뮤지컬 배우",
-        "averageSalary": 4200,
-        "summary": "뮤지컬 무대에서 노래와 연기 겸업"
-      },
-      {
-        "name": "성가대 지휘자",
-        "averageSalary": 3800,
-        "summary": "교회 성가대 운영 및 지휘"
-      },
-      {
-        "name": "성악 유튜버/콘텐츠 크리에이터",
-        "averageSalary": 3200,
-        "summary": "온라인 플랫폼에서 성악 영상 제작 및 배포"
-      },
-      {
-        "name": "오페라 단원",
-        "averageSalary": 4800,
-        "summary": "국립/시립 오페라단에서 성악 공연"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "공연 및 엔터테인먼트",
@@ -14599,43 +10938,6 @@
     ]
   },
   "art-edu": {
-    "careers": [
-      {
-        "name": "미술교사",
-        "averageSalary": 4200,
-        "summary": "중고등학교에서 미술 교과를 가르치는 교육자"
-      },
-      {
-        "name": "미술관 큐레이터",
-        "averageSalary": 3800,
-        "summary": "전시 기획 및 작품 관리를 담당하는 전문가"
-      },
-      {
-        "name": "박물관 교육담당자",
-        "averageSalary": 3500,
-        "summary": "문화유산을 통한 교육프로그램 개발 및 운영"
-      },
-      {
-        "name": "미술학원 원장",
-        "averageSalary": 4500,
-        "summary": "미술 교육기관을 창업하고 운영하는 사업가"
-      },
-      {
-        "name": "미술 교육 출판편집자",
-        "averageSalary": 3600,
-        "summary": "미술 교재 및 교육자료 개발 및 편집"
-      },
-      {
-        "name": "문화예술교육사",
-        "averageSalary": 3400,
-        "summary": "사회 교육기관에서 미술문화 프로그램 운영"
-      },
-      {
-        "name": "미술심리치료사",
-        "averageSalary": 4000,
-        "summary": "미술을 통한 심리 치료 및 상담 서비스 제공"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "교육기관(학교)",
@@ -14748,43 +11050,6 @@
     ]
   },
   "early-childhood-edu": {
-    "careers": [
-      {
-        "name": "유아교육기관 교사",
-        "averageSalary": 3200,
-        "summary": "어린이집·유치원에서 영유아 발달 지원 및 교육"
-      },
-      {
-        "name": "보육교사",
-        "averageSalary": 2800,
-        "summary": "어린이집에서 영유아 보육 및 기본생활지도"
-      },
-      {
-        "name": "유아특수교육교사",
-        "averageSalary": 3500,
-        "summary": "장애 영유아를 위한 맞춤형 교육 및 재활"
-      },
-      {
-        "name": "유아교육 연구원",
-        "averageSalary": 3800,
-        "summary": "유아교육 정책 및 프로그램 개발 연구"
-      },
-      {
-        "name": "아동심리상담사",
-        "averageSalary": 3600,
-        "summary": "아동의 심리 문제 진단 및 상담 치료"
-      },
-      {
-        "name": "유아교육 교재·교구 개발자",
-        "averageSalary": 3400,
-        "summary": "영유아용 교육용품 및 프로그램 기획·개발"
-      },
-      {
-        "name": "어린이집·유치원 원장",
-        "averageSalary": 4200,
-        "summary": "보육·교육기관 운영 및 관리"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "어린이집",
@@ -14897,43 +11162,6 @@
     ]
   },
   "elementary-edu": {
-    "careers": [
-      {
-        "name": "초등학교 교사",
-        "averageSalary": 5200,
-        "summary": "국어, 수학, 사회 등 전 교과를 가르치는 공교육 일선 교사"
-      },
-      {
-        "name": "교육청 장학사",
-        "averageSalary": 5800,
-        "summary": "교육정책 수립 및 학교 행정 지원을 담당하는 공무원"
-      },
-      {
-        "name": "특수교육 교사",
-        "averageSalary": 5400,
-        "summary": "장애학생을 위한 맞춤형 교육을 제공하는 전문 교사"
-      },
-      {
-        "name": "영재교육 강사",
-        "averageSalary": 4500,
-        "summary": "재능 있는 학생들의 심화 학습을 지도하는 강사"
-      },
-      {
-        "name": "교육 출판 편집자",
-        "averageSalary": 4200,
-        "summary": "초등학생 교재 개발 및 편집을 담당하는 전문가"
-      },
-      {
-        "name": "방과후 학교 프로그램 개발자",
-        "averageSalary": 4000,
-        "summary": "학생 맞춤형 방과후 교육 프로그램을 기획·운영"
-      },
-      {
-        "name": "교육 컨설턴트",
-        "averageSalary": 4800,
-        "summary": "학교와 교육기관의 교육 개선 전략을 조언하는 전문가"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "공립/사립 초등학교",
@@ -15043,43 +11271,6 @@
     ]
   },
   "english-edu": {
-    "careers": [
-      {
-        "name": "중고등학교 영어교사",
-        "averageSalary": 5200,
-        "summary": "교육청 소속으로 중·고등학교에서 영어를 가르치는 정규직"
-      },
-      {
-        "name": "영어 학원 강사",
-        "averageSalary": 3800,
-        "summary": "학원 및 개인 과외에서 영어 교육을 제공하는 직업"
-      },
-      {
-        "name": "기업 영어 강사",
-        "averageSalary": 4200,
-        "summary": "회사 임직원 대상 영어 교육 및 비즈니스 영어 지도"
-      },
-      {
-        "name": "온라인 영어 강사",
-        "averageSalary": 2800,
-        "summary": "화상 플랫폼을 통해 개인맞춤형 영어 수업 제공"
-      },
-      {
-        "name": "영어 교과서 개발자",
-        "averageSalary": 4500,
-        "summary": "출판사에서 교재 및 학습 콘텐츠 개발 및 편집"
-      },
-      {
-        "name": "국제학교 교사",
-        "averageSalary": 5500,
-        "summary": "국제학교에서 영어로 교과목을 가르치는 교사"
-      },
-      {
-        "name": "언어교육 연구원",
-        "averageSalary": 5000,
-        "summary": "대학 및 연구기관에서 영어교육 방법론 연구"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "중·고등학교",
@@ -15187,38 +11378,6 @@
     ]
   },
   "ethics-edu": {
-    "careers": [
-      {
-        "name": "윤리 교사",
-        "averageSalary": 4500,
-        "summary": "중고등학교에서 윤리·도덕 교육을 담당하는 교사"
-      },
-      {
-        "name": "교육청 정책담당자",
-        "averageSalary": 5200,
-        "summary": "교육청에서 교육정책 수립 및 윤리교육 관련 사업 추진"
-      },
-      {
-        "name": "교육 콘텐츠 개발자",
-        "averageSalary": 4800,
-        "summary": "교과서·온라인 교육자료 등 윤리교육 콘텐츠 개발"
-      },
-      {
-        "name": "청소년지도자",
-        "averageSalary": 4200,
-        "summary": "청소년센터에서 인성 및 윤리 교육 프로그램 운영"
-      },
-      {
-        "name": "인문학 강사",
-        "averageSalary": 4600,
-        "summary": "학원·평생교육기관에서 철학·윤리 교과목 강의"
-      },
-      {
-        "name": "연구원(교육정책)",
-        "averageSalary": 5100,
-        "summary": "교육부·연구소에서 윤리교육 정책 및 과제 연구"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "중·고등학교",
@@ -15325,43 +11484,6 @@
     ]
   },
   "history-edu": {
-    "careers": [
-      {
-        "name": "역사교사",
-        "averageSalary": 5200,
-        "summary": "중고등학교에서 역사를 가르치는 교육 전문가"
-      },
-      {
-        "name": "역사학자",
-        "averageSalary": 5500,
-        "summary": "역사 연구와 학술 활동으로 새로운 역사 해석 개발"
-      },
-      {
-        "name": "박물관 큐레이터",
-        "averageSalary": 4800,
-        "summary": "역사 유물 전시 및 교육 프로그램 기획 운영"
-      },
-      {
-        "name": "문화유산 전문가",
-        "averageSalary": 5000,
-        "summary": "역사 건축물, 유산의 보존 및 복원 사업 담당"
-      },
-      {
-        "name": "역사 다큐멘터리 제작자",
-        "averageSalary": 4600,
-        "summary": "역사 소재 영상물 제작 및 스토리텔링 전문가"
-      },
-      {
-        "name": "교과서 편집자",
-        "averageSalary": 5100,
-        "summary": "역사 교과서 및 교육자료 개발 및 편집"
-      },
-      {
-        "name": "문화재청 공무원",
-        "averageSalary": 5300,
-        "summary": "국가 문화재 정책 수립 및 관리 담당"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "교육기관",
@@ -15474,43 +11596,6 @@
     ]
   },
   "home-edu": {
-    "careers": [
-      {
-        "name": "가정과 교사",
-        "averageSalary": 4500,
-        "summary": "중·고등학교에서 가정 과목을 가르치는 교육 전문가"
-      },
-      {
-        "name": "영양교사",
-        "averageSalary": 4200,
-        "summary": "학교 급식 관리 및 영양 교육을 담당하는 교사"
-      },
-      {
-        "name": "가정 상담사",
-        "averageSalary": 3800,
-        "summary": "가정 문제 및 생활 교육 상담을 제공하는 상담 전문가"
-      },
-      {
-        "name": "아동발달 전문가",
-        "averageSalary": 3600,
-        "summary": "어린이 성장 발달 연구 및 교육 프로그램 개발"
-      },
-      {
-        "name": "소비자 교육 전문가",
-        "averageSalary": 3900,
-        "summary": "학교 및 기관에서 소비자 교육 프로그램 운영"
-      },
-      {
-        "name": "식생활 교육 강사",
-        "averageSalary": 3500,
-        "summary": "학교 및 지역사회에서 올바른 식습관 교육"
-      },
-      {
-        "name": "가정경영 컨설턴트",
-        "averageSalary": 4100,
-        "summary": "가정 재정 관리 및 생활 설계 컨설팅 제공"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "교육청·학교",
@@ -15623,43 +11708,6 @@
     ]
   },
   "math-edu": {
-    "careers": [
-      {
-        "name": "중학교 수학교사",
-        "averageSalary": 5200,
-        "summary": "중학생을 대상으로 수학을 가르치는 공교육 교사"
-      },
-      {
-        "name": "고등학교 수학교사",
-        "averageSalary": 5400,
-        "summary": "고등학생 대상 수학 교육 및 입시 지도"
-      },
-      {
-        "name": "수학학원 강사",
-        "averageSalary": 4500,
-        "summary": "사설학원에서 수학 개인 및 그룹 수업 진행"
-      },
-      {
-        "name": "온라인 수학강사",
-        "averageSalary": 4200,
-        "summary": "인터넷 강의 플랫폼에서 수학 콘텐츠 제작 및 강의"
-      },
-      {
-        "name": "교육과정 개발자",
-        "averageSalary": 5800,
-        "summary": "교육청 및 출판사에서 교과서·교육 자료 개발"
-      },
-      {
-        "name": "수학교육연구원",
-        "averageSalary": 5600,
-        "summary": "교육 정책 및 수학교육 개선 방안 연구"
-      },
-      {
-        "name": "교육콘텐츠 기획자",
-        "averageSalary": 5100,
-        "summary": "에듀테크 기업에서 수학 학습 앱·프로그램 기획"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "공립·사립학교",
@@ -15771,38 +11819,6 @@
     ]
   },
   "music-edu": {
-    "careers": [
-      {
-        "name": "음악교사",
-        "averageSalary": 4200,
-        "summary": "중고등학교에서 음악을 가르치는 정규 교직원"
-      },
-      {
-        "name": "음악학원강사",
-        "averageSalary": 3500,
-        "summary": "피아노, 성악 등 전공악기를 개인 또는 단체로 지도"
-      },
-      {
-        "name": "음악치료사",
-        "averageSalary": 3800,
-        "summary": "음악을 통해 신체·정서·심리 치료를 돕는 전문가"
-      },
-      {
-        "name": "오케스트라·앙상블 단원",
-        "averageSalary": 3200,
-        "summary": "전문 음악단체에서 연주하는 연주자"
-      },
-      {
-        "name": "음악대학 교수",
-        "averageSalary": 5500,
-        "summary": "대학교에서 음악 이론 및 실기를 연구·교육"
-      },
-      {
-        "name": "음악 프로듀서·음향기술자",
-        "averageSalary": 4000,
-        "summary": "앨범 제작, 녹음, 음향 기술 담당"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "교육기관(학교·학원)",
@@ -15910,43 +11926,6 @@
     ]
   },
   "science-edu": {
-    "careers": [
-      {
-        "name": "과학교사",
-        "averageSalary": 4500,
-        "summary": "중·고등학교에서 과학 교과를 가르치는 전문가"
-      },
-      {
-        "name": "과학관 큐레이터",
-        "averageSalary": 3800,
-        "summary": "과학관에서 전시 기획 및 교육 프로그램 운영"
-      },
-      {
-        "name": "교육청 과학담당관",
-        "averageSalary": 4200,
-        "summary": "교육청에서 과학교육 정책 개발 및 지원"
-      },
-      {
-        "name": "교과서 편집자",
-        "averageSalary": 3500,
-        "summary": "출판사에서 과학 교과서 및 교육 콘텐츠 제작"
-      },
-      {
-        "name": "과학 영재교육 강사",
-        "averageSalary": 4000,
-        "summary": "영재학원이나 대안학교에서 심화 과학교육 담당"
-      },
-      {
-        "name": "교육용 콘텐츠 개발자",
-        "averageSalary": 4300,
-        "summary": "에듀테크 기업에서 과학 온라인 학습 콘텐츠 제작"
-      },
-      {
-        "name": "과학교육 연구원",
-        "averageSalary": 4600,
-        "summary": "대학 및 연구기관에서 과학교육 방법론 연구"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "중·고등학교",
@@ -16061,43 +12040,6 @@
     ]
   },
   "social-edu": {
-    "careers": [
-      {
-        "name": "사회과 교사",
-        "averageSalary": 4500,
-        "summary": "중고등학교에서 역사, 지리, 사회과목을 가르치는 교육 전문가"
-      },
-      {
-        "name": "사회복지사",
-        "averageSalary": 3200,
-        "summary": "취약계층을 대상으로 사회서비스를 제공하는 복지 전문가"
-      },
-      {
-        "name": "평생교육사",
-        "averageSalary": 3500,
-        "summary": "성인 및 노인 대상 교육프로그램을 기획하고 운영하는 교육자"
-      },
-      {
-        "name": "NGO활동가",
-        "averageSalary": 3000,
-        "summary": "사회 문제 해결을 위해 시민단체에서 활동하는 사회운동가"
-      },
-      {
-        "name": "지역사회개발 전문가",
-        "averageSalary": 3800,
-        "summary": "지역 발전 프로젝트를 기획하고 지역주민을 조직하는 개발 전문가"
-      },
-      {
-        "name": "박물관 교육담당자",
-        "averageSalary": 3400,
-        "summary": "박물관에서 역사·문화교육 프로그램을 개발하고 운영하는 교육자"
-      },
-      {
-        "name": "환경교육 전문가",
-        "averageSalary": 3600,
-        "summary": "환경보전 의식을 높이기 위한 교육프로그램을 개발하는 전문가"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "교육기관(학교)",
@@ -16212,43 +12154,6 @@
     ]
   },
   "special-edu": {
-    "careers": [
-      {
-        "name": "특수교육교사",
-        "averageSalary": 4200,
-        "summary": "장애학생을 위한 맞춤형 교육을 제공하는 교사"
-      },
-      {
-        "name": "장애인 재활 전문가",
-        "averageSalary": 3800,
-        "summary": "신체·인지 재활 프로그램을 설계하고 운영하는 전문가"
-      },
-      {
-        "name": "통합교육 코디네이터",
-        "averageSalary": 3500,
-        "summary": "일반학교 장애학생 통합교육을 지원하고 조정"
-      },
-      {
-        "name": "특수교육 행정가",
-        "averageSalary": 4500,
-        "summary": "교육청·학교의 특수교육 정책 수립 및 운영"
-      },
-      {
-        "name": "발달장애 치료사",
-        "averageSalary": 3600,
-        "summary": "언어·작업·감각 치료를 통한 발달 지원"
-      },
-      {
-        "name": "교육 심리 상담가",
-        "averageSalary": 3700,
-        "summary": "장애·비장애 학생의 심리 상담 및 정서 지원"
-      },
-      {
-        "name": "특수교육 연구원",
-        "averageSalary": 4100,
-        "summary": "장애 학생 교육 방법론과 정책 연구"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "초·중·고등학교",
@@ -16352,43 +12257,6 @@
     ]
   },
   "technology-edu": {
-    "careers": [
-      {
-        "name": "기술교사",
-        "averageSalary": 5200,
-        "summary": "중고등학교에서 기술·가정 과목을 교수하는 교육 전문가"
-      },
-      {
-        "name": "직업훈련교사",
-        "averageSalary": 4800,
-        "summary": "직업훈련기관에서 실무 기술을 교육하는 강사"
-      },
-      {
-        "name": "기술교육 프로그램 개발자",
-        "averageSalary": 5500,
-        "summary": "교육 기관과 기업을 위한 기술 커리큘럼 설계"
-      },
-      {
-        "name": "산업안전보건 교육 전문가",
-        "averageSalary": 5000,
-        "summary": "기업 및 기관의 안전교육 프로그램 운영"
-      },
-      {
-        "name": "교육 관련 공무원",
-        "averageSalary": 4900,
-        "summary": "교육청·지자체에서 기술교육 정책 수립 및 관리"
-      },
-      {
-        "name": "기술 교과서 편집자",
-        "averageSalary": 4600,
-        "summary": "출판사에서 교육용 기술 교재 제작 및 검수"
-      },
-      {
-        "name": "STEAM 교육 강사",
-        "averageSalary": 4400,
-        "summary": "융합 교육 프로그램으로 창의성과 과학기술 교육"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "중고등학교",
@@ -16503,43 +12371,6 @@
     ]
   },
   "clinical-pathology": {
-    "careers": [
-      {
-        "name": "임상병리사",
-        "averageSalary": 3800,
-        "summary": "병원에서 환자 혈액·조직 검사 및 분석"
-      },
-      {
-        "name": "진단검사의학 전문의",
-        "averageSalary": 8500,
-        "summary": "진단검사 결과 해석 및 임상 컨설팅"
-      },
-      {
-        "name": "검진센터 병리사",
-        "averageSalary": 4200,
-        "summary": "건강검진 검체 처리 및 품질 관리"
-      },
-      {
-        "name": "의료기기회사 품질관리자",
-        "averageSalary": 5000,
-        "summary": "진단장비·시약 품질 검사 및 개발"
-      },
-      {
-        "name": "보건소 감염병 검사원",
-        "averageSalary": 3600,
-        "summary": "감염병 진단검사 및 역학조사 지원"
-      },
-      {
-        "name": "임상시험 모니터요원",
-        "averageSalary": 4500,
-        "summary": "신약 임상시험 데이터 수집 및 관리"
-      },
-      {
-        "name": "병원미생물 전문가",
-        "averageSalary": 4100,
-        "summary": "감염원 동정 및 항생제 감수성 검사"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "종합병원/대학병원",
@@ -16651,43 +12482,6 @@
     ]
   },
   "dentistry": {
-    "careers": [
-      {
-        "name": "치과의사",
-        "averageSalary": 8500,
-        "summary": "개인 치과 개원 또는 임상 진료로 환자 구강 건강 담당"
-      },
-      {
-        "name": "구강악안면외과의",
-        "averageSalary": 9200,
-        "summary": "복잡한 치과 수술 및 안면 외상 치료 전문"
-      },
-      {
-        "name": "교정치과의",
-        "averageSalary": 8800,
-        "summary": "치아 정렬 및 교합 개선으로 심미성 개선"
-      },
-      {
-        "name": "보철치과의",
-        "averageSalary": 8600,
-        "summary": "임플란트, 크라운, 의치 등 보철 치료 전문"
-      },
-      {
-        "name": "치주과의",
-        "averageSalary": 8400,
-        "summary": "잇몸 질환 및 치주 조직 질환 치료 전문"
-      },
-      {
-        "name": "소아치과의",
-        "averageSalary": 8200,
-        "summary": "아동 구강 건강 및 발육 관리 전문"
-      },
-      {
-        "name": "치과의료 연구원",
-        "averageSalary": 7500,
-        "summary": "치과 신기술 및 소재 개발 연구"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "개인 치과 개원",
@@ -16800,43 +12594,6 @@
     ]
   },
   "emergency-medical": {
-    "careers": [
-      {
-        "name": "응급구조사",
-        "averageSalary": 3800,
-        "summary": "119 구급차에서 응급환자 현장 구조 및 응급처치"
-      },
-      {
-        "name": "병원 응급의학과 간호사",
-        "averageSalary": 4200,
-        "summary": "응급실에서 응급환자 관리 및 의료 지원"
-      },
-      {
-        "name": "산업응급의학 전문가",
-        "averageSalary": 4500,
-        "summary": "기업/산업 현장 응급상황 대응 및 안전관리"
-      },
-      {
-        "name": "의료기관 응급대응팀 리더",
-        "averageSalary": 5200,
-        "summary": "응급상황 대응 체계 구축 및 팀 운영"
-      },
-      {
-        "name": "재난안전관리사",
-        "averageSalary": 4800,
-        "summary": "재난 현장 응급구조 총괄 및 안전 계획 수립"
-      },
-      {
-        "name": "응급의학 연구원",
-        "averageSalary": 5100,
-        "summary": "응급의료 기술 개발 및 임상연구"
-      },
-      {
-        "name": "해양경찰 구조대원",
-        "averageSalary": 4400,
-        "summary": "해상 사고 구조 및 응급처치 전담"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "소방본부/119",
@@ -16948,43 +12705,6 @@
     ]
   },
   "occupational-therapy": {
-    "careers": [
-      {
-        "name": "작업치료사",
-        "averageSalary": 3800,
-        "summary": "환자의 신체·정신 기능 회복을 위한 작업치료 제공"
-      },
-      {
-        "name": "병원 재활의학과 근무",
-        "averageSalary": 4200,
-        "summary": "뇌졸중, 척수손상 등 환자 재활치료 담당"
-      },
-      {
-        "name": "정신건강임상치료사",
-        "averageSalary": 3600,
-        "summary": "정신질환자의 사회복귀 및 일상생활 능력 향상 지원"
-      },
-      {
-        "name": "노인요양시설 작업치료사",
-        "averageSalary": 3400,
-        "summary": "고령자의 인지기능 및 삶의 질 개선 프로그램 운영"
-      },
-      {
-        "name": "아동발달센터 치료사",
-        "averageSalary": 3500,
-        "summary": "발달장애아의 신체·인지 발달 촉진 치료"
-      },
-      {
-        "name": "작업치료 연구원",
-        "averageSalary": 4500,
-        "summary": "새로운 치료법 개발 및 임상 효과 검증 연구"
-      },
-      {
-        "name": "지역사회보건센터 작업치료사",
-        "averageSalary": 3700,
-        "summary": "지역주민 건강증진 및 예방 작업치료 프로그램 개발·운영"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "종합병원·의원",
@@ -17096,38 +12816,6 @@
     ]
   },
   "physical-therapy": {
-    "careers": [
-      {
-        "name": "물리치료사",
-        "averageSalary": 3800,
-        "summary": "환자의 신체 기능 회복을 위해 운동·물리 치료 제공"
-      },
-      {
-        "name": "스포츠물리치료사",
-        "averageSalary": 4200,
-        "summary": "운동선수의 부상 예방 및 재활 치료 담당"
-      },
-      {
-        "name": "임상연구원",
-        "averageSalary": 4500,
-        "summary": "의료 기기·약물 임상시험 및 데이터 수집 분석"
-      },
-      {
-        "name": "재활의학전문의",
-        "averageSalary": 8500,
-        "summary": "재활 치료 계획 수립 및 환자 관리 (석사 이상 필수)"
-      },
-      {
-        "name": "건강관리사",
-        "averageSalary": 3200,
-        "summary": "지역사회 주민 건강 상담 및 예방 교육 진행"
-      },
-      {
-        "name": "의료기기 관련 기술영업",
-        "averageSalary": 4800,
-        "summary": "병원·재활센터 의료장비 판매 및 기술 지원"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "병원/의료기관",
@@ -17234,43 +12922,6 @@
     ]
   },
   "public-health": {
-    "careers": [
-      {
-        "name": "보건정책분석가",
-        "averageSalary": 4500,
-        "summary": "국민 건강 정책 수립 및 평가"
-      },
-      {
-        "name": "역학조사관",
-        "averageSalary": 4200,
-        "summary": "질병 발생 원인 규명 및 대응"
-      },
-      {
-        "name": "산업보건관리자",
-        "averageSalary": 4800,
-        "summary": "직장 내 보건 및 안전 관리"
-      },
-      {
-        "name": "보건교육전문가",
-        "averageSalary": 3900,
-        "summary": "질병예방을 위한 교육 프로그램 개발"
-      },
-      {
-        "name": "환경보건 전문가",
-        "averageSalary": 4300,
-        "summary": "환경 오염으로 인한 건강 피해 연구"
-      },
-      {
-        "name": "의료기관 관리자",
-        "averageSalary": 5200,
-        "summary": "병원 경영 및 행정 관리"
-      },
-      {
-        "name": "보건통계전문가",
-        "averageSalary": 4600,
-        "summary": "보건데이터 분석 및 통계 분석"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "정부기관 및 보건소",
@@ -17380,43 +13031,6 @@
     ]
   },
   "radiology": {
-    "careers": [
-      {
-        "name": "방사선사",
-        "averageSalary": 4200,
-        "summary": "의료기관에서 X선, CT, MRI 등 진단 영상 촬영"
-      },
-      {
-        "name": "방사선종양학자",
-        "averageSalary": 6800,
-        "summary": "암 환자 대상 방사선 치료 계획 및 시술"
-      },
-      {
-        "name": "핵의학기사",
-        "averageSalary": 4100,
-        "summary": "방사성동위원소를 이용한 진단 및 치료"
-      },
-      {
-        "name": "의료영상분석가",
-        "averageSalary": 5000,
-        "summary": "AI·머신러닝으로 진단 영상 분석 및 해석"
-      },
-      {
-        "name": "방사선 안전관리자",
-        "averageSalary": 5200,
-        "summary": "의료기관 방사선 노출 관리 및 안전 감시"
-      },
-      {
-        "name": "의료기기 개발자",
-        "averageSalary": 6000,
-        "summary": "방사선 진단·치료 장비 개발 및 품질 관리"
-      },
-      {
-        "name": "보건직 공무원(방사선)",
-        "averageSalary": 4500,
-        "summary": "국가기관의 방사선 보건 정책 및 감시"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "대학병원·종합병원",
@@ -17528,43 +13142,6 @@
     ]
   },
   "veterinary": {
-    "careers": [
-      {
-        "name": "수의사",
-        "averageSalary": 6500,
-        "summary": "동물의 질병 진단 및 치료, 예방 의료 제공"
-      },
-      {
-        "name": "소동물임상수의사",
-        "averageSalary": 5800,
-        "summary": "애완동물 병원에서 진료 및 수술 담당"
-      },
-      {
-        "name": "산업동물수의사",
-        "averageSalary": 6200,
-        "summary": "축산농장의 가축 질병 관리 및 생산성 향상"
-      },
-      {
-        "name": "공중보건수의사",
-        "averageSalary": 5200,
-        "summary": "동물성 식품 안전 검사 및 질병 예방"
-      },
-      {
-        "name": "동물약품개발연구원",
-        "averageSalary": 5900,
-        "summary": "동물용 의약품 및 백신 연구개발"
-      },
-      {
-        "name": "보험심사수의사",
-        "averageSalary": 5400,
-        "summary": "동물진료 보험금 심사 및 청구 관리"
-      },
-      {
-        "name": "동물원수의사",
-        "averageSalary": 4800,
-        "summary": "야생동물 및 가금류의 건강 관리"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "동물병원 및 임상",
@@ -17666,43 +13243,6 @@
     ]
   },
   "anthropology": {
-    "careers": [
-      {
-        "name": "문화인류학자",
-        "averageSalary": 4500,
-        "summary": "문화 현상을 과학적으로 연구하고 분석하는 전문가"
-      },
-      {
-        "name": "박물관 큐레이터",
-        "averageSalary": 3800,
-        "summary": "문화유산을 전시·보존하고 교육프로그램을 기획하는 전문가"
-      },
-      {
-        "name": "문화정책 담당자",
-        "averageSalary": 4200,
-        "summary": "정부·지자체에서 문화예술 정책을 수립·추진하는 공무원"
-      },
-      {
-        "name": "문화관광 해설사",
-        "averageSalary": 2800,
-        "summary": "문화유산과 관광지를 방문객에게 설명·안내하는 전문가"
-      },
-      {
-        "name": "국제개발전문가",
-        "averageSalary": 5200,
-        "summary": "개발도상국의 사회·문화 발전을 돕는 국제기구 종사자"
-      },
-      {
-        "name": "문화콘텐츠 기획자",
-        "averageSalary": 4100,
-        "summary": "문화를 바탕으로 콘텐츠를 개발·제작하는 크리에이터"
-      },
-      {
-        "name": "민족지학 연구원",
-        "averageSalary": 4600,
-        "summary": "특정 민족·공동체의 생활문화를 심층 조사하는 연구자"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "학계·연구기관",
@@ -17815,43 +13355,6 @@
     ]
   },
   "arabic-lit": {
-    "careers": [
-      {
-        "name": "외교관",
-        "averageSalary": 6500,
-        "summary": "국제 외교 협상 및 양국 관계 증진 업무 담당"
-      },
-      {
-        "name": "국제기구 직원",
-        "averageSalary": 5800,
-        "summary": "UN, OPEC 등 국제기구에서 언어 전문가로 활동"
-      },
-      {
-        "name": "통역사/번역가",
-        "averageSalary": 4500,
-        "summary": "아랍어 문서 번역, 동시통역 등 언어 중개 역할"
-      },
-      {
-        "name": "언론사 기자",
-        "averageSalary": 4800,
-        "summary": "중동 지역 취재 및 아랍 문화 관련 보도 담당"
-      },
-      {
-        "name": "무역 전문가",
-        "averageSalary": 5200,
-        "summary": "중동 국가와의 무역 협상 및 비즈니스 관계 구축"
-      },
-      {
-        "name": "교육 강사",
-        "averageSalary": 3800,
-        "summary": "대학 및 학원에서 아랍어 교육 담당"
-      },
-      {
-        "name": "문화 교류 전문가",
-        "averageSalary": 4200,
-        "summary": "한-아랍 문화 교류 프로그램 기획 및 운영"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "정부기관/공공기관",
@@ -17966,43 +13469,6 @@
     ]
   },
   "archaeology": {
-    "careers": [
-      {
-        "name": "고고학자",
-        "averageSalary": 4500,
-        "summary": "유물 발굴·분석으로 과거 문명 규명"
-      },
-      {
-        "name": "박물관 학예사",
-        "averageSalary": 3800,
-        "summary": "유물 수집·전시·보존 관리"
-      },
-      {
-        "name": "문화재 복원 전문가",
-        "averageSalary": 4200,
-        "summary": "손상된 유물 복원 및 보존 기술 개발"
-      },
-      {
-        "name": "발굴 현장 감독",
-        "averageSalary": 3900,
-        "summary": "고고학 발굴 프로젝트 기획 및 운영"
-      },
-      {
-        "name": "문화유산 컨설턴트",
-        "averageSalary": 4800,
-        "summary": "유산 보존정책 자문 및 관광 개발"
-      },
-      {
-        "name": "문화재청 공무원",
-        "averageSalary": 4400,
-        "summary": "문화재 정책 및 보호 업무 담당"
-      },
-      {
-        "name": "고고학 저널리스트",
-        "averageSalary": 3600,
-        "summary": "고고학 발견·연구 대중 언론화"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "박물관·문화시설",
@@ -18111,43 +13577,6 @@
     ]
   },
   "chinese-lit": {
-    "careers": [
-      {
-        "name": "중국어 통역사",
-        "averageSalary": 4500,
-        "summary": "국제회의, 상담, 방송에서 실시간 통역 수행"
-      },
-      {
-        "name": "중국어 번역가",
-        "averageSalary": 4000,
-        "summary": "문학, 기술, 비즈니스 문서 등 전문 번역"
-      },
-      {
-        "name": "무역 전문가",
-        "averageSalary": 5200,
-        "summary": "한중 수출입 업무 및 국제 무역 중재"
-      },
-      {
-        "name": "외교관/공무원",
-        "averageSalary": 5800,
-        "summary": "주중 대사관, 정부 부처 국제 업무 담당"
-      },
-      {
-        "name": "중국 진출 기업 해외영업",
-        "averageSalary": 5500,
-        "summary": "중국 시장 개척 및 현지 영업 전략 수립"
-      },
-      {
-        "name": "중국문화 콘텐츠 기획자",
-        "averageSalary": 4200,
-        "summary": "중국 문화 관련 방송, 출판 콘텐츠 제작"
-      },
-      {
-        "name": "한중 문화교육 강사",
-        "averageSalary": 3800,
-        "summary": "학교, 학원에서 중국어 및 문화 교육"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "교육 및 학원",
@@ -18254,43 +13683,6 @@
     ]
   },
   "cultural-heritage": {
-    "careers": [
-      {
-        "name": "문화재 보존 전문가",
-        "averageSalary": 4200,
-        "summary": "문화유산을 과학적으로 보존·복원하는 전문가"
-      },
-      {
-        "name": "박물관 큐레이터",
-        "averageSalary": 3800,
-        "summary": "전시 기획 및 문화재 수집·관리 담당"
-      },
-      {
-        "name": "고고학자",
-        "averageSalary": 4500,
-        "summary": "발굴조사를 통해 과거 문명 연구"
-      },
-      {
-        "name": "문화재청 공무원",
-        "averageSalary": 5000,
-        "summary": "문화재 정책 수립 및 행정 담당"
-      },
-      {
-        "name": "문화유산 해설사",
-        "averageSalary": 2800,
-        "summary": "관광객에게 문화재의 역사와 가치 설명"
-      },
-      {
-        "name": "박물관 연구원",
-        "averageSalary": 4100,
-        "summary": "문화재 조사·연구 및 학술활동 진행"
-      },
-      {
-        "name": "문화재 컨설턴트",
-        "averageSalary": 4600,
-        "summary": "지역 문화유산 활용 및 개발 전략 제시"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "정부·공공기관",
@@ -18400,43 +13792,6 @@
     ]
   },
   "east-asian-history": {
-    "careers": [
-      {
-        "name": "역사 교사",
-        "averageSalary": 4500,
-        "summary": "중고등학교에서 한국사·동양사를 가르치는 교육자"
-      },
-      {
-        "name": "문화재 전문가",
-        "averageSalary": 4200,
-        "summary": "문화재청·박물관에서 유산 보존·관리하는 전문가"
-      },
-      {
-        "name": "큐레이터",
-        "averageSalary": 3800,
-        "summary": "박물관·미술관에서 전시 기획 및 유물 관리"
-      },
-      {
-        "name": "출판 편집자",
-        "averageSalary": 3600,
-        "summary": "역사서·인문학 도서 편집 및 기획"
-      },
-      {
-        "name": "문화 콘텐츠 제작자",
-        "averageSalary": 4000,
-        "summary": "역사 기반 드라마·영화·웹콘텐츠 개발"
-      },
-      {
-        "name": "사료 연구원",
-        "averageSalary": 4300,
-        "summary": "대학·연구기관에서 역사 문헌 및 자료 연구"
-      },
-      {
-        "name": "공공외교 전문가",
-        "averageSalary": 5200,
-        "summary": "외교부·공사관에서 문화 외교 담당"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "교육 및 공공기관",
@@ -18542,43 +13897,6 @@
     ]
   },
   "french-lit": {
-    "careers": [
-      {
-        "name": "번역가",
-        "averageSalary": 4200,
-        "summary": "문학, 기술, 의료 등 다양한 분야의 불어 텍스트를 한국어로 번역"
-      },
-      {
-        "name": "프랑스어 교사",
-        "averageSalary": 3800,
-        "summary": "학교, 학원, 온라인 플랫폼에서 프랑스어 언어 및 문화 교육"
-      },
-      {
-        "name": "국제기구 직원",
-        "averageSalary": 5500,
-        "summary": "UN, UNESCO 등 국제기구에서 언어 능력을 활용한 업무 수행"
-      },
-      {
-        "name": "문화외교관",
-        "averageSalary": 4800,
-        "summary": "프랑스 및 불어권 국가와의 문화 교류 및 외교 활동 진행"
-      },
-      {
-        "name": "출판편집자",
-        "averageSalary": 3500,
-        "summary": "불어 문학작품 출판, 편집, 교정 및 기획 담당"
-      },
-      {
-        "name": "콘텐츠 크리에이터",
-        "averageSalary": 3200,
-        "summary": "프랑스 문화, 언어 관련 유튜브, SNS, 팟캐스트 운영"
-      },
-      {
-        "name": "관광 가이드",
-        "averageSalary": 3000,
-        "summary": "프랑스 및 불어권 지역 관광객 대상 문화해설 및 안내"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "교육/학원",
@@ -18689,43 +14007,6 @@
     ]
   },
   "german-lit": {
-    "careers": [
-      {
-        "name": "독일어 번역가",
-        "averageSalary": 4200,
-        "summary": "문학, 기술, 법률 등 다양한 분야의 독일어 번역 담당"
-      },
-      {
-        "name": "외국어 교사",
-        "averageSalary": 4500,
-        "summary": "중·고등학교에서 독일어 교육 및 언어 문화 지도"
-      },
-      {
-        "name": "국제 비즈니스 전문가",
-        "averageSalary": 5200,
-        "summary": "독일 및 독일어권 국가와의 무역, 투자 협상 담당"
-      },
-      {
-        "name": "출판사 편집자",
-        "averageSalary": 3800,
-        "summary": "독일 문학 번역서 편집 및 출판 기획"
-      },
-      {
-        "name": "외교관·국제기구 직원",
-        "averageSalary": 5800,
-        "summary": "외교부, UN 등에서 독일어권 국가와의 협력 업무"
-      },
-      {
-        "name": "문화예술 큐레이터",
-        "averageSalary": 4000,
-        "summary": "독일 문학·미술 전시 기획 및 문화 교류 프로젝트 운영"
-      },
-      {
-        "name": "콘텐츠 크리에이터",
-        "averageSalary": 3500,
-        "summary": "독일 문화, 언어 학습 유튜브, 팟캐스트 등 제작"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "교육 기관",
@@ -18831,43 +14112,6 @@
     ]
   },
   "indian-lit": {
-    "careers": [
-      {
-        "name": "외교관",
-        "averageSalary": 6500,
-        "summary": "인도와의 외교 관계 담당 및 협상 업무"
-      },
-      {
-        "name": "국제기구 전문가",
-        "averageSalary": 5800,
-        "summary": "UN, UNDP 등 국제기구에서 남아시아 지역 담당"
-      },
-      {
-        "name": "언론인/기자",
-        "averageSalary": 4200,
-        "summary": "인도 문화, 정치, 경제 관련 기사 작성"
-      },
-      {
-        "name": "대학 강사/연구원",
-        "averageSalary": 4500,
-        "summary": "대학에서 인도학 또는 남아시아 지역학 교육"
-      },
-      {
-        "name": "문화교류 담당자",
-        "averageSalary": 3800,
-        "summary": "한-인도 문화 교류 사업 및 프로그램 운영"
-      },
-      {
-        "name": "무역 전문가",
-        "averageSalary": 5200,
-        "summary": "인도 관련 수출입 및 비즈니스 담당"
-      },
-      {
-        "name": "출판/번역가",
-        "averageSalary": 3500,
-        "summary": "인도 문학, 철학 등 저작물 번역 및 출판"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "정부/외교기관",
@@ -18981,43 +14225,6 @@
     ]
   },
   "japanese-lit": {
-    "careers": [
-      {
-        "name": "일본어 번역가",
-        "averageSalary": 4200,
-        "summary": "문학, 영상, 비즈니스 등 다양한 분야의 일본어 콘텐츠를 한국어로 번역"
-      },
-      {
-        "name": "일본어 강사",
-        "averageSalary": 3800,
-        "summary": "학원, 대학, 회사 등에서 일본어 교육 및 문화 수업 진행"
-      },
-      {
-        "name": "출판 편집자",
-        "averageSalary": 3600,
-        "summary": "일본 도서 기획, 편집, 출판 관련 업무 담당"
-      },
-      {
-        "name": "국제 통역사",
-        "averageSalary": 5500,
-        "summary": "회의, 회담, 국제행사에서 실시간 일본어 통역 수행"
-      },
-      {
-        "name": "콘텐츠 기획자",
-        "averageSalary": 4500,
-        "summary": "일본 문화 콘텐츠를 기획, 기획 및 제작하는 미디어 전문가"
-      },
-      {
-        "name": "여행가이드",
-        "averageSalary": 3200,
-        "summary": "일본 방문 한국인 관광객 대상 문화 및 역사 안내"
-      },
-      {
-        "name": "외교관",
-        "averageSalary": 6800,
-        "summary": "한일 양국 관계 증진 및 외교담당관으로서 국익 대변"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "교육기관",
@@ -19128,43 +14335,6 @@
     ]
   },
   "religion-studies": {
-    "careers": [
-      {
-        "name": "종교학 연구자",
-        "averageSalary": 4500,
-        "summary": "대학·연구기관에서 종교 현상 분석 및 학술 연구"
-      },
-      {
-        "name": "종교 상담가",
-        "averageSalary": 3800,
-        "summary": "신앙인의 영적·정서적 문제 상담 및 지도"
-      },
-      {
-        "name": "문화유산 전문가",
-        "averageSalary": 4200,
-        "summary": "종교 유산 보존·관리 및 문화재 해석"
-      },
-      {
-        "name": "종교 저널리스트",
-        "averageSalary": 3600,
-        "summary": "종교 관련 뉴스 취재·보도 및 콘텐츠 제작"
-      },
-      {
-        "name": "박물관 학예사",
-        "averageSalary": 3500,
-        "summary": "종교 미술품·유물 전시 기획 및 해설"
-      },
-      {
-        "name": "종교 교육 강사",
-        "averageSalary": 3200,
-        "summary": "학교·기관에서 종교 및 윤리 교육 담당"
-      },
-      {
-        "name": "출판·편집자",
-        "averageSalary": 3800,
-        "summary": "종교 관련 서적·잡지 편집 및 출판"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "교육기관",
@@ -19276,38 +14446,6 @@
     ]
   },
   "russian-lit": {
-    "careers": [
-      {
-        "name": "노르웨이 번역가",
-        "averageSalary": 3500,
-        "summary": "노르웨이어 문헌과 비즈니스 콘텐츠 번역"
-      },
-      {
-        "name": "국제 관계 전문가",
-        "averageSalary": 4800,
-        "summary": "북유럽 지역 외교 및 정치 분석"
-      },
-      {
-        "name": "문화 교류 담당자",
-        "averageSalary": 3800,
-        "summary": "한-북유럽 문화 교류 프로젝트 기획"
-      },
-      {
-        "name": "출판사 편집자",
-        "averageSalary": 3200,
-        "summary": "노르웨이 문학 번역 및 출판 담당"
-      },
-      {
-        "name": "언어 강사",
-        "averageSalary": 2800,
-        "summary": "대학 및 교육기관 노르웨이어 강의"
-      },
-      {
-        "name": "외교관",
-        "averageSalary": 5200,
-        "summary": "노르웨이 대사관 근무 및 외교 활동"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "외교/국제기구",
@@ -19403,43 +14541,6 @@
     ]
   },
   "spanish-lit": {
-    "careers": [
-      {
-        "name": "번역가",
-        "averageSalary": 4200,
-        "summary": "스페인어 문헌을 한국어로 번역하는 전문가"
-      },
-      {
-        "name": "스페인어 교사",
-        "averageSalary": 3800,
-        "summary": "중고등학교 및 학원에서 스페인어를 가르치는 교육자"
-      },
-      {
-        "name": "외교관",
-        "averageSalary": 5500,
-        "summary": "스페인어권 국가 외교 업무를 담당하는 공무원"
-      },
-      {
-        "name": "출판사 편집자",
-        "averageSalary": 3600,
-        "summary": "스페인 문학 및 인문서적 기획·편집하는 전문가"
-      },
-      {
-        "name": "언론인/기자",
-        "averageSalary": 4000,
-        "summary": "스페인어권 소식을 보도하는 신문·방송 종사자"
-      },
-      {
-        "name": "문화원 강사",
-        "averageSalary": 3200,
-        "summary": "한국문화원 등에서 스페인어 교육을 담당하는 강사"
-      },
-      {
-        "name": "국제기구 직원",
-        "averageSalary": 5800,
-        "summary": "UN 등 국제기구에서 스페인어 통역·번역 담당"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "교육기관",
@@ -19550,43 +14651,6 @@
     ]
   },
   "theology": {
-    "careers": [
-      {
-        "name": "목사",
-        "averageSalary": 4500,
-        "summary": "종교 지도자로서 신앙 공동체 영적 인도"
-      },
-      {
-        "name": "신학교수",
-        "averageSalary": 6200,
-        "summary": "대학에서 신학 이론 연구 및 교육"
-      },
-      {
-        "name": "종교상담사",
-        "averageSalary": 3800,
-        "summary": "영적·심리적 문제 상담 및 멘토링"
-      },
-      {
-        "name": "선교사",
-        "averageSalary": 2800,
-        "summary": "국내외에서 종교 선교 활동 수행"
-      },
-      {
-        "name": "종교기관 행정가",
-        "averageSalary": 4200,
-        "summary": "교회·사찰 등 종교기관의 행정 운영"
-      },
-      {
-        "name": "종교저널리스트",
-        "averageSalary": 4000,
-        "summary": "종교 뉴스 취재·보도 및 글쓰기"
-      },
-      {
-        "name": "문화재보존전문가",
-        "averageSalary": 4600,
-        "summary": "종교 문화유산 보존 및 관리"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "종교기관",
@@ -19689,43 +14753,6 @@
     ]
   },
   "vietnamese-lit": {
-    "careers": [
-      {
-        "name": "베트남어 통역사",
-        "averageSalary": 4500,
-        "summary": "회의, 방송, 행사에서 실시간 언어 중개"
-      },
-      {
-        "name": "베트남어 번역가",
-        "averageSalary": 4200,
-        "summary": "문서, 도서, 영상 콘텐츠 번역"
-      },
-      {
-        "name": "외교관",
-        "averageSalary": 6800,
-        "summary": "베트남 주재 대사관에서 외교 업무 담당"
-      },
-      {
-        "name": "국제무역전문가",
-        "averageSalary": 5500,
-        "summary": "베트남과의 수출입 무역 및 계약 관리"
-      },
-      {
-        "name": "다국어 콘텐츠 크리에이터",
-        "averageSalary": 3800,
-        "summary": "SNS, 유튜브에서 베트남 언어/문화 콘텐츠 제작"
-      },
-      {
-        "name": "언어교육 강사",
-        "averageSalary": 3500,
-        "summary": "학원, 대학에서 베트남어 학생 지도"
-      },
-      {
-        "name": "주재국 기업 매니저",
-        "averageSalary": 5800,
-        "summary": "베트남 진출 한국 기업에서 현지 운영 관리"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "교육기관",
@@ -19839,43 +14866,6 @@
     ]
   },
   "western-history": {
-    "careers": [
-      {
-        "name": "대학교수",
-        "averageSalary": 6500,
-        "summary": "대학에서 서양사를 강의하고 연구하는 직업"
-      },
-      {
-        "name": "역사 연구원",
-        "averageSalary": 4200,
-        "summary": "박물관이나 연구기관에서 역사 자료 분석 및 연구"
-      },
-      {
-        "name": "문화유산 전문가",
-        "averageSalary": 4800,
-        "summary": "문화재청이나 박물관에서 유산 보존 및 관리"
-      },
-      {
-        "name": "출판사 편집자",
-        "averageSalary": 3800,
-        "summary": "역사 관련 도서 기획 및 출판 업무 담당"
-      },
-      {
-        "name": "큐레이터",
-        "averageSalary": 4500,
-        "summary": "박물관이나 갤러리에서 전시 기획 및 운영"
-      },
-      {
-        "name": "교육청 역사 교사",
-        "averageSalary": 5200,
-        "summary": "중고등학교에서 한국사 및 세계사 교수"
-      },
-      {
-        "name": "문화관광 해설사",
-        "averageSalary": 3500,
-        "summary": "문화유산지에서 관광객에게 역사 설명"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "교육기관",
@@ -19970,43 +14960,6 @@
     ]
   },
   "agriculture": {
-    "careers": [
-      {
-        "name": "농업 연구원",
-        "averageSalary": 4200,
-        "summary": "작물 개량 및 재배 기술 연구 개발"
-      },
-      {
-        "name": "식량 안보 정책 담당자",
-        "averageSalary": 4500,
-        "summary": "국가 농정 수립 및 식량 정책 관련 업무"
-      },
-      {
-        "name": "농산물 품질관리사",
-        "averageSalary": 3800,
-        "summary": "농산물 검사 및 품질 기준 관리"
-      },
-      {
-        "name": "원예사",
-        "averageSalary": 3500,
-        "summary": "과수·채소·화훼 재배 및 경영"
-      },
-      {
-        "name": "축산 기술사",
-        "averageSalary": 4100,
-        "summary": "축산 사료 개발 및 동물 질병 관리"
-      },
-      {
-        "name": "식품 개발 연구원",
-        "averageSalary": 4300,
-        "summary": "농산물 기반 신규 식품 개발"
-      },
-      {
-        "name": "농업 컨설턴트",
-        "averageSalary": 4600,
-        "summary": "농가 경영 진단 및 기술 지도"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "정부 기관 및 공공기관",
@@ -20114,43 +15067,6 @@
     ]
   },
   "animal-science": {
-    "careers": [
-      {
-        "name": "축산기술사",
-        "averageSalary": 5500,
-        "summary": "축산 농장의 생산성 향상과 동물 건강 관리 전문가"
-      },
-      {
-        "name": "수의사",
-        "averageSalary": 7200,
-        "summary": "동물 질병 진단·치료 및 공중보건 담당"
-      },
-      {
-        "name": "동물영양사",
-        "averageSalary": 4500,
-        "summary": "축산동물 사료 개발 및 영양 관리 전문가"
-      },
-      {
-        "name": "축산업 경영자",
-        "averageSalary": 6000,
-        "summary": "소·돼지·닭 등 축산 농장 운영 및 관리"
-      },
-      {
-        "name": "동물유전육종사",
-        "averageSalary": 5200,
-        "summary": "우수 동물 품종 개량 및 유전자 연구"
-      },
-      {
-        "name": "식육처리 관리사",
-        "averageSalary": 4800,
-        "summary": "도축부터 포장까지 식육 품질관리 담당"
-      },
-      {
-        "name": "축산 공무원(농촌진흥청·농림부)",
-        "averageSalary": 5300,
-        "summary": "축산 정책 입안 및 기술 지도 업무"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "축산 농장/목장",
@@ -20263,43 +15179,6 @@
     ]
   },
   "astronomy": {
-    "careers": [
-      {
-        "name": "천문학자",
-        "averageSalary": 5500,
-        "summary": "우주 현상을 관측·분석하여 우주의 신비를 규명"
-      },
-      {
-        "name": "우주비행사",
-        "averageSalary": 8000,
-        "summary": "우주선 탑승하여 우주 탐사 및 실험 수행"
-      },
-      {
-        "name": "항공우주 엔지니어",
-        "averageSalary": 7200,
-        "summary": "우주 발사체와 위성 개발·설계하는 기술자"
-      },
-      {
-        "name": "천체물리학자",
-        "averageSalary": 5800,
-        "summary": "별·행성·블랙홀 등 천체의 물리 현상 연구"
-      },
-      {
-        "name": "과학관 천문학 전시기획자",
-        "averageSalary": 4500,
-        "summary": "과학관에서 천문 교육 프로그램 개발·운영"
-      },
-      {
-        "name": "우주 데이터 분석가",
-        "averageSalary": 6200,
-        "summary": "우주 관측 빅데이터 분석 및 인공지능 활용"
-      },
-      {
-        "name": "위성 개발 연구원",
-        "averageSalary": 6800,
-        "summary": "통신·기상·지구관측 위성 연구개발"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "대학·연구기관",
@@ -20412,43 +15291,6 @@
     ]
   },
   "atmospheric": {
-    "careers": [
-      {
-        "name": "기상예보관",
-        "averageSalary": 4500,
-        "summary": "기상 데이터 분석 및 일기예보 업무 담당"
-      },
-      {
-        "name": "기후분석 전문가",
-        "averageSalary": 5200,
-        "summary": "장기 기후 변화 분석 및 정책 수립 지원"
-      },
-      {
-        "name": "항공기상 전문가",
-        "averageSalary": 5800,
-        "summary": "항공사 운영 관련 기상 정보 제공 및 안전 관리"
-      },
-      {
-        "name": "환경영향평가 전문가",
-        "averageSalary": 4800,
-        "summary": "개발사업의 대기환경 영향도 평가 및 검증"
-      },
-      {
-        "name": "대기오염 연구원",
-        "averageSalary": 5100,
-        "summary": "대기오염 메커니즘 연구 및 저감 기술 개발"
-      },
-      {
-        "name": "기상통신 방송인",
-        "averageSalary": 4200,
-        "summary": "날씨 정보 수집 및 방송국 기상 뉴스 진행"
-      },
-      {
-        "name": "재난기상 분석가",
-        "averageSalary": 5500,
-        "summary": "폭우, 폭염 등 극한 기상 예측 및 대응"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "정부기관(기상청, 환경부)",
@@ -20561,43 +15403,6 @@
     ]
   },
   "earth-science": {
-    "careers": [
-      {
-        "name": "지구과학 연구원",
-        "averageSalary": 4500,
-        "summary": "지구의 구조와 현상을 연구하는 과학자"
-      },
-      {
-        "name": "기상청 예보관",
-        "averageSalary": 4200,
-        "summary": "날씨 예측 및 기후 분석 전문가"
-      },
-      {
-        "name": "지질 엔지니어",
-        "averageSalary": 5000,
-        "summary": "토목·건설 프로젝트의 지반 조사 담당"
-      },
-      {
-        "name": "석유·가스 탐사원",
-        "averageSalary": 5500,
-        "summary": "지하 자원 탐사 및 개발 전문가"
-      },
-      {
-        "name": "환경 컨설턴트",
-        "averageSalary": 4800,
-        "summary": "환경 영향 평가 및 보전 대책 수립"
-      },
-      {
-        "name": "해양과학자",
-        "averageSalary": 4600,
-        "summary": "해양 생태계 및 해양 자원 연구"
-      },
-      {
-        "name": "방재 전문가",
-        "averageSalary": 4400,
-        "summary": "지진·화산·홍수 등 자연재해 예방 및 대응"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "정부기관·공공기관",
@@ -20712,43 +15517,6 @@
     ]
   },
   "fisheries": {
-    "careers": [
-      {
-        "name": "수산생물학자",
-        "averageSalary": 4500,
-        "summary": "해양생물의 생태와 유전을 연구하는 전문가"
-      },
-      {
-        "name": "양식 기술사",
-        "averageSalary": 5200,
-        "summary": "어류·해산물 양식 기술 개발 및 관리 전문가"
-      },
-      {
-        "name": "해양환경 컨설턴트",
-        "averageSalary": 5800,
-        "summary": "해양 생태계 보전 및 환경 영향 평가 전문가"
-      },
-      {
-        "name": "식품 미생물학자",
-        "averageSalary": 5100,
-        "summary": "수산물 가공 및 안전성 연구 전문가"
-      },
-      {
-        "name": "해양 수산 공무원",
-        "averageSalary": 4800,
-        "summary": "수산정책 수립 및 어업 관리 공무원"
-      },
-      {
-        "name": "어류 육종 전문가",
-        "averageSalary": 5400,
-        "summary": "고급 수산물 종자 개발 및 개량"
-      },
-      {
-        "name": "수산 제약 연구원",
-        "averageSalary": 5600,
-        "summary": "해양 생물 유래 의약품 개발 연구"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "정부·공공기관",
@@ -20858,43 +15626,6 @@
     ]
   },
   "forestry": {
-    "careers": [
-      {
-        "name": "산림과학자",
-        "averageSalary": 4500,
-        "summary": "산림 생태계 연구 및 산림 정책 개발"
-      },
-      {
-        "name": "산림공학기술자",
-        "averageSalary": 4200,
-        "summary": "산림 조성, 보호, 이용 관련 기술 개발"
-      },
-      {
-        "name": "임업인",
-        "averageSalary": 3800,
-        "summary": "목재 생산 및 산림 경영 사업 운영"
-      },
-      {
-        "name": "산림청 공무원",
-        "averageSalary": 4800,
-        "summary": "산림 정책 수립 및 산림 자원 관리"
-      },
-      {
-        "name": "환경영향평가사",
-        "averageSalary": 5000,
-        "summary": "개발 사업의 환경영향 평가 및 자문"
-      },
-      {
-        "name": "산림치유사",
-        "averageSalary": 3500,
-        "summary": "산림을 이용한 심신 건강 증진 프로그램 운영"
-      },
-      {
-        "name": "조림설계사",
-        "averageSalary": 4100,
-        "summary": "산림 조성 계획 수립 및 설계"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "정부·공공기관",
@@ -21004,43 +15735,6 @@
     ]
   },
   "geology": {
-    "careers": [
-      {
-        "name": "광물자원개발 전문가",
-        "averageSalary": 5500,
-        "summary": "광물 탐사 및 채굴 프로젝트를 기획·관리하는 업무"
-      },
-      {
-        "name": "석유지질학자",
-        "averageSalary": 6200,
-        "summary": "석유·가스 매장지 탐사 및 개발 담당"
-      },
-      {
-        "name": "환경지질 컨설턴트",
-        "averageSalary": 4800,
-        "summary": "토양·지하수 오염 조사 및 복구 방안 제시"
-      },
-      {
-        "name": "지진학자",
-        "averageSalary": 5200,
-        "summary": "지진 발생 원인 연구 및 방재 기술 개발"
-      },
-      {
-        "name": "지구과학 교사",
-        "averageSalary": 4500,
-        "summary": "중·고등학교에서 지구과학 교육"
-      },
-      {
-        "name": "건설지질 기술사",
-        "averageSalary": 5800,
-        "summary": "건설 프로젝트 지질 조사 및 기초 설계"
-      },
-      {
-        "name": "해양지질 연구원",
-        "averageSalary": 5400,
-        "summary": "해양 지형·지질 연구 및 자원 탐사"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "에너지·광물 기업",
@@ -21150,43 +15844,6 @@
     ]
   },
   "horticulture": {
-    "careers": [
-      {
-        "name": "원예사",
-        "averageSalary": 3500,
-        "summary": "과수, 채소, 화훼 재배 및 생산 관리"
-      },
-      {
-        "name": "식물 육종가",
-        "averageSalary": 4200,
-        "summary": "신품종 개발 및 유전자 연구"
-      },
-      {
-        "name": "조경설계사",
-        "averageSalary": 4800,
-        "summary": "정원, 공원, 녹지 설계 및 시공"
-      },
-      {
-        "name": "농산물 품질관리사",
-        "averageSalary": 3800,
-        "summary": "수확 후 관리 및 유통 품질 점검"
-      },
-      {
-        "name": "원예과학 연구원",
-        "averageSalary": 5100,
-        "summary": "대학·정부출연연구소 식물 연구"
-      },
-      {
-        "name": "정원 디자이너",
-        "averageSalary": 4500,
-        "summary": "주거·상업 공간의 정원 및 식재 설계"
-      },
-      {
-        "name": "농업 경영컨설턴트",
-        "averageSalary": 5500,
-        "summary": "농업 경영 최적화 및 기술 지도"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "농업·축산관련회사",
@@ -21300,43 +15957,6 @@
     ]
   },
   "oceanography": {
-    "careers": [
-      {
-        "name": "해양생물학자",
-        "averageSalary": 4500,
-        "summary": "해양 생물 생태계 연구 및 보전"
-      },
-      {
-        "name": "해양환경 컨설턴트",
-        "averageSalary": 5200,
-        "summary": "해양 오염 및 환경 영향 평가"
-      },
-      {
-        "name": "수산자원 관리사",
-        "averageSalary": 4200,
-        "summary": "수산 자원 조사 및 지속 가능성 관리"
-      },
-      {
-        "name": "해양 정책 연구원",
-        "averageSalary": 4800,
-        "summary": "해양 정책 및 국제 협력 연구"
-      },
-      {
-        "name": "해양 공학자",
-        "averageSalary": 5500,
-        "summary": "해양 구조물 설계 및 기술 개발"
-      },
-      {
-        "name": "조사선 연구원",
-        "averageSalary": 4600,
-        "summary": "해양 현장 조사 및 데이터 수집"
-      },
-      {
-        "name": "해양 교육 전문가",
-        "averageSalary": 4000,
-        "summary": "해양 과학 교육 및 대중 홍보"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "정부/공공기관",
@@ -21441,43 +16061,6 @@
     ]
   },
   "statistics": {
-    "careers": [
-      {
-        "name": "데이터 분석가",
-        "averageSalary": 5500,
-        "summary": "빅데이터를 분석하여 비즈니스 인사이트 도출"
-      },
-      {
-        "name": "통계 컨설턴트",
-        "averageSalary": 6200,
-        "summary": "기업의 의사결정을 위한 통계 분석 및 자문 제공"
-      },
-      {
-        "name": "머신러닝 엔지니어",
-        "averageSalary": 7000,
-        "summary": "통계 기반 머신러닝 모델 개발 및 최적화"
-      },
-      {
-        "name": "금융 분석가",
-        "averageSalary": 6800,
-        "summary": "금융 시장 분석 및 투자 전략 수립"
-      },
-      {
-        "name": "시장 조사 전문가",
-        "averageSalary": 5200,
-        "summary": "소비자 시장 분석 및 마케팅 전략 수립"
-      },
-      {
-        "name": "통계청 공무원",
-        "averageSalary": 4800,
-        "summary": "국가 통계 조사 및 데이터 관리"
-      },
-      {
-        "name": "위험 관리 분석가",
-        "averageSalary": 6500,
-        "summary": "보험·금융 위험 평가 및 대응 방안 수립"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "IT·소프트웨어",
@@ -21586,43 +16169,6 @@
     ]
   },
   "korean-medicine": {
-    "careers": [
-      {
-        "name": "한의사",
-        "averageSalary": 7500,
-        "summary": "한의학 지식으로 환자를 진료하고 치료하는 의료인"
-      },
-      {
-        "name": "한방병원 원장",
-        "averageSalary": 8500,
-        "summary": "한방병원을 경영하며 환자 진료 및 의료기관 운영"
-      },
-      {
-        "name": "한의약 연구원",
-        "averageSalary": 5500,
-        "summary": "한의학 이론 및 치료법을 과학적으로 연구 개발"
-      },
-      {
-        "name": "보건교사(한의학)",
-        "averageSalary": 4200,
-        "summary": "학교에서 학생 건강 관리 및 한의학 교육 실시"
-      },
-      {
-        "name": "한의약 제품 개발자",
-        "averageSalary": 6000,
-        "summary": "한약재료를 이용한 의약품 및 건강식품 개발"
-      },
-      {
-        "name": "한의약 정책 공무원",
-        "averageSalary": 5000,
-        "summary": "한의약 정책 수립 및 제도 관리하는 정부 부처 근무"
-      },
-      {
-        "name": "의료관광 코디네이터",
-        "averageSalary": 4500,
-        "summary": "한의 치료를 받으러 오는 외국인 환자 상담 및 관리"
-      }
-    ],
     "employmentDistribution": [
       {
         "category": "개인 한의원",

@@ -49,12 +49,6 @@ export type UniversityMajor = {
   admissionQuota?: number;
 };
 
-export type Career = {
-  name: string;
-  averageSalary: number; // 만원/년 (placeholder)
-  summary: string;
-};
-
 export type EmploymentSlice = {
   category: string;
   ratio: number; // 0~1
@@ -78,7 +72,6 @@ export type RecommendedBook = {
 };
 
 export type MajorExtras = {
-  careers: Career[];
   employmentDistribution: EmploymentSlice[];
   certifications: string[];
   gradSchoolOptions: string[];

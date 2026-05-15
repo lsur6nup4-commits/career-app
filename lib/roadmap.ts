@@ -82,17 +82,15 @@ export function buildRoadmap(major: FullMajor): RoadmapStage[] {
     });
   }
 
-  const careers = major.careers ?? [];
+  // careerPaths: import-csv-data.mjs 가 커리어넷 CSV에서 채운 실제 직업명 목록
+  const careerPaths = major.careerPaths ?? [];
   stages.push({
     key: "career",
     phase: "CAREER",
     stage: "졸업 후",
     title: "진로 시작",
-    items: careers.length
-      ? careers.slice(0, 4).map((c) => ({
-          label: c.name,
-          detail: `${c.summary} · 평균 ${c.averageSalary.toLocaleString()}만원/년`,
-        }))
+    items: careerPaths.length
+      ? careerPaths.slice(0, 4).map((name) => ({ label: name }))
       : [{ label: "전공 관련 다양한 분야로 진출" }],
   });
 
