@@ -1609,5 +1609,45 @@
     "region": "강원",
     "type": "PRIVATE",
     "tuitionAvg": 777
+  },
+  {
+    "id": "hanyang-erica",
+    "name": "한양대학교(ERICA캠퍼스)",
+    "shortName": "한양대 ERICA",
+    "region": "경기",
+    "type": "PRIVATE",
+    "tuitionAvg": 929
+  },
+  {
+    "id": "dongguk-wise",
+    "name": "동국대학교(WISE캠퍼스)",
+    "shortName": "동국대 WISE",
+    "region": "경북",
+    "type": "PRIVATE",
+    "tuitionAvg": 854
+  },
+  {
+    "id": "hongik-sejong",
+    "name": "홍익대학교(세종캠퍼스)",
+    "shortName": "홍익대 세종",
+    "region": "세종",
+    "type": "PRIVATE",
+    "tuitionAvg": 917
+  },
+  {
+    "id": "hufs-global",
+    "name": "한국외국어대학교(글로벌캠퍼스)",
+    "shortName": "한외대 글로벌",
+    "region": "경기",
+    "type": "PRIVATE",
+    "tuitionAvg": 779
+  },
+  {
+    "id": "cau-anseong",
+    "name": "중앙대학교(안성캠퍼스)",
+    "shortName": "중앙대 안성",
+    "region": "경기",
+    "type": "PRIVATE",
+    "tuitionAvg": 899
   }
 ]

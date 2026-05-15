@@ -56,11 +56,25 @@ for (const [csvName, id] of Object.entries(MAJOR_NAME_OVERRIDES)) {
   majorNameToId.set(normMajor(csvName), id);
 }
 
-/** 정규화된 대학명 → seed university id */
+/**
+ * 정규화된 대학명 → seed university id
+ *
+ * 본교 우선 매핑: 분교(괄호 표기)와 본교의 normUni 결과가 같을 때
+ * 본교 ID가 매핑되도록 정렬한 뒤 등록. CSV 학과명에는 캠퍼스 표기가
+ * 없으므로, CSV의 "한양대학교"는 본교 hanyang 으로 매핑되어야 함.
+ */
 const uniNameToId = new Map();
-for (const u of universities) {
-  uniNameToId.set(normUni(u.name), u.id);
-  if (u.shortName) uniNameToId.set(normUni(u.shortName), u.id);
+const isMainCampus = (name) => !/[（(（][^）)）]*[）)）]/.test(name);
+const sortedUnis = [...universities].sort((a, b) => {
+  return Number(isMainCampus(b.name)) - Number(isMainCampus(a.name));
+});
+for (const u of sortedUnis) {
+  const key = normUni(u.name);
+  if (!uniNameToId.has(key)) uniNameToId.set(key, u.id);
+  if (u.shortName) {
+    const sk = normUni(u.shortName);
+    if (!uniNameToId.has(sk)) uniNameToId.set(sk, u.id);
+  }
 }
 
 // ── CSV 파싱 + 필터링 ─────────────────────────────────────────────────────

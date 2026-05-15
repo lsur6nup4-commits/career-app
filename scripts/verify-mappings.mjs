@@ -54,10 +54,24 @@ for (const [k, v] of Object.entries(MAJOR_NAME_OVERRIDES)) {
   majorNameToId.set(normMajor(k), v);
 }
 
+// ── 본교 우선 매핑 ────────────────────────────────────────────────────────
+// "한양대학교" 와 "한양대학교(ERICA캠퍼스)" 처럼 정규화 결과가 같은 경우
+// 본교(괄호 없는 이름)가 우선되도록 정렬한 뒤 등록.
+// (CSV 학과명에 캠퍼스 표기가 없으므로, 본교 ID로 매핑해야 정확함)
 const uniNameToId = new Map();
-for (const u of universities) {
-  uniNameToId.set(normUni(u.name), u.id);
-  if (u.shortName) uniNameToId.set(normUni(u.shortName), u.id);
+const isMainCampus = (name) => !/[（(（][^）)）]*[）)）]/.test(name);
+const sortedUnis = [...universities].sort((a, b) => {
+  // 본교 먼저, 분교 나중
+  return Number(isMainCampus(b.name)) - Number(isMainCampus(a.name));
+});
+for (const u of sortedUnis) {
+  const key = normUni(u.name);
+  // 본교가 먼저 와서 set되므로, 이후 분교는 동일 키 set을 스킵
+  if (!uniNameToId.has(key)) uniNameToId.set(key, u.id);
+  if (u.shortName) {
+    const sk = normUni(u.shortName);
+    if (!uniNameToId.has(sk)) uniNameToId.set(sk, u.id);
+  }
 }
 
 // ── CSV에 존재하는 (uni, major) 쌍 ─────────────────────────────────────
