@@ -64,7 +64,7 @@
       "electrical-engineering",
       "industrial-engineering"
     ],
-    "averageAdmissionQuota": 70
+    "averageAdmissionQuota": 71
   },
   {
     "id": "electrical-engineering",
@@ -130,7 +130,7 @@
       "automotive",
       "nano"
     ],
-    "averageAdmissionQuota": 108
+    "averageAdmissionQuota": 110
   },
   {
     "id": "mechanical-engineering",
@@ -196,7 +196,7 @@
       "mechatronics",
       "naval-architecture"
     ],
-    "averageAdmissionQuota": 109
+    "averageAdmissionQuota": 108
   },
   {
     "id": "chemical-engineering",
@@ -329,7 +329,7 @@
       "industrial-design",
       "design"
     ],
-    "averageAdmissionQuota": 62
+    "averageAdmissionQuota": 51
   },
   {
     "id": "industrial-engineering",
@@ -392,7 +392,7 @@
       "computer-science",
       "statistics"
     ],
-    "averageAdmissionQuota": 45
+    "averageAdmissionQuota": 46
   },
   {
     "id": "biomedical-engineering",
@@ -581,7 +581,7 @@
       "public-health",
       "emergency-medical"
     ],
-    "averageAdmissionQuota": 109
+    "averageAdmissionQuota": 108
   },
   {
     "id": "pharmacy",
@@ -705,7 +705,7 @@
       "international-business",
       "advertising"
     ],
-    "averageAdmissionQuota": 111
+    "averageAdmissionQuota": 113
   },
   {
     "id": "economics",
@@ -1762,7 +1762,7 @@
       "animation",
       "interior-design"
     ],
-    "averageAdmissionQuota": 64
+    "averageAdmissionQuota": 67
   },
   {
     "id": "media-communication",
@@ -4053,7 +4053,7 @@
       "environmental",
       "geology"
     ],
-    "averageAdmissionQuota": 23
+    "averageAdmissionQuota": 27
   },
   {
     "id": "global-studies",
@@ -5280,7 +5280,7 @@
       "mathematics",
       "software"
     ],
-    "averageAdmissionQuota": 41
+    "averageAdmissionQuota": 42
   },
   {
     "id": "data-science",
@@ -7757,7 +7757,8 @@
       "pharmacy",
       "dentistry",
       "veterinary"
-    ]
+    ],
+    "averageAdmissionQuota": 40
   },
   {
     "id": "veterinary",
@@ -9498,7 +9499,7 @@
       "music-theory",
       "applied-music"
     ],
-    "averageAdmissionQuota": 29
+    "averageAdmissionQuota": 30
   },
   {
     "id": "theater-film",

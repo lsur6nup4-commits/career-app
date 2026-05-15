@@ -464,9 +464,31 @@ function ActivitiesTab({ major }: { major: FullMajor }) {
 }
 
 function UniversitiesTab({ major }: { major: FullMajor }) {
+  // 매핑 가능한 대학이 0개인 경우 — 가짜 데이터 채우지 말고 솔직하게 안내
   if (major.universities.length === 0) {
-    return <EmptyState text="등록된 대학 정보가 없어요." />;
+    return (
+      <Card>
+        <CardContent className="p-6 text-center">
+          <p className="text-sm font-medium text-foreground">
+            현재 매핑 가능한 대학 데이터 없음
+          </p>
+          <p className="mt-1.5 text-xs text-muted-foreground">
+            정확한 개설 대학 정보는{" "}
+            <a
+              href="https://www.academyinfo.go.kr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-2 hover:text-primary"
+            >
+              대학알리미
+            </a>
+            에서 확인하세요.
+          </p>
+        </CardContent>
+      </Card>
+    );
   }
+
   return (
     <Card>
       <CardHeader>
@@ -492,13 +514,19 @@ function UniversitiesTab({ major }: { major: FullMajor }) {
                   {u.region}
                 </div>
               </div>
-              <div className="text-right">
-                <div className="text-xs text-muted-foreground">정원</div>
-                <div className="text-sm font-semibold">{u.admissionQuota}명</div>
-              </div>
+              {/* 정원 정보가 있을 때만 표시. 없으면 영역 자체를 숨김(가짜 라벨 금지). */}
+              {typeof u.admissionQuota === "number" && u.admissionQuota > 0 && (
+                <div className="text-right">
+                  <div className="text-xs text-muted-foreground">정원</div>
+                  <div className="text-sm font-semibold">{u.admissionQuota}명</div>
+                </div>
+              )}
             </div>
           ))}
         </div>
+        <p className="mt-3 text-[11px] text-muted-foreground">
+          출처: 한국대학교육협의회 (2026.03.18 기준)
+        </p>
       </CardContent>
     </Card>
   );

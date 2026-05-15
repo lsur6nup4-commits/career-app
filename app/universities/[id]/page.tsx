@@ -147,7 +147,7 @@ export default async function UniversityDetailPage({ params }: Props) {
                                 {m.summary}
                               </p>
                             </div>
-                            {typeof m.admissionQuota === "number" && (
+                            {typeof m.admissionQuota === "number" && m.admissionQuota > 0 && (
                               <div className="flex-shrink-0 text-right">
                                 <div className="text-[10px] text-muted-foreground">
                                   정원
