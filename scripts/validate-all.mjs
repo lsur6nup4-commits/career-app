@@ -419,6 +419,66 @@ if (missingJobFields.length === 0) {
 }
 
 // ──────────────────────────────────────────────────────────────────────────
+// [6] universities.json ↔ CSV 실존 대학 검증
+// ──────────────────────────────────────────────────────────────────────────
+// CSV(4년제·전문대 모두) 학교명을 normUni 한 집합
+const csvAllSchoolNames = [...new Set(csvRows.map((r) => r["학교명"]))];
+// 더 폭넓은 매칭을 위해 전체 CSV 행에서 학교명 수집
+function parseCsvForAllSchools() {
+  const raw = readFileSync(
+    `${ROOT}/data/한국대학교육협의회_대학별학과정보_20260318.csv`,
+    "utf-8",
+  ).replace(/\r/g, "");
+  const lns = raw.split("\n").filter(Boolean);
+  const hdr = lns[0].replace(/^﻿/, "").split(",").map((h) => h.trim());
+  return [
+    ...new Set(
+      lns.slice(1).map((line) => {
+        const vals = line.split(",");
+        const obj = {};
+        hdr.forEach((k, i) => (obj[k] = (vals[i] || "").trim()));
+        return obj["학교명"];
+      }),
+    ),
+  ].filter(Boolean);
+}
+const allCsvNames = parseCsvForAllSchools();
+const csvAllNorms = new Set(allCsvNames.map((n) => normUni(n)));
+const overrideKeyNorms = new Set(
+  Object.keys(UNI_NAME_OVERRIDES).map((n) => normUni(n)),
+);
+
+// CSV에 없어도 정상인 특수 학교 패턴
+const CSV_EXEMPT_PATTERN =
+  /사관학교|경찰대|한국예술종합학교|방송통신|사이버대학교|폴리텍|대학원대학교|국군간호|한국전통문화대학교|체육대학교\(분교\)|해기대학교/;
+
+const fakeUnis = [];
+for (const u of universities) {
+  if (CSV_EXEMPT_PATTERN.test(u.name)) continue;
+  // CSV에 직접 or normUni 매칭 or shortName 매칭 or override 매칭
+  if (csvAllSchoolNames.includes(u.name)) continue;
+  if (csvAllNorms.has(normUni(u.name))) continue;
+  if (u.shortName && csvAllNorms.has(normUni(u.shortName))) continue;
+  // UNI_NAME_OVERRIDES의 값(id)에 매핑되는 universityId가 이 ID라면 OK
+  if (Object.values(UNI_NAME_OVERRIDES).includes(u.id)) continue;
+  fakeUnis.push(u);
+}
+
+if (fakeUnis.length === 0) {
+  pass(
+    "6",
+    "universities.json ↔ CSV 실존 검증",
+    `${universities.length}개 대학 모두 실존 (CSV 또는 정상 예외)`,
+  );
+} else {
+  fail(
+    "6",
+    "CSV에 없는 가짜 대학 (삭제 권장)",
+    fakeUnis.map((u) => `${u.id}(${u.name})`),
+  );
+}
+
+// ──────────────────────────────────────────────────────────────────────────
 // 결과 출력
 // ──────────────────────────────────────────────────────────────────────────
 console.log(report.join("\n"));

@@ -318,13 +318,6 @@
     "tuitionAvg": 786
   },
   {
-    "id": "kpu",
-    "name": "한국산업기술대학교",
-    "shortName": "한기대",
-    "region": "경기",
-    "type": "NATIONAL"
-  },
-  {
     "id": "kgu",
     "name": "경기대학교",
     "shortName": "경기대",
@@ -532,13 +525,6 @@
     "tuitionAvg": 728
   },
   {
-    "id": "ginue",
-    "name": "경인국립대학교",
-    "shortName": "경인국립대",
-    "region": "인천",
-    "type": "NATIONAL"
-  },
-  {
     "id": "gnu",
     "name": "강원대학교",
     "shortName": "강원대",
@@ -720,13 +706,6 @@
     "tuitionAvg": 448
   },
   {
-    "id": "kongju-shungshin",
-    "name": "공주문화대학교",
-    "shortName": "공주문화대",
-    "region": "충남",
-    "type": "PRIVATE"
-  },
-  {
     "id": "woosong",
     "name": "우송대학교",
     "shortName": "우송대",
@@ -839,14 +818,6 @@
     "tuitionAvg": 797
   },
   {
-    "id": "ulsan-natl",
-    "name": "울산국립대학교",
-    "shortName": "울산국립대",
-    "region": "울산",
-    "type": "NATIONAL",
-    "tuitionAvg": 797
-  },
-  {
     "id": "kyungsung",
     "name": "경성대학교",
     "shortName": "경성대",
@@ -941,13 +912,6 @@
     "type": "NATIONAL"
   },
   {
-    "id": "andong",
-    "name": "안동대학교",
-    "shortName": "안동대",
-    "region": "경북",
-    "type": "NATIONAL"
-  },
-  {
     "id": "yu",
     "name": "영남대학교",
     "shortName": "영남대",
@@ -1032,13 +996,6 @@
     "region": "경북",
     "type": "NATIONAL",
     "tuitionAvg": 377
-  },
-  {
-    "id": "yu-gyeongsan",
-    "name": "영진대학교",
-    "shortName": "영진대",
-    "region": "경북",
-    "type": "PRIVATE"
   },
   {
     "id": "sungseo",
@@ -1310,14 +1267,6 @@
     "tuitionAvg": 747
   },
   {
-    "id": "catholic-daegu",
-    "name": "대구가톨릭대(분교)",
-    "shortName": "대구가톨릭대 분교",
-    "region": "경북",
-    "type": "PRIVATE",
-    "tuitionAvg": 790
-  },
-  {
     "id": "kwangju-cu",
     "name": "광주가톨릭대학교",
     "shortName": "광주가톨릭대",
@@ -1371,14 +1320,6 @@
     "tuitionAvg": 694
   },
   {
-    "id": "yongin",
-    "name": "용인대(체대 강세)",
-    "shortName": "용인대(체)",
-    "region": "경기",
-    "type": "PRIVATE",
-    "tuitionAvg": 842
-  },
-  {
     "id": "korea-univ-business",
     "name": "고려사이버대학교",
     "shortName": "고려사이버대",
@@ -1399,37 +1340,6 @@
     "region": "서울",
     "type": "PRIVATE",
     "tuitionAvg": 990
-  },
-  {
-    "id": "kunsan-nautical",
-    "name": "군산대(해양)",
-    "shortName": "군산대 해양",
-    "region": "전북",
-    "type": "NATIONAL",
-    "tuitionAvg": 389
-  },
-  {
-    "id": "gachon-glocal",
-    "name": "가천대(글로컬)",
-    "shortName": "가천대 글로컬",
-    "region": "경기",
-    "type": "PRIVATE",
-    "tuitionAvg": 909
-  },
-  {
-    "id": "ksu",
-    "name": "경상대학교(별칭)",
-    "shortName": "경상대",
-    "region": "경남",
-    "type": "NATIONAL",
-    "tuitionAvg": 410
-  },
-  {
-    "id": "yu-college-east",
-    "name": "영동대학교",
-    "shortName": "영동대",
-    "region": "충북",
-    "type": "PRIVATE"
   },
   {
     "id": "kor-bible",
@@ -1463,25 +1373,10 @@
     "tuitionAvg": 410
   },
   {
-    "id": "yu-soonchun",
-    "name": "순천향대(아산)",
-    "shortName": "순천향대 아산",
-    "region": "충남",
-    "type": "PRIVATE",
-    "tuitionAvg": 854
-  },
-  {
     "id": "joongbuk-natl",
     "name": "충북도립대학교",
     "shortName": "충북도립대",
     "region": "충북",
-    "type": "NATIONAL"
-  },
-  {
-    "id": "gyeongsangbuk-natl",
-    "name": "경상북도립대학교",
-    "shortName": "경북도립대",
-    "region": "경북",
     "type": "NATIONAL"
   },
   {
@@ -1506,13 +1401,6 @@
     "type": "NATIONAL"
   },
   {
-    "id": "korea-univ-nanjing",
-    "name": "한국항공우주대학교",
-    "shortName": "한국항공우주대",
-    "region": "충남",
-    "type": "NATIONAL"
-  },
-  {
     "id": "kfq",
     "name": "한국전통문화대학교",
     "shortName": "한국전통문화대",
@@ -1529,26 +1417,11 @@
     "tuitionAvg": 386
   },
   {
-    "id": "kongju-cu",
-    "name": "공주문화관광대학교",
-    "shortName": "공주문화관광대",
-    "region": "충남",
-    "type": "PRIVATE"
-  },
-  {
     "id": "korea-univ-naval",
     "name": "한국해기대학교",
     "shortName": "한국해기대",
     "region": "부산",
     "type": "SPECIAL"
-  },
-  {
-    "id": "csa-cwnu",
-    "name": "공주대(예산)",
-    "shortName": "공주대 예산",
-    "region": "충남",
-    "type": "NATIONAL",
-    "tuitionAvg": 386
   },
   {
     "id": "international-univ-korea",
@@ -1581,26 +1454,11 @@
     "tuitionAvg": 785
   },
   {
-    "id": "kut-techno",
-    "name": "한국교통대(기술)",
-    "shortName": "한국교통대(기술)",
-    "region": "충북",
-    "type": "NATIONAL",
-    "tuitionAvg": 410
-  },
-  {
     "id": "kpu-yongin",
     "name": "한국폴리텍(용인)",
     "shortName": "폴리텍 용인",
     "region": "경기",
     "type": "NATIONAL"
-  },
-  {
-    "id": "kor-fashion",
-    "name": "국제예술대학교",
-    "shortName": "국제예술대",
-    "region": "전북",
-    "type": "PRIVATE"
   },
   {
     "id": "wonju-protestant",
